@@ -1,0 +1,30 @@
+<!-- Roll for carrier/hobby -->
+${#concat(
+  ?{diff:"Difficulté"|"2","Normal"|"0","Facile"|"4","Difficile"},
+)}$
+
+${#sante:=healthMalus}$
+${#modificateur:= (sameRow('characteristic')?sameRow('characteristic') : 0)}$
+${#seuil:= 10 - sameRow('level') - diff}$        
+${#bonus:=((seuil + modificateur + sante) > 10 ? seuil + modificateur + sante - 10 : 0)}$
+
+<h3>Jet de <strong>${!sameRow('name')}$</strong> <span style="font-size: small;">(${!(0 == diff ? "Facile" : (2 == diff ? "Normal":"Difficile"))}$)</span></h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td><h4>Jet du dé</h4></td>
+      <td>
+        <strong>${roll:= [1d10] + bonus}$</strong> / ${seuil:= seuil + modificateur + sante}$
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <p style="padding: 2px; text-align: center; font-weight: bold; ${!roll<=seuil ? "color: var(--color-level-success); border: solid 1px var(--color-level-success)\">Réussite" : "color: var(--color-level-error); border: solid 1px var(--color-level-error)\">Echec"}$</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- remise à zéro de la caractéristique utilisée -->
+${#setPropertyInEntity('self', sameRowRef('characteristic'), 0)}$

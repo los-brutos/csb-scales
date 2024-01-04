@@ -1,0 +1,52 @@
+{
+  "id": "csb-scales",
+  "title": "CSB Scales",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "custom-system-builder",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "Implémentation du système Scales avec Custom System Builder",
+  "authors": [
+    {
+      "name": "Los Brutos",
+      "discord": "@losbrutos",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "armes",
+      "label": "Armes",
+      "path": "packs/armes",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder",
+      "flags": {}
+    },
+    {
+      "name": "armures-et-protections",
+      "label": "Armures et protections",
+      "path": "packs/armures-et-protections",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder",
+      "flags": {}
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+<!-- Roll for attack -->
+${#concat(
+  ?{diff:"Difficulté"|"2","Normal"|"0","Facile"|"4","Difficile"},
+)}$
+
+<!-- vérification qu'une cible a bien été sélectionnée -->
+${#nameTarget:= fetchFromActor("target", "name", "")}$
+${#(nameTarget?"":notify("error", "Vous devez sélectionner une cible !"))}$
+
+<!-- récupération des données -->
+${#sante:=healthMalus}$
+${#combativite:=fightness}$
+${#type:=item.combatType}$
+
+<!-- définition des valeurs par défaut -->
+${#default:=6}$
+${#ccCombatCarrier:= (ccCombatCarrier ? ccCombatCarrier : default)}$
+${#ccCombatHobby:= (ccCombatHobby ? ccCombatHobby : default)}$
+${#contactCombatCarrier:= (contactCombatCarrier ? contactCombatCarrier : default)}$
+${#contactCombatHobby:= (contactCombatHobby ? contactCombatHobby : default)}$
+${#distanceCombatCarrier:= (distanceCombatCarrier ? distanceCombatCarrier : default)}$
+${#distanceCombatHobby:= (distanceCombatHobby ? distanceCombatHobby : default)}$
+
+<!-- définition du niveau du métier ou du hobby de référence -->
+${#level:=switchCase(type, "1", ${ccCombatCarrier >= ccCombatHobby ? ccCombatHobby : ccCombatCarrier}$, "2", ${contactCombatCarrier >= contactCombatHobby ? contactCombatHobby : contactCombatCarrier}$, "3", ${distanceCombatCarrier >= distanceCombatHobby ? distanceCombatHobby : distanceCombatCarrier}$, default)}$
+
+<!-- définition de la caractéristique de référence -->
+${#default:=0}$
+${#modificateur:=switchCase(type, "1", ${#ccCombatCharacteristic?ccCombatCharacteristic:default}$, "2", ${#contactCombatCharacteristic?contactCombatCharacteristic:default}$, "3", ${#distanceCombatCharacteristic?distanceCombatCharacteristic:default}$, default)}$
+
+<!-- combativité de la cible -->
+${#combativiteAdverse:=(3 == type ? fetchFromActor('target', 'fightness') : 0)}$
+
+<!-- calcul du seuil de réussite -->
+${#seuil:= 10 - level - diff}$
+
+<!-- calcul du bonus si le seuil est supérieur à 10 -->
+${#bonus:=((seuil + modificateur + combativite + combativiteAdverse + sante) > 10 ? seuil + modificateur + combativite + combativiteAdverse + sante - 10 : 0)}$
+
+<h3>Attaque avec <strong>${!item.name}$</strong> <span style="font-size: small;">(${!(0 == diff ? "Facile" : (2 == diff ? "Normal":"Difficile"))}$)</span></h3>
+<table>
+  <tbody>
+    <tr>
+      <td><h4>Jet du dé</h4></td>
+      <td>
+        <strong>${roll:= [1d10] + bonus}$</strong> / ${seuil:=seuil + modificateur + combativite + combativiteAdverse + sante}$
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <p style="padding: 2px; text-align: center; font-weight: bold; ${!roll<=seuil ? "color: var(--color-level-success); border: solid 1px var(--color-level-success)\">Réussite" : "color: var(--color-level-error); border: solid 1px var(--color-level-error)\">Echec"}$</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
