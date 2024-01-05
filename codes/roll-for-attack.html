@@ -3,11 +3,6 @@ ${#concat(
   ?{diff:"Difficulté"|"2","Normal"|"0","Facile"|"4","Difficile"},
 )}$
 
-<!-- vérification qu'une cible a bien été sélectionnée -->
-${#nameTarget:= fetchFromActor("target", "name", "")}$
-${#(nameTarget?"":notify("error", "Vous devez sélectionner une cible !"))}$
-
-<!-- récupération des données -->
 ${#sante:=healthMalus}$
 ${#combativite:=fightness}$
 ${#type:=item.combatType}$
@@ -26,7 +21,7 @@ ${#level:=switchCase(type, "1", ${ccCombatCarrier >= ccCombatHobby ? ccCombatHob
 
 <!-- définition de la caractéristique de référence -->
 ${#default:=0}$
-${#modificateur:=switchCase(type, "1", ${#ccCombatCharacteristic?ccCombatCharacteristic:default}$, "2", ${#contactCombatCharacteristic?contactCombatCharacteristic:default}$, "3", ${#distanceCombatCharacteristic?distanceCombatCharacteristic:default}$, default)}$
+${#modificateur:=switchCase(type, "1", ${ccCombatCharacteristic?ccCombatCharacteristic:default}$, "2", ${contactCombatCharacteristic?contactCombatCharacteristic:default}$, "3", ${distanceCombatCharacteristic?distanceCombatCharacteristic:default}$, default)}$
 
 <!-- combativité de la cible -->
 ${#combativiteAdverse:=(3 == type ? fetchFromActor('target', 'fightness') : 0)}$
