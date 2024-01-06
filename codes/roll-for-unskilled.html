@@ -1,12 +1,13 @@
 <!-- Roll for unskilled carrier/hobby -->
 ${#concat(
   ?{diff:"Difficulté"|2,"Normal"|0,"Facile"|4,"Difficile"},
+  ?{modificateur:"Modificateur"[number]|0}
 )}$
 
 ${#sante:=healthMalus}$
-${#modificateur:= (unskilledCharacteristic ? unskilledCharacteristic : 0)}$
+${#caracteristique:= (unskilledCharacteristic ? unskilledCharacteristic : 0)}$
 ${#seuil:= 10 - 6 - diff}$        
-${#bonus:=((seuil + modificateur + sante) > 10 ? seuil + modificateur + sante - 10 : 0)}$
+${#bonus:=((seuil + caracteristique + sante) > 10 ? seuil + caracteristique + sante - 10 : 0)}$
 
 <h3>Jet <strong>Non qualifié</strong> <span style="font-size: small;">(${!(0 == diff ? "Facile" : (2 == diff ? "Normal":"Difficile"))}$)</span></h3>
 <table>
@@ -14,7 +15,7 @@ ${#bonus:=((seuil + modificateur + sante) > 10 ? seuil + modificateur + sante - 
     <tr>
       <td><h4>Jet du dé</h4></td>
       <td>
-        <strong>${roll:= [1d10] + bonus}$</strong> / ${seuil:= seuil + modificateur + sante}$
+        <strong>${roll:= [1d10] + bonus}$</strong> / ${seuil:= seuil + caracteristique + modificateur + sante}$
       </td>
     </tr>
     <tr>

@@ -1,0 +1,23 @@
+<!-- Gestalt : roll power "Concentration de la puissance" -->
+${#puissance:= power}$
+
+${#concat(
+  ?{auContact:"Membres touchant le gestalt ?"[number]|0},
+)}$
+
+<h3>Utilisation du pouvoir<br/><strong>Concentration de la puissance</strong></h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td style="text-align: center;">
+        <strong>${roll:= [1d10]}$</strong> / ${seuil:= puissance + auContact -5}$
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p style="padding: 2px; text-align: center; font-weight: bold; ${!roll <= seuil ? "color: var(--color-level-success); border: solid 1px var(--color-level-success)\">Réussite" : "color: var(--color-level-error); border: solid 1px var(--color-level-error)\">Echec"}$</p>
+      </td>
+    </tr>
+  </tbody>
+</table>

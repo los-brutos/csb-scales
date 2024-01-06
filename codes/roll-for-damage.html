@@ -1,6 +1,7 @@
 <!-- Jet pour calculer les dégâts des armes aux corps-à-corps, contact et distance -->
 ${#concat(
   ?{powerfull:"Puissance"|1,concat("Faible",(1==item.powerfullMax?" (max)":""))|2,concat("Moyenne",(2==item.powerfullMax?" (max)":""))|3,concat("Forte",(3==item.powerfullMax?" (max)":""))},
+  ?{modificateur:"Modificateur"[number]|0}
 )}$
 
 <!-- vérification qu'une cible a bien été sélectionnée -->
@@ -52,7 +53,7 @@ code blessures :
     <tr>
       <td><h4>Dégâts</h4></td>
       <td>
-        <strong>${roll:= roll + combativite + bonusForce + resistanceAdverse + protectionAdverse}$</strong>
+        <strong>${roll:= roll + combativite + bonusForce + resistanceAdverse + protectionAdverse + modificateur}$</strong>
       </td>
     </tr>
 ${#damage:=switchCase(type, "1", switchCase(powerfull, "1", (3 >= roll ? 0:(7 >= roll ? 10 : 20)), "2", (3 >= roll ? 10 : (7 >= roll ? 20 : 30)), "3", (3 >= roll ? 20 : (7 >= roll ? 30 : 40))), "2", switchCase(powerfull, "1", (3 >= roll ? 0:(7 >= roll ? 50 : 60)), "2", (3 >= roll ? 50 : (7 >= roll ? 60 : 70)), "3", (3 >= roll ? 60 : (7 >= roll ? 70 : 80))), "3", switchCase(powerfull, "1", (3 >= roll ? 0:(7 >= roll ? 60 : 70)), "2", (3 >= roll ? 60 : (7 >= roll ? 70 : 80)), "3", (3 >= roll ? 70 : (7 >= roll ? 80 : 90))))}$
