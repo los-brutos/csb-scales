@@ -10,7 +10,7 @@ ${#caracteristique:= (unskilledMaskCharacteristic ? unskilledMaskCharacteristic 
 
 ${#sante:=healthMalus}$
 
-${#bonus:=((seuil + caracteristique + sante) > 10 ? seuil + caracteristique + sante - 10 : 0)}$
+${#bonus:=((seuil + caracteristique + modificateur + sante) > 10 ? seuil + caracteristique + modificateur + sante - 10 : 0)}$
 
 <h3>Jet de masque sans métier/hobby qualifié</h3>
 <table>
