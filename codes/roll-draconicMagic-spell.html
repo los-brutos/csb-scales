@@ -1,0 +1,41 @@
+<!-- roll-draconicMagic-spell -->
+
+<!-- 
+Pour le lancement du sort :
+* seuil = dépend du nombre de points de Mana impliqué (dépend du sort ou est variable) => saisie à faire au moment du jet
+* MODIFICATEURS à récupérer de la fiche : 
+  * + niveau en magie draconique
+  * + niveau du sort
+-->
+
+${#concat(
+  ?{manaCost:"Mana dépensée"|"1 à 5"|"6 à 10"|"11 à 15"|"16 à 20"|"21 à 24"|"25 et plus"}
+  ?{modificateur:"Modificateur"[number]|0}
+)}$
+
+${#sante:=healthMalus}$
+
+${#seuil:= switchCase(manaCost, "1 à 5", 5, "6 à 10", 4, "11 à 15", 3, "16 à 20", 2, "21 et plus", 1, 0)}$
+
+${#magieDraconique:= draconicMagicLevel}$
+
+${#niveauSort:= item.level}$
+
+${#bonus:=((seuil + magieDraconique + niveauSort + modificateur + sante) > 10 ? seuil + magieDraconique + niveauSort + modificateur + sante - 10 : 0)}$
+
+<h3>Lancement du sort <strong>${!item.name}$</strong></h3>
+<table>
+  <tbody>
+    <tr>
+      <td><h4>Jet du dé</h4></td>
+      <td>
+        <strong>${roll:= [1d10] + bonus}$</strong> / ${seuil:= seuil + magieDraconique + niveauSort + modificateur + sante}$
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <p style="padding: 2px; text-align: center; font-weight: bold; ${!roll<=seuil ? "color: var(--color-level-success); border: solid 1px var(--color-level-success)\">Réussite" : "color: var(--color-level-error); border: solid 1px var(--color-level-error)\">Echec"}$</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
