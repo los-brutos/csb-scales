@@ -1,0 +1,51 @@
+<!-- roll for dosage -->
+
+${#concat(
+  ?{puissance:"Puissance"[number]|item.maxPower},
+  ?{vecteur:"Vecteur de l'effet"|"Solide"|"Liquide"|"Gazeux"},
+  ?{modificateur:"Modificateur"[number]|0}
+)}$
+
+${#seuil:= 8}$
+${#magieAlchimique:= alchemicalMagicLevel}$
+
+${#caracteristique:= dosageCharacteristic}$
+${#sante:= healthMalus}$
+
+${#anciennete:= min(${12 - item.centuryOfWriting}$, 0)}$
+
+${#bonus:=((seuil + magieAlchimique + anciennete + caracteristique + modificateur + sante) > 10 ? seuil + magieAlchimique + anciennete + caracteristique + modificateur + sante - 10 : 0)}$
+
+<!-- contrôle de la puissance (inférieure ou égale à la puissance maximale) -->
+${#puissance:= min(item.maxPower, max(puissance, 0))}$
+
+<h3>Dosage de la formulae <strong>${!item.name}$</strong> avec une puissance ${!puissance}$</span></h3>
+<table>
+  <tbody>
+    <tr>
+      <td><h4>Jet du dé</h4></td>
+      <td>
+        <strong>${roll:= [1d10] + bonus}$</strong> / ${seuil:= seuil + magieAlchimique + anciennete + caracteristique + modificateur + sante}$
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <p style="padding: 2px; text-align: center; font-weight: bold; ${!roll<=seuil ? "color: var(--color-level-success); border: solid 1px var(--color-level-success)\">Réussite" : "color: var(--color-level-error); border: solid 1px var(--color-level-error)\">Echec"}$</p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <p>
+<!-- réussite : durée d'expiration du sort contenu dans le vecteur -->
+${!seuil >= roll ? (equalText(vecteur, "Solide") ? "Le sort n'expirera qu'à la destruction du vecteur" : equalText(vecteur, "Liquide") ? concat("Le sort dans le vecteur liquide expirera au bout de ",string(${![1d10]}$)," jour(s)") : equalText(vecteur, "Gazeux") ? concat("Le sort dans le vecteur gazeux expirera au bout de ",string(${![1d10]}$)," heure(s)") : "") : ""}$
+
+<!-- échec -->
+${#rollEffect:= [1d10]}$
+${!(roll > seuil ? switchCase(rollEffect, 1, concat("Le sort prend effet normalement ", string(${![1d10]}$)," heures plus tard"), 2, concat("Le sort prend effet normalement ", string(${![1d10]}$)," heures plus tard"), 3, concat("Le sort prend effet normalement ", string(${![1d10]}$)," heures plus tard"), 4, "Le sort rate totalement mais les ingrédients peuvent être réutilisés", 5, "Le sort rate totalement mais les ingrédients peuvent être réutilisés", 6, "Un ingrédient a été oublié (le maître de jeu doit indiquer lequel)<br>Le travail sera suspendu jusqu'à ce que l'ingrédient soit rajouté. Un nouveau jet de dosage sera alors réalisé. <br><strong>TODO faire jet sur table des composants</strong>", 7, "Un ingrédient a été oublié (le maître de jeu doit indiquer lequel)<br>Le travail sera suspendu jusqu'à ce que l'ingrédient soit rajouté. Un nouveau jet de dosage sera alors réalisé. <br><strong>TODO faire jet sur table des composants</strong>", 8, ((puissance - 2) > 0 ? concat("Le sort prend effet avec une puissance réduite : ", string(puissance - 2)) : "Le sort rate et les ingrédients sont perdus"), 9, ((puissance - 4) > 0 ? concat("Le sort prend effet avec une puissance réduite : ", string(puissance - 4)) : "Le sort rate et les ingrédients sont perdus"), "Le sort rate totalement et les ingrédients sont perdus")
+  : ""
+)}$
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>

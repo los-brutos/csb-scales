@@ -107,7 +107,9 @@ liste des valeurs :
 
 ### Formules
 
+* **effet magique**
 * **ancienneté** (date estimative de son écriture) si plus récente que que le 12e siècle alors malus de -1 par siècle après le 12e : ex. 13e => -1, 20e => -8)
+* **puissance maximale** => dans les user input : ajouter un champ Puissance, numérique, avec valeur par défaut = puissance maximale puis un contrôle pour limiter cette donnée à la puissance maximale de la fiche
 * nécessite des **ingrédients**
   * composantes mineures
   * composantes majeures
@@ -117,3 +119,28 @@ liste des valeurs :
 ### Effets magiques
 
 * 1 vecteur (solide, liquide ou gazeux)
+
+### Dosage et lancement du sort
+
+* dosage :
+  * seuil = 8 
+  * modifié par caractéristique adaptée (perception, précision)
+  * modifié par l'ancienneté
+  * pouvoir Magie alchimique
+  * si réussite, yolo !
+    * si vecteur liquide : expiration au bout de 1d10 jours
+    * si vecteur gazeux : expiration au bout de 1d10 heures
+  * si échec : jet sur la table suivante :
+    
+    | D10 |      Effet                                                             |
+    |:---:|:-----------------------------------------------------------------------|
+    | 1-3 | Le sort prend effet normalement 1d10 heures plus tard                  |
+    | 4-5 | Le sort rate totalement mais les ingrédients peuvent être réutilisés   |
+    | 6-7 | Un ingrédient a été oublié (le maître de jeu doit indiquer lequel) (*) |
+    |  8  | Le sort prend effet avec une puissance réduite de 2 points (**)        |
+    |  9  | Le sort prend effet avec une puissance réduite de 4 points (**)        |
+    | 10  | Le sort rate totalement et les ingrédients sont perdus                 |
+    
+    (*) : Le travail sera suspendu jusqu’à ce que l’ingrédient soit rajouté. Un nouveau jet de dosage sera alors réalisé. L’ingrédient devra être déterminé sur la table du chapitre précédent.
+    
+    (**) : Si la puissance finale du sort devient inférieure ou égale à 0, on considère que le sort rate et que les ingrédients sont perdus.
