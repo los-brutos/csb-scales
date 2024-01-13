@@ -20,7 +20,7 @@ ${#bonusForce:=(3 == type ? 0 : powerfullCharacteristic)}$
 <!-- malus de la résistance de la cible -->
 ${#resistanceAdverse:=(-1 * fetchFromActor("target", "resistanceCharacteristic", 0))}$
 
-<h3>Dégats de puissance ${!switchCase(powerfull, "1", "Faible","2", "Moyenne","3", "Forte", "<i>non définie</i>")}$ sur <strong>${#nameTarget}$</strong> par @{selected|name}</h3>
+<h3>Dégats de puissance ${!switchCase(powerfull, "1", "Faible","2", "Moyenne","3", "Importante", "4", "Remarquable", "<i>non définie</i>")}$ sur <strong>@{target|name}</strong> par ${!name}$</h3>
 
 <!-- vérification de la puissance utilisée -->
 ${!(powerfull > item.powerfullMax
