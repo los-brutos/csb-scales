@@ -25,12 +25,48 @@
   ],
   "packs": [
     {
+      "name": "templates-actors",
+      "label": "Templates acteurs (Scales)",
+      "path": "packs/templates-actors",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder",
+      "flags": {}
+    },
+    {
+      "name": "templates-items",
+      "label": "Templates objets (Scales)",
+      "path": "packs/templates-items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder",
+      "flags": {}
+    },
+    {
+      "name": "manuel",
+      "label": "Installation et manuel d'utilisation de Scales",
+      "path": "packs/manuel",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder",
+      "flags": {}
+    },
+    {
       "name": "armes",
-      "label": "Armes",
+      "label": "Armes (Scales)",
       "path": "packs/armes",
       "type": "Item",
       "ownership": {
-        "PLAYER": "OBSERVER",
+        "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
       },
       "system": "custom-system-builder",
@@ -38,15 +74,83 @@
     },
     {
       "name": "armures-et-protections",
-      "label": "Armures et protections",
+      "label": "Armures et protections (Scales)",
       "path": "packs/armures-et-protections",
       "type": "Item",
       "ownership": {
-        "PLAYER": "OBSERVER",
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder",
+      "flags": {}
+    },
+    {
+      "name": "formules-magiques",
+      "label": "Formules magiques (Scales)",
+      "path": "packs/formules-magiques",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder",
+      "flags": {}
+    },
+    {
+      "name": "pouvoirs-innes",
+      "label": "Pouvoirs innés (Scales)",
+      "path": "packs/pouvoirs-innes",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder",
+      "flags": {}
+    },
+    {
+      "name": "sorts-draconiques",
+      "label": "Sorts draconiques (Scales)",
+      "path": "packs/sorts-draconiques",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder",
+      "flags": {}
+    },
+    {
+      "name": "ingredients-alchimiques",
+      "label": "Ingrédients alchimiques (Scales)",
+      "path": "packs/ingredients-alchimiques",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
       },
       "system": "custom-system-builder",
       "flags": {}
     }
-  ]
+  ],
+  "packFolders": [
+  {
+    "name": "Scales",
+    "sorting": "m",
+    "folders": [
+      {
+        "name": "Templates et manuel pour Scales",
+        "sorting": "m",
+        "color": "#000000",
+        "packs": ["templates-actors", "templates-items", "manuel"]
+      },
+      {
+        "name": "Ressources pour Scales",
+        "sorting": "a",
+        "color": "#000000",
+        "packs": ["armes", "armures-et-protections", "formules-magiques", "pouvoirs-innes", "sorts-draconiques", "ingredients-alchimiques"]
+      }
+    ]
+  }
+]
 }
