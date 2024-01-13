@@ -9,9 +9,10 @@ ${#nameTarget:= fetchFromActor("target", "name", "")}$
 ${#(nameTarget?"":notify("error", "Vous devez sélectionner une cible !"))}$
 
 <!-- récupération des données -->
-${#sante:=healthMalus}$
-${#combativite:=fightness}$
-${#type:=item.combatType}$
+${#sante:= healthMalus}$
+${#combativite:= fightness}$
+${#type:= item.combatType}$
+${#bonusArme:= item.attackBonus ? item.attackBonus : 0}$
 
 <!-- définition des valeurs par défaut -->
 ${#default:=6}$
@@ -36,7 +37,7 @@ ${#combativiteAdverse:=(3 == type ? fetchFromActor('target', 'fightness') : 0)}$
 ${#seuil:= 10 - level - diff}$
 
 <!-- calcul du bonus si le seuil est supérieur à 10 -->
-${#bonus:=((seuil + caracteristique + combativite + combativiteAdverse + modificateur + sante) > 10 ? seuil + caracteristique + combativite + combativiteAdverse + modificateur + sante - 10 : 0)}$
+${#bonus:=((seuil + caracteristique + combativite + combativiteAdverse + bonusArme + modificateur + sante) > 10 ? seuil + caracteristique + combativite + combativiteAdverse + bonusArme + modificateur + sante - 10 : 0)}$
 
 <h3>Attaque avec <strong>${!item.name}$</strong> <span style="font-size: small;">(${!(0 == diff ? "Facile" : (2 == diff ? "Normal":"Difficile"))}$)</span></h3>
 <table>
@@ -44,7 +45,7 @@ ${#bonus:=((seuil + caracteristique + combativite + combativiteAdverse + modific
     <tr>
       <td><h4>Jet du dé</h4></td>
       <td>
-        <strong>${roll:= [1d10] + bonus}$</strong> / ${seuil:=seuil + caracteristique + combativite + combativiteAdverse + modificateur + sante}$
+        <strong>${roll:= [1d10] + bonus}$</strong> / ${seuil:=seuil + caracteristique + combativite + combativiteAdverse + bonusArme + modificateur + sante}$
       </td>
     </tr>
     <tr>
