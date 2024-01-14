@@ -1,0 +1,136 @@
+{
+  "folder": null,
+  "name": "Allergie (à préciser)",
+  "type": "equippableItem",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "hidden": [],
+    "header": {
+      "contents": [
+        {
+          "key": "",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "contents": [
+            {
+              "key": "level",
+              "cssClass": "",
+              "role": "0",
+              "permission": "0",
+              "tooltip": "",
+              "visibilityFormula": "",
+              "label": "Niveau",
+              "defaultValue": "",
+              "size": "m-small",
+              "allowDecimal": false,
+              "minVal": "",
+              "maxVal": "",
+              "allowRelative": false,
+              "showControls": true,
+              "controlsStyle": "hover",
+              "type": "numberField"
+            }
+          ],
+          "flow": "horizontal",
+          "align": "left",
+          "type": "panel"
+        }
+      ],
+      "key": "custom_header",
+      "cssClass": null,
+      "role": 0,
+      "permission": 0,
+      "tooltip": null,
+      "visibilityFormula": null,
+      "flow": null,
+      "align": null,
+      "type": "panel"
+    },
+    "body": {
+      "contents": [
+        {
+          "key": "",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "label": null,
+          "defaultValue": null,
+          "size": "full-size",
+          "icon": "",
+          "value": "Description",
+          "prefix": "",
+          "suffix": "",
+          "rollMessage": "",
+          "altRollMessage": "",
+          "style": "title",
+          "type": "label"
+        },
+        {
+          "key": "description",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "label": "",
+          "defaultValue": "",
+          "size": null,
+          "style": "dialog",
+          "type": "textArea"
+        }
+      ],
+      "key": "custom_body",
+      "cssClass": null,
+      "role": 0,
+      "permission": 0,
+      "tooltip": null,
+      "visibilityFormula": null,
+      "flow": null,
+      "align": null,
+      "type": "panel"
+    },
+    "display": {
+      "width": "600",
+      "height": "600",
+      "fix_size": false,
+      "pp_width": "64",
+      "pp_height": "64"
+    },
+    "template": "TOIxmn68EGfcsuRW",
+    "props": {
+      "name": "Allergie (Fleurs)",
+      "level": "0",
+      "description": "<p>Ce pouvoir, qui n&rsquo;en est pas un puisqu&rsquo;il limite plus le personnage qu&rsquo;il ne l&rsquo;avantage, appara&icirc;t toujours (lorsque la cr&eacute;ature le poss&egrave;de) &agrave; la phase de fr&eacute;missement et augmente ensuite par la suite comme le pouvoir principal de la cr&eacute;ature.</p>\n<p>L&rsquo;allergie agit comme l&rsquo;inverse d&rsquo;un pouvoir de r&eacute;sistance, occasionnant un <strong>bonus de 1 point par niveau pour tous les jets de dommages</strong> ayant trait &agrave; des attaques en rapport avec l&rsquo;&eacute;l&eacute;ment auquel le personnage est allergique.</p>\n<p>Pour ce qui est de la proximit&eacute; ou d&rsquo;un contact prolong&eacute; avec le produit en question, le ma&icirc;tre de jeu devra augmenter les d&eacute;sagr&eacute;ments au fur et mesure que le niveau du pouvoir augmentera, allant de g&ecirc;ne pure et simple &agrave; des dommages physiques mineurs. La substance &agrave; laquelle le personnage est allergique doit &ecirc;tre pr&eacute;cis&eacute;e entre parenth&egrave;ses.</p>"
+    },
+    "modifiers": [],
+    "unique": false,
+    "templateSystemUniqueVersion": 68115176
+  },
+  "effects": [],
+  "flags": {
+    "custom-system-builder": {
+      "version": "3.0.0"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "custom-system-builder",
+    "systemVersion": "3.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1704564977083,
+    "modifiedTime": 1705249229957,
+    "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+  },
+  "_id": "Sg1hAN84P0G80QOU",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "r9x0pKEz3JGSJSrG": 3
+  },
+  "_key": "!items!Sg1hAN84P0G80QOU"
+}

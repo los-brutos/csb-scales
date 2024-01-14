@@ -1,0 +1,136 @@
+{
+  "folder": null,
+  "name": "Peur",
+  "type": "equippableItem",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "hidden": [],
+    "header": {
+      "contents": [
+        {
+          "key": "",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "contents": [
+            {
+              "key": "level",
+              "cssClass": "",
+              "role": "0",
+              "permission": "0",
+              "tooltip": "",
+              "visibilityFormula": "",
+              "label": "Niveau",
+              "defaultValue": "",
+              "size": "m-small",
+              "allowDecimal": false,
+              "minVal": "",
+              "maxVal": "",
+              "allowRelative": false,
+              "showControls": true,
+              "controlsStyle": "hover",
+              "type": "numberField"
+            }
+          ],
+          "flow": "horizontal",
+          "align": "left",
+          "type": "panel"
+        }
+      ],
+      "key": "custom_header",
+      "cssClass": null,
+      "role": 0,
+      "permission": 0,
+      "tooltip": null,
+      "visibilityFormula": null,
+      "flow": null,
+      "align": null,
+      "type": "panel"
+    },
+    "body": {
+      "contents": [
+        {
+          "key": "",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "label": null,
+          "defaultValue": null,
+          "size": "full-size",
+          "icon": "",
+          "value": "Description",
+          "prefix": "",
+          "suffix": "",
+          "rollMessage": "",
+          "altRollMessage": "",
+          "style": "title",
+          "type": "label"
+        },
+        {
+          "key": "description",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "label": "",
+          "defaultValue": "",
+          "size": null,
+          "style": "dialog",
+          "type": "textArea"
+        }
+      ],
+      "key": "custom_body",
+      "cssClass": null,
+      "role": 0,
+      "permission": 0,
+      "tooltip": null,
+      "visibilityFormula": null,
+      "flow": null,
+      "align": null,
+      "type": "panel"
+    },
+    "display": {
+      "width": "600",
+      "height": "600",
+      "fix_size": false,
+      "pp_width": "64",
+      "pp_height": "64"
+    },
+    "template": "TOIxmn68EGfcsuRW",
+    "props": {
+      "name": "Peur",
+      "level": "0",
+      "description": "<p style=\"text-align: justify;\">Ce pouvoir n&rsquo;est accessible qu&rsquo;aux dragons.</p>\n<p style=\"text-align: justify;\">Il ne peut &ecirc;tre utilis&eacute; que si l&rsquo;individu en question est sous forme draconique pure (ce qui demande g&eacute;n&eacute;ralement l&rsquo;utilisation simultan&eacute;e ou pr&eacute;alable d&rsquo;un pouvoir de polymorphie).</p>\n<p style=\"text-align: justify;\">Son apparence physique et son aura lui permettent de faire peur &agrave; tout &ecirc;tre humain (poss&eacute;dant des signes magiques ou pas) en vue de l&rsquo;utilisateur.</p>\n<p style=\"text-align: justify;\">Le ma&icirc;tre de jeu devra lancer un d&eacute; pour chaque victime et r&eacute;aliser un total strictement sup&eacute;rieur au niveau du pouvoir :</p>\n<ul>\n<li style=\"text-align: justify;\">Un jet r&eacute;ussi permettra &agrave; la victime de garder son calme.</li>\n<li style=\"text-align: justify;\">Un jet rat&eacute; entra&icirc;nera une fuite pr&eacute;cipit&eacute;e de l&rsquo;individu pendant 1d10 tours.&nbsp;</li>\n</ul>\n<p style=\"text-align: justify;\">De plus, durant la minute qui suivra l&rsquo;utilisation du pouvoir, la victime subira un malus d&rsquo;un point sur tous ses jets.</p>\n<p style=\"text-align: justify;\">Le pouvoir &eacute;tant relativement puissant, aucun modificateur d&ucirc; &agrave; une caract&eacute;ristique mentale exceptionnelle ne sera pris en compte.</p>\n<p style=\"text-align: justify;\">Un tel pouvoir est relativement stressant pour le dragon qui l&rsquo;utilise et ne peut donc &ecirc;tre utilis&eacute; qu&rsquo;une seule fois par jour.</p>"
+    },
+    "modifiers": [],
+    "unique": false,
+    "templateSystemUniqueVersion": 68115176
+  },
+  "effects": [],
+  "flags": {
+    "custom-system-builder": {
+      "version": "3.0.0"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "custom-system-builder",
+    "systemVersion": "3.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1704665806350,
+    "modifiedTime": 1705249229957,
+    "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+  },
+  "_id": "UFUjdgxMgL6xHVZT",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "r9x0pKEz3JGSJSrG": 3
+  },
+  "_key": "!items!UFUjdgxMgL6xHVZT"
+}

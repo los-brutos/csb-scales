@@ -1,0 +1,136 @@
+{
+  "folder": null,
+  "name": "Camouflage (à préciser)",
+  "type": "equippableItem",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "hidden": [],
+    "header": {
+      "contents": [
+        {
+          "key": "",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "contents": [
+            {
+              "key": "level",
+              "cssClass": "",
+              "role": "0",
+              "permission": "0",
+              "tooltip": "",
+              "visibilityFormula": "",
+              "label": "Niveau",
+              "defaultValue": "",
+              "size": "m-small",
+              "allowDecimal": false,
+              "minVal": "",
+              "maxVal": "",
+              "allowRelative": false,
+              "showControls": true,
+              "controlsStyle": "hover",
+              "type": "numberField"
+            }
+          ],
+          "flow": "horizontal",
+          "align": "left",
+          "type": "panel"
+        }
+      ],
+      "key": "custom_header",
+      "cssClass": null,
+      "role": 0,
+      "permission": 0,
+      "tooltip": null,
+      "visibilityFormula": null,
+      "flow": null,
+      "align": null,
+      "type": "panel"
+    },
+    "body": {
+      "contents": [
+        {
+          "key": "",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "label": null,
+          "defaultValue": null,
+          "size": "full-size",
+          "icon": "",
+          "value": "Description",
+          "prefix": "",
+          "suffix": "",
+          "rollMessage": "",
+          "altRollMessage": "",
+          "style": "title",
+          "type": "label"
+        },
+        {
+          "key": "description",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "label": "",
+          "defaultValue": "",
+          "size": null,
+          "style": "dialog",
+          "type": "textArea"
+        }
+      ],
+      "key": "custom_body",
+      "cssClass": null,
+      "role": 0,
+      "permission": 0,
+      "tooltip": null,
+      "visibilityFormula": null,
+      "flow": null,
+      "align": null,
+      "type": "panel"
+    },
+    "display": {
+      "width": "600",
+      "height": "600",
+      "fix_size": false,
+      "pp_width": "64",
+      "pp_height": "64"
+    },
+    "template": "TOIxmn68EGfcsuRW",
+    "props": {
+      "name": "Camouflage (à préciser)",
+      "level": "0",
+      "description": "<p style=\"text-align: justify;\">Ce pouvoir accessible &agrave; la plupart les cr&eacute;atures poss&eacute;dant des pouvoirs<br>inn&eacute;s doit &ecirc;tre d&eacute;fini en indiquant entre parenth&egrave;ses le milieu naturel dans lequel il fonctionne.<br>Son utilisation est totalement volontaire et d&rsquo;une dur&eacute;e ind&eacute;termin&eacute;e, bien qu&rsquo;en cas le camouflage prolong&eacute;, une certaine fatigue puisse &ecirc;tre ressentie par l&rsquo;utilisateur.</p>\n<p style=\"text-align: justify;\">Chaque niveau dans ce pouvoir augmente les chances de r&eacute;ussite de toute action discr&egrave;te entreprise dans le milieu indiqu&eacute;. Cela inclut bien &eacute;videmment le camouflage, le d&eacute;placement en silence et la discr&eacute;tion pure et simple, mais aussi les attaques par surprise. Ainsi, une attaque &agrave; distance port&eacute;e par un individu ainsi camoufl&eacute; recevra un bonus son initiative &eacute;gal au niveau du pouvoir.</p>\n<p style=\"text-align: justify;\">Les effets physiques sur l&rsquo;individu sont relativement &eacute;tranges puisque sa peau elle-m&ecirc;me semble prendre une couleur tr&egrave;s proche de l&rsquo;endroit o&ugrave; il se cache. Bien entendu, la pr&eacute;sence de v&ecirc;tements brillants ou d&rsquo;une couleur tr&egrave;s &eacute;loign&eacute;e de celle du milieu ambiant peut r&eacute;duire ou m&ecirc;me annuler les bonus gagn&eacute;s.</p>\n<p style=\"text-align: justify;\">Si l&rsquo;utilisateur reste camoufl&eacute; pendant plus de dix minutes par niveau, il devra se reposer ensuite pendant un laps temps &eacute;gal au temps qu&rsquo;il a pass&eacute; camoufl&eacute;. Durant cette p&eacute;riode il sera consid&eacute;r&eacute; comme l&eacute;g&egrave;rement sonn&eacute; (malus de -2 &agrave; ces jets).</p>"
+    },
+    "modifiers": [],
+    "unique": false,
+    "templateSystemUniqueVersion": 68115176
+  },
+  "effects": [],
+  "flags": {
+    "custom-system-builder": {
+      "version": "3.0.0"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "custom-system-builder",
+    "systemVersion": "3.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1704665806350,
+    "modifiedTime": 1705249229957,
+    "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+  },
+  "_id": "jSDecWZ5y5mlfopS",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "r9x0pKEz3JGSJSrG": 3
+  },
+  "_key": "!items!jSDecWZ5y5mlfopS"
+}

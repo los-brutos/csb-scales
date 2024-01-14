@@ -1,0 +1,136 @@
+{
+  "folder": null,
+  "name": "Carapace",
+  "type": "equippableItem",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "hidden": [],
+    "header": {
+      "contents": [
+        {
+          "key": "",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "contents": [
+            {
+              "key": "level",
+              "cssClass": "",
+              "role": "0",
+              "permission": "0",
+              "tooltip": "",
+              "visibilityFormula": "",
+              "label": "Niveau",
+              "defaultValue": "",
+              "size": "m-small",
+              "allowDecimal": false,
+              "minVal": "",
+              "maxVal": "",
+              "allowRelative": false,
+              "showControls": true,
+              "controlsStyle": "hover",
+              "type": "numberField"
+            }
+          ],
+          "flow": "horizontal",
+          "align": "left",
+          "type": "panel"
+        }
+      ],
+      "key": "custom_header",
+      "cssClass": null,
+      "role": 0,
+      "permission": 0,
+      "tooltip": null,
+      "visibilityFormula": null,
+      "flow": null,
+      "align": null,
+      "type": "panel"
+    },
+    "body": {
+      "contents": [
+        {
+          "key": "",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "label": null,
+          "defaultValue": null,
+          "size": "full-size",
+          "icon": "",
+          "value": "Description",
+          "prefix": "",
+          "suffix": "",
+          "rollMessage": "",
+          "altRollMessage": "",
+          "style": "title",
+          "type": "label"
+        },
+        {
+          "key": "description",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "label": "",
+          "defaultValue": "",
+          "size": null,
+          "style": "dialog",
+          "type": "textArea"
+        }
+      ],
+      "key": "custom_body",
+      "cssClass": null,
+      "role": 0,
+      "permission": 0,
+      "tooltip": null,
+      "visibilityFormula": null,
+      "flow": null,
+      "align": null,
+      "type": "panel"
+    },
+    "display": {
+      "width": "600",
+      "height": "600",
+      "fix_size": false,
+      "pp_width": "64",
+      "pp_height": "64"
+    },
+    "template": "TOIxmn68EGfcsuRW",
+    "props": {
+      "name": "Carapace",
+      "level": "0",
+      "description": "<p style=\"text-align: justify;\">Ce pouvoir n&rsquo;est accessible qu&rsquo;&agrave; certains dragons et n&rsquo;est utilisable que si&nbsp;l&rsquo;individu en question est en forme draconique pure (ce qui demande g&eacute;n&eacute;ralement l&rsquo;utilisation simultan&eacute;e ou pr&eacute;alable d&rsquo;un pouvoir de polymorphie).</p>\n<p style=\"text-align: justify;\">Le niveau de ce pouvoir est retranch&eacute; &agrave; tous les jets qui serviraient &agrave; calculer les dommages d&rsquo;une attaque dont le possesseur pourrait &ecirc;tre la cible.</p>\n<p style=\"text-align: justify;\">Ce pouvoir est permanent &agrave; partir du moment o&ugrave; l&rsquo;utilisateur est en forme draconique pure.</p>\n<p style=\"text-align: justify;\">Le r&eacute;sultat final du jet de d&eacute; est inf&eacute;rieur ou &eacute;gal &agrave; 0, estime que les dommages caus&eacute;s par l&rsquo;attaque en question sont r&eacute;duits d&rsquo;un niveau (exemple: des dommages de puissance &laquo; Moyenne &raquo; deviennent de puissance &laquo; Faible &raquo;), des dommages de puissance inf&eacute;rieure &agrave; &laquo; Faible &raquo; &eacute;tant consid&eacute;r&eacute;s comme n&eacute;gligeables.</p>\n<p style=\"text-align: justify;\">Note : Les parents dragons peuvent b&eacute;n&eacute;ficier de ce pouvoir m&ecirc;me sous forme humaine, et sans que leur apparence soit modifi&eacute;e.</p>"
+    },
+    "modifiers": [],
+    "unique": false,
+    "templateSystemUniqueVersion": 68115176
+  },
+  "effects": [],
+  "flags": {
+    "custom-system-builder": {
+      "version": "3.0.0"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "custom-system-builder",
+    "systemVersion": "3.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1704665806350,
+    "modifiedTime": 1705249229957,
+    "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+  },
+  "_id": "3Z3coKOJGAb2EgbL",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "r9x0pKEz3JGSJSrG": 3
+  },
+  "_key": "!items!3Z3coKOJGAb2EgbL"
+}

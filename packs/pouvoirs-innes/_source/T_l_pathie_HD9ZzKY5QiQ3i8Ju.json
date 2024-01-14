@@ -1,0 +1,136 @@
+{
+  "folder": null,
+  "name": "Télépathie",
+  "type": "equippableItem",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "hidden": [],
+    "header": {
+      "contents": [
+        {
+          "key": "",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "contents": [
+            {
+              "key": "level",
+              "cssClass": "",
+              "role": "0",
+              "permission": "0",
+              "tooltip": "",
+              "visibilityFormula": "",
+              "label": "Niveau",
+              "defaultValue": "",
+              "size": "m-small",
+              "allowDecimal": false,
+              "minVal": "",
+              "maxVal": "",
+              "allowRelative": false,
+              "showControls": true,
+              "controlsStyle": "hover",
+              "type": "numberField"
+            }
+          ],
+          "flow": "horizontal",
+          "align": "left",
+          "type": "panel"
+        }
+      ],
+      "key": "custom_header",
+      "cssClass": null,
+      "role": 0,
+      "permission": 0,
+      "tooltip": null,
+      "visibilityFormula": null,
+      "flow": null,
+      "align": null,
+      "type": "panel"
+    },
+    "body": {
+      "contents": [
+        {
+          "key": "",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "label": null,
+          "defaultValue": null,
+          "size": "full-size",
+          "icon": "",
+          "value": "Description",
+          "prefix": "",
+          "suffix": "",
+          "rollMessage": "",
+          "altRollMessage": "",
+          "style": "title",
+          "type": "label"
+        },
+        {
+          "key": "description",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "label": "",
+          "defaultValue": "",
+          "size": null,
+          "style": "dialog",
+          "type": "textArea"
+        }
+      ],
+      "key": "custom_body",
+      "cssClass": null,
+      "role": 0,
+      "permission": 0,
+      "tooltip": null,
+      "visibilityFormula": null,
+      "flow": null,
+      "align": null,
+      "type": "panel"
+    },
+    "display": {
+      "width": "600",
+      "height": "600",
+      "fix_size": false,
+      "pp_width": "64",
+      "pp_height": "64"
+    },
+    "template": "TOIxmn68EGfcsuRW",
+    "props": {
+      "name": "Télépathie",
+      "level": "0",
+      "description": "<p style=\"text-align: justify;\">Le personnage qui poss&egrave;de ce pouvoir peut parler &agrave; un interlocuteur situ&eacute; &agrave;&nbsp;moins de 30 m&egrave;tres sans prononcer un mot.</p>\n<p style=\"text-align: justify;\">La victime sera persuad&eacute;e que l&rsquo;utilisateur lui parle r&eacute;ellement et ce, dans sa langue maternelle.</p>\n<p style=\"text-align: justify;\">Le niveau du pouvoir n&rsquo;est utilis&eacute; que pour conna&icirc;tre la dur&eacute;e de la conversation (chaque niveau permet de discuter une minute), les r&eacute;sultats du dialogue &eacute;tant laiss&eacute;s &agrave; l&rsquo;appr&eacute;ciation du ma&icirc;tre de jeu, qui devra consid&eacute;rer l&rsquo;utilisation de ce pouvoir comme un conflit verbal tout &agrave; fait normal.</p>\n<p style=\"text-align: justify;\">Il faut noter que la victime r&eacute;pondra &agrave; l&rsquo;utilisateur de la m&ecirc;me fa&ccedil;on, dans la langue maternelle de ce dernier bien qu&rsquo;il sera persuad&eacute; de parler &agrave; haute et intelligible voix.</p>\n<p style=\"text-align: justify;\">Les utilisations de ce pouvoir sont multiples, la plus fr&eacute;quente &eacute;tant de pouvoir communiquer avec un individu qui ne parle pas la m&ecirc;me langue que vous.</p>\n<p style=\"text-align: justify;\">Ce pouvoir ne peut pas &ecirc;tre utilis&eacute; plus d&rsquo;une fois par heure.</p>"
+    },
+    "modifiers": [],
+    "unique": false,
+    "templateSystemUniqueVersion": 68115176
+  },
+  "effects": [],
+  "flags": {
+    "custom-system-builder": {
+      "version": "3.0.0"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "custom-system-builder",
+    "systemVersion": "3.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1704665806350,
+    "modifiedTime": 1705249229957,
+    "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+  },
+  "_id": "HD9ZzKY5QiQ3i8Ju",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "r9x0pKEz3JGSJSrG": 3
+  },
+  "_key": "!items!HD9ZzKY5QiQ3i8Ju"
+}

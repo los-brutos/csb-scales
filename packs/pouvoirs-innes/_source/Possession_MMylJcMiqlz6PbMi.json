@@ -1,0 +1,136 @@
+{
+  "folder": null,
+  "name": "Possession",
+  "type": "equippableItem",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "hidden": [],
+    "header": {
+      "contents": [
+        {
+          "key": "",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "contents": [
+            {
+              "key": "level",
+              "cssClass": "",
+              "role": "0",
+              "permission": "0",
+              "tooltip": "",
+              "visibilityFormula": "",
+              "label": "Niveau",
+              "defaultValue": "",
+              "size": "m-small",
+              "allowDecimal": false,
+              "minVal": "",
+              "maxVal": "",
+              "allowRelative": false,
+              "showControls": true,
+              "controlsStyle": "hover",
+              "type": "numberField"
+            }
+          ],
+          "flow": "horizontal",
+          "align": "left",
+          "type": "panel"
+        }
+      ],
+      "key": "custom_header",
+      "cssClass": null,
+      "role": 0,
+      "permission": 0,
+      "tooltip": null,
+      "visibilityFormula": null,
+      "flow": null,
+      "align": null,
+      "type": "panel"
+    },
+    "body": {
+      "contents": [
+        {
+          "key": "",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "label": null,
+          "defaultValue": null,
+          "size": "full-size",
+          "icon": "",
+          "value": "Description",
+          "prefix": "",
+          "suffix": "",
+          "rollMessage": "",
+          "altRollMessage": "",
+          "style": "title",
+          "type": "label"
+        },
+        {
+          "key": "description",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "label": "",
+          "defaultValue": "",
+          "size": null,
+          "style": "dialog",
+          "type": "textArea"
+        }
+      ],
+      "key": "custom_body",
+      "cssClass": null,
+      "role": 0,
+      "permission": 0,
+      "tooltip": null,
+      "visibilityFormula": null,
+      "flow": null,
+      "align": null,
+      "type": "panel"
+    },
+    "display": {
+      "width": "600",
+      "height": "600",
+      "fix_size": false,
+      "pp_width": "64",
+      "pp_height": "64"
+    },
+    "template": "TOIxmn68EGfcsuRW",
+    "props": {
+      "name": "Possession",
+      "level": "0",
+      "description": "<p style=\"text-align: justify;\">Ce pouvoir permet au personnage qui le poss&egrave;de de contr&ocirc;ler les actions d&rsquo;un &ecirc;tre humain tout &agrave; fait normal.</p>\n<p style=\"text-align: justify;\">Les dragons sous forme humaine et les &ecirc;tres magiques (en phase 4 ou plus) sont donc directement immunis&eacute;s contre ce type d&rsquo;attaque.</p>\n<p style=\"text-align: justify;\">Les chances de r&eacute;ussite du pouvoir sont de 4 et sont diminu&eacute;es d&rsquo;une &eacute;ventuelle caract&eacute;ristique mentale de la victime qui pourrait faire office de r&eacute;sistance (volont&eacute;, &eacute;quilibre psychique, etc&hellip;). On ne peut tenter qu&rsquo;une seule possession sur la m&ecirc;me personne par semaine.</p>\n<p style=\"text-align: justify;\">Si le jet est r&eacute;ussi, le personnage est enti&egrave;rement contr&ocirc;l&eacute; par l&rsquo;utilisateur qui remplace l&rsquo;esprit de la victime par le sien. On ne peut donc pas utiliser ce pouvoir pour faire parler un individu r&eacute;calcitrant. La dur&eacute;e maximale de la possession est &eacute;gale &agrave; une minute multipli&eacute;e par le niveau du pouvoir.<br>Une fois que l&rsquo;esprit de la victime a r&eacute;int&eacute;gr&eacute; son corps, il ne se souvient de rien et pense avoir &eacute;t&eacute; victime d&rsquo;une amn&eacute;sie passag&egrave;re. Durant toute la dur&eacute;e du pouvoir l&rsquo;utilisateur est&nbsp;consid&eacute;r&eacute; comme &eacute;tant dans le coma (voir le chapitre concernant les combats) et n&rsquo;en sortira que lorsque son esprit sera de nouveau &agrave; l&rsquo;int&eacute;rieur.</p>\n<p style=\"text-align: justify;\">La port&eacute;e de ce pouvoir est de 10 m&egrave;tres fois le niveau.</p>"
+    },
+    "modifiers": [],
+    "unique": false,
+    "templateSystemUniqueVersion": 68115176
+  },
+  "effects": [],
+  "flags": {
+    "custom-system-builder": {
+      "version": "3.0.0"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "custom-system-builder",
+    "systemVersion": "3.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1704665806350,
+    "modifiedTime": 1705249229957,
+    "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+  },
+  "_id": "MMylJcMiqlz6PbMi",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "r9x0pKEz3JGSJSrG": 3
+  },
+  "_key": "!items!MMylJcMiqlz6PbMi"
+}

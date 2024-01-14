@@ -1,0 +1,136 @@
+{
+  "folder": null,
+  "name": "Résistance (à préciser)",
+  "type": "equippableItem",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "hidden": [],
+    "header": {
+      "contents": [
+        {
+          "key": "",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "contents": [
+            {
+              "key": "level",
+              "cssClass": "",
+              "role": "0",
+              "permission": "0",
+              "tooltip": "",
+              "visibilityFormula": "",
+              "label": "Niveau",
+              "defaultValue": "",
+              "size": "m-small",
+              "allowDecimal": false,
+              "minVal": "",
+              "maxVal": "",
+              "allowRelative": false,
+              "showControls": true,
+              "controlsStyle": "hover",
+              "type": "numberField"
+            }
+          ],
+          "flow": "horizontal",
+          "align": "left",
+          "type": "panel"
+        }
+      ],
+      "key": "custom_header",
+      "cssClass": null,
+      "role": 0,
+      "permission": 0,
+      "tooltip": null,
+      "visibilityFormula": null,
+      "flow": null,
+      "align": null,
+      "type": "panel"
+    },
+    "body": {
+      "contents": [
+        {
+          "key": "",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "label": null,
+          "defaultValue": null,
+          "size": "full-size",
+          "icon": "",
+          "value": "Description",
+          "prefix": "",
+          "suffix": "",
+          "rollMessage": "",
+          "altRollMessage": "",
+          "style": "title",
+          "type": "label"
+        },
+        {
+          "key": "description",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "label": "",
+          "defaultValue": "",
+          "size": null,
+          "style": "dialog",
+          "type": "textArea"
+        }
+      ],
+      "key": "custom_body",
+      "cssClass": null,
+      "role": 0,
+      "permission": 0,
+      "tooltip": null,
+      "visibilityFormula": null,
+      "flow": null,
+      "align": null,
+      "type": "panel"
+    },
+    "display": {
+      "width": "600",
+      "height": "600",
+      "fix_size": false,
+      "pp_width": "64",
+      "pp_height": "64"
+    },
+    "template": "TOIxmn68EGfcsuRW",
+    "props": {
+      "name": "Résistance (à préciser)",
+      "level": "0",
+      "description": "<p style=\"text-align: justify;\">Ce pouvoir permet de r&eacute;sister plus facilement &agrave; un type d&rsquo;attaque qui doit&nbsp;&ecirc;tre pr&eacute;cis&eacute; entre parenth&egrave;ses.</p>\n<p style=\"text-align: justify;\">Le niveau de ce pouvoir sert de malus &agrave; tous les jets de dommages ayant trait &agrave; ce type d&rsquo;attaque et dont la victime serait le personnage qui poss&egrave;de cette r&eacute;sistance magique.</p>\n<p style=\"text-align: justify;\">Si le type d&rsquo;attaque en question est rare ou tr&egrave;s rare, le ma&icirc;tre de jeu peut pr&eacute;f&eacute;rer donner au personnage le pouvoir d&rsquo;@UUID[Item.rh7DHzcAV7VBB2r9]{immunit&eacute;}.</p>\n<p style=\"text-align: justify;\">Le pouvoir de r&eacute;sistance est permanent.</p>\n<p style=\"text-align: justify;\">Si l&rsquo;attaque ne cause pas de dommages, le niveau est retranch&eacute; des chances de r&eacute;ussite de l&rsquo;attaque.</p>"
+    },
+    "modifiers": [],
+    "unique": false,
+    "templateSystemUniqueVersion": 68115176
+  },
+  "effects": [],
+  "flags": {
+    "custom-system-builder": {
+      "version": "3.0.0"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "custom-system-builder",
+    "systemVersion": "3.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1704665806350,
+    "modifiedTime": 1705249229957,
+    "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+  },
+  "_id": "L8DYDg7aJNslF7oU",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "r9x0pKEz3JGSJSrG": 3
+  },
+  "_key": "!items!L8DYDg7aJNslF7oU"
+}

@@ -1,3 +1,5 @@
-2024/01/13-15:22:55.539 cbc Recovering log #7
-2024/01/13-15:22:55.552 cbc Delete type=0 #7
-2024/01/13-15:22:55.552 cbc Delete type=3 #6
+2024/01/14-18:32:10.228 3684 Delete type=3 #1
+2024/01/14-18:32:10.242 3ca4 Level-0 table #5: started
+2024/01/14-18:32:10.254 3ca4 Level-0 table #5: 33580 bytes OK
+2024/01/14-18:32:10.256 3ca4 Delete type=0 #3
+2024/01/14-18:32:10.262 3ca4 Manual compaction at level-0 from '!items!3Z3coKOJGAb2EgbL' @ 72057594037927935 : 1 .. '!items!w1L27CJG6sqoUTj7' @ 0 : 0; will stop at (end)

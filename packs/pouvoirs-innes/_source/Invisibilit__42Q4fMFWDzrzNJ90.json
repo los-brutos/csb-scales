@@ -1,0 +1,136 @@
+{
+  "folder": null,
+  "name": "Invisibilité",
+  "type": "equippableItem",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "hidden": [],
+    "header": {
+      "contents": [
+        {
+          "key": "",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "contents": [
+            {
+              "key": "level",
+              "cssClass": "",
+              "role": "0",
+              "permission": "0",
+              "tooltip": "",
+              "visibilityFormula": "",
+              "label": "Niveau",
+              "defaultValue": "",
+              "size": "m-small",
+              "allowDecimal": false,
+              "minVal": "",
+              "maxVal": "",
+              "allowRelative": false,
+              "showControls": true,
+              "controlsStyle": "hover",
+              "type": "numberField"
+            }
+          ],
+          "flow": "horizontal",
+          "align": "left",
+          "type": "panel"
+        }
+      ],
+      "key": "custom_header",
+      "cssClass": null,
+      "role": 0,
+      "permission": 0,
+      "tooltip": null,
+      "visibilityFormula": null,
+      "flow": null,
+      "align": null,
+      "type": "panel"
+    },
+    "body": {
+      "contents": [
+        {
+          "key": "",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "label": null,
+          "defaultValue": null,
+          "size": "full-size",
+          "icon": "",
+          "value": "Description",
+          "prefix": "",
+          "suffix": "",
+          "rollMessage": "",
+          "altRollMessage": "",
+          "style": "title",
+          "type": "label"
+        },
+        {
+          "key": "description",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "label": "",
+          "defaultValue": "",
+          "size": null,
+          "style": "dialog",
+          "type": "textArea"
+        }
+      ],
+      "key": "custom_body",
+      "cssClass": null,
+      "role": 0,
+      "permission": 0,
+      "tooltip": null,
+      "visibilityFormula": null,
+      "flow": null,
+      "align": null,
+      "type": "panel"
+    },
+    "display": {
+      "width": "600",
+      "height": "600",
+      "fix_size": false,
+      "pp_width": "64",
+      "pp_height": "64"
+    },
+    "template": "TOIxmn68EGfcsuRW",
+    "props": {
+      "name": "Invisibilité",
+      "level": "0",
+      "description": "<p style=\"text-align: justify;\">Ce pouvoir, relativement proche de celui de camouflage, est cependant&nbsp;diff&eacute;rent dans le sens o&ugrave; il fonctionne n&rsquo;importe o&ugrave;, et pas seulement dans un milieu naturel pr&eacute;cis.</p>\n<p style=\"text-align: justify;\">De plus, l&rsquo;utilisateur du pouvoir sera encore plus g&ecirc;n&eacute; par ses v&ecirc;tements et devra g&eacute;n&eacute;ralement les quitter pour pouvoir b&eacute;n&eacute;ficier pleinement des bonus accord&eacute;s par l&rsquo;invisibilit&eacute;. Ces bonus sont les m&ecirc;mes que ceux du camouflage (1 point de bonus par niveau dans le pouvoir ajout&eacute; aux chances de r&eacute;ussite de toute action discr&egrave;te entreprise, ainsi qu&rsquo;un bonus identique &agrave; l&rsquo;initiative en cas d&rsquo;attaque par surprise).</p>\n<p style=\"text-align: justify;\">L&rsquo;utilisation de ce pouvoir est encore plus fatigante que le camouflage et si l&rsquo;utilisateur reste invisible pendant plus d&rsquo;une minute par niveau, il devra se reposer ensuite pendant un laps de temps &eacute;gal &agrave; dix fois le temps qu&rsquo;il a pass&eacute; invisible. Durant cette p&eacute;riode, il sera consid&eacute;r&eacute; comme l&eacute;g&egrave;rement sonn&eacute; (-2 &agrave; tous ses jets).</p>"
+    },
+    "modifiers": [],
+    "unique": false,
+    "templateSystemUniqueVersion": 531574968
+  },
+  "effects": [],
+  "flags": {
+    "custom-system-builder": {
+      "version": "3.0.0"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "custom-system-builder",
+    "systemVersion": "3.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1704665806350,
+    "modifiedTime": 1705249229957,
+    "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+  },
+  "_id": "42Q4fMFWDzrzNJ90",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "r9x0pKEz3JGSJSrG": 3
+  },
+  "_key": "!items!42Q4fMFWDzrzNJ90"
+}

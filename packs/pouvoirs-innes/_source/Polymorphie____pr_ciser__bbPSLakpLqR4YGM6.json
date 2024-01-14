@@ -1,0 +1,136 @@
+{
+  "folder": null,
+  "name": "Polymorphie (à préciser)",
+  "type": "equippableItem",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "hidden": [],
+    "header": {
+      "contents": [
+        {
+          "key": "",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "contents": [
+            {
+              "key": "level",
+              "cssClass": "",
+              "role": "0",
+              "permission": "0",
+              "tooltip": "",
+              "visibilityFormula": "",
+              "label": "Niveau",
+              "defaultValue": "",
+              "size": "m-small",
+              "allowDecimal": false,
+              "minVal": "",
+              "maxVal": "",
+              "allowRelative": false,
+              "showControls": true,
+              "controlsStyle": "hover",
+              "type": "numberField"
+            }
+          ],
+          "flow": "horizontal",
+          "align": "left",
+          "type": "panel"
+        }
+      ],
+      "key": "custom_header",
+      "cssClass": null,
+      "role": 0,
+      "permission": 0,
+      "tooltip": null,
+      "visibilityFormula": null,
+      "flow": null,
+      "align": null,
+      "type": "panel"
+    },
+    "body": {
+      "contents": [
+        {
+          "key": "",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "label": null,
+          "defaultValue": null,
+          "size": "full-size",
+          "icon": "",
+          "value": "Description",
+          "prefix": "",
+          "suffix": "",
+          "rollMessage": "",
+          "altRollMessage": "",
+          "style": "title",
+          "type": "label"
+        },
+        {
+          "key": "description",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "label": "",
+          "defaultValue": "",
+          "size": null,
+          "style": "dialog",
+          "type": "textArea"
+        }
+      ],
+      "key": "custom_body",
+      "cssClass": null,
+      "role": 0,
+      "permission": 0,
+      "tooltip": null,
+      "visibilityFormula": null,
+      "flow": null,
+      "align": null,
+      "type": "panel"
+    },
+    "display": {
+      "width": "600",
+      "height": "600",
+      "fix_size": false,
+      "pp_width": "64",
+      "pp_height": "64"
+    },
+    "template": "TOIxmn68EGfcsuRW",
+    "props": {
+      "name": "Polymorphie (à préciser)",
+      "level": "0",
+      "description": "<p style=\"text-align: justify;\">Ce pouvoir n&rsquo;est accessible qu&rsquo;aux dragons. Tous le poss&egrave;dent sous une des deux formes possibles (et qui doit &ecirc;tre pr&eacute;cis&eacute;e entre parenth&egrave;ses).</p>\n<ul>\n<li style=\"text-align: justify;\">La premi&egrave;re, &laquo; humaine &raquo;, est celle qui permet au dragon c&eacute;leste et aux grands-parents de prendre forme humaine pour une dur&eacute;e plus ou moins longue.</li>\n<li style=\"text-align: justify;\">La seconde, &laquo; draconique &raquo;, est celle qui permet aux enfants, aux parents et aux nouveau-n&eacute;s de prendre une forme draconique pure qui leur permet ensuite d&rsquo;utiliser certains de leurs pouvoirs inn&eacute;s.</li>\n</ul>\n<p>La magie draconique provoque quelquefois une transformation involontaire et incompl&egrave;te qui sera pr&eacute;cis&eacute;e dans le sort correspondant impliqu&eacute;.&nbsp;</p>\n<p>Il faut noter que la forme prise en utilisant ce pouvoir est toujours la m&ecirc;me et que le changement est limit&eacute; par le niveau du pouvoir.&nbsp;</p>\n<p>Chaque niveau permet de prendre une forme draconique pour une dur&eacute;e d&rsquo;une heure par niveau, en sachant que l&rsquo;on ne peut se transformer qu&rsquo;une fois par jour.</p>\n<p>Pour ce qui est de la transformation en forme humaine, la dur&eacute;e n&rsquo;est pas limit&eacute;e et on peut se transformer (niveau du pouvoir) fois par jour.</p>\n<p>Changer de forme est une action relativement difficile qui prend g&eacute;n&eacute;ralement 1d10 tours (chaque niveau dans le pouvoir r&eacute;duisant cette dur&eacute;e de 1 tour minimum de 1).</p>\n<p>Au pouvoir de polymorphie (draconique) relativement puissant s&rsquo;associe une sorte de tabou moral, pr&eacute;sent dans l&rsquo;esprit de tous les dragons, qui interdit &agrave; ceux qui le poss&egrave;dent de l&rsquo;utiliser devant des t&eacute;moins humains. Ainsi, pour se transformer, il devra r&eacute;ussir un jet de d&eacute; dont les chances de base sont de 10. Cette valeur est r&eacute;duite par un seul et m&ecirc;me modificateur: -2 par t&eacute;moin visuel humain (cela n&rsquo;inclut bien &eacute;videmment pas les autres dragons et les &ecirc;tres magiques). Aucun autre modificateur, m&ecirc;me magique, ne pourra &ecirc;tre utilis&eacute;. Un dragon se trouvant devant 5 &ecirc;tres humains normaux se verra dans l&rsquo;impossibilit&eacute; de se transformer. Ce jet est presque simultan&eacute; &agrave; celui de la transformation et peut &ecirc;tre tent&eacute;, tant qu&rsquo;il est rat&eacute;, une fois par minute.</p>\n<p>Il faut noter (sauf dans le cas d&rsquo;un dragon f&eacute;erique) qu&rsquo;il est de bon ton de se d&eacute;shabiller avant de se transformer. Dans le cas contraire, tous les v&ecirc;tements du personnage seraient irr&eacute;m&eacute;diablement d&eacute;chir&eacute;s par la transformation.</p>"
+    },
+    "modifiers": [],
+    "unique": false,
+    "templateSystemUniqueVersion": 68115176
+  },
+  "effects": [],
+  "flags": {
+    "custom-system-builder": {
+      "version": "3.0.0"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "custom-system-builder",
+    "systemVersion": "3.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1704665806350,
+    "modifiedTime": 1705249229957,
+    "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+  },
+  "_id": "bbPSLakpLqR4YGM6",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "r9x0pKEz3JGSJSrG": 3
+  },
+  "_key": "!items!bbPSLakpLqR4YGM6"
+}
