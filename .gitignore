@@ -1,8 +1,8 @@
 codes/scales-codes.code-workspace
 *.log
-*.log
-packs/*/CURRENT
-packs/*/LOG
 *.old
-packs/*/MANIFEST-*
 *.ldb
+packs/**/CURRENT
+packs/**/LOG
+packs/**/LOCK
+packs/**/MANIFEST-*
