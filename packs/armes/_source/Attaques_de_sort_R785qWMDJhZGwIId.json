@@ -1,0 +1,19 @@
+{
+  "name": "Attaques de sort",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "R785qWMDJhZGwIId",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "custom-system-builder",
+    "systemVersion": "3.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1705404565679,
+    "modifiedTime": 1705410384659,
+    "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+  },
+  "_key": "!folders!R785qWMDJhZGwIId"
+}

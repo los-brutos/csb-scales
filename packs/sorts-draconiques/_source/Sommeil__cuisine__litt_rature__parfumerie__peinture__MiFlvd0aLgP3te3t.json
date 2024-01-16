@@ -1,0 +1,612 @@
+{
+  "folder": null,
+  "name": "Sommeil (cuisine, littérature, parfumerie, peinture)",
+  "type": "equippableItem",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "hidden": [],
+    "header": {
+      "contents": [
+        {
+          "key": "",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "contents": [
+            {
+              "key": "level",
+              "cssClass": "",
+              "role": "0",
+              "permission": "0",
+              "tooltip": "",
+              "visibilityFormula": "",
+              "label": "Niveau",
+              "defaultValue": "",
+              "size": "m-small",
+              "allowDecimal": false,
+              "minVal": "",
+              "maxVal": "",
+              "allowRelative": false,
+              "showControls": true,
+              "controlsStyle": "hover",
+              "type": "numberField"
+            },
+            {
+              "key": "art",
+              "cssClass": "",
+              "role": "0",
+              "permission": "0",
+              "tooltip": "",
+              "visibilityFormula": "",
+              "label": "Art",
+              "defaultValue": "",
+              "size": "full-size",
+              "options": [],
+              "tableKey": "arts",
+              "tableKeyColumn": "name",
+              "tableLabelColumn": "",
+              "formulaKeyOptions": null,
+              "formulaLabelOptions": null,
+              "type": "select"
+            }
+          ],
+          "flow": "horizontal",
+          "align": "left",
+          "type": "panel"
+        },
+        {
+          "key": "xp",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "Les 3 conditions qui définissent une utilisation marquante permettant d'avoir 1 point d'XP dans le sort\\n  1. Le sortilège a été utilisé pour faire progresser l’aventure ou pour sauver la vie du lanceur ou d’un autre membre du gestalt.\\n  2. Le sort a été lancé en masquant la dépense de Mana.\\n  3.Le résultat du jet de dé est exactement égal à 1.",
+          "visibilityFormula": "",
+          "label": "Expérience",
+          "defaultValue": "",
+          "size": "medium",
+          "allowDecimal": false,
+          "minVal": "",
+          "maxVal": "",
+          "allowRelative": false,
+          "showControls": true,
+          "controlsStyle": "hover",
+          "type": "numberField"
+        }
+      ],
+      "key": "custom_header",
+      "cssClass": null,
+      "role": 0,
+      "permission": 0,
+      "tooltip": null,
+      "visibilityFormula": null,
+      "flow": null,
+      "align": null,
+      "type": "panel"
+    },
+    "body": {
+      "contents": [
+        {
+          "key": "",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "label": null,
+          "defaultValue": null,
+          "size": "full-size",
+          "icon": "",
+          "value": "Description",
+          "prefix": "",
+          "suffix": "",
+          "rollMessage": "",
+          "altRollMessage": "",
+          "style": "title",
+          "type": "label"
+        },
+        {
+          "key": "description",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "label": "",
+          "defaultValue": "",
+          "size": null,
+          "style": "dialog",
+          "type": "textArea"
+        },
+        {
+          "key": "",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "label": null,
+          "defaultValue": null,
+          "size": "full-size",
+          "icon": "",
+          "value": "Art associé (${art}$)",
+          "prefix": "",
+          "suffix": "",
+          "rollMessage": "",
+          "altRollMessage": "",
+          "style": "title",
+          "type": "label"
+        },
+        {
+          "key": "detailArt",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "label": null,
+          "defaultValue": null,
+          "size": "full-size",
+          "icon": "",
+          "value": "${fetchFromDynamicTable('arts', 'description', 'name', art)}$",
+          "prefix": "<div style=\"text-align: justify;\">",
+          "suffix": "</div>",
+          "rollMessage": "",
+          "altRollMessage": "",
+          "style": "label",
+          "type": "label"
+        },
+        {
+          "key": "",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "contents": [
+            {
+              "key": "",
+              "cssClass": "",
+              "role": "0",
+              "permission": "0",
+              "tooltip": "",
+              "visibilityFormula": "",
+              "label": null,
+              "defaultValue": null,
+              "size": "full-size",
+              "icon": "dice-d10",
+              "value": "Lancer un dé",
+              "prefix": "",
+              "suffix": "",
+              "rollMessage": "${[1d10]}$",
+              "altRollMessage": "",
+              "style": "label",
+              "type": "label"
+            }
+          ],
+          "flow": "vertical",
+          "align": "center",
+          "type": "panel"
+        },
+        {
+          "key": "",
+          "cssClass": "",
+          "role": "3",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "label": null,
+          "defaultValue": null,
+          "size": "full-size",
+          "icon": "",
+          "value": "Liste des arts",
+          "prefix": "",
+          "suffix": "",
+          "rollMessage": "",
+          "altRollMessage": "",
+          "style": "title",
+          "type": "label"
+        },
+        {
+          "key": "",
+          "cssClass": "",
+          "role": "3",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "label": null,
+          "defaultValue": null,
+          "size": "full-size",
+          "icon": "",
+          "value": "<p>Tous les sorts de magie draconique sont class&eacute;s par type.</p>\n<p>Chaque type de sort correspond &agrave; une forme d&rsquo;art que le jeteur de sort devra utiliser pour masquer la d&eacute;pense de Mana. Certains sorts ne peuvent &ecirc;tre lanc&eacute;s sans avoir &eacute;t&eacute; pr&eacute;alablement masqu&eacute;s. La description de chaque sort pr&eacute;cise le temps n&eacute;cessaire pour jeter chaque sort, qu&rsquo;il soit camoufl&eacute; ou non.</p>\n<p>Lorsqu&rsquo;un sort peut &ecirc;tre camoufl&eacute; de plusieurs fa&ccedil;ons diff&eacute;rentes, le personnage devra choisir celle qu&rsquo;il pr&eacute;f&egrave;re. S&rsquo;il veut disposer de plusieurs formes de camouflage, il devra consid&eacute;rer chaque art comme un sort diff&eacute;rent.</p>\n<p>Si un m&ecirc;me sort est jet&eacute; sur plusieurs cibles &agrave; la fois, le joueur devra r&eacute;ussir un jet pour chaque (ses chances de base seront calcul&eacute;es selon le nombre de points de Mana d&eacute;pens&eacute;s pour chaque cible).</p>\n<p>Si une m&ecirc;me forme d&rsquo;art est utilis&eacute;e pour masquer plusieurs pouvoirs, le lanceur devra d&eacute;penser &agrave; chaque fois les points de Mana de l&rsquo;enchantement.</p>",
+          "prefix": "",
+          "suffix": "",
+          "rollMessage": "",
+          "altRollMessage": "",
+          "style": "label",
+          "type": "label"
+        },
+        {
+          "key": "arts",
+          "cssClass": "",
+          "role": "3",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "rowLayout": [
+            {
+              "key": "name",
+              "cssClass": "",
+              "role": "0",
+              "permission": "0",
+              "tooltip": "",
+              "visibilityFormula": "",
+              "label": "",
+              "defaultValue": "",
+              "size": "full-size",
+              "charList": "",
+              "maxLength": "",
+              "type": "textField",
+              "align": "left",
+              "colName": "Art"
+            },
+            {
+              "key": "description",
+              "cssClass": "",
+              "role": "0",
+              "permission": "0",
+              "tooltip": "",
+              "visibilityFormula": "",
+              "label": "",
+              "defaultValue": "",
+              "size": "full-size",
+              "charList": "",
+              "maxLength": "",
+              "type": "textField",
+              "align": "left",
+              "colName": "Description"
+            }
+          ],
+          "head": true,
+          "deleteWarning": true,
+          "predefinedLines": [
+            {
+              "deleted": false,
+              "predefinedIdx": 0,
+              "name": "Architecture",
+              "description": "<p>Tous les sortilèges utilisant l'architecture devront être obligatoirement masqués.</p> <p>Chaque sortilège doit être jeté une fois l'ouvrage terminé (ce qui prendra de quelques jours à plusieurs années selon sa taille). Cet enchantement dépensera 50 points de Mana par sort. En cas de jet raté, le lanceur pourra tenter un nouvel enchantement en dépensant une nouvelle fois les 50 points (le jet à réaliser prend en compte ce nombre de points).</p> <p>Si le personnage est particulièrement occupé, il pourra se contenter de dessiner les plans et de superviser le travail, ce qui lui prendra une heure par jour durant toute la durée des travaux. Il laissera à des ouvriers le soin de s'occuper des tâches laborieuses et pénibles. On peut sans aucun problème lancer plusieurs sorts différents en utilisant le même masque (et sans que cela ne prenne plus d'un tour de plus par sort, ce qui est ridicule vu le temps passé à créer l'ouvrage). Il devra à chaque fois réussir un jet d'enchantement.</p> <p>Les sortilèges placés dans un tel édifice le sont jusqu'à la mort de l'individu qui les a jetés ou jusqu'à ce que le bâtiment soit détruit totalement.</p> <p>Tous les êtres vivants d'au moins la taille d'un gros chien qui pénétreront ensuite dans l'édifice pourront être victimes du sort en question si le lanceur s'y trouve lui aussi et dépense les points de Mana nécessaires (et réussit un nouveau jet).</p> <p>Alternativement, il peut, s'il ne se trouve pas dans le bâtiment, faire fonctionner le sort mais en payant alors un nombre de points de Mana dix fois supérieur. Bien que le principe même du sort prévienne à tout moment de l'arrivée et du départ des êtres vivants dans l'édifice, le jeteur ne sera prévenu ni du type de créature, ni de sa puissance.</p> <p>Cette forme d'art peut être associée aux sortilèges suivants: Confusion, Paralysie, Piège, Protection et Vitesse.</p>",
+              "deletionDisabled": false
+            },
+            {
+              "deleted": false,
+              "predefinedIdx": 1,
+              "name": "Chant",
+              "description": "<p>Pour que le sort associé à cette forme d'art produise son effet, le personnage devra chanter une chanson appropriée au type d'effet recherché et ce, pendant un nombre de minutes égal aux nombres de points de Mana dépensés.</p> <p>En version non camouflée, ces sorts peuvent être jetés en un tour, à la seule condition que le magicien puisse prononcer une courte phrase.</p> <p>Les cibles qui peuvent être affectées par le sort sont toutes celles qui sont en mesure d'entendre le chant ou la phrase pendant toute sa durée mais le nombre exact de cibles affectées dépend directement du nombre de points de Mana dépensés (consultez la description de chaque sort).</p> <p>Cette forme d'art peut être associée aux sortilèges suivants: Apaisement, Combativité, Courage, Météorologie, Repos, Séduction, Télépathie.</p>",
+              "deletionDisabled": false
+            },
+            {
+              "deleted": false,
+              "predefinedIdx": 2,
+              "name": "Cinéma",
+              "description": "<p>Pour que le sort associé à cette forme d'art produise son effet, la ou les cibles doivent pouvoir contempler un film dont le thème est approprié au type d'effet recherché et ce, pendant un nombre de minutes égal aux nombres de points de Mana dépensés fois dix. Il n'existe pas de version non masquée de ces sorts. Les cibles qui peuvent être affectées par le sort sont toutes celles qui sont en mesure de voir le film pendant toute sa durée mais le nombre exact de cibles affectées dépend directement du nombre de points de Mana dépensés (consultez la description de chaque sort).</p> <p>Cette forme d'art peut être associée aux sortilèges suivants : Apaisement, Combativité, Couardise, Courage, Repos, Rire.</p> <p>Le scénario du film projeté devra avoir été écrit par le personnage qui lance le sort, sa réalisation pouvant être confiée à une ou plusieurs autres personnes.</p>",
+              "deletionDisabled": false
+            },
+            {
+              "deleted": false,
+              "predefinedIdx": 3,
+              "name": "Couture",
+              "description": "<p>Pour lancer un sort de ce type, le personnage devra être en mesure de créer une pièce de vêtement originale (ce qui prendra un certain nombre de jours). Il lancera le sort juste au moment de terminer l'ouvrage et devra en même temps dépenser 5 points de Mana supplémentaires. En cas de jet raté, le lanceur pourra tenter un nouvel enchantement en dépensant une nouvelle fois le total des points (le jet à réaliser prend en compte ce nombre de points). On ne peut jeter qu'un seul sortilège sur chaque pièce de vêtement. Par la suite, le pouvoir magique pourra être déclenché par son porteur (qui doit obligatoirement être celui qui a conçu l'objet) en jetant à nouveau le sort et en dépensant normalement les points de Mana adéquats (l'effet et son déclenchement sont simultanés). Un tel objet reste enchanté durant 1d10 mois ou jusqu'à sa destruction totale.</p> <p>Cette forme d'art peut être associée avec les sortilèges suivants: Armure, Camouflage, Invisibilité, Puissance, Séduction, Souplesse.</p> <p>Il n'existe aucune forme non masquée de ces sorts.</p>",
+              "deletionDisabled": false
+            },
+            {
+              "deleted": false,
+              "predefinedIdx": 4,
+              "name": "Cuisine",
+              "description": "<p>Pour lancer un sort de ce type, le personnage doit faire absorber à la victime un mets quelconque (ou une boisson) qu'il vient de préparer et réussir son sort en même temps (les chances de base seront égales à 4). Les effets sont perceptibles dès que la victime a absorbé une quantité suffisante du produit (généralement une cinquantaine de grammes ou un décilitre). Si plusieurs personnes mangent du même plat, les effets peuvent être déclenchés sur toutes, à la condition que le magicien dépense les points de Mana pour chaque victime. Ces sorts peuvent être lancés sans masque à condition que le lanceur puisse toucher sa cible (dans ce cas, les effets sont perceptibles 1d10 tours après). Le plat garde ses propriétés magiques durant 1d10 heures.</p> <p>Cette forme d'art peut être associée aux sortilèges suivants: Antidote, Empoisonnement, Guérison, Longévité, Maladie, Sommeil, Vaccin.</p>",
+              "deletionDisabled": false
+            },
+            {
+              "deleted": false,
+              "predefinedIdx": 5,
+              "name": "Danse",
+              "description": "<p>Pour lancer un sort de ce type, le lanceur devra être en mesure de réaliser quelques pas d'une danse dont le thème sera en accord avec le sort lancé et ce, pendant un nombre de minutes égal au nombre de points de Mana dépensés. La version non camouflée de ces sorts permet de les lancer avec un simple mouvement de la part du lanceur. Les cibles qui peuvent être affectées par le sort sont toutes celles qui sont en mesure de voir la danse ou le mouvement du corps pendant toute sa durée mais le nombre exact de cibles affectées dépend directement du nombre de points de Mana dépensés (consultez la description de chaque sort).</p> <p>Cette forme d'art peut être associée aux sortilèges suivants : Apaisement, Combativité, Courage, Repos, Séduction.</p>",
+              "deletionDisabled": false
+            },
+            {
+              "deleted": false,
+              "predefinedIdx": 6,
+              "name": "Dessin",
+              "description": "<p>Pour lancer un sort de ce type, le personnage devra être en mesure de créer un dessin original (ce qui prendra un très court moment, jamais plus de quelques minutes), il lancera le sort juste au moment de terminer l'ouvrage et devra en même temps dépenser 5 points de Mana. En cas de jet raté, le lanceur pourra tenter un nouvel enchantement en dépensant une nouvelle fois les 5 points (le jet à réaliser prend en compte ce nombre de points).</p> <p>On ne peut jeter qu'un seul sortilège sur chaque dessin. Par la suite, le pouvoir magique pourra être déclenché par son porteur en jetant à nouveau le sort et en dépensant normalement les points de Mana adéquats (l'effet et son déclenchement sont simultanés) chaque fois qu'une victime potentielle contemplera le dessin (en cas de litige, c'est toujours la prochaine personne à contempler l'oeuvre qui sera affectée). Un tel objet reste enchanté durant 1d10 heures ou jusqu'à sa destruction totale.</p> <p>Cette forme d'art peut être associée aux sortilèges suivants: Confusion, Rire, Séduction.</p> <p>Il n'existe aucune forme non masquée de ces sorts.</p>",
+              "deletionDisabled": false
+            },
+            {
+              "deleted": false,
+              "predefinedIdx": 7,
+              "name": "Jardinage",
+              "description": "<p>Tous les sortilèges utilisant le jardinage devront être obligatoirement masqués.</p> <p>Chaque sortilège doit être jeté une fois le jardin terminé (ce qui prendra de quelques jours à plusieurs semaines selon sa taille). Cet enchantement dépensera 20 points de Mana par sort. En cas de jet raté, le lanceur pourra tenter un nouvel enchantement en dépensant une nouvelle fois les 20 points (le jet à réaliser prend en compte ce nombre de points). Si le personnage est particulièrement occupé, il pourra se contenter de dessiner les plans et de superviser le travail, ce qui lui prendra dix minutes par jour durant toute la durée des travaux, Il laissera à des ouvriers le soin de s'occuper des tâches laborieuses et pénibles. On peut sans aucun problème lancer plusieurs sorts différents en utilisant le même masque (et sans que cela ne prenne plus d'un de plus par sort, ce qui est ridicule vu le temps é à créer l'ouvrage). Les sortilèges placés dans un endroit le sont jusqu'à la mort de l'individu qui les a ou jusqu'à ce que les plantes du jardin soient détruites (il faut noter que durant les mois où les plantes ne sont plus aussi vivaces, c'est-à-dire d'octobre à mars, le sort est toujours présent de façon latente mais ne peut être jeté). De plus, un entretien hebdomadaire de six heures devra être consacré au jardin, sous peine de voir le sort disparaître en même temps que les premières mauvaises herbes apparaîtront (cet entretien peut être réalisé par un jardinier tout à fait normal). Tous les êtres vivants d'au moins la taille d'un gros chien qui pénétreront ensuite dans le jardin pourront être victimes du sort en question si lanceur s'y trouve lui aussi et dépense les points Mana nécessaires. Alternativement, il peut, s'il ne se trouve pas dans le jardin, faire fonctionner le sort mais payant alors un nombre de points de Mana cinq fois supérieur. Bien que le principe même du sort prévienne à tout moment de l'arrivée et du départ des êtres vivants dans le jardin, le jeteur ne sera prévenu ni du type de créature ni de sa puissance.</p> <p>Cette forme d'art peut être associée aux sortilèges suivants: Confusion, Paralysie, Piège, Protection, Vitesse.</p>",
+              "deletionDisabled": false
+            },
+            {
+              "deleted": false,
+              "predefinedIdx": 8,
+              "name": "Joaillerie",
+              "description": "<p>Pour lancer un sort de ce type, le personnage devra être en mesure de créer un bijou original (ce qui prendra un certain nombre de jours, voire de semaines). Il lancera le sort juste au moment de terminer l'ouvrage et devra en même temps dépenser 10 points de Mana.</p> <p>En cas de jet raté, le lanceur pourra tenter un nouvel enchantement en dépensant une nouvelle fois les 10 points (le jet à réaliser prend en compte ce nombre de points). On ne peut jeter qu'un seul sortilège sur chaque bijou. Par la suite, le pouvoir magique pourra être déclenché par son porteur en jetant à nouveau le sort et en dépensant normalement les points de Mana adéquats (l'effet et on déclenchement sont simultanés). La victime sera obligatoirement celle qui touche le bijou au moment où le sort est jeté. Un tel objet reste enchanté durant 1d10 ans ou jusqu'à sa destruction totale.</p> <p>Cette forme d'art peut être associée aux sortilèges suivants : Bénédiction, Crémation, Malédiction, Séduction, Télékinésie.</p> <p>Il n'existe aucune forme non masquée de ces sorts.</p>",
+              "deletionDisabled": false
+            },
+            {
+              "deleted": false,
+              "predefinedIdx": 9,
+              "name": "Littérature",
+              "description": "<p>Pour lancer un sort de ce type, le personnage devra être en mesure de créer une oeuvre originale (ce qui prendra un certain nombre de semaines, voire de mois). Il lancera le sort juste au moment de terminer l'ouvrage et devra en même temps dépenser 10 points de Mana. En cas de jet raté, le lanceur pourra tenter un nouvel enchantement en dépensant une nouvelle fois les 10 points (le jet à réaliser prend en compte ce nombre de points). On ne peut jeter qu'un seul sortilège sur chaque oeuvre. Par la suite, le pouvoir magique pourra être déclenché par son porteur en jetant à nouveau le sort et en dépensant normalement les points de Mana adéquats (l'effet et son déclenchement sont simultanés). La victime sera obligatoirement la prochaine personne qui lira l'oeuvre dans son ensemble. Un tel objet reste enchanté durant 1d10 ans ou jusqu'à sa destruction totale (s'il est recopié sans jeter le sort à nouveau, la nouvelle version sera dépourvue de tout pouvoir magique).</p> <p>Cette forme d'art peut être associée aux sortilèges suivants: Apaisement, Cauchemar, Combativité, Couardise, Confusion, Rire, Sommeil.</p> <p>Il n'existe aucune forme non masquée de ces sorts.</p>",
+              "deletionDisabled": false
+            },
+            {
+              "deleted": false,
+              "predefinedIdx": 10,
+              "name": "Maquillage",
+              "description": "<p>Cette forme d'art est très proche du tatouage, à deux exceptions près. Le coût de l'enchantement dépend uniquement du sort lancé et les effets ne sont pas permanents. A moins que le maquillage ne soit enlevé préalablement, les effets magiques s'estompent au bout de 24 heures.</p> <p>Cette forme d'art peut être associée aux sortilèges suivants: Armure, Puissance, Souplesse.</p> <p>On ne peut porter plus d'un maquillage magique en même temps.</p>",
+              "deletionDisabled": false
+            },
+            {
+              "deleted": false,
+              "predefinedIdx": 11,
+              "name": "Mime",
+              "description": "<p>Cette forme d'art est très proche de la danse, à deux exceptions près. Il n'en existe aucune forme non masquée et la durée du mime n'est que d'une minute quel que soit le nombre de points de Mana dépensés.</p> <p>Cette forme d'art peut être associée aux sortilèges suivants: Apaisement, Couardise, Repos, Rire, Séduction.</p>",
+              "deletionDisabled": false
+            },
+            {
+              "deleted": false,
+              "predefinedIdx": 12,
+              "name": "Musique",
+              "description": "<p>Cette forme d'art est très proche du chant, à ceci près qu'il n'en existe aucune forme non masquée et que la portée est souvent bien plus grande (surtout si la musique en question est réalisée à l'aide d'un instrument relié à un amplificateur).</p> <p>Cette forme d'art peut être associée aux sortilèges suivants: Apaisement, Cauchemar, Combativité, Courage, Météorologie, Repos, Séduction.</p>",
+              "deletionDisabled": false
+            },
+            {
+              "deleted": false,
+              "predefinedIdx": 13,
+              "name": "Origami",
+              "description": "<p>Cette forme d'art permet au personnage qui l'utilise de créer un petit objet en papier plié et de lui affecter un pouvoir magique. Il n'existe aucune forme non masquée de cette pratique et la construction de l'objet prend quelques minutes. Il lancera le sort juste au moment de terminer l'ouvrage et devra en même temps dépenser 2 points de Mana. En cas de jet raté, le lanceur pourra tenter un nouvel enchantement en dépensant une nouvelle fois les 2 points (le jet à réaliser prend en compte ce nombre de points). Ensuite, il pourra déclencher l'effet désiré à n'importe quel moment en jetant le sort à nouveau et en dépensant cette fois les points nécessaires selon le type de sort. L'objet perd ses pouvoirs magiques au bout de 1d10 heures, dès qu'il est détruit, dès que le jeteur de sort meurt ou dès que le sortilège est déclenché. Le principal défaut de cette pratique est que le sort n'affectera que l'individu qui le touche au moment où le sort est déclenché.</p> <p>Cette forme d'art peut être associée aux sortilèges suivants: Bénédiction, Crémation, Malédiction.</p>",
+              "deletionDisabled": false
+            },
+            {
+              "deleted": false,
+              "predefinedIdx": 14,
+              "name": "Parfumerie",
+              "description": "<p>Cette forme d'art doit être associée à un parfum spécifique. Le magicien lancera le sort sur le flacon, l'atomiseur, ou plus simplement le parfum lui-même (jamais plus de 20 centilitres) et devra en même temps dépenser 2 points de Mana. En cas de jet raté, le lanceur pourra tenter un nouvel enchantement en dépensant une nouvelle fois les 2 points (le jet à réaliser prend en compte ce nombre de points). Il devra ensuite (presque simultanément) lancer normalement le sort comme s'il voulait affecter une seule victime. La prochaine personne qui se parfumera à l'aide du flacon ainsi enchanté sera affectée par le sort. La version non masquée de ce sort permet d'affecter toute personne touchée par le magicien. Si le flacon n'est pas ouvert rapidement, il reste enchanté jusqu'à ce qu'il soit détruit, que le magicien meurt ou que le sort soit déclenché.</p> <p>Cette forme d'art peut être associée aux sortilèges suivants: Empoisonnement, Maladie, Sommeil, Vaccin.</p> <p>Le parfum doit avoir été conçu par le personnage qui lance le sort, même si sa fabrication industrielle peut être confiée à une tierce personne.</p>",
+              "deletionDisabled": false
+            },
+            {
+              "deleted": false,
+              "predefinedIdx": 15,
+              "name": "Peinture",
+              "description": "<p>Très similaire au dessin, la peinture permet de jeter des sorts de la même façon avec cependant les exceptions importantes suivantes: la durée de création de l'oeuvre sera beaucoup plus importante, se comptant en jours plus qu'en minutes, le coût de lancement sera de 10 points et l'oeuvre sera enchantée de façon permanente.</p> <p>Cette forme d'art peut être associée aux sortilèges suivants: Apaisement, Cauchemar, Confusion, Repos.</p>",
+              "deletionDisabled": false
+            },
+            {
+              "deleted": false,
+              "predefinedIdx": 16,
+              "name": "Poésie",
+              "description": "<p>Cette forme d'art est très proche de la littérature avec cependant une exception marquante : il existe une version non masquée de cette pratique qui consiste à lancer le sort en récitant une courte partie du poème en question. Cela prend 1d10 tours et permet ainsi d'affecter plus rapidement une éventuelle cible.</p> <p>Cette forme d'art peut être associée aux sortilèges suivants: Cauchemar, Couardise, Séduction, Télépathie.</p>",
+              "deletionDisabled": false
+            },
+            {
+              "deleted": false,
+              "predefinedIdx": 17,
+              "name": "Sculpture",
+              "description": "<p>Cette pratique est relativement proche de l'origami dans son principe de base mais est cependant différente sur de nombreux points: le coût de l'enchantement est de 10 points et est permanent. Un même objet peut donc servir à jeter le même sort sur des personnes différentes et ce tant que l'objet n'est pas détruit ou que le magicien n'est pas mort.</p> <p>Cette forme d'art peut être associée aux sortilèges suivants: Bénédiction, Crémation, Malédiction, Télékinésie.</p>",
+              "deletionDisabled": false
+            },
+            {
+              "deleted": false,
+              "predefinedIdx": 18,
+              "name": "Tatouage",
+              "description": "<p>Cette forme d'art permet au lanceur de sort de créer un dessin sur son corps ou sur celui d'un autre être vivant et d'y associer un rituel magique. Ce rituel coûtera 10 point de Mana en plus du sort lui-même. En cas de jet raté, le lanceur pourra tenter un nouvel enchantement en dépensant une nouvelle fois les points (le jet à réaliser prend en compte ce nombre de points). Une fois cela réussi, il ne reste plus qu'à jeter immédiatement un sort ayant un rapport avec l'oeuvre réalisée. Les effets de ces sorts sont permanents et n'affectent que le porteur du tatouage. Un être humain ne peut porter plus de trois tatouages magiques.</p> <p>Cette forme d'art peut être associée aux sortilèges suivants: Armure, Puissance, Souplesse. La réalisation du tatouage prendra quelques heures tout au plus.</p>",
+              "deletionDisabled": false
+            },
+            {
+              "deleted": false,
+              "predefinedIdx": 19,
+              "name": "Théâtre",
+              "description": "<p>Cette forme d'art est très proche de la danse à deux exceptions importantes près: la durée de la prestation doit être égale aux nombres de points dépensés fois dix minutes et le nombre de cibles affectées sera doublé par rapport aux points de Mana dépensés. La forme non masquée de cet art est la même que la danse, à ceci près qu'elle n'affecte qu'une seule cible au grand maximum et que le jeteur doit être en mesure de se déplacer et de prononcer une courte phrase pour jeter son sortilège.</p> <p>Cette forme d'art peut être associée aux sortilèges suivants: Confusion, Rire, Séduction. Les cibles affectées devront être en mesure de voir et d'entendre le jeteur du sort.</p>",
+              "deletionDisabled": false
+            }
+          ],
+          "canPlayerAdd": false,
+          "type": "dynamicTable"
+        }
+      ],
+      "key": "custom_body",
+      "cssClass": null,
+      "role": 0,
+      "permission": 0,
+      "tooltip": null,
+      "visibilityFormula": null,
+      "flow": null,
+      "align": null,
+      "type": "panel"
+    },
+    "display": {
+      "width": "600",
+      "height": "600",
+      "fix_size": false,
+      "pp_width": "64",
+      "pp_height": "64"
+    },
+    "template": "pUbJMnHnfGOeDy85",
+    "props": {
+      "name": "Sommeil (cuisine, littérature, parfumerie, peinture)",
+      "arts": {
+        "0": {
+          "deleted": false,
+          "predefinedIdx": 0,
+          "name": "Architecture",
+          "description": "<p>Tous les sortilèges utilisant l'architecture devront être obligatoirement masqués.</p> <p>Chaque sortilège doit être jeté une fois l'ouvrage terminé (ce qui prendra de quelques jours à plusieurs années selon sa taille). Cet enchantement dépensera 50 points de Mana par sort. En cas de jet raté, le lanceur pourra tenter un nouvel enchantement en dépensant une nouvelle fois les 50 points (le jet à réaliser prend en compte ce nombre de points).</p> <p>Si le personnage est particulièrement occupé, il pourra se contenter de dessiner les plans et de superviser le travail, ce qui lui prendra une heure par jour durant toute la durée des travaux. Il laissera à des ouvriers le soin de s'occuper des tâches laborieuses et pénibles. On peut sans aucun problème lancer plusieurs sorts différents en utilisant le même masque (et sans que cela ne prenne plus d'un tour de plus par sort, ce qui est ridicule vu le temps passé à créer l'ouvrage). Il devra à chaque fois réussir un jet d'enchantement.</p> <p>Les sortilèges placés dans un tel édifice le sont jusqu'à la mort de l'individu qui les a jetés ou jusqu'à ce que le bâtiment soit détruit totalement.</p> <p>Tous les êtres vivants d'au moins la taille d'un gros chien qui pénétreront ensuite dans l'édifice pourront être victimes du sort en question si le lanceur s'y trouve lui aussi et dépense les points de Mana nécessaires (et réussit un nouveau jet).</p> <p>Alternativement, il peut, s'il ne se trouve pas dans le bâtiment, faire fonctionner le sort mais en payant alors un nombre de points de Mana dix fois supérieur. Bien que le principe même du sort prévienne à tout moment de l'arrivée et du départ des êtres vivants dans l'édifice, le jeteur ne sera prévenu ni du type de créature, ni de sa puissance.</p> <p>Cette forme d'art peut être associée aux sortilèges suivants: Confusion, Paralysie, Piège, Protection et Vitesse.</p>",
+          "deletionDisabled": false
+        },
+        "1": {
+          "deleted": false,
+          "predefinedIdx": 1,
+          "name": "Chant",
+          "description": "<p>Pour que le sort associé à cette forme d'art produise son effet, le personnage devra chanter une chanson appropriée au type d'effet recherché et ce, pendant un nombre de minutes égal aux nombres de points de Mana dépensés.</p> <p>En version non camouflée, ces sorts peuvent être jetés en un tour, à la seule condition que le magicien puisse prononcer une courte phrase.</p> <p>Les cibles qui peuvent être affectées par le sort sont toutes celles qui sont en mesure d'entendre le chant ou la phrase pendant toute sa durée mais le nombre exact de cibles affectées dépend directement du nombre de points de Mana dépensés (consultez la description de chaque sort).</p> <p>Cette forme d'art peut être associée aux sortilèges suivants: Apaisement, Combativité, Courage, Météorologie, Repos, Séduction, Télépathie.</p>",
+          "deletionDisabled": false
+        },
+        "2": {
+          "deleted": false,
+          "predefinedIdx": 2,
+          "name": "Cinéma",
+          "description": "<p>Pour que le sort associé à cette forme d'art produise son effet, la ou les cibles doivent pouvoir contempler un film dont le thème est approprié au type d'effet recherché et ce, pendant un nombre de minutes égal aux nombres de points de Mana dépensés fois dix. Il n'existe pas de version non masquée de ces sorts. Les cibles qui peuvent être affectées par le sort sont toutes celles qui sont en mesure de voir le film pendant toute sa durée mais le nombre exact de cibles affectées dépend directement du nombre de points de Mana dépensés (consultez la description de chaque sort).</p> <p>Cette forme d' art peut être associée aux sortilèges suivants: Apaisement, Combativité, Couardise, Courage, Repos, Rire.</p> <p>Le scénario du film projeté devra avoir été écrit par le personnage qui lance le sort, sa réalisation pouvant être confiée à une ou plusieurs autres personnes.</p>",
+          "deletionDisabled": false
+        },
+        "3": {
+          "deleted": false,
+          "predefinedIdx": 3,
+          "name": "Couture",
+          "description": "<p>Pour lancer un sort de ce type, le personnage devra être en mesure de créer une pièce de vêtement originale (ce qui prendra un certain nombre de jours). Il lancera le sort juste au moment de terminer l'ouvrage et devra en même temps dépenser 5 points de Mana supplémentaires. En cas de jet raté, le lanceur pourra tenter un nouvel enchantement en dépensant une nouvelle fois le total des points (le jet à réaliser prend en compte ce nombre de points). On ne peut jeter qu'un seul sortilège sur chaque pièce de vêtement. Par la suite, le pouvoir magique pourra être déclenché par son porteur (qui doit obligatoirement être celui qui a conçu l'objet) en jetant à nouveau le sort et en dépensant normalement les points de Mana adéquats (l'effet et son déclenchement sont simultanés). Un tel objet reste enchanté durant 1d10 mois ou jusqu'à sa destruction totale.</p> <p>Cette forme d'art peut être associée avec les sortilèges suivants: Armure, Camouflage, Invisibilité, Puissance, Séduction, Souplesse.</p> <p>Il n'existe aucune forme non masquée de ces sorts.</p>",
+          "deletionDisabled": false
+        },
+        "4": {
+          "deleted": false,
+          "predefinedIdx": 4,
+          "name": "Cuisine",
+          "description": "<p>Pour lancer un sort de ce type, le personnage doit faire absorber à la victime un mets quelconque (ou une boisson) qu'il vient de préparer et réussir son sort en même temps (les chances de base seront égales à 4). Les effets sont perceptibles dès que la victime a absorbé une quantité suffisante du produit (généralement une cinquantaine de grammes ou un décilitre). Si plusieurs personnes mangent du même plat, les effets peuvent être déclenchés sur toutes, à la condition que le magicien dépense les points de Mana pour chaque victime. Ces sorts peuvent être lancés sans masque à condition que le lanceur puisse toucher sa cible (dans ce cas, les effets sont perceptibles 1d10 tours après). Le plat garde ses propriétés magiques durant 1d10 heures.</p> <p>Cette forme d'art peut être associée aux sortilèges suivants: Antidote, Empoisonnement, Guérison, Longévité, Maladie, Sommeil, Vaccin.</p>",
+          "deletionDisabled": false
+        },
+        "5": {
+          "deleted": false,
+          "predefinedIdx": 5,
+          "name": "Danse",
+          "description": "<p>Pour lancer un sort de ce type, le lanceur devra être en mesure de réaliser quelques pas d'une danse dont le thème sera en accord avec le sort lancé et ce, pendant un nombre de minutes égal au nombre de points de Mana dépensés. La version non camouflée de ces sorts permet de les lancer avec un simple mouvement de la part du lanceur. Les cibles qui peuvent être affectées par le sort sont toutes celles qui sont en mesure de voir la danse ou le mouvement du corps pendant toute sa durée mais le nombre exact de cibles affectées dépend directement du nombre de points de Mana dépensés (consultez la description de chaque sort).</p> <p>Cette forme d'art peut être associée aux sortilèges suivants : Apaisement, Combativité, Courage, Repos, Séduction.</p>",
+          "deletionDisabled": false
+        },
+        "6": {
+          "deleted": false,
+          "predefinedIdx": 6,
+          "name": "Dessin",
+          "description": "<p>Pour lancer un sort de ce type, le personnage devra être en mesure de créer un dessin original (ce qui prendra un très court moment, jamais plus de quelques minutes), il lancera le sort juste au moment de terminer l'ouvrage et devra en même temps dépenser 5 points de Mana. En cas de jet raté, le lanceur pourra tenter un nouvel enchantement en dépensant une nouvelle fois les 5 points (le jet à réaliser prend en compte ce nombre de points).</p> <p>On ne peut jeter qu'un seul sortilège sur chaque dessin. Par la suite, le pouvoir magique pourra être déclenché par son porteur en jetant à nouveau le sort et en dépensant normalement les points de Mana adéquats (l'effet et son déclenchement sont simultanés) chaque fois qu'une victime potentielle contemplera le dessin (en cas de litige, c'est toujours la prochaine personne à contempler l'oeuvre qui sera affectée). Un tel objet reste enchanté durant 1d10 heures ou jusqu'à sa destruction totale.</p> <p>Cette forme d'art peut être associée aux sortilèges suivants: Confusion, Rire, Séduction.</p> <p>Il n'existe aucune forme non masquée de ces sorts.</p>",
+          "deletionDisabled": false
+        },
+        "7": {
+          "deleted": false,
+          "predefinedIdx": 7,
+          "name": "Jardinage",
+          "description": "<p>Tous les sortilèges utilisant le jardinage devront être obligatoirement masqués.</p> <p>Chaque sortilège doit être jeté une fois le jardin terminé (ce qui prendra de quelques jours à plusieurs semaines selon sa taille). Cet enchantement dépensera 20 points de Mana par sort. En cas de jet raté, le lanceur pourra tenter un nouvel enchantement en dépensant une nouvelle fois les 20 points (le jet à réaliser prend en compte ce nombre de points). Si le personnage est particulièrement occupé, il pourra se contenter de dessiner les plans et de superviser le travail, ce qui lui prendra dix minutes par jour durant toute la durée des travaux, Il laissera à des ouvriers le soin de s'occuper des tâches laborieuses et pénibles. On peut sans aucun problème lancer plusieurs sorts différents en utilisant le même masque (et sans que cela ne prenne plus d'un de plus par sort, ce qui est ridicule vu le temps é à créer l'ouvrage). Les sortilèges placés dans un endroit le sont jusqu'à la mort de l'individu qui les a ou jusqu'à ce que les plantes du jardin soient détruites (il faut noter que durant les mois où les plantes ne sont plus aussi vivaces, c'est-à-dire d'octobre à mars, le sort est toujours présent de façon latente mais ne peut être jeté). De plus, un entretien hebdomadaire de six heures devra être consacré au jardin, sous peine de voir le sort disparaître en même temps que les premières mauvaises herbes apparaîtront (cet entretien peut être réalisé par un jardinier tout à fait normal). Tous les êtres vivants d'au moins la taille d'un gros chien qui pénétreront ensuite dans le jardin pourront être victimes du sort en question si lanceur s'y trouve lui aussi et dépense les points Mana nécessaires. Alternativement, il peut, s'il ne se trouve pas dans le jardin, faire fonctionner le sort mais payant alors un nombre de points de Mana cinq fois supérieur. Bien que le principe même du sort prévienne à tout moment de l'arrivée et du départ des êtres vivants dans le jardin, le jeteur ne sera prévenu ni du type de créature ni de sa puissance.</p> <p>Cette forme d'art peut être associée aux sortilèges suivants: Confusion, Paralysie, Piège, Protection, Vitesse.</p>",
+          "deletionDisabled": false
+        },
+        "8": {
+          "deleted": false,
+          "predefinedIdx": 8,
+          "name": "Joaillerie",
+          "description": "<p>Pour lancer un sort de ce type, le personnage devra être en mesure de créer un bijou original (ce qui prendra un certain nombre de jours, voire de semaines). Il lancera le sort juste au moment de terminer l'ouvrage et devra en même temps dépenser 10 points de Mana.</p> <p>En cas de jet raté, le lanceur pourra tenter un nouvel enchantement en dépensant une nouvelle fois les 10 points (le jet à réaliser prend en compte ce nombre de points). On ne peut jeter qu'un seul sortilège sur chaque bijou. Par la suite, le pouvoir magique pourra être déclenché par son porteur en jetant à nouveau le sort et en dépensant normalement les points de Mana adéquats (l'effet et on déclenchement sont simultanés). La victime sera obligatoirement celle qui touche le bijou au moment où le sort est jeté. Un tel objet reste enchanté durant 1d10 ans ou jusqu'à sa destruction totale.</p> <p>Cette forme d'art peut être associée aux sortilèges suivants : Bénédiction, Crémation, Malédiction, Séduction, Télékinésie.</p> <p>Il n'existe aucune forme non masquée de ces sorts.</p>",
+          "deletionDisabled": false
+        },
+        "9": {
+          "deleted": false,
+          "predefinedIdx": 9,
+          "name": "Littérature",
+          "description": "<p>Pour lancer un sort de ce type, le personnage devra être en mesure de créer une oeuvre originale (ce qui prendra un certain nombre de semaines, voire de mois). Il lancera le sort juste au moment de terminer l'ouvrage et devra en même temps dépenser 10 points de Mana. En cas de jet raté, le lanceur pourra tenter un nouvel enchantement en dépensant une nouvelle fois les 10 points (le jet à réaliser prend en compte ce nombre de points). On ne peut jeter qu'un seul sortilège sur chaque oeuvre. Par la suite, le pouvoir magique pourra être déclenché par son porteur en jetant à nouveau le sort et en dépensant normalement les points de Mana adéquats (l'effet et son déclenchement sont simultanés). La victime sera obligatoirement la prochaine personne qui lira l'oeuvre dans son ensemble. Un tel objet reste enchanté durant 1d10 ans ou jusqu'à sa destruction totale (s'il est recopié sans jeter le sort à nouveau, la nouvelle version sera dépourvue de tout pouvoir magique).</p> <p>Cette forme d'art peut être associée aux sortilèges suivants: Apaisement, Cauchemar, Combativité, Couardise, Confusion, Rire, Sommeil.</p> <p>Il n'existe aucune forme non masquée de ces sorts.</p>",
+          "deletionDisabled": false
+        },
+        "10": {
+          "deleted": false,
+          "predefinedIdx": 10,
+          "name": "Maquillage",
+          "description": "<p>Cette forme d'art est très proche du tatouage, à deux exceptions près. Le coût de l'enchantement dépend uniquement du sort lancé et les effets ne sont pas permanents. A moins que le maquillage ne soit enlevé préalablement, les effets magiques s'estompent au bout de 24 heures.</p> <p>Cette forme d'art peut être associée aux sortilèges suivants: Armure, Puissance, Souplesse.</p> <p>On ne peut porter plus d'un maquillage magique en même temps.</p>",
+          "deletionDisabled": false
+        },
+        "11": {
+          "deleted": false,
+          "predefinedIdx": 11,
+          "name": "Mime",
+          "description": "<p>Cette forme d'art est très proche de la danse, à deux exceptions près. Il n'en existe aucune forme non masquée et la durée du mime n'est que d'une minute quel que soit le nombre de points de Mana dépensés.</p> <p>Cette forme d'art peut être associée aux sortilèges suivants: Apaisement, Couardise, Repos, Rire, Séduction.</p>",
+          "deletionDisabled": false
+        },
+        "12": {
+          "deleted": false,
+          "predefinedIdx": 12,
+          "name": "Musique",
+          "description": "<p>Cette forme d'art est très proche du chant, à ceci près qu'il n'en existe aucune forme non masquée et que la portée est souvent bien plus grande (surtout si la musique en question est réalisée à l'aide d'un instrument relié à un amplificateur).</p> <p>Cette forme d'art peut être associée aux sortilèges suivants: Apaisement, Cauchemar, Combativité, Courage, Météorologie, Repos, Séduction.</p>",
+          "deletionDisabled": false
+        },
+        "13": {
+          "deleted": false,
+          "predefinedIdx": 13,
+          "name": "Origami",
+          "description": "<p>Cette forme d'art permet au personnage qui l'utilise de créer un petit objet en papier plié et de lui affecter un pouvoir magique. Il n'existe aucune forme non masquée de cette pratique et la construction de l'objet prend quelques minutes. Il lancera le sort juste au moment de terminer l'ouvrage et devra en même temps dépenser 2 points de Mana. En cas de jet raté, le lanceur pourra tenter un nouvel enchantement en dépensant une nouvelle fois les 2 points (le jet à réaliser prend en compte ce nombre de points). Ensuite, il pourra déclencher l'effet désiré à n'importe quel moment en jetant le sort à nouveau et en dépensant cette fois les points nécessaires selon le type de sort. L'objet perd ses pouvoirs magiques au bout de 1d10 heures, dès qu'il est détruit, dès que le jeteur de sort meurt ou dès que le sortilège est déclenché. Le principal défaut de cette pratique est que le sort n'affectera que l'individu qui le touche au moment où le sort est déclenché.</p> <p>Cette forme d'art peut être associée aux sortilèges suivants: Bénédiction, Crémation, Malédiction.</p>",
+          "deletionDisabled": false
+        },
+        "14": {
+          "deleted": false,
+          "predefinedIdx": 14,
+          "name": "Parfumerie",
+          "description": "<p>Cette forme d'art doit être associée à un parfum spécifique. Le magicien lancera le sort sur le flacon, l'atomiseur, ou plus simplement le parfum lui-même (jamais plus de 20 centilitres) et devra en même temps dépenser 2 points de Mana. En cas de jet raté, le lanceur pourra tenter un nouvel enchantement en dépensant une nouvelle fois les 2 points (le jet à réaliser prend en compte ce nombre de points). Il devra ensuite (presque simultanément) lancer normalement le sort comme s'il voulait affecter une seule victime. La prochaine personne qui se parfumera à l'aide du flacon ainsi enchanté sera affectée par le sort. La version non masquée de ce sort permet d'affecter toute personne touchée par le magicien. Si le flacon n'est pas ouvert rapidement, il reste enchanté jusqu'à ce qu'il soit détruit, que le magicien meurt ou que le sort soit déclenché.</p> <p>Cette forme d'art peut être associée aux sortilèges suivants: Empoisonnement, Maladie, Sommeil, Vaccin.</p> <p>Le parfum doit avoir été conçu par le personnage qui lance le sort, même si sa fabrication industrielle peut être confiée à une tierce personne.</p>",
+          "deletionDisabled": false
+        },
+        "15": {
+          "deleted": false,
+          "predefinedIdx": 15,
+          "name": "Peinture",
+          "description": "<p>Très similaire au dessin, la peinture permet de jeter des sorts de la même façon avec cependant les exceptions importantes suivantes: la durée de création de l'oeuvre sera beaucoup plus importante, se comptant en jours plus qu'en minutes, le coût de lancement sera de 10 points et l'oeuvre sera enchantée de façon permanente.</p> <p>Cette forme d'art peut être associée aux sortilèges suivants: Apaisement, Cauchemar, Confusion, Repos.</p>",
+          "deletionDisabled": false
+        },
+        "16": {
+          "deleted": false,
+          "predefinedIdx": 16,
+          "name": "Poésie",
+          "description": "<p>Cette forme d'art est très proche de la littérature avec cependant une exception marquante : il existe une version non masquée de cette pratique qui consiste à lancer le sort en récitant une courte partie du poème en question. Cela prend 1d10 tours et permet ainsi d'affecter plus rapidement une éventuelle cible.</p> <p>Cette forme d'art peut être associée aux sortilèges suivants: Cauchemar, Couardise, Séduction, Télépathie.</p>",
+          "deletionDisabled": false
+        },
+        "17": {
+          "deleted": false,
+          "predefinedIdx": 17,
+          "name": "Sculpture",
+          "description": "<p>Cette pratique est relativement proche de l'origami dans son principe de base mais est cependant différente sur de nombreux points: le coût de l'enchantement est de 10 points et est permanent. Un même objet peut donc servir à jeter le même sort sur des personnes différentes et ce tant que l'objet n'est pas détruit ou que le magicien n'est pas mort.</p> <p>Cette forme d'art peut être associée aux sortilèges suivants: Bénédiction, Crémation, Malédiction, Télékinésie.</p>",
+          "deletionDisabled": false
+        },
+        "18": {
+          "deleted": false,
+          "predefinedIdx": 18,
+          "name": "Tatouage",
+          "description": "<p>Cette forme d'art permet au lanceur de sort de créer un dessin sur son corps ou sur celui d'un autre être vivant et d'y associer un rituel magique. Ce rituel coûtera 10 point de Mana en plus du sort lui-même. En cas de jet raté, le lanceur pourra tenter un nouvel enchantement en dépensant une nouvelle fois les points (le jet à réaliser prend en compte ce nombre de points). Une fois cela réussi, il ne reste plus qu'à jeter immédiatement un sort ayant un rapport avec l'oeuvre réalisée. Les effets de ces sorts sont permanents et n'affectent que le porteur du tatouage. Un être humain ne peut porter plus de trois tatouages magiques.</p> <p>Cette forme d'art peut être associée aux sortilèges suivants: Armure, Puissance, Souplesse. La réalisation du tatouage prendra quelques heures tout au plus.</p>",
+          "deletionDisabled": false
+        },
+        "19": {
+          "deleted": false,
+          "predefinedIdx": 19,
+          "name": "Théâtre",
+          "description": "<p>Cette forme d'art est très proche de la danse à deux exceptions importantes près: la durée de la prestation doit être égale aux nombres de points dépensés fois dix minutes et le nombre de cibles affectées sera doublé par rapport aux points de Mana dépensés. La forme non masquée de cet art est la même que la danse, à ceci près qu'elle n'affecte qu'une seule cible au grand maximum et que le jeteur doit être en mesure de se déplacer et de prononcer une courte phrase pour jeter son sortilège.</p> <p>Cette forme d'art peut être associée aux sortilèges suivants: Confusion, Rire, Séduction. Les cibles affectées devront être en mesure de voir et d'entendre le jeteur du sort.</p>",
+          "deletionDisabled": false
+        }
+      },
+      "level": "1",
+      "art": "",
+      "xp": "0",
+      "detailArt": "",
+      "description": "<p>Une victime de ce sort tombe dans un profond sommeil pendant 1d10 heures. Elle pourra n&eacute;anmoins &ecirc;tre r&eacute;veill&eacute;e si elle est secou&eacute;e, bless&eacute;e ou si elle est d&eacute;rang&eacute;e par des bruits trop importants.</p>\n<p>Ce sort co&ucirc;te 4 points de Mana par victime.</p>"
+    },
+    "modifiers": [],
+    "unique": false,
+    "templateSystemUniqueVersion": 3904953487
+  },
+  "effects": [],
+  "flags": {
+    "custom-system-builder": {
+      "version": "3.0.0"
+    }
+  },
+  "_stats": {
+    "systemId": "custom-system-builder",
+    "systemVersion": "3.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1704662861879,
+    "modifiedTime": 1705406777783,
+    "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+  },
+  "_id": "MiFlvd0aLgP3te3t",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "r9x0pKEz3JGSJSrG": 3
+  },
+  "_key": "!items!MiFlvd0aLgP3te3t"
+}

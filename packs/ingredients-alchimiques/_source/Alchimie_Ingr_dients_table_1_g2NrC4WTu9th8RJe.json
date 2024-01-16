@@ -1,0 +1,198 @@
+{
+  "folder": null,
+  "name": "Alchimie-Ingrédients-table 1",
+  "img": "icons/svg/book.svg",
+  "description": "",
+  "results": [
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "_id": "53MLZyDI3tnMBTgf",
+      "text": "Une composante mineure",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/book.svg",
+      "_key": "!tables.results!g2NrC4WTu9th8RJe.53MLZyDI3tnMBTgf"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "_id": "G0NOmonAxy656Gbn",
+      "text": "Deux composantes mineures",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/book.svg",
+      "_key": "!tables.results!g2NrC4WTu9th8RJe.G0NOmonAxy656Gbn"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "_id": "mY905Ar9SSjcmjSS",
+      "text": "Une composante majeure",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/book.svg",
+      "_key": "!tables.results!g2NrC4WTu9th8RJe.mY905Ar9SSjcmjSS"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "_id": "ooo8hV3nVqeTZ0Hu",
+      "text": "Deux composantes majeures",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/book.svg",
+      "_key": "!tables.results!g2NrC4WTu9th8RJe.ooo8hV3nVqeTZ0Hu"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        9,
+        10
+      ],
+      "drawn": false,
+      "_id": "mQHDN6n2bFQcCSpK",
+      "text": "Si la formule ne date pas du douzième siècle, un composant important a été oublié et la puissance effective du sort est réduite de 1 point (en plus des malus normaux au jet de dosage).<br />Si la formule est originale, aucune composante n’est nécessaire.",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/book.svg",
+      "_key": "!tables.results!g2NrC4WTu9th8RJe.mQHDN6n2bFQcCSpK"
+    },
+    {
+      "type": 1,
+      "documentCollection": "RollTable",
+      "weight": 2,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "text": "Alchimie-Table des composantes mineures",
+      "documentId": "ZkMXjdbI75As0reL",
+      "img": "icons/svg/poison.svg",
+      "_id": "d6K0q99OuTCVgi82",
+      "flags": {},
+      "_key": "!tables.results!g2NrC4WTu9th8RJe.d6K0q99OuTCVgi82"
+    },
+    {
+      "type": 1,
+      "documentCollection": "RollTable",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "text": "Alchimie-Table des composantes mineures",
+      "documentId": "ZkMXjdbI75As0reL",
+      "img": "icons/svg/poison.svg",
+      "_id": "yMJI5irpTXLcVXv6",
+      "flags": {},
+      "_key": "!tables.results!g2NrC4WTu9th8RJe.yMJI5irpTXLcVXv6"
+    },
+    {
+      "type": 1,
+      "documentCollection": "RollTable",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "text": "Alchimie-Table des composantes mineures",
+      "documentId": "ZkMXjdbI75As0reL",
+      "img": "icons/svg/poison.svg",
+      "_id": "6d0QVaoI0LJXq85M",
+      "flags": {},
+      "_key": "!tables.results!g2NrC4WTu9th8RJe.6d0QVaoI0LJXq85M"
+    },
+    {
+      "type": 1,
+      "documentCollection": "RollTable",
+      "weight": 2,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "text": "Alchimie-Table des composantes majeures",
+      "documentId": "lHCJ6Ha0Gukg4gep",
+      "img": "icons/svg/poison.svg",
+      "_id": "88Io0mu4hzishylm",
+      "flags": {},
+      "_key": "!tables.results!g2NrC4WTu9th8RJe.88Io0mu4hzishylm"
+    },
+    {
+      "type": 1,
+      "documentCollection": "RollTable",
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "text": "Alchimie-Table des composantes majeures",
+      "documentId": "lHCJ6Ha0Gukg4gep",
+      "img": "icons/svg/poison.svg",
+      "_id": "KlUZS5vdBtAQ7wWW",
+      "flags": {},
+      "_key": "!tables.results!g2NrC4WTu9th8RJe.KlUZS5vdBtAQ7wWW"
+    },
+    {
+      "type": 1,
+      "documentCollection": "RollTable",
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "text": "Alchimie-Table des composantes majeures",
+      "documentId": "lHCJ6Ha0Gukg4gep",
+      "img": "icons/svg/poison.svg",
+      "_id": "K3g6mEEt8y0Rembo",
+      "flags": {},
+      "_key": "!tables.results!g2NrC4WTu9th8RJe.K3g6mEEt8y0Rembo"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "systemId": "custom-system-builder",
+    "systemVersion": "3.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1705089859310,
+    "modifiedTime": 1705410581041,
+    "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+  },
+  "formula": "1d10",
+  "_id": "g2NrC4WTu9th8RJe",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "r9x0pKEz3JGSJSrG": 3
+  },
+  "_key": "!tables!g2NrC4WTu9th8RJe"
+}

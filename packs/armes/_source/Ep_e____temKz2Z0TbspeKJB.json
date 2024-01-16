@@ -1,0 +1,351 @@
+{
+  "name": "Epée ++",
+  "type": "equippableItem",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "hidden": [],
+    "header": {
+      "contents": [],
+      "key": "custom_header",
+      "cssClass": null,
+      "role": 0,
+      "permission": 0,
+      "tooltip": null,
+      "visibilityFormula": null,
+      "flow": null,
+      "align": null,
+      "type": "panel"
+    },
+    "body": {
+      "contents": [
+        {
+          "key": "characteristicsPanel",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "contents": [
+            {
+              "key": "",
+              "cssClass": "",
+              "role": "0",
+              "permission": "0",
+              "tooltip": "",
+              "visibilityFormula": "",
+              "contents": [
+                {
+                  "key": "",
+                  "cssClass": "",
+                  "role": "0",
+                  "permission": "0",
+                  "tooltip": "",
+                  "visibilityFormula": "",
+                  "label": null,
+                  "defaultValue": null,
+                  "size": "full-size",
+                  "icon": "",
+                  "value": "Type",
+                  "prefix": "",
+                  "suffix": "",
+                  "rollMessage": "",
+                  "altRollMessage": "",
+                  "style": "bold",
+                  "type": "label"
+                },
+                {
+                  "key": "combatType",
+                  "cssClass": "",
+                  "role": "0",
+                  "permission": "0",
+                  "tooltip": "Type de l'arme",
+                  "visibilityFormula": "",
+                  "label": "",
+                  "defaultValue": "1",
+                  "size": "full-size",
+                  "options": [
+                    {
+                      "key": "1",
+                      "value": "Corps-à-Corps"
+                    },
+                    {
+                      "key": "2",
+                      "value": "Contact"
+                    },
+                    {
+                      "key": "3",
+                      "value": "Distance"
+                    }
+                  ],
+                  "tableKey": null,
+                  "tableKeyColumn": null,
+                  "tableLabelColumn": null,
+                  "formulaKeyOptions": null,
+                  "formulaLabelOptions": null,
+                  "type": "select"
+                }
+              ],
+              "flow": "horizontal",
+              "align": "center",
+              "type": "panel"
+            },
+            {
+              "key": "",
+              "cssClass": "",
+              "role": "0",
+              "permission": "0",
+              "tooltip": "",
+              "visibilityFormula": "",
+              "contents": [
+                {
+                  "key": "",
+                  "cssClass": "",
+                  "role": "0",
+                  "permission": "0",
+                  "tooltip": "",
+                  "visibilityFormula": "",
+                  "label": null,
+                  "defaultValue": null,
+                  "size": "full-size",
+                  "icon": "",
+                  "value": "Puissance maximale",
+                  "prefix": "",
+                  "suffix": "",
+                  "rollMessage": "",
+                  "altRollMessage": "",
+                  "style": "bold",
+                  "type": "label"
+                },
+                {
+                  "key": "powerfullMax",
+                  "cssClass": "",
+                  "role": "0",
+                  "permission": "0",
+                  "tooltip": "Puissance maximale de l'arme",
+                  "visibilityFormula": "",
+                  "label": "",
+                  "defaultValue": "1",
+                  "size": "full-size",
+                  "options": [
+                    {
+                      "key": "1",
+                      "value": "Faible"
+                    },
+                    {
+                      "key": "2",
+                      "value": "Moyenne"
+                    },
+                    {
+                      "key": "3",
+                      "value": "Importante"
+                    },
+                    {
+                      "key": "4",
+                      "value": "Remarquable"
+                    }
+                  ],
+                  "tableKey": null,
+                  "tableKeyColumn": null,
+                  "tableLabelColumn": null,
+                  "formulaKeyOptions": null,
+                  "formulaLabelOptions": null,
+                  "type": "select"
+                }
+              ],
+              "flow": "horizontal",
+              "align": "center",
+              "type": "panel"
+            },
+            {
+              "key": "",
+              "cssClass": "",
+              "role": "0",
+              "permission": "0",
+              "tooltip": "",
+              "visibilityFormula": "combatType == 3 ? false : true",
+              "contents": [
+                {
+                  "key": "",
+                  "cssClass": "",
+                  "role": "0",
+                  "permission": "0",
+                  "tooltip": "",
+                  "visibilityFormula": "",
+                  "label": null,
+                  "defaultValue": null,
+                  "size": "full-size",
+                  "icon": "",
+                  "value": "Bonus d'attaque",
+                  "prefix": "",
+                  "suffix": "",
+                  "rollMessage": "",
+                  "altRollMessage": "",
+                  "style": "bold",
+                  "type": "label"
+                },
+                {
+                  "key": "attackBonus",
+                  "cssClass": "",
+                  "role": "0",
+                  "permission": "0",
+                  "tooltip": "",
+                  "visibilityFormula": "",
+                  "label": "",
+                  "defaultValue": "0",
+                  "size": "full-size",
+                  "allowDecimal": false,
+                  "minVal": "0",
+                  "maxVal": "",
+                  "allowRelative": false,
+                  "showControls": false,
+                  "controlsStyle": "hover",
+                  "type": "numberField"
+                }
+              ],
+              "flow": "horizontal",
+              "align": "center",
+              "type": "panel"
+            },
+            {
+              "key": "",
+              "cssClass": "",
+              "role": "0",
+              "permission": "0",
+              "tooltip": "",
+              "visibilityFormula": "combatType == 3 ? false : true",
+              "contents": [
+                {
+                  "key": "",
+                  "cssClass": "",
+                  "role": "0",
+                  "permission": "0",
+                  "tooltip": "",
+                  "visibilityFormula": "",
+                  "label": null,
+                  "defaultValue": null,
+                  "size": "full-size",
+                  "icon": "",
+                  "value": "Bonus de dégâts",
+                  "prefix": "",
+                  "suffix": "",
+                  "rollMessage": "",
+                  "altRollMessage": "",
+                  "style": "bold",
+                  "type": "label"
+                },
+                {
+                  "key": "damageBonus",
+                  "cssClass": "",
+                  "role": "0",
+                  "permission": "0",
+                  "tooltip": "",
+                  "visibilityFormula": "",
+                  "label": "",
+                  "defaultValue": "0",
+                  "size": "full-size",
+                  "allowDecimal": false,
+                  "minVal": "0",
+                  "maxVal": "",
+                  "allowRelative": false,
+                  "showControls": false,
+                  "controlsStyle": "hover",
+                  "type": "numberField"
+                }
+              ],
+              "flow": "horizontal",
+              "align": "center",
+              "type": "panel"
+            }
+          ],
+          "flow": "grid-2",
+          "align": "left",
+          "type": "panel"
+        },
+        {
+          "key": "descriptionLabel",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "label": null,
+          "defaultValue": null,
+          "size": "full-size",
+          "icon": "",
+          "value": "Description",
+          "prefix": "",
+          "suffix": "",
+          "rollMessage": "",
+          "altRollMessage": "",
+          "style": "title",
+          "type": "label"
+        },
+        {
+          "key": "description",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "Description de l'arme",
+          "visibilityFormula": "",
+          "label": "",
+          "defaultValue": "",
+          "size": null,
+          "style": "dialog",
+          "type": "textArea"
+        }
+      ],
+      "key": "custom_body",
+      "cssClass": null,
+      "role": 0,
+      "permission": 0,
+      "tooltip": null,
+      "visibilityFormula": null,
+      "flow": null,
+      "align": null,
+      "type": "panel"
+    },
+    "display": {
+      "width": "500",
+      "height": "400",
+      "fix_size": false,
+      "pp_width": "64",
+      "pp_height": "64"
+    },
+    "template": "14jgxwvyYKfEIWkZ",
+    "props": {
+      "name": "Epée ++",
+      "combatType": "2",
+      "powerfullMax": "4",
+      "descriptionLabel": "Description",
+      "attackBonus": "0",
+      "damageBonus": "0",
+      "description": "<p>Action toujours <em>Difficile </em>avec une telle arme</p>"
+    },
+    "modifiers": [],
+    "unique": false,
+    "templateSystemUniqueVersion": 3597308341
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "custom-system-builder": {
+      "version": "3.0.0"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "custom-system-builder",
+    "systemVersion": "3.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1704469193630,
+    "modifiedTime": 1705410384752,
+    "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+  },
+  "_id": "temKz2Z0TbspeKJB",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "r9x0pKEz3JGSJSrG": 3
+  },
+  "_key": "!items!temKz2Z0TbspeKJB"
+}

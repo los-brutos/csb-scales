@@ -1,0 +1,779 @@
+{
+  "folder": null,
+  "name": "Alchimie-Table des composantes majeures",
+  "img": "icons/svg/poison.svg",
+  "description": "",
+  "results": [
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "_id": "8QKqbKu3nzJJJKxM",
+      "text": "Gui",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.8QKqbKu3nzJJJKxM"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "_id": "yGcO0GiyUudMCghe",
+      "text": "Mandragore",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.yGcO0GiyUudMCghe"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "_id": "pLbGYLENMuPPK7Zj",
+      "text": "Insecte",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.pLbGYLENMuPPK7Zj"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "_id": "jxnKdga5Sjb0q189",
+      "text": "Mollusque",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.jxnKdga5Sjb0q189"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        9,
+        10
+      ],
+      "drawn": false,
+      "_id": "xBDrd4JjugGm5zrV",
+      "text": "Petit mamifère",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.xBDrd4JjugGm5zrV"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        11,
+        12
+      ],
+      "drawn": false,
+      "_id": "bzWCCi2LZjIRoi7i",
+      "text": "Petit oiseau",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.bzWCCi2LZjIRoi7i"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        13,
+        14
+      ],
+      "drawn": false,
+      "_id": "LcOsEDTROSPCu6xY",
+      "text": "Batracien",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.LcOsEDTROSPCu6xY"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        15,
+        16
+      ],
+      "drawn": false,
+      "_id": "TFLNpNInkr0GhERo",
+      "text": "Arachnide",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.TFLNpNInkr0GhERo"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        17,
+        18
+      ],
+      "drawn": false,
+      "_id": "fAbO5q2aZlrjjbO6",
+      "text": "Reptile",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.fAbO5q2aZlrjjbO6"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        19,
+        20
+      ],
+      "drawn": false,
+      "_id": "n6Dneq1c32y8iLs5",
+      "text": "Poterie",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.n6Dneq1c32y8iLs5"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        21,
+        22
+      ],
+      "drawn": false,
+      "_id": "9J890g3cbn5N0T2L",
+      "text": "Pièce de vêtement",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.9J890g3cbn5N0T2L"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        23,
+        24
+      ],
+      "drawn": false,
+      "_id": "UMk84JsrDEBOKMf4",
+      "text": "Epoxy",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.UMk84JsrDEBOKMf4"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        25,
+        26
+      ],
+      "drawn": false,
+      "_id": "F9HASNuVWpTKTCmM",
+      "text": "Neige",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.F9HASNuVWpTKTCmM"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        27,
+        28
+      ],
+      "drawn": false,
+      "_id": "EVgPP17FreGuVhsl",
+      "text": "Uranium",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.EVgPP17FreGuVhsl"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        29,
+        30
+      ],
+      "drawn": false,
+      "_id": "E2yQyT0BjjheU3Bt",
+      "text": "Caoutchouc",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.E2yQyT0BjjheU3Bt"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        31,
+        32
+      ],
+      "drawn": false,
+      "_id": "jGj4oJ8Mlb6PW9Nn",
+      "text": "Coquillage",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.jGj4oJ8Mlb6PW9Nn"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        33,
+        34
+      ],
+      "drawn": false,
+      "_id": "zIxaoxkOIjcbuPW3",
+      "text": "Crustacé",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.zIxaoxkOIjcbuPW3"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        35,
+        36
+      ],
+      "drawn": false,
+      "_id": "GivU5SWRkIQCH9TO",
+      "text": "Eau bénite",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.GivU5SWRkIQCH9TO"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        37,
+        38
+      ],
+      "drawn": false,
+      "_id": "TU1mIx2Lf2FcYHVf",
+      "text": "Météorite",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.TU1mIx2Lf2FcYHVf"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        39,
+        40
+      ],
+      "drawn": false,
+      "_id": "b8cGKf3c9tU7hD4M",
+      "text": "Diamant",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.b8cGKf3c9tU7hD4M"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        41,
+        42
+      ],
+      "drawn": false,
+      "_id": "RIrNffsWvANzgLH0",
+      "text": "Perle",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.RIrNffsWvANzgLH0"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        43,
+        44
+      ],
+      "drawn": false,
+      "_id": "r8HAqKuOLT610dd8",
+      "text": "Topaze",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.r8HAqKuOLT610dd8"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        45,
+        46
+      ],
+      "drawn": false,
+      "_id": "CkUR3Sge9LDoKbWb",
+      "text": "Rubis",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.CkUR3Sge9LDoKbWb"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        47,
+        48
+      ],
+      "drawn": false,
+      "_id": "nNrEILblNF31y2GC",
+      "text": "Améthyste",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.nNrEILblNF31y2GC"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        49,
+        50
+      ],
+      "drawn": false,
+      "_id": "Ym9kGb3jLwQfOklj",
+      "text": "Emeraude",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.Ym9kGb3jLwQfOklj"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        51,
+        52
+      ],
+      "drawn": false,
+      "_id": "w129WKv9xvLuR4Za",
+      "text": "Eau de mer",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.w129WKv9xvLuR4Za"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        53,
+        54
+      ],
+      "drawn": false,
+      "_id": "kFGJGVKuc0tywYqU",
+      "text": "Eau de pluie",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.kFGJGVKuc0tywYqU"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        55,
+        56
+      ],
+      "drawn": false,
+      "_id": "0JbxIgi3gcAGGIpk",
+      "text": "Miroir",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.0JbxIgi3gcAGGIpk"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        57,
+        58
+      ],
+      "drawn": false,
+      "_id": "80ixiXd5W94PGo8N",
+      "text": "Poudre noire",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.80ixiXd5W94PGo8N"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        59,
+        60
+      ],
+      "drawn": false,
+      "_id": "VgaEkPaxG2MhQSw0",
+      "text": "Dynamite",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.VgaEkPaxG2MhQSw0"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        61,
+        62
+      ],
+      "drawn": false,
+      "_id": "ZFHlQD49n9UMdvTK",
+      "text": "Encre",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.ZFHlQD49n9UMdvTK"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        63,
+        64
+      ],
+      "drawn": false,
+      "_id": "BzVELeisS8pbXyPU",
+      "text": "Titane",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.BzVELeisS8pbXyPU"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        65,
+        66
+      ],
+      "drawn": false,
+      "_id": "xrNcKwtbX4EDod7E",
+      "text": "Semtex",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.xrNcKwtbX4EDod7E"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        67,
+        68
+      ],
+      "drawn": false,
+      "_id": "qmUOMxx4I41b7iJw",
+      "text": "Nitroglycérine",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.qmUOMxx4I41b7iJw"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        69,
+        70
+      ],
+      "drawn": false,
+      "_id": "SJnv8tURm10tuHum",
+      "text": "Xénon",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.SJnv8tURm10tuHum"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        71,
+        72
+      ],
+      "drawn": false,
+      "_id": "V6OMko9ZjuFqKm9z",
+      "text": "Fréon",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.V6OMko9ZjuFqKm9z"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        73,
+        74
+      ],
+      "drawn": false,
+      "_id": "NdUzAbxv17pV8Ifa",
+      "text": "Saphir",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.NdUzAbxv17pV8Ifa"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        75,
+        76
+      ],
+      "drawn": false,
+      "_id": "BD9HfWRitjuQFlPU",
+      "text": "Turquoise",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.BD9HfWRitjuQFlPU"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        77,
+        78
+      ],
+      "drawn": false,
+      "_id": "Ob63WNwmbfVEFtLZ",
+      "text": "Rose des sables",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.Ob63WNwmbfVEFtLZ"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        79,
+        80
+      ],
+      "drawn": false,
+      "_id": "ryOWlm8UyfNoEov4",
+      "text": "Corail",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.ryOWlm8UyfNoEov4"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        81,
+        82
+      ],
+      "drawn": false,
+      "_id": "asEGdpxSLyDpQmrF",
+      "text": "Ivoire",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.asEGdpxSLyDpQmrF"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        83,
+        84
+      ],
+      "drawn": false,
+      "_id": "dictMU1riwE5yBIP",
+      "text": "Ambre",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.dictMU1riwE5yBIP"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        85,
+        86
+      ],
+      "drawn": false,
+      "_id": "2mxZSpdDeR5Jamem",
+      "text": "Ambre gris",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.2mxZSpdDeR5Jamem"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        87,
+        88
+      ],
+      "drawn": false,
+      "_id": "ENwioqNrZXvNVk3a",
+      "text": "Safran",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.ENwioqNrZXvNVk3a"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        89,
+        90
+      ],
+      "drawn": false,
+      "_id": "mgjyZVxC1ONpjhPJ",
+      "text": "Pourpre",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.mgjyZVxC1ONpjhPJ"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        91,
+        92
+      ],
+      "drawn": false,
+      "_id": "EyGiT7rDHc2qpasU",
+      "text": "Cocaïne",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.EyGiT7rDHc2qpasU"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        93,
+        94
+      ],
+      "drawn": false,
+      "_id": "BFdx2OV7klqoV9U3",
+      "text": "Opium",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.BFdx2OV7klqoV9U3"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        95,
+        96
+      ],
+      "drawn": false,
+      "_id": "LoW5i9f7DgPSnULU",
+      "text": "Andromorphine",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.LoW5i9f7DgPSnULU"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        97,
+        98
+      ],
+      "drawn": false,
+      "_id": "z1YvgskHqhtxe07j",
+      "text": "Latex",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.z1YvgskHqhtxe07j"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        99,
+        100
+      ],
+      "drawn": false,
+      "_id": "gMXAuqWU98L3S5J2",
+      "text": "Héroïne",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!lHCJ6Ha0Gukg4gep.gMXAuqWU98L3S5J2"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "custom-system-builder",
+    "systemVersion": "3.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1705139201333,
+    "modifiedTime": 1705410581041,
+    "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+  },
+  "formula": "1d100",
+  "_id": "lHCJ6Ha0Gukg4gep",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "r9x0pKEz3JGSJSrG": 3
+  },
+  "_key": "!tables!lHCJ6Ha0Gukg4gep"
+}

@@ -1,0 +1,351 @@
+{
+  "folder": "R785qWMDJhZGwIId",
+  "name": "Sort de Crémation",
+  "type": "equippableItem",
+  "_id": "ccNHJddWdlD6eiCO",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "hidden": [],
+    "header": {
+      "contents": [],
+      "key": "custom_header",
+      "cssClass": null,
+      "role": 0,
+      "permission": 0,
+      "tooltip": null,
+      "visibilityFormula": null,
+      "flow": null,
+      "align": null,
+      "type": "panel"
+    },
+    "body": {
+      "contents": [
+        {
+          "key": "characteristicsPanel",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "contents": [
+            {
+              "key": "",
+              "cssClass": "",
+              "role": "0",
+              "permission": "0",
+              "tooltip": "",
+              "visibilityFormula": "",
+              "contents": [
+                {
+                  "key": "",
+                  "cssClass": "",
+                  "role": "0",
+                  "permission": "0",
+                  "tooltip": "",
+                  "visibilityFormula": "",
+                  "label": null,
+                  "defaultValue": null,
+                  "size": "full-size",
+                  "icon": "",
+                  "value": "Type",
+                  "prefix": "",
+                  "suffix": "",
+                  "rollMessage": "",
+                  "altRollMessage": "",
+                  "style": "bold",
+                  "type": "label"
+                },
+                {
+                  "key": "combatType",
+                  "cssClass": "",
+                  "role": "0",
+                  "permission": "0",
+                  "tooltip": "Type de l'arme",
+                  "visibilityFormula": "",
+                  "label": "",
+                  "defaultValue": "1",
+                  "size": "full-size",
+                  "options": [
+                    {
+                      "key": "1",
+                      "value": "Corps-à-Corps"
+                    },
+                    {
+                      "key": "2",
+                      "value": "Contact"
+                    },
+                    {
+                      "key": "3",
+                      "value": "Distance"
+                    }
+                  ],
+                  "tableKey": null,
+                  "tableKeyColumn": null,
+                  "tableLabelColumn": null,
+                  "formulaKeyOptions": null,
+                  "formulaLabelOptions": null,
+                  "type": "select"
+                }
+              ],
+              "flow": "horizontal",
+              "align": "center",
+              "type": "panel"
+            },
+            {
+              "key": "",
+              "cssClass": "",
+              "role": "0",
+              "permission": "0",
+              "tooltip": "",
+              "visibilityFormula": "",
+              "contents": [
+                {
+                  "key": "",
+                  "cssClass": "",
+                  "role": "0",
+                  "permission": "0",
+                  "tooltip": "",
+                  "visibilityFormula": "",
+                  "label": null,
+                  "defaultValue": null,
+                  "size": "full-size",
+                  "icon": "",
+                  "value": "Puissance maximale",
+                  "prefix": "",
+                  "suffix": "",
+                  "rollMessage": "",
+                  "altRollMessage": "",
+                  "style": "bold",
+                  "type": "label"
+                },
+                {
+                  "key": "powerfullMax",
+                  "cssClass": "",
+                  "role": "0",
+                  "permission": "0",
+                  "tooltip": "Puissance maximale de l'arme",
+                  "visibilityFormula": "",
+                  "label": "",
+                  "defaultValue": "1",
+                  "size": "full-size",
+                  "options": [
+                    {
+                      "key": "1",
+                      "value": "Faible"
+                    },
+                    {
+                      "key": "2",
+                      "value": "Moyenne"
+                    },
+                    {
+                      "key": "3",
+                      "value": "Importante"
+                    },
+                    {
+                      "key": "4",
+                      "value": "Remarquable"
+                    }
+                  ],
+                  "tableKey": null,
+                  "tableKeyColumn": null,
+                  "tableLabelColumn": null,
+                  "formulaKeyOptions": null,
+                  "formulaLabelOptions": null,
+                  "type": "select"
+                }
+              ],
+              "flow": "horizontal",
+              "align": "center",
+              "type": "panel"
+            },
+            {
+              "key": "",
+              "cssClass": "",
+              "role": "0",
+              "permission": "0",
+              "tooltip": "",
+              "visibilityFormula": "combatType == 3 ? false : true",
+              "contents": [
+                {
+                  "key": "",
+                  "cssClass": "",
+                  "role": "0",
+                  "permission": "0",
+                  "tooltip": "",
+                  "visibilityFormula": "",
+                  "label": null,
+                  "defaultValue": null,
+                  "size": "full-size",
+                  "icon": "",
+                  "value": "Bonus d'attaque",
+                  "prefix": "",
+                  "suffix": "",
+                  "rollMessage": "",
+                  "altRollMessage": "",
+                  "style": "bold",
+                  "type": "label"
+                },
+                {
+                  "key": "attackBonus",
+                  "cssClass": "",
+                  "role": "0",
+                  "permission": "0",
+                  "tooltip": "",
+                  "visibilityFormula": "",
+                  "label": "",
+                  "defaultValue": "0",
+                  "size": "full-size",
+                  "allowDecimal": false,
+                  "minVal": "0",
+                  "maxVal": "",
+                  "allowRelative": false,
+                  "showControls": false,
+                  "controlsStyle": "hover",
+                  "type": "numberField"
+                }
+              ],
+              "flow": "horizontal",
+              "align": "center",
+              "type": "panel"
+            },
+            {
+              "key": "",
+              "cssClass": "",
+              "role": "0",
+              "permission": "0",
+              "tooltip": "",
+              "visibilityFormula": "combatType == 3 ? false : true",
+              "contents": [
+                {
+                  "key": "",
+                  "cssClass": "",
+                  "role": "0",
+                  "permission": "0",
+                  "tooltip": "",
+                  "visibilityFormula": "",
+                  "label": null,
+                  "defaultValue": null,
+                  "size": "full-size",
+                  "icon": "",
+                  "value": "Bonus de dégâts",
+                  "prefix": "",
+                  "suffix": "",
+                  "rollMessage": "",
+                  "altRollMessage": "",
+                  "style": "bold",
+                  "type": "label"
+                },
+                {
+                  "key": "damageBonus",
+                  "cssClass": "",
+                  "role": "0",
+                  "permission": "0",
+                  "tooltip": "",
+                  "visibilityFormula": "",
+                  "label": "",
+                  "defaultValue": "0",
+                  "size": "full-size",
+                  "allowDecimal": false,
+                  "minVal": "0",
+                  "maxVal": "",
+                  "allowRelative": false,
+                  "showControls": false,
+                  "controlsStyle": "hover",
+                  "type": "numberField"
+                }
+              ],
+              "flow": "horizontal",
+              "align": "center",
+              "type": "panel"
+            }
+          ],
+          "flow": "grid-2",
+          "align": "left",
+          "type": "panel"
+        },
+        {
+          "key": "descriptionLabel",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "label": null,
+          "defaultValue": null,
+          "size": "full-size",
+          "icon": "",
+          "value": "Description",
+          "prefix": "",
+          "suffix": "",
+          "rollMessage": "",
+          "altRollMessage": "",
+          "style": "title",
+          "type": "label"
+        },
+        {
+          "key": "description",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "Description de l'arme",
+          "visibilityFormula": "",
+          "label": "",
+          "defaultValue": "",
+          "size": null,
+          "style": "dialog",
+          "type": "textArea"
+        }
+      ],
+      "key": "custom_body",
+      "cssClass": null,
+      "role": 0,
+      "permission": 0,
+      "tooltip": null,
+      "visibilityFormula": null,
+      "flow": null,
+      "align": null,
+      "type": "panel"
+    },
+    "display": {
+      "width": "500",
+      "height": "400",
+      "fix_size": false,
+      "pp_width": "64",
+      "pp_height": "64"
+    },
+    "template": "14jgxwvyYKfEIWkZ",
+    "props": {
+      "name": "Sort de Crémation",
+      "combatType": "3",
+      "powerfullMax": "2",
+      "attackBonus": "0",
+      "damageBonus": "0",
+      "descriptionLabel": "Description",
+      "description": "<p>Le sort de @UUID[Item.kMbRlQc8TLYbrHUs]{Cr&eacute;mation (joaillerie, origami, sculpture)} transforme l&rsquo;objet enchant&eacute; en une petite boule de flammes qui cause des dommages de puissance <em>Moyenne</em> &agrave; la victime (ces dommages seront lus comme s&rsquo;il s&rsquo;agissait d&rsquo;une <em>attaque &agrave; distance</em>).&nbsp;</p>\n<p>Ce sort est instantan&eacute; et d&eacute;truit l&rsquo;objet sur lequel il a &eacute;t&eacute; jet&eacute;. Il co&ucirc;te 10 points de Mana.</p>"
+    },
+    "modifiers": [],
+    "unique": false,
+    "templateSystemUniqueVersion": 3597308341
+  },
+  "effects": [],
+  "flags": {
+    "custom-system-builder": {
+      "version": "3.0.0"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "custom-system-builder",
+    "systemVersion": "3.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1705403226707,
+    "modifiedTime": 1705410384690,
+    "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "r9x0pKEz3JGSJSrG": 3
+  },
+  "_key": "!items!ccNHJddWdlD6eiCO"
+}

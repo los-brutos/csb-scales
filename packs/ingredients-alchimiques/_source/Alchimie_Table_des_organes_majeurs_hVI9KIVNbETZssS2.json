@@ -1,0 +1,779 @@
+{
+  "folder": null,
+  "name": "Alchimie-Table des organes majeurs",
+  "img": "icons/svg/poison.svg",
+  "description": "<p>Lorsque le terme \"dragon\" ou \"être magique\" est utilisé, le maitre de jeu devra déterminer aléatoirement ou choisir de quel type de dragon ou d'être magique il s'agit.</p><p>Les organes suivis d'un astérisque ne sont pas présents chez tous les dragons.</p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "_id": "8QKqbKu3nzJJJKxM",
+      "text": "Coeir de dragon",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.8QKqbKu3nzJJJKxM"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "_id": "yGcO0GiyUudMCghe",
+      "text": "Cerveau de dragon",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.yGcO0GiyUudMCghe"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "_id": "pLbGYLENMuPPK7Zj",
+      "text": "Tête de dragon",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.pLbGYLENMuPPK7Zj"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "_id": "jxnKdga5Sjb0q189",
+      "text": "Intestin de dragon",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.jxnKdga5Sjb0q189"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        9,
+        10
+      ],
+      "drawn": false,
+      "_id": "xBDrd4JjugGm5zrV",
+      "text": "Crâne de dragon",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.xBDrd4JjugGm5zrV"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        11,
+        12
+      ],
+      "drawn": false,
+      "_id": "bzWCCi2LZjIRoi7i",
+      "text": "Colonne vertébrale de dragon",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.bzWCCi2LZjIRoi7i"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        13,
+        14
+      ],
+      "drawn": false,
+      "_id": "LcOsEDTROSPCu6xY",
+      "text": "Moëlle épinière de dragon",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.LcOsEDTROSPCu6xY"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        15,
+        16
+      ],
+      "drawn": false,
+      "_id": "TFLNpNInkr0GhERo",
+      "text": "Foie de dragon",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.TFLNpNInkr0GhERo"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        17,
+        18
+      ],
+      "drawn": false,
+      "_id": "fAbO5q2aZlrjjbO6",
+      "text": "Pancréas de dragon",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.fAbO5q2aZlrjjbO6"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        19,
+        20
+      ],
+      "drawn": false,
+      "_id": "n6Dneq1c32y8iLs5",
+      "text": "Poumon de dragon",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.n6Dneq1c32y8iLs5"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        21,
+        22
+      ],
+      "drawn": false,
+      "_id": "9J890g3cbn5N0T2L",
+      "text": "Cage thoracique de dragon",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.9J890g3cbn5N0T2L"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        23,
+        24
+      ],
+      "drawn": false,
+      "_id": "UMk84JsrDEBOKMf4",
+      "text": "Cervelet de dragon",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.UMk84JsrDEBOKMf4"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        25,
+        26
+      ],
+      "drawn": false,
+      "_id": "F9HASNuVWpTKTCmM",
+      "text": "Foetus de dragon",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.F9HASNuVWpTKTCmM"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        27,
+        28
+      ],
+      "drawn": false,
+      "_id": "EVgPP17FreGuVhsl",
+      "text": "Sang de dragon (très grande quantité)",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.EVgPP17FreGuVhsl"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        29,
+        30
+      ],
+      "drawn": false,
+      "_id": "E2yQyT0BjjheU3Bt",
+      "text": "Vésicule biliaire de dragon",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.E2yQyT0BjjheU3Bt"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        31,
+        32
+      ],
+      "drawn": false,
+      "_id": "jGj4oJ8Mlb6PW9Nn",
+      "text": "Estomac de dragon",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.jGj4oJ8Mlb6PW9Nn"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        33,
+        34
+      ],
+      "drawn": false,
+      "_id": "zIxaoxkOIjcbuPW3",
+      "text": "Maxillaire inférieure de dragon",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.zIxaoxkOIjcbuPW3"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        35,
+        36
+      ],
+      "drawn": false,
+      "_id": "GivU5SWRkIQCH9TO",
+      "text": "Corps thyroïde de dragon",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.GivU5SWRkIQCH9TO"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        37,
+        38
+      ],
+      "drawn": false,
+      "_id": "TU1mIx2Lf2FcYHVf",
+      "text": "Vessie de dragon",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.TU1mIx2Lf2FcYHVf"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        39,
+        40
+      ],
+      "drawn": false,
+      "_id": "b8cGKf3c9tU7hD4M",
+      "text": "Rate de dragon",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.b8cGKf3c9tU7hD4M"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        41,
+        42
+      ],
+      "drawn": false,
+      "_id": "RIrNffsWvANzgLH0",
+      "text": "Duodénum de dragon",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.RIrNffsWvANzgLH0"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        43,
+        44
+      ],
+      "drawn": false,
+      "_id": "r8HAqKuOLT610dd8",
+      "text": "Plèvre de dragon",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.r8HAqKuOLT610dd8"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        45,
+        46
+      ],
+      "drawn": false,
+      "_id": "CkUR3Sge9LDoKbWb",
+      "text": "OEsophage de dragon",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.CkUR3Sge9LDoKbWb"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        47,
+        48
+      ],
+      "drawn": false,
+      "_id": "nNrEILblNF31y2GC",
+      "text": "Cou de dragon",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.nNrEILblNF31y2GC"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        49,
+        50
+      ],
+      "drawn": false,
+      "_id": "Ym9kGb3jLwQfOklj",
+      "text": "Bulbe rachidien de dragon",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.Ym9kGb3jLwQfOklj"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        51,
+        52
+      ],
+      "drawn": false,
+      "_id": "w129WKv9xvLuR4Za",
+      "text": "Coeur d'être magique",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.w129WKv9xvLuR4Za"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        53,
+        54
+      ],
+      "drawn": false,
+      "_id": "kFGJGVKuc0tywYqU",
+      "text": "Cerveau d'être magique",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.kFGJGVKuc0tywYqU"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        55,
+        56
+      ],
+      "drawn": false,
+      "_id": "0JbxIgi3gcAGGIpk",
+      "text": "Tête d'être magique",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.0JbxIgi3gcAGGIpk"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        57,
+        58
+      ],
+      "drawn": false,
+      "_id": "80ixiXd5W94PGo8N",
+      "text": "Intestin d'être magique",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.80ixiXd5W94PGo8N"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        59,
+        60
+      ],
+      "drawn": false,
+      "_id": "VgaEkPaxG2MhQSw0",
+      "text": "Crâne d'être magique",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.VgaEkPaxG2MhQSw0"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        61,
+        62
+      ],
+      "drawn": false,
+      "_id": "ZFHlQD49n9UMdvTK",
+      "text": "Colonne vertébrale d'être magique",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.ZFHlQD49n9UMdvTK"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        63,
+        64
+      ],
+      "drawn": false,
+      "_id": "BzVELeisS8pbXyPU",
+      "text": "Moëlle épinière d'être magique",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.BzVELeisS8pbXyPU"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        65,
+        66
+      ],
+      "drawn": false,
+      "_id": "xrNcKwtbX4EDod7E",
+      "text": "Foie d'être magique",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.xrNcKwtbX4EDod7E"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        67,
+        68
+      ],
+      "drawn": false,
+      "_id": "qmUOMxx4I41b7iJw",
+      "text": "Pancréas d'être magique",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.qmUOMxx4I41b7iJw"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        69,
+        70
+      ],
+      "drawn": false,
+      "_id": "SJnv8tURm10tuHum",
+      "text": "Poumon d'être magique",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.SJnv8tURm10tuHum"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        71,
+        72
+      ],
+      "drawn": false,
+      "_id": "V6OMko9ZjuFqKm9z",
+      "text": "Cage thoracique d'être magique",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.V6OMko9ZjuFqKm9z"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        73,
+        74
+      ],
+      "drawn": false,
+      "_id": "NdUzAbxv17pV8Ifa",
+      "text": "Cervelet d'être magique",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.NdUzAbxv17pV8Ifa"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        75,
+        76
+      ],
+      "drawn": false,
+      "_id": "BD9HfWRitjuQFlPU",
+      "text": "Foetus d'être magique",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.BD9HfWRitjuQFlPU"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        77,
+        78
+      ],
+      "drawn": false,
+      "_id": "Ob63WNwmbfVEFtLZ",
+      "text": "Sang d'être magique (très grande quantité)",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.Ob63WNwmbfVEFtLZ"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        79,
+        80
+      ],
+      "drawn": false,
+      "_id": "ryOWlm8UyfNoEov4",
+      "text": "Vésicule biliaire d'être magique",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.ryOWlm8UyfNoEov4"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        81,
+        82
+      ],
+      "drawn": false,
+      "_id": "asEGdpxSLyDpQmrF",
+      "text": "Estomac d'être magique",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.asEGdpxSLyDpQmrF"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        83,
+        84
+      ],
+      "drawn": false,
+      "_id": "dictMU1riwE5yBIP",
+      "text": "Maxillaire inférieur d'être magique",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.dictMU1riwE5yBIP"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        85,
+        86
+      ],
+      "drawn": false,
+      "_id": "2mxZSpdDeR5Jamem",
+      "text": "Corps thyroïde d'être magique",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.2mxZSpdDeR5Jamem"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        87,
+        88
+      ],
+      "drawn": false,
+      "_id": "ENwioqNrZXvNVk3a",
+      "text": "Vessie d'être magique",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.ENwioqNrZXvNVk3a"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        89,
+        90
+      ],
+      "drawn": false,
+      "_id": "mgjyZVxC1ONpjhPJ",
+      "text": "Rate d'être magique",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.mgjyZVxC1ONpjhPJ"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        91,
+        92
+      ],
+      "drawn": false,
+      "_id": "EyGiT7rDHc2qpasU",
+      "text": "Duodénum d'être magique",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.EyGiT7rDHc2qpasU"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        93,
+        94
+      ],
+      "drawn": false,
+      "_id": "BFdx2OV7klqoV9U3",
+      "text": "Plèvre d'être magique",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.BFdx2OV7klqoV9U3"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        95,
+        96
+      ],
+      "drawn": false,
+      "_id": "LoW5i9f7DgPSnULU",
+      "text": "OEsophage d'être magique",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.LoW5i9f7DgPSnULU"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        97,
+        98
+      ],
+      "drawn": false,
+      "_id": "z1YvgskHqhtxe07j",
+      "text": "Cou d'être magique",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.z1YvgskHqhtxe07j"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        99,
+        100
+      ],
+      "drawn": false,
+      "_id": "gMXAuqWU98L3S5J2",
+      "text": "Bulbe rachidien d'être magique",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/poison.svg",
+      "_key": "!tables.results!hVI9KIVNbETZssS2.gMXAuqWU98L3S5J2"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "custom-system-builder",
+    "systemVersion": "3.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1705139201333,
+    "modifiedTime": 1705410581041,
+    "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+  },
+  "formula": "1d100",
+  "_id": "hVI9KIVNbETZssS2",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "r9x0pKEz3JGSJSrG": 3
+  },
+  "_key": "!tables!hVI9KIVNbETZssS2"
+}
