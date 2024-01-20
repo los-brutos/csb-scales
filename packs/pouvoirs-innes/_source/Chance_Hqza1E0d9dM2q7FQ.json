@@ -82,6 +82,38 @@
           "size": null,
           "style": "dialog",
           "type": "textArea"
+        },
+        {
+          "key": "",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "contents": [
+            {
+              "key": "",
+              "cssClass": "",
+              "role": "0",
+              "permission": "0",
+              "tooltip": "",
+              "visibilityFormula": "",
+              "label": null,
+              "defaultValue": null,
+              "size": "full-size",
+              "icon": "",
+              "value": "Lancer un dé 10",
+              "prefix": "",
+              "suffix": "",
+              "rollMessage": "<h3>${!name}$</h3>\n<table>\n  <tbody>\n    <tr>\n      <th>Jet du dé</th>\n      <td>\n        <div style=\"font-size: large;\">${[1d10]}$</div>\n      </td>\n    </tr>\n  </tbody>\n</table>",
+              "altRollMessage": "",
+              "style": "label",
+              "type": "label"
+            }
+          ],
+          "flow": "vertical",
+          "align": "center",
+          "type": "panel"
         }
       ],
       "key": "custom_body",
@@ -109,7 +141,7 @@
     },
     "modifiers": [],
     "unique": false,
-    "templateSystemUniqueVersion": 68115176
+    "templateSystemUniqueVersion": 2445483236
   },
   "effects": [],
   "flags": {
@@ -123,7 +155,7 @@
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
     "createdTime": 1704665806350,
-    "modifiedTime": 1705406762889,
+    "modifiedTime": 1705770364050,
     "lastModifiedBy": "r9x0pKEz3JGSJSrG"
   },
   "_id": "Hqza1E0d9dM2q7FQ",

@@ -5,7 +5,7 @@ ${#concat(
 )}$
 
 ${#sante:=healthMalus}$
-${#caracteristique:= (sameRow('characteristic')?sameRow('characteristic') : 0)}$
+${#caracteristique:= sameRow('characteristic', 0)}$
 ${#seuil:= 10 - sameRow('level') - diff}$        
 ${#bonus:=((seuil + caracteristique + sante) > 10 ? seuil + caracteristique + sante - 10 : 0)}$
 

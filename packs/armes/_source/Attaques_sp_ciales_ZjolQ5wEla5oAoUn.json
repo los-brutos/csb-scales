@@ -1,0 +1,19 @@
+{
+  "name": "Attaques spéciales",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "ZjolQ5wEla5oAoUn",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "custom-system-builder",
+    "systemVersion": "3.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1705770249754,
+    "modifiedTime": 1705770319486,
+    "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+  },
+  "_key": "!folders!ZjolQ5wEla5oAoUn"
+}

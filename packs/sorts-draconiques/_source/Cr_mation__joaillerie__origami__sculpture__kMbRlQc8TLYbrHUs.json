@@ -176,10 +176,10 @@
               "defaultValue": null,
               "size": "full-size",
               "icon": "dice-d10",
-              "value": "Lancer un dé",
+              "value": "Lancer un dé 10",
               "prefix": "",
               "suffix": "",
-              "rollMessage": "${[1d10]}$",
+              "rollMessage": "<h3>${!name}$</h3>\n<table>\n  <tbody>\n    <tr>\n      <th>Jet du dé</th>\n      <td>\n        <div style=\"font-size: large;\">${[1d10]}$</div>\n      </td>\n    </tr>\n  </tbody>\n</table>",
               "altRollMessage": "",
               "style": "label",
               "type": "label"
@@ -586,21 +586,20 @@
     },
     "modifiers": [],
     "unique": false,
-    "templateSystemUniqueVersion": 3904953487
+    "templateSystemUniqueVersion": 3854355754
   },
   "effects": [],
   "flags": {
     "custom-system-builder": {
       "version": "3.0.0"
-    },
-    "core": {}
+    }
   },
   "_stats": {
     "systemId": "custom-system-builder",
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
     "createdTime": 1704662861879,
-    "modifiedTime": 1705406777783,
+    "modifiedTime": 1705770369858,
     "lastModifiedBy": "r9x0pKEz3JGSJSrG"
   },
   "_id": "kMbRlQc8TLYbrHUs",

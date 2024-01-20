@@ -330,15 +330,14 @@
   "flags": {
     "custom-system-builder": {
       "version": "3.0.0"
-    },
-    "core": {}
+    }
   },
   "_stats": {
     "systemId": "custom-system-builder",
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
     "createdTime": 1704469193630,
-    "modifiedTime": 1705410384690,
+    "modifiedTime": 1705770319643,
     "lastModifiedBy": "r9x0pKEz3JGSJSrG"
   },
   "sort": 0,

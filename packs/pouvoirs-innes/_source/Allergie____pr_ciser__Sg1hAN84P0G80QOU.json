@@ -82,6 +82,38 @@
           "size": null,
           "style": "dialog",
           "type": "textArea"
+        },
+        {
+          "key": "",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "contents": [
+            {
+              "key": "",
+              "cssClass": "",
+              "role": "0",
+              "permission": "0",
+              "tooltip": "",
+              "visibilityFormula": "",
+              "label": null,
+              "defaultValue": null,
+              "size": "full-size",
+              "icon": "",
+              "value": "Lancer un dé 10",
+              "prefix": "",
+              "suffix": "",
+              "rollMessage": "<h3>${!name}$</h3>\n<table>\n  <tbody>\n    <tr>\n      <th>Jet du dé</th>\n      <td>\n        <div style=\"font-size: large;\">${[1d10]}$</div>\n      </td>\n    </tr>\n  </tbody>\n</table>",
+              "altRollMessage": "",
+              "style": "label",
+              "type": "label"
+            }
+          ],
+          "flow": "vertical",
+          "align": "center",
+          "type": "panel"
         }
       ],
       "key": "custom_body",
@@ -103,13 +135,13 @@
     },
     "template": "TOIxmn68EGfcsuRW",
     "props": {
-      "name": "Allergie (Fleurs)",
+      "name": "Allergie (à préciser)",
       "level": "0",
       "description": "<p>Ce pouvoir, qui n&rsquo;en est pas un puisqu&rsquo;il limite plus le personnage qu&rsquo;il ne l&rsquo;avantage, appara&icirc;t toujours (lorsque la cr&eacute;ature le poss&egrave;de) &agrave; la phase de fr&eacute;missement et augmente ensuite par la suite comme le pouvoir principal de la cr&eacute;ature.</p>\n<p>L&rsquo;allergie agit comme l&rsquo;inverse d&rsquo;un pouvoir de r&eacute;sistance, occasionnant un <strong>bonus de 1 point par niveau pour tous les jets de dommages</strong> ayant trait &agrave; des attaques en rapport avec l&rsquo;&eacute;l&eacute;ment auquel le personnage est allergique.</p>\n<p>Pour ce qui est de la proximit&eacute; ou d&rsquo;un contact prolong&eacute; avec le produit en question, le ma&icirc;tre de jeu devra augmenter les d&eacute;sagr&eacute;ments au fur et mesure que le niveau du pouvoir augmentera, allant de g&ecirc;ne pure et simple &agrave; des dommages physiques mineurs. La substance &agrave; laquelle le personnage est allergique doit &ecirc;tre pr&eacute;cis&eacute;e entre parenth&egrave;ses.</p>"
     },
     "modifiers": [],
     "unique": false,
-    "templateSystemUniqueVersion": 68115176
+    "templateSystemUniqueVersion": 2445483236
   },
   "effects": [],
   "flags": {
@@ -123,7 +155,7 @@
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
     "createdTime": 1704564977083,
-    "modifiedTime": 1705406762889,
+    "modifiedTime": 1705770364050,
     "lastModifiedBy": "r9x0pKEz3JGSJSrG"
   },
   "_id": "Sg1hAN84P0G80QOU",

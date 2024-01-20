@@ -6,3 +6,4 @@ packs/**/CURRENT
 packs/**/LOG
 packs/**/LOCK
 packs/**/MANIFEST-*
+csb-scales.code-workspace

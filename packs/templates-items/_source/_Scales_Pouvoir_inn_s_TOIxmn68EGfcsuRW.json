@@ -82,6 +82,38 @@
           "size": null,
           "style": "dialog",
           "type": "textArea"
+        },
+        {
+          "key": "",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "contents": [
+            {
+              "key": "",
+              "cssClass": "",
+              "role": "0",
+              "permission": "0",
+              "tooltip": "",
+              "visibilityFormula": "",
+              "label": null,
+              "defaultValue": null,
+              "size": "full-size",
+              "icon": "",
+              "value": "Lancer un dé 10",
+              "prefix": "",
+              "suffix": "",
+              "rollMessage": "<h3>${!name}$</h3>\n<table>\n  <tbody>\n    <tr>\n      <th>Jet du dé</th>\n      <td>\n        <div style=\"font-size: large;\">${[1d10]}$</div>\n      </td>\n    </tr>\n  </tbody>\n</table>",
+              "altRollMessage": "",
+              "style": "label",
+              "type": "label"
+            }
+          ],
+          "flow": "vertical",
+          "align": "center",
+          "type": "panel"
         }
       ],
       "key": "custom_body",
@@ -101,7 +133,7 @@
       "pp_width": "64",
       "pp_height": "64"
     },
-    "templateSystemUniqueVersion": 531574968
+    "templateSystemUniqueVersion": 2445483236
   },
   "effects": [],
   "folder": null,
@@ -111,9 +143,49 @@
       "templateHistory": [
         [
           {
+            "kind": "E",
+            "path": [
+              "header",
+              "contents",
+              0,
+              "align"
+            ],
+            "lhs": "center",
+            "rhs": "left"
+          }
+        ],
+        [
+          {
             "kind": "A",
             "path": [
               "body",
+              "contents"
+            ],
+            "index": 2,
+            "item": {
+              "kind": "N",
+              "rhs": {
+                "key": "",
+                "cssClass": "",
+                "role": "0",
+                "permission": "0",
+                "tooltip": "",
+                "visibilityFormula": "",
+                "contents": [],
+                "flow": "vertical",
+                "align": "center",
+                "type": "panel"
+              }
+            }
+          }
+        ],
+        [
+          {
+            "kind": "A",
+            "path": [
+              "body",
+              "contents",
+              2,
               "contents"
             ],
             "index": 0,
@@ -130,12 +202,12 @@
                 "defaultValue": null,
                 "size": "full-size",
                 "icon": "",
-                "value": "Description",
+                "value": "Lancer un dé 10",
                 "prefix": "",
                 "suffix": "",
-                "rollMessage": "",
+                "rollMessage": "<!-- Roll 1d10 -->\n<h3>Jet de dé</h3>\n<div style=\"text-align: center; font-weight: bold;\">${[1d10]}$</div>",
                 "altRollMessage": "",
-                "style": "title",
+                "style": "label",
                 "type": "label"
               }
             }
@@ -143,582 +215,107 @@
         ],
         [
           {
-            "kind": "A",
+            "kind": "E",
             "path": [
               "body",
-              "contents"
+              "contents",
+              2,
+              "contents",
+              0,
+              "rollMessage"
             ],
-            "index": 1,
-            "item": {
-              "kind": "N",
-              "rhs": {
-                "key": "description",
-                "cssClass": "",
-                "role": "0",
-                "permission": "0",
-                "tooltip": "",
-                "visibilityFormula": "",
-                "label": "",
-                "defaultValue": "",
-                "size": null,
-                "style": "dialog",
-                "type": "textArea"
-              }
-            }
+            "lhs": "<!-- Roll 1d10 -->\n<h3>Jet de dé</h3>\n<div style=\"text-align: center; font-weight: bold;\">${[1d10]}$</div>",
+            "rhs": "<!-- Roll 1d10 -->\n<h3>Jet de dé pour <strong>${name}$</strong></h3>\n<div style=\"text-align: center; font-weight: bold;\">${[1d10]}$</div>"
           }
         ],
         [
           {
             "kind": "E",
             "path": [
-              "header",
+              "body",
+              "contents",
+              2,
               "contents",
               0,
-              "size"
+              "rollMessage"
             ],
-            "lhs": "full-size",
-            "rhs": "m-small"
-          },
-          {
-            "kind": "E",
-            "path": [
-              "header",
-              "contents",
-              0,
-              "showControls"
-            ],
-            "lhs": false,
-            "rhs": true
-          }
-        ],
-        [
-          {
-            "kind": "A",
-            "path": [
-              "header",
-              "contents"
-            ],
-            "index": 2,
-            "item": {
-              "kind": "N",
-              "rhs": {
-                "key": "",
-                "cssClass": "",
-                "role": "0",
-                "permission": "0",
-                "tooltip": "",
-                "visibilityFormula": "",
-                "contents": [],
-                "flow": "grid-2",
-                "align": "center",
-                "type": "panel"
-              }
-            }
-          }
-        ],
-        [
-          {
-            "kind": "A",
-            "path": [
-              "header",
-              "contents"
-            ],
-            "index": 2,
-            "item": {
-              "kind": "D",
-              "lhs": {
-                "key": "",
-                "cssClass": "",
-                "role": "0",
-                "permission": "0",
-                "tooltip": "",
-                "visibilityFormula": "",
-                "contents": [],
-                "flow": "grid-2",
-                "align": "center",
-                "type": "panel"
-              }
-            }
-          },
-          {
-            "kind": "E",
-            "path": [
-              "header",
-              "contents",
-              1,
-              "key"
-            ],
-            "lhs": "specialization",
-            "rhs": ""
-          },
-          {
-            "kind": "D",
-            "path": [
-              "header",
-              "contents",
-              1,
-              "label"
-            ],
-            "lhs": "Spécialisation"
-          },
-          {
-            "kind": "D",
-            "path": [
-              "header",
-              "contents",
-              1,
-              "defaultValue"
-            ],
-            "lhs": ""
-          },
-          {
-            "kind": "D",
-            "path": [
-              "header",
-              "contents",
-              1,
-              "size"
-            ],
-            "lhs": "full-size"
-          },
-          {
-            "kind": "D",
-            "path": [
-              "header",
-              "contents",
-              1,
-              "charList"
-            ],
-            "lhs": ""
-          },
-          {
-            "kind": "D",
-            "path": [
-              "header",
-              "contents",
-              1,
-              "maxLength"
-            ],
-            "lhs": ""
-          },
-          {
-            "kind": "E",
-            "path": [
-              "header",
-              "contents",
-              1,
-              "type"
-            ],
-            "lhs": "textField",
-            "rhs": "panel"
-          },
-          {
-            "kind": "N",
-            "path": [
-              "header",
-              "contents",
-              1,
-              "contents"
-            ],
-            "rhs": [
-              {
-                "key": "level",
-                "cssClass": "",
-                "role": "0",
-                "permission": "0",
-                "tooltip": "",
-                "visibilityFormula": "",
-                "label": "Niveau",
-                "defaultValue": "",
-                "size": "m-small",
-                "allowDecimal": false,
-                "minVal": "",
-                "maxVal": "",
-                "allowRelative": false,
-                "showControls": true,
-                "controlsStyle": "hover",
-                "type": "numberField"
-              }
-            ]
-          },
-          {
-            "kind": "N",
-            "path": [
-              "header",
-              "contents",
-              1,
-              "flow"
-            ],
-            "rhs": "grid-2"
-          },
-          {
-            "kind": "N",
-            "path": [
-              "header",
-              "contents",
-              1,
-              "align"
-            ],
-            "rhs": "center"
-          },
-          {
-            "kind": "E",
-            "path": [
-              "header",
-              "contents",
-              0,
-              "key"
-            ],
-            "lhs": "level",
-            "rhs": "specialization"
-          },
-          {
-            "kind": "E",
-            "path": [
-              "header",
-              "contents",
-              0,
-              "label"
-            ],
-            "lhs": "Niveau",
-            "rhs": "Spécialisation"
-          },
-          {
-            "kind": "E",
-            "path": [
-              "header",
-              "contents",
-              0,
-              "size"
-            ],
-            "lhs": "m-small",
-            "rhs": "full-size"
-          },
-          {
-            "kind": "D",
-            "path": [
-              "header",
-              "contents",
-              0,
-              "allowDecimal"
-            ],
-            "lhs": false
-          },
-          {
-            "kind": "D",
-            "path": [
-              "header",
-              "contents",
-              0,
-              "minVal"
-            ],
-            "lhs": ""
-          },
-          {
-            "kind": "D",
-            "path": [
-              "header",
-              "contents",
-              0,
-              "maxVal"
-            ],
-            "lhs": ""
-          },
-          {
-            "kind": "D",
-            "path": [
-              "header",
-              "contents",
-              0,
-              "allowRelative"
-            ],
-            "lhs": false
-          },
-          {
-            "kind": "D",
-            "path": [
-              "header",
-              "contents",
-              0,
-              "showControls"
-            ],
-            "lhs": true
-          },
-          {
-            "kind": "D",
-            "path": [
-              "header",
-              "contents",
-              0,
-              "controlsStyle"
-            ],
-            "lhs": "hover"
-          },
-          {
-            "kind": "E",
-            "path": [
-              "header",
-              "contents",
-              0,
-              "type"
-            ],
-            "lhs": "numberField",
-            "rhs": "textField"
-          },
-          {
-            "kind": "N",
-            "path": [
-              "header",
-              "contents",
-              0,
-              "charList"
-            ],
-            "rhs": ""
-          },
-          {
-            "kind": "N",
-            "path": [
-              "header",
-              "contents",
-              0,
-              "maxLength"
-            ],
-            "rhs": ""
-          }
-        ],
-        [
-          {
-            "kind": "A",
-            "path": [
-              "header",
-              "contents"
-            ],
-            "index": 1,
-            "item": {
-              "kind": "D",
-              "lhs": {
-                "key": "",
-                "cssClass": "",
-                "role": "0",
-                "permission": "0",
-                "tooltip": "",
-                "visibilityFormula": "",
-                "contents": [
-                  {
-                    "key": "level",
-                    "cssClass": "",
-                    "role": "0",
-                    "permission": "0",
-                    "tooltip": "",
-                    "visibilityFormula": "",
-                    "label": "Niveau",
-                    "defaultValue": "",
-                    "size": "m-small",
-                    "allowDecimal": false,
-                    "minVal": "",
-                    "maxVal": "",
-                    "allowRelative": false,
-                    "showControls": true,
-                    "controlsStyle": "hover",
-                    "type": "numberField"
-                  }
-                ],
-                "flow": "grid-2",
-                "align": "center",
-                "type": "panel"
-              }
-            }
-          },
-          {
-            "kind": "E",
-            "path": [
-              "header",
-              "contents",
-              0,
-              "key"
-            ],
-            "lhs": "specialization",
-            "rhs": ""
-          },
-          {
-            "kind": "D",
-            "path": [
-              "header",
-              "contents",
-              0,
-              "label"
-            ],
-            "lhs": "Spécialisation"
-          },
-          {
-            "kind": "D",
-            "path": [
-              "header",
-              "contents",
-              0,
-              "defaultValue"
-            ],
-            "lhs": ""
-          },
-          {
-            "kind": "D",
-            "path": [
-              "header",
-              "contents",
-              0,
-              "size"
-            ],
-            "lhs": "full-size"
-          },
-          {
-            "kind": "D",
-            "path": [
-              "header",
-              "contents",
-              0,
-              "charList"
-            ],
-            "lhs": ""
-          },
-          {
-            "kind": "D",
-            "path": [
-              "header",
-              "contents",
-              0,
-              "maxLength"
-            ],
-            "lhs": ""
-          },
-          {
-            "kind": "E",
-            "path": [
-              "header",
-              "contents",
-              0,
-              "type"
-            ],
-            "lhs": "textField",
-            "rhs": "panel"
-          },
-          {
-            "kind": "N",
-            "path": [
-              "header",
-              "contents",
-              0,
-              "contents"
-            ],
-            "rhs": [
-              {
-                "key": "level",
-                "cssClass": "",
-                "role": "0",
-                "permission": "0",
-                "tooltip": "",
-                "visibilityFormula": "",
-                "label": "Niveau",
-                "defaultValue": "",
-                "size": "m-small",
-                "allowDecimal": false,
-                "minVal": "",
-                "maxVal": "",
-                "allowRelative": false,
-                "showControls": true,
-                "controlsStyle": "hover",
-                "type": "numberField"
-              },
-              {
-                "key": "specialization",
-                "cssClass": "",
-                "role": "0",
-                "permission": "0",
-                "tooltip": "",
-                "visibilityFormula": "",
-                "label": "Spécialisation",
-                "defaultValue": "",
-                "size": "full-size",
-                "charList": "",
-                "maxLength": "",
-                "type": "textField"
-              }
-            ]
-          },
-          {
-            "kind": "N",
-            "path": [
-              "header",
-              "contents",
-              0,
-              "flow"
-            ],
-            "rhs": "grid-2"
-          },
-          {
-            "kind": "N",
-            "path": [
-              "header",
-              "contents",
-              0,
-              "align"
-            ],
-            "rhs": "center"
+            "lhs": "<!-- Roll 1d10 -->\n<h3>Jet de dé pour <strong>${name}$</strong></h3>\n<div style=\"text-align: center; font-weight: bold;\">${[1d10]}$</div>",
+            "rhs": "<!-- Roll 1d10 -->\n<h3>Jet de dé pour <strong>${!name}$</strong></h3>\n<div style=\"text-align: center; font-weight: bold;\">${[1d10]}$</div>"
           }
         ],
         [
           {
             "kind": "E",
             "path": [
-              "header",
+              "body",
+              "contents",
+              2,
               "contents",
               0,
-              "flow"
+              "rollMessage"
             ],
-            "lhs": "grid-2",
-            "rhs": "horizontal"
+            "lhs": "<!-- Roll 1d10 -->\n<h3>Jet de dé pour <strong>${!name}$</strong></h3>\n<div style=\"text-align: center; font-weight: bold;\">${[1d10]}$</div>",
+            "rhs": "<h3>${!name}$</span></h3>\n\n<table>\n  <tbody>\n    <tr>\n      <th>Jet du dé</th>\n      <td>\n        <strong>${roll:= [1d10] + bonus}$</strong>\n      </td>\n    </tr>\n  </tbody>\n</table>"
           }
         ],
-        [
-          {
-            "kind": "A",
-            "path": [
-              "header",
-              "contents",
-              0,
-              "contents"
-            ],
-            "index": 1,
-            "item": {
-              "kind": "D",
-              "lhs": {
-                "key": "specialization",
-                "cssClass": "",
-                "role": "0",
-                "permission": "0",
-                "tooltip": "",
-                "visibilityFormula": "",
-                "label": "Spécialisation",
-                "defaultValue": "",
-                "size": "full-size",
-                "charList": "",
-                "maxLength": "",
-                "type": "textField"
-              }
-            }
-          }
-        ],
-        null,
         [
           {
             "kind": "E",
             "path": [
-              "header",
+              "body",
+              "contents",
+              2,
               "contents",
               0,
-              "align"
+              "rollMessage"
             ],
-            "lhs": "center",
-            "rhs": "left"
+            "lhs": "<h3>${!name}$</span></h3>\n\n<table>\n  <tbody>\n    <tr>\n      <th>Jet du dé</th>\n      <td>\n        <strong>${roll:= [1d10] + bonus}$</strong>\n      </td>\n    </tr>\n  </tbody>\n</table>",
+            "rhs": "<h3>${!name}$</span></h3>\n\n<table>\n  <tbody>\n    <tr>\n      <th>Jet du dé</th>\n      <td>\n        <strong>${[1d10]}$</strong>\n      </td>\n    </tr>\n  </tbody>\n</table>"
+          }
+        ],
+        [
+          {
+            "kind": "E",
+            "path": [
+              "body",
+              "contents",
+              2,
+              "contents",
+              0,
+              "rollMessage"
+            ],
+            "lhs": "<h3>${!name}$</span></h3>\n\n<table>\n  <tbody>\n    <tr>\n      <th>Jet du dé</th>\n      <td>\n        <strong>${[1d10]}$</strong>\n      </td>\n    </tr>\n  </tbody>\n</table>",
+            "rhs": "<h3>${!name}$</span></h3>\n\n<table>\n  <tbody>\n    <tr>\n      <th>Jet du dé</th>\n      <td>\n        ${[1d10]}$\n      </td>\n    </tr>\n  </tbody>\n</table>"
+          }
+        ],
+        [
+          {
+            "kind": "E",
+            "path": [
+              "body",
+              "contents",
+              2,
+              "contents",
+              0,
+              "rollMessage"
+            ],
+            "lhs": "<h3>${!name}$</span></h3>\n\n<table>\n  <tbody>\n    <tr>\n      <th>Jet du dé</th>\n      <td>\n        ${[1d10]}$\n      </td>\n    </tr>\n  </tbody>\n</table>",
+            "rhs": "<h3>${!name}$</span></h3>\n\n<table>\n  <tbody>\n    <tr>\n      <th>Jet du dé</th>\n      <td>\n        <div style=\"font-size: large;\">${[1d10]}$</div>\n      </td>\n    </tr>\n  </tbody>\n</table>"
+          }
+        ],
+        [
+          {
+            "kind": "E",
+            "path": [
+              "body",
+              "contents",
+              2,
+              "contents",
+              0,
+              "rollMessage"
+            ],
+            "lhs": "<h3>${!name}$</span></h3>\n\n<table>\n  <tbody>\n    <tr>\n      <th>Jet du dé</th>\n      <td>\n        <div style=\"font-size: large;\">${[1d10]}$</div>\n      </td>\n    </tr>\n  </tbody>\n</table>",
+            "rhs": "<h3>${!name}$</h3>\n<table>\n  <tbody>\n    <tr>\n      <th>Jet du dé</th>\n      <td>\n        <div style=\"font-size: large;\">${[1d10]}$</div>\n      </td>\n    </tr>\n  </tbody>\n</table>"
           }
         ]
       ],
@@ -730,7 +327,7 @@
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
     "createdTime": 1704564333783,
-    "modifiedTime": 1705249219248,
+    "modifiedTime": 1705770230198,
     "lastModifiedBy": "r9x0pKEz3JGSJSrG"
   },
   "sort": 0,

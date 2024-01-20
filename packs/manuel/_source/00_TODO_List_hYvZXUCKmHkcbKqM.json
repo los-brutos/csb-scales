@@ -1,0 +1,163 @@
+{
+  "folder": null,
+  "name": "00-TODO List",
+  "_id": "hYvZXUCKmHkcbKqM",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Combat",
+      "type": "text",
+      "_id": "o485kVS5EWrtdaYx",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<ul><li><p>dégâts</p><ul><li><p><s>ajouter la force (ou autre caractéristique) pour le corps-à-corps et le contact</s></p></li><li><p><s>retirer l'endurance de la cible</s></p></li><li><p><s>affichage dans le chatmessage de la description de la blessure (en plus de son intitulé)</s></p></li><li><p>appliquer automatiquement les dommages à la cible</p></li><li><p>si la cible n'est pas sélectionnée, ne pas lancer le dé mais un message d'alerte</p></li></ul></li><li><p>attaque</p><ul><li><p><s>améliorer le message en décrivant l'action dans le chatMessage</s></p></li><li><p><s>gérer l'ajout de modificateurs manuels (tout type de combat) =&gt; n'est finalement pas souhaité !</s></p></li></ul></li><li><p>attaque à distance</p><ul><li><p><s>gérer la combativité de l'adversaire à soustraire du dé</s></p></li></ul></li><li><p>armure et protection</p><ul><li><p><s>ajouter un item de type Armure</s></p><ul><li><p><s>avec deux cas : armure corps-à-corps/contact + armure distance (ex. gilet pare-balles)</s></p></li><li><p><s>créer un item container pour les armures et protections</s></p></li><li><p><s>faire un hidden attribute pour calculer la somme des protections</s></p></li><li><p><s>inclure cette protection dans le calcul des dégâts</s></p></li></ul></li></ul></li><li><p><s>initiative</s></p><ul><li><p><s>ajouter un champ pour la caractéristique impactant à l'initiative</s></p></li><li><p><s>ajouter un hidden attribute qui calcule l'initiative avec le champ ci-dessus + la combativité + 1d10</s></p></li><li><p><s>mettre ce hidden attribute dans la configuration CSB.initiative_formula</s></p></li></ul></li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "r9x0pKEz3JGSJSrG": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "custom-system-builder",
+        "systemVersion": "3.0.0",
+        "coreVersion": "11.315",
+        "createdTime": 1704466698926,
+        "modifiedTime": 1704557057754,
+        "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+      },
+      "_key": "!journal.pages!hYvZXUCKmHkcbKqM.o485kVS5EWrtdaYx"
+    },
+    {
+      "sort": 0,
+      "name": "Personnage",
+      "type": "text",
+      "_id": "vzsWeBaNWVcL9KK7",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<ul><li><p><s>êtres magiques</s></p><ul><li><p><s>ajout d'un champ pour saisir la nature des êtres magiques (affiché si type == être magique et pour le propriétaire du personnage)</s></p></li></ul></li><li><p><s>dragons (qu'importe la génération)</s></p><ul><li><p><s>ajout d'un champ pour indiquer la famille du dragon (affiché si type == être magique et pour le propriétaire du personnage)</s></p></li></ul></li><li><p><s>ajout d'une case expérience</s></p></li><li><p><s>blessures</s></p><ul><li><p><s>ajouter un Label avec le texte</s> décrivant la blessure la plus grave</p></li><li><p><s>réorganiser les blessures selon les niveaux sans distinction contact/distance</s></p><ul><li><p><s>0 = Rien</s></p></li><li><p><s>10 = Légèrement sonné</s></p></li><li><p><s>20 = Sonné</s></p></li><li><p><s>30 = Assommé</s></p></li><li><p><s>40 = Dommage critique ( = Assommé + Blessure légère)</s></p></li><li><p><s>50 = Egratignure</s></p></li><li><p><s>60 = Blessure légère</s></p></li><li><p><s>70 = Blessure grave</s></p></li><li><p><s>80 = Coma</s></p></li><li><p><s>90 = Mort</s></p></li></ul></li></ul></li><li><p><s>après un jet de métier ou de hobby ou non qualifié, remise à zéro de la caractéristique liée</s></p></li></ul>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "r9x0pKEz3JGSJSrG": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "custom-system-builder",
+        "systemVersion": "3.0.0",
+        "coreVersion": "11.315",
+        "createdTime": 1704466710572,
+        "modifiedTime": 1705770141857,
+        "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+      },
+      "_key": "!journal.pages!hYvZXUCKmHkcbKqM.vzsWeBaNWVcL9KK7"
+    },
+    {
+      "sort": 200000,
+      "name": "Magie",
+      "type": "text",
+      "_id": "6g5jNFq8uFJe6TiE",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<ul><li><p>intégrer les évolutions des suppléments</p><ul><li><p>technologie</p></li><li><p>politique</p></li><li><p>magie</p></li><li><p>…</p></li></ul></li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "r9x0pKEz3JGSJSrG": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "custom-system-builder",
+        "systemVersion": "3.0.0",
+        "coreVersion": "11.315",
+        "createdTime": 1704466730236,
+        "modifiedTime": 1705683636389,
+        "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+      },
+      "_key": "!journal.pages!hYvZXUCKmHkcbKqM.6g5jNFq8uFJe6TiE"
+    },
+    {
+      "sort": 50000,
+      "name": "Gestalt",
+      "type": "text",
+      "_id": "NHgA2N8ogfd1WCKu",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h2><s>Création du template du Gestalt !!! youhou</s></h2><ul><li><p><s>Description physique</s></p></li><li><p><s>Caractéristiques :</s></p><ul><li><p><strong><s>Taille</s></strong><s> = nombre de joueurs présents lors de la 1ère séance + 1d10/2 points</s></p></li><li><p><strong><s>Etres liés</s></strong><s> au gestalt (1 dragon + X êtres magiques)</s></p></li><li><p><s>? places restantes ? = taille - nbre d'êtres liés</s></p></li><li><p><strong><s>Puissance</s></strong><s> = 5 + 1d10/2</s></p></li></ul></li><li><p><s>Boutons d'action :</s></p><ul><li><p><s>Jet d'un dé basé sur la puissance du gestalt avec malus (entre parenthèse) + bonus +1 si le personnage touche le gestalt</s></p></li><li><p><s>Les pouvoirs sont :</s></p><ul><li><p><strong><s>Etat physique d’un membre du gestalt (0)</s></strong><s> : Si le pouvoir est réussi, le personnage connaît avec précision l’état physique d’un autre membre du gestalt et tous les maux dont il peut être victime (manque de sommeil, maladie, empoisonnement, sommeil prolongé, paralysie, etc…). Son état psychique restera complètement secret.</s></p></li><li><p><strong><s>Localisation d’un membre du gestalt</s></strong><s> (-2) : Si le pouvoir est réussi, le personnage connaît la direction et la distance approximative de l’endroit où se trouve le membre du gestalt sur lequel il s’était concentré. Ce même pouvoir peut être utilisé pour repérer le gestalt lui-même si, par exemple, il était dérobé à ses propriétaires légitimes.</s></p></li><li><p><strong><s>Message télépathique (-3)</s></strong><s> : En cas de jet réussi, le personnage envoie un message télépathique de 20 mots maximum au membre du gestalt de son choix. Si ce dernier se trouve à moins de (Puissance fois 10) kilomètres, le message lui parvient immédiatement.</s></p></li><li><p><strong><s>Conversation télépathique (-4)</s></strong><s> : En cas de jet réussi, le personnage envoie un message télépathique de 20 mots maximum au membre du gestalt de son choix. Si ce dernier se trouve à moins de (Puissance fois 10) kilomètres, le message lui parvient immédiatement. Le destinataire peut ensuite envoyer à l’émetteur une réponse de même taille et à la même portée de la même façon sans qu’un nouveau jet de dé ne soit nécessaire.</s></p></li><li><p><strong><s>Concentration de la puissance (-5)</s></strong><s> : Tous les membres du gestalt sauf un doivent tenter d’utiliser ce pouvoir au même moment. On ne jette qu’une seule fois le dé. Si le pouvoir est réussi, le personnage manquant (celui qui n’utilise pas le pouvoir) reçoit un bonus de 1 point à toutes ses compétences durant (Puissance) minutes. Tous les autres reçoivent un malus identique et ce pendant une durée 60 fois plus importante.</s></p></li></ul></li></ul></li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "r9x0pKEz3JGSJSrG": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "custom-system-builder",
+        "systemVersion": "3.0.0",
+        "coreVersion": "11.315",
+        "createdTime": 1704498562672,
+        "modifiedTime": 1704556970728,
+        "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+      },
+      "_key": "!journal.pages!hYvZXUCKmHkcbKqM.NHgA2N8ogfd1WCKu"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "systemId": "custom-system-builder",
+    "systemVersion": "3.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1704466691458,
+    "modifiedTime": 1705770387339,
+    "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "r9x0pKEz3JGSJSrG": 3
+  },
+  "_key": "!journal!hYvZXUCKmHkcbKqM"
+}

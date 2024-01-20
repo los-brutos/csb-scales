@@ -2,7 +2,6 @@
 
 ${#concat(
   ?{puissance:"Puissance"[number]|item.maxPower},
-  ?{vecteur:"Vecteur de l'effet"|"Solide"|"Liquide"|"Gazeux"},
   ?{modificateur:"Modificateur"[number]|0}
 )}$
 
@@ -12,18 +11,20 @@ ${#magieAlchimique:= alchemicalMagicLevel}$
 ${#caracteristique:= dosageCharacteristic}$
 ${#sante:= healthMalus}$
 
-${#anciennete:= min(${12 - item.centuryOfWriting}$, 0)}$
+${#anciennete:= item.centuryModificator}$
+
+${#vecteur:= switchCase(item.vector, "0", "Solide", "10", "Liquide", "20", "Gazeux", "Vecteur non renseigné")}$
 
 ${#bonus:=((seuil + magieAlchimique + anciennete + caracteristique + modificateur + sante) > 10 ? seuil + magieAlchimique + anciennete + caracteristique + modificateur + sante - 10 : 0)}$
 
 <!-- contrôle de la puissance (inférieure ou égale à la puissance maximale) -->
 ${#puissance:= min(item.maxPower, max(puissance, 0))}$
 
-<h3>Dosage de la formulae <strong>${!item.name}$</strong> avec une puissance ${!puissance}$</span></h3>
+<h3>Dosage de la formule <strong>${!item.name}$</strong> (${!vecteur}$) avec une puissance ${!puissance}$</span></h3>
 <table>
   <tbody>
     <tr>
-      <td><h4>Jet du dé</h4></td>
+      <th>Jet du dé</th>
       <td>
         <strong>${roll:= [1d10] + bonus}$</strong> / ${seuil:= seuil + magieAlchimique + anciennete + caracteristique + modificateur + sante}$
       </td>
@@ -37,7 +38,7 @@ ${#puissance:= min(item.maxPower, max(puissance, 0))}$
       <td colspan="2">
         <p>
 <!-- réussite : durée d'expiration du sort contenu dans le vecteur -->
-${!seuil >= roll ? (equalText(vecteur, "Solide") ? "Le sort n'expirera qu'à la destruction du vecteur" : equalText(vecteur, "Liquide") ? concat("Le sort dans le vecteur liquide expirera au bout de ",string(${![1d10]}$)," jour(s)") : equalText(vecteur, "Gazeux") ? concat("Le sort dans le vecteur gazeux expirera au bout de ",string(${![1d10]}$)," heure(s)") : "") : ""}$
+${!seuil >= roll ? (0 == item.vector ? "Le sort n'expirera qu'à la destruction du vecteur" : 10 == item.vector ? concat("Le sort dans le vecteur liquide expirera au bout de ",string(${![1d10]}$)," jour(s)") : 20 == item.vector ? concat("Le sort dans le vecteur gazeux expirera au bout de ",string(${![1d10]}$)," heure(s)") : "") : ""}$
 
 <!-- échec -->
 ${#rollEffect:= [1d10]}$

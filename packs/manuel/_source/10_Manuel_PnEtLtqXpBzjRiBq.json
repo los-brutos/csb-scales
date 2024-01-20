@@ -1,0 +1,92 @@
+{
+  "folder": null,
+  "name": "10-Manuel",
+  "_id": "PnEtLtqXpBzjRiBq",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Installation et configuration",
+      "type": "text",
+      "_id": "SfXS84f8xU4j6ZkB",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h2>Templates</h2><ul><li><p>Importer les templates via le fichier <code>csb-scales.json</code> présent à la racine du module</p></li></ul><h3>Template des personnages : _Scales</h3><ul><li><p>ouvrir le template _Scales dans l'onglet <strong>Acteurs</strong></p></li><li><p>aller dans l'onglet <em>Combat</em> du template</p></li><li><p>cliquer sur l'<em>item Container weapons</em> </p><ul><li><p>cocher la case <em>_scales_arme</em> dans la partie <em>Filter items</em></p></li></ul></li><li><p>cliquer sur l'<em>item Container armors</em></p><ul><li><p>cocher la case <em>_scales_armure</em> dans la partie <em>Filter items</em></p></li></ul></li></ul><h2>Initiative</h2><p>dans les options du système CSB mettre la valeur suivante dans le champ <strong>Initiative Fomula</strong> :</p><p><code>[1d10] + characteristicForInitiative + fightness</code></p><p></p><p></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "r9x0pKEz3JGSJSrG": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "custom-system-builder",
+        "systemVersion": "3.0.0",
+        "coreVersion": "11.315",
+        "createdTime": 1704466777594,
+        "modifiedTime": 1704469527222,
+        "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+      },
+      "_key": "!journal.pages!PnEtLtqXpBzjRiBq.SfXS84f8xU4j6ZkB"
+    },
+    {
+      "sort": 0,
+      "name": "Crédits et remerciements",
+      "type": "text",
+      "_id": "psOKt1JlHVlhVBcW",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Merci à <a href=\"https://asmodee.fr/\" title=\"lien vers le site de l'éditeur Asmodée\"><strong>Asmodée</strong></a>, éditeur, et <strong>CROC</strong>, auteur, pour l'autorisation de publier ce module regroupant le système de Scales et ses scénarios</p><p></p><h2>Crédits</h2><h3>Livre des règles</h3><ul><li><p>Création : CROC</p></li><li><p>Textes additionnels : G.E. Ranne et Stéphane Bura</p></li><li><p>Scénario : Stéphane Bura</p></li><li><p>Logo et pictogrammes : Pierre Lepivain et Stéphane Beau</p></li><li><p>Dessins : Alberto Varanda, Guillaume Sorel et Stéphane Beau</p></li><li><p>Corrections : Sabine Wong et Guillaume Delafosse</p></li></ul><p></p><p></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "r9x0pKEz3JGSJSrG": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "custom-system-builder",
+        "systemVersion": "3.0.0",
+        "coreVersion": "11.315",
+        "createdTime": 1705501634306,
+        "modifiedTime": 1705508231129,
+        "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+      },
+      "_key": "!journal.pages!PnEtLtqXpBzjRiBq.psOKt1JlHVlhVBcW"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "systemId": "custom-system-builder",
+    "systemVersion": "3.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1704466680906,
+    "modifiedTime": 1705770387339,
+    "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "r9x0pKEz3JGSJSrG": 3
+  },
+  "_key": "!journal!PnEtLtqXpBzjRiBq"
+}

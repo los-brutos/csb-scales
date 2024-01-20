@@ -1,0 +1,12 @@
+<!-- Utils -->
+
+<!-- afficher l'onglet des pouvoirs innés 
+* true si
+  * être magique dont l'émergence est au moins à la phase de frémissement
+  * dragon
+-->
+or(and(1 == type, 0 < emergence), 2 == type) ? true : false
+
+<!-- afficher l'onglet de la magie draconique -->
+or(2 == type, and(1 == type, accessDraconicMagic)) ? true : false
+
