@@ -6,13 +6,13 @@ ${#concat(
 
 ${#seuil:= 4}$
 
-${#caracteristique:= (unskilledMaskCharacteristic ? unskilledMaskCharacteristic : 0)}$
+${#caracteristique:= first(fetchFromDynamicTable('characteristics', 'value', 'name', unskilledMaskCharacteristic), 0)}$
 
 ${#sante:=healthMalus}$
 
 ${#bonus:=((seuil + caracteristique + modificateur + sante) > 10 ? seuil + caracteristique + modificateur + sante - 10 : 0)}$
 
-<h3>Jet de masque sans métier/hobby qualifié</h3>
+<h3>Jet de masque sans métier/hobby qualifié${!0 != caracteristique ? concat(" avec ", unskilledMaskCharacteristic) : ""}$</h3>
 <table>
   <tbody>
     <tr>

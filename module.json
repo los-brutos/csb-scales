@@ -131,6 +131,30 @@
       },
       "system": "custom-system-builder",
       "flags": {}
+    },
+    {
+      "name": "intervenants",
+      "label": "Intervenants (Scales)",
+      "path": "packs/intervenants",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder",
+      "flags": {}
+    },
+    {
+      "name": "scenarios-officiels",
+      "label": "SCénarios officiels (Scales)",
+      "path": "packs/scenarios-officiels",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder",
+      "flags": {}
     }
   ],
   "packFolders": [
@@ -148,9 +172,10 @@
         "name": "Ressources pour Scales",
         "sorting": "a",
         "color": "#000000",
-        "packs": ["armes", "armures-et-protections", "formules-magiques", "pouvoirs-innes", "sorts-draconiques", "ingredients-alchimiques"]
+        "packs": ["armes", "armures-et-protections", "formules-magiques", "ingredients-alchimiques", "intervenants", "pouvoirs-innes", "sorts-draconiques"]
       }
-    ]
+    ],
+    "packs": ["scenarios-officiels"]
   }
 ]
 }

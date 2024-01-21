@@ -10,3 +10,8 @@ or(and(1 == type, 0 < emergence), 2 == type) ? true : false
 <!-- afficher l'onglet de la magie draconique -->
 or(2 == type, and(1 == type, accessDraconicMagic)) ? true : false
 
+<!-- calcul du modificateur du jet d'initiative (hidden attribute) -->
+${fightness + first(fetchFromDynamicTable('characteristics', 'value', 'name', characteristicForInitiative), 0)}$
+
+<!-- calcul de la résistance (via caractéristique) lors d'une attaque contre le personnage -->
+${first(fetchFromDynamicTable('characteristics', 'value', 'name', resistanceCharacteristic), 0)}$

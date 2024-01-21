@@ -9,26 +9,43 @@ ${#nameTarget:= fetchFromActor("target", "name", "")}$
 ${#(nameTarget?"":notify("error", "Vous devez sélectionner une cible !"))}$
 
 <!-- récupération des données -->
-${#sante:= healthMalus}$
+${#sante:=       healthMalus}$
 ${#combativite:= fightness}$
-${#type:= item.combatType}$
-${#bonusArme:= item.attackBonus ? item.attackBonus : 0}$
+${#type:=        item.combatType}$
+${#bonusArme:=   item.attackBonus ? item.attackBonus : 0}$
 
 <!-- définition des valeurs par défaut -->
-${#default:=6}$
-${#ccCombatCarrier:= (ccCombatCarrier ? ccCombatCarrier : default)}$
-${#ccCombatHobby:= (ccCombatHobby ? ccCombatHobby : default)}$
-${#contactCombatCarrier:= (contactCombatCarrier ? contactCombatCarrier : default)}$
-${#contactCombatHobby:= (contactCombatHobby ? contactCombatHobby : default)}$
-${#distanceCombatCarrier:= (distanceCombatCarrier ? distanceCombatCarrier : default)}$
-${#distanceCombatHobby:= (distanceCombatHobby ? distanceCombatHobby : default)}$
+${#ccCombatCarrier:=       ccCombatCarrier       ? ccCombatCarrier       : ""}$
+${#ccCombatHobby:=         ccCombatHobby         ? ccCombatHobby         : ""}$
+${#contactCombatCarrier:=  contactCombatCarrier  ? contactCombatCarrier  : ""}$
+${#contactCombatHobby:=    contactCombatHobby    ? contactCombatHobby    : ""}$
+${#distanceCombatCarrier:= distanceCombatCarrier ? distanceCombatCarrier : ""}$
+${#distanceCombatHobby:=   distanceCombatHobby   ? distanceCombatHobby   : ""}$
+
+${#default:= 6}$
+${#ccCombatCarrierLevel:=       first(fetchFromDynamicTable('carriers', 'level', 'name', ccCombatCarrier),       default)}$
+${#ccCombatHobbyLevel:=         first(fetchFromDynamicTable('hobbies',  'level', 'name', ccCombatHobby),         default)}$
+${#contactCombatCarrierLevel:=  first(fetchFromDynamicTable('carriers', 'level', 'name', contactCombatCarrier),  default)}$
+${#contactCombatHobbyLevel:=    first(fetchFromDynamicTable('hobbies',  'level', 'name', contactCombatHobby),    default)}$
+${#distanceCombatCarrierLevel:= first(fetchFromDynamicTable('carriers', 'level', 'name', distanceCombatCarrier), default)}$
+${#distanceCombatHobbyLevel:=   first(fetchFromDynamicTable('hobbies',  'level', 'name', distanceCombatHobby),   default)}$
+
+<!-- définition du nom du métier ou du hobby de référence -->
+${#ccName:=       ccCombatCarrierLevel       >= ccCombatHobbyLevel       ? ccCombatHobby       : ccCombatCarrier}$
+${#contactName:=  contactCombatCarrierLevel  >= contactCombatHobbyLevel  ? contactCombatHobby  : contactCombatCarrier}$
+${#distanceName:= distanceCombatCarrierLevel >= distanceCombatHobbyLevel ? distanceCombatHobby : distanceCombatCarrier}$
+${#carrierHobby:= switchCase(type, "1", ccName, "2", contactName, "3", distanceName, "")}$
+${#carrierHobby:= equalText("", carrierHobby) ? "Non qualifié" : carrierHobby}$
 
 <!-- définition du niveau du métier ou du hobby de référence -->
-${#level:=switchCase(type, "1", ${ccCombatCarrier >= ccCombatHobby ? ccCombatHobby : ccCombatCarrier}$, "2", ${contactCombatCarrier >= contactCombatHobby ? contactCombatHobby : contactCombatCarrier}$, "3", ${distanceCombatCarrier >= distanceCombatHobby ? distanceCombatHobby : distanceCombatCarrier}$, default)}$
+${#ccLevel:=       ccCombatCarrierLevel       >= ccCombatHobbyLevel       ? ccCombatHobbyLevel       : ccCombatCarrierLevel}$
+${#contactLevel:=  contactCombatCarrierLevel  >= contactCombatHobbyLevel  ? contactCombatHobbyLevel  : contactCombatCarrierLevel}$
+${#distanceLevel:= distanceCombatCarrierLevel >= distanceCombatHobbyLevel ? distanceCombatHobbyLevel : distanceCombatCarrierLevel}$
+${#level:=switchCase(type, "1", ccLevel, "2", contactLevel, "3", distanceLevel, default)}$
 
 <!-- définition de la caractéristique de référence -->
-${#default:=0}$
-${#caracteristique:=switchCase(type, "1", ${ccCombatCharacteristic?ccCombatCharacteristic:default}$, "2", ${contactCombatCharacteristic?contactCombatCharacteristic:default}$, "3", ${distanceCombatCharacteristic?distanceCombatCharacteristic:default}$, default)}$
+${#caracteristiqueName:= (1 == type ? ccCombatCharacteristic : 2 == type ? contactCombatCharacteristic : 3 == type ? distanceCombatCharacteristic : "")}$
+${#caracteristique:= first(fetchFromDynamicTable('characteristics', 'value', 'name', caracteristiqueName), 0)}$
 
 <!-- combativité de la cible -->
 ${#combativiteAdverse:=(3 == type ? fetchFromActor('target', 'fightness') : 0)}$
@@ -37,9 +54,10 @@ ${#combativiteAdverse:=(3 == type ? fetchFromActor('target', 'fightness') : 0)}$
 ${#seuil:= 10 - level - diff}$
 
 <!-- calcul du bonus si le seuil est supérieur à 10 -->
-${#bonus:=((seuil + caracteristique + combativite + combativiteAdverse + bonusArme + modificateur + sante) > 10 ? seuil + caracteristique + combativite + combativiteAdverse + bonusArme + modificateur + sante - 10 : 0)}$
+${#seuilTemp:= seuil + caracteristique + combativite + combativiteAdverse + bonusArme + modificateur + sante}$
+${#bonus:=(seuilTemp > 10 ? seuilTemp - 10 : 0)}$
 
-<h3>Attaque avec <strong>${!item.name}$</strong> <span style="font-size: small;">(${!(0 == diff ? "Facile" : (2 == diff ? "Normal":"Difficile"))}$)</span></h3>
+<h3><strong>${!item.name}$</strong> : attaque ${!(0 == diff ? "facile" : (2 == diff ? "normale":"difficile"))}$ ${!and(not(equalText(carrierHobby, "")), 0 != caracteristique) ? "avec" : ""}$ ${! carrierHobby}$ ${! 0 != caracteristique ? concat("et ", caracteristiqueName) : ""}$</h3>
 <table>
   <tbody>
     <tr>

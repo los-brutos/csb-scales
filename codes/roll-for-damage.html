@@ -12,13 +12,13 @@ ${#(nameTarget?"":notify("error", "Vous devez sélectionner une cible !"))}$
 ${#combativite:=fightness}$
 ${#type:=item.combatType}$
 ${#bonusArme:= item.damageBonus ? item.damageBonus : 0}$
-${#protectionAdverse:= -1*(3 == type ? fetchFromActor("target", "distanceArmorEquiped", 0) : fetchFromActor("target", "ccArmorEquiped", 0))}$
+${#protectionAdverse:= -1 * (3 == type ? fetchFromActor("target", "distanceArmorEquiped", 0) : fetchFromActor("target", "ccArmorEquiped", 0))}$
 
 <!-- bonus de la caracteristique si combat corps-à-corps ou contact -->
-${#bonusForce:=(3 == type ? 0 : powerfullCharacteristic)}$
+${#bonusForce:=(3 == type ? 0 : first(fetchFromDynamicTable('characteristics', 'value', 'name', powerfullCharacteristic), 0))}$
 
 <!-- malus de la résistance de la cible -->
-${#resistanceAdverse:=(-1 * fetchFromActor("target", "resistanceCharacteristic", 0))}$
+${#resistanceAdverse:=(-1 * fetchFromActor("target", "resistanceModificator", 0))}$
 
 <h3>Dégats de puissance ${!switchCase(powerfull, "1", "Faible","2", "Moyenne","3", "Importante", "4", "Remarquable", "<i>non définie</i>")}$ sur <strong>@{target|name}</strong> par ${!name}$</h3>
 
@@ -95,6 +95,7 @@ ELSE
 FI
 -->
 
+<!--
 
 ${stunTarget:= fetchFromActor('target', 'stun')}$
 <br/>
@@ -116,3 +117,4 @@ ${$changement:=and(damage >= 50, damage > healthTarget)
       ? ${setPropertyInEntity('target', 'stun', "damage")}$
       : "pas de changement"
 )}$
+-->

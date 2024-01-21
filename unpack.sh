@@ -1,0 +1,12 @@
+fvtt package workon csb-scales --type=Module
+fvtt package unpack -c armes
+fvtt package unpack -c armures-et-protections
+fvtt package unpack -c formules-magiques
+fvtt package unpack -c ingredients-alchimiques
+fvtt package unpack -c intervenants
+fvtt package unpack -c manuel
+fvtt package unpack -c pouvoirs-innes
+fvtt package unpack -c scenarios-officiels
+fvtt package unpack -c sorts-draconiques
+fvtt package unpack -c templates-actors
+fvtt package unpack -c templates-items
