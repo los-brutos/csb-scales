@@ -1,9 +1,9 @@
 {
-  "name": "Dragons asiatiques",
+  "name": "Armures et protections spéciales",
   "sorting": "a",
-  "folder": "LqEmwmVBPVc6xSsz",
-  "type": "Actor",
-  "_id": "EuXtYcyWrpcx6wul",
+  "folder": null,
+  "type": "Item",
+  "_id": "svIFhpxJSMDOyyTG",
   "sort": 0,
   "color": null,
   "flags": {},
@@ -11,9 +11,9 @@
     "systemId": "custom-system-builder",
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
-    "createdTime": 1705686930458,
-    "modifiedTime": 1706308207348,
+    "createdTime": 1706305586054,
+    "modifiedTime": 1706308253588,
     "lastModifiedBy": "r9x0pKEz3JGSJSrG"
   },
-  "_key": "!folders!EuXtYcyWrpcx6wul"
+  "_key": "!folders!svIFhpxJSMDOyyTG"
 }

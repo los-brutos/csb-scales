@@ -1,7 +1,9 @@
 {
-  "name": "Gaz soporifique",
+  "folder": "svIFhpxJSMDOyyTG",
+  "name": "Carapace",
   "type": "equippableItem",
-  "img": "icons/svg/pawprint.svg",
+  "_id": "yI8RqpwABMyA5hnf",
+  "img": "icons/svg/ice-shield.svg",
   "system": {
     "hidden": [],
     "header": {
@@ -19,7 +21,52 @@
     "body": {
       "contents": [
         {
-          "key": "characteristicsPanel",
+          "key": "",
+          "cssClass": "",
+          "role": "0",
+          "permission": "0",
+          "tooltip": "",
+          "visibilityFormula": "",
+          "contents": [
+            {
+              "key": "",
+              "cssClass": "",
+              "role": "0",
+              "permission": "0",
+              "tooltip": "",
+              "visibilityFormula": "",
+              "label": null,
+              "defaultValue": null,
+              "size": "full-size",
+              "icon": "",
+              "value": "Equipée",
+              "prefix": "",
+              "suffix": "",
+              "rollMessage": "",
+              "altRollMessage": "",
+              "style": "bold",
+              "type": "label"
+            },
+            {
+              "key": "equiped",
+              "cssClass": "",
+              "role": "0",
+              "permission": "0",
+              "tooltip": "",
+              "visibilityFormula": "",
+              "label": "",
+              "defaultValue": null,
+              "size": "full-size",
+              "type": "checkbox",
+              "defaultChecked": true
+            }
+          ],
+          "flow": "horizontal",
+          "align": "center",
+          "type": "panel"
+        },
+        {
+          "key": "",
           "cssClass": "",
           "role": "0",
           "permission": "0",
@@ -45,7 +92,7 @@
                   "defaultValue": null,
                   "size": "full-size",
                   "icon": "",
-                  "value": "Type",
+                  "value": "Protection au contact",
                   "prefix": "",
                   "suffix": "",
                   "rollMessage": "",
@@ -54,35 +101,22 @@
                   "type": "label"
                 },
                 {
-                  "key": "combatType",
+                  "key": "ccArmor",
                   "cssClass": "",
                   "role": "0",
                   "permission": "0",
-                  "tooltip": "Type de l'arme",
+                  "tooltip": "",
                   "visibilityFormula": "",
                   "label": "",
-                  "defaultValue": "1",
-                  "size": "full-size",
-                  "options": [
-                    {
-                      "key": "1",
-                      "value": "Corps-à-Corps"
-                    },
-                    {
-                      "key": "2",
-                      "value": "Contact"
-                    },
-                    {
-                      "key": "3",
-                      "value": "Distance"
-                    }
-                  ],
-                  "tableKey": null,
-                  "tableKeyColumn": null,
-                  "tableLabelColumn": null,
-                  "formulaKeyOptions": null,
-                  "formulaLabelOptions": null,
-                  "type": "select"
+                  "defaultValue": "0",
+                  "size": "small",
+                  "allowDecimal": false,
+                  "minVal": "0",
+                  "maxVal": "",
+                  "allowRelative": false,
+                  "showControls": true,
+                  "controlsStyle": "hover",
+                  "type": "numberField"
                 }
               ],
               "flow": "horizontal",
@@ -108,7 +142,7 @@
                   "defaultValue": null,
                   "size": "full-size",
                   "icon": "",
-                  "value": "Puissance maximale",
+                  "value": "Protection contre les armes à feu",
                   "prefix": "",
                   "suffix": "",
                   "rollMessage": "",
@@ -117,74 +151,7 @@
                   "type": "label"
                 },
                 {
-                  "key": "powerfullMax",
-                  "cssClass": "",
-                  "role": "0",
-                  "permission": "0",
-                  "tooltip": "Puissance maximale de l'arme",
-                  "visibilityFormula": "",
-                  "label": "",
-                  "defaultValue": "1",
-                  "size": "full-size",
-                  "options": [
-                    {
-                      "key": "1",
-                      "value": "Faible"
-                    },
-                    {
-                      "key": "2",
-                      "value": "Moyenne"
-                    },
-                    {
-                      "key": "3",
-                      "value": "Importante"
-                    },
-                    {
-                      "key": "4",
-                      "value": "Remarquable"
-                    }
-                  ],
-                  "tableKey": null,
-                  "tableKeyColumn": null,
-                  "tableLabelColumn": null,
-                  "formulaKeyOptions": null,
-                  "formulaLabelOptions": null,
-                  "type": "select"
-                }
-              ],
-              "flow": "horizontal",
-              "align": "center",
-              "type": "panel"
-            },
-            {
-              "key": "",
-              "cssClass": "",
-              "role": "0",
-              "permission": "0",
-              "tooltip": "",
-              "visibilityFormula": "combatType == 3 ? false : true",
-              "contents": [
-                {
-                  "key": "",
-                  "cssClass": "",
-                  "role": "0",
-                  "permission": "0",
-                  "tooltip": "",
-                  "visibilityFormula": "",
-                  "label": null,
-                  "defaultValue": null,
-                  "size": "full-size",
-                  "icon": "",
-                  "value": "Bonus d'attaque",
-                  "prefix": "",
-                  "suffix": "",
-                  "rollMessage": "",
-                  "altRollMessage": "",
-                  "style": "bold",
-                  "type": "label"
-                },
-                {
-                  "key": "attackBonus",
+                  "key": "distanceArmor",
                   "cssClass": "",
                   "role": "0",
                   "permission": "0",
@@ -192,57 +159,7 @@
                   "visibilityFormula": "",
                   "label": "",
                   "defaultValue": "0",
-                  "size": "full-size",
-                  "allowDecimal": false,
-                  "minVal": "0",
-                  "maxVal": "",
-                  "allowRelative": false,
-                  "showControls": true,
-                  "controlsStyle": "hover",
-                  "type": "numberField"
-                }
-              ],
-              "flow": "horizontal",
-              "align": "center",
-              "type": "panel"
-            },
-            {
-              "key": "",
-              "cssClass": "",
-              "role": "0",
-              "permission": "0",
-              "tooltip": "",
-              "visibilityFormula": "combatType == 3 ? false : true",
-              "contents": [
-                {
-                  "key": "",
-                  "cssClass": "",
-                  "role": "0",
-                  "permission": "0",
-                  "tooltip": "",
-                  "visibilityFormula": "",
-                  "label": null,
-                  "defaultValue": null,
-                  "size": "full-size",
-                  "icon": "",
-                  "value": "Bonus de dégâts",
-                  "prefix": "",
-                  "suffix": "",
-                  "rollMessage": "",
-                  "altRollMessage": "",
-                  "style": "bold",
-                  "type": "label"
-                },
-                {
-                  "key": "damageBonus",
-                  "cssClass": "",
-                  "role": "0",
-                  "permission": "0",
-                  "tooltip": "",
-                  "visibilityFormula": "",
-                  "label": "",
-                  "defaultValue": "0",
-                  "size": "full-size",
+                  "size": "small",
                   "allowDecimal": false,
                   "minVal": "0",
                   "maxVal": "",
@@ -258,11 +175,11 @@
             }
           ],
           "flow": "grid-2",
-          "align": "left",
+          "align": "right",
           "type": "panel"
         },
         {
-          "key": "descriptionLabel",
+          "key": "",
           "cssClass": "",
           "role": "0",
           "permission": "0",
@@ -285,7 +202,7 @@
           "cssClass": "",
           "role": "0",
           "permission": "0",
-          "tooltip": "Description de l'arme",
+          "tooltip": "",
           "visibilityFormula": "",
           "label": "",
           "defaultValue": "",
@@ -305,28 +222,25 @@
       "type": "panel"
     },
     "display": {
-      "width": "500",
-      "height": "400",
+      "width": "600",
+      "height": "600",
       "fix_size": false,
       "pp_width": "64",
       "pp_height": "64"
     },
-    "template": "14jgxwvyYKfEIWkZ",
+    "template": "EKpHmIAjQI656vcn",
     "props": {
-      "name": "Gaz soporifique",
-      "combatType": "1",
-      "powerfullMax": "2",
-      "descriptionLabel": "Description",
-      "attackBonus": "0",
-      "damageBonus": "0",
-      "description": "<p>Bien que consid&eacute;r&eacute; comme une attaque &agrave; distance, les dommages caus&eacute;s par le gaz soporifique sont lus comme s'ils avaient &eacute;t&eacute; occasionn&eacute;s par un combat au corps &agrave; corps.</p>"
+      "name": "Carapace",
+      "ccArmor": "0",
+      "distanceArmor": "0",
+      "description": "<p style=\"text-align: justify;\">Ce pouvoir n&rsquo;est accessible qu&rsquo;&agrave; certains dragons et<strong> n&rsquo;est utilisable que si&nbsp;l&rsquo;individu en question est en forme draconique pure</strong> (ce qui demande g&eacute;n&eacute;ralement l&rsquo;utilisation simultan&eacute;e ou pr&eacute;alable d&rsquo;un pouvoir de polymorphie).</p>\n<p style=\"text-align: justify;\">Le <strong>niveau de ce pouvoir est retranch&eacute;</strong> &agrave; tous les jets qui serviraient &agrave; calculer les <strong>dommages d&rsquo;une attaque</strong> dont le possesseur pourrait &ecirc;tre la cible.</p>\n<p style=\"text-align: justify;\">Ce pouvoir est permanent &agrave; partir du moment o&ugrave; l&rsquo;utilisateur est en forme draconique pure.</p>\n<p style=\"text-align: justify;\">Le r&eacute;sultat final du jet de d&eacute; est inf&eacute;rieur ou &eacute;gal &agrave; 0, estime que les dommages caus&eacute;s par l&rsquo;attaque en question sont r&eacute;duits d&rsquo;un niveau (exemple: des dommages de puissance &laquo; Moyenne &raquo; deviennent de puissance &laquo; Faible &raquo;), des dommages de puissance inf&eacute;rieure &agrave; &laquo; Faible &raquo; &eacute;tant consid&eacute;r&eacute;s comme n&eacute;gligeables.</p>\n<p style=\"text-align: justify;\">Note : <strong>Les parents dragons peuvent b&eacute;n&eacute;ficier de ce pouvoir m&ecirc;me sous forme humaine, et sans que leur apparence soit modifi&eacute;e.</strong></p>",
+      "equiped": false
     },
     "modifiers": [],
     "unique": false,
-    "templateSystemUniqueVersion": 776077033
+    "templateSystemUniqueVersion": 3280499955
   },
   "effects": [],
-  "folder": "ZjolQ5wEla5oAoUn",
   "flags": {
     "custom-system-builder": {
       "version": "3.0.0"
@@ -337,15 +251,14 @@
     "systemId": "custom-system-builder",
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
-    "createdTime": 1704469193630,
-    "modifiedTime": 1706308247069,
+    "createdTime": 1706305596800,
+    "modifiedTime": 1706308253667,
     "lastModifiedBy": "r9x0pKEz3JGSJSrG"
   },
-  "_id": "QS6Y7vMeo3PleRLQ",
   "sort": 0,
   "ownership": {
     "default": 0,
     "r9x0pKEz3JGSJSrG": 3
   },
-  "_key": "!items!QS6Y7vMeo3PleRLQ"
+  "_key": "!items!yI8RqpwABMyA5hnf"
 }

@@ -198,7 +198,7 @@
                   "minVal": "0",
                   "maxVal": "",
                   "allowRelative": false,
-                  "showControls": false,
+                  "showControls": true,
                   "controlsStyle": "hover",
                   "type": "numberField"
                 }
@@ -248,7 +248,7 @@
                   "minVal": "0",
                   "maxVal": "",
                   "allowRelative": false,
-                  "showControls": false,
+                  "showControls": true,
                   "controlsStyle": "hover",
                   "type": "numberField"
                 }
@@ -323,7 +323,7 @@
     },
     "modifiers": [],
     "unique": false,
-    "templateSystemUniqueVersion": 3597308341
+    "templateSystemUniqueVersion": 776077033
   },
   "effects": [],
   "folder": null,
@@ -337,7 +337,7 @@
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
     "createdTime": 1704469193630,
-    "modifiedTime": 1705770319643,
+    "modifiedTime": 1706308247069,
     "lastModifiedBy": "r9x0pKEz3JGSJSrG"
   },
   "sort": 0,

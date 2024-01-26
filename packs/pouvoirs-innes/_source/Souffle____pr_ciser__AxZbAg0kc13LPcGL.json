@@ -1,6 +1,6 @@
 {
   "folder": null,
-  "name": "Majoration (à vérifier)",
+  "name": "Souffle (à préciser)",
   "type": "equippableItem",
   "img": "icons/svg/aura.svg",
   "system": {
@@ -135,9 +135,9 @@
     },
     "template": "TOIxmn68EGfcsuRW",
     "props": {
-      "name": "Majoration (à vérifier)",
+      "name": "Souffle (à préciser)",
       "level": "0",
-      "description": "<p style=\"text-align: justify;\">Ce pouvoir permet d&rsquo;augmenter une caract&eacute;ristique qui doit &ecirc;tre pr&eacute;cis&eacute;e&nbsp;entre parenth&egrave;ses.</p>\n<p style=\"text-align: justify;\">Cette majoration est &eacute;gale au niveau du pouvoir fois 2. N&rsquo;oubliez pas que, quelle que soit le niveau du pouvoir, une caract&eacute;ristique ne peut jamais d&eacute;passer +8, le grand dragon c&eacute;leste et certains grands-parents &eacute;tant les seuls &agrave; pouvoir d&eacute;passer cette limite.</p>\n<p style=\"text-align: justify;\">Ce pouvoir est permanent.</p>"
+      "description": "<p style=\"text-align: justify;\">Ce pouvoir n&rsquo;est accessible qu&rsquo;&agrave; certains dragons et n&rsquo;est utilisable que si l&rsquo;individu en question est sous forme draconique pure (ce qui demande g&eacute;n&eacute;ralement l&rsquo;utilisation simultan&eacute;e ou pr&eacute;alable d&rsquo;un pouvoir de polymorphie).</p>\n<p style=\"text-align: justify;\">Le type exact de souffle devra &ecirc;tre pr&eacute;cis&eacute; entre parenth&egrave;ses.</p>\n<p style=\"text-align: justify;\">Ce pouvoir est consid&eacute;r&eacute; comme une attaque &agrave; distance tout &agrave; fait normale et subit les m&ecirc;mes modificateurs qu&rsquo;une attaque port&eacute;e, par exemple, &agrave; l&rsquo;aide d&rsquo;un revolver.</p>\n<p style=\"text-align: justify;\">Un enfant dragon sous forme draconique poss&egrave;de une comp&eacute;tence de combat inn&eacute;e qui correspond &agrave; des chances de r&eacute;ussite &laquo; d&eacute;butant/ moyen &raquo; pour ce type d&rsquo;attaque. Les parents sont consid&eacute;r&eacute;s comme &laquo; qualifi&eacute;/ moyen &raquo; et les grands-parents comme &laquo; expert/ moyen &raquo;.</p>\n<p style=\"text-align: justify;\">Le souffle d&rsquo;un dragon est relativement long &agrave; d&eacute;clencher et toute attaque de souffle subira un <strong>malus de 5 points &agrave; son initiative</strong>.</p>\n<p style=\"text-align: justify;\">Le <strong>niveau du pouvoir</strong> n&rsquo;est qu&rsquo;un <strong>bonus </strong>aux chances de r&eacute;ussite de l&rsquo;attaque en question.</p>\n<p style=\"text-align: justify;\">A partir du niveau 5, un souffle de dragon peut toucher 2 cibles avec une seule et m&ecirc;me attaque (on r&eacute;sout n&eacute;anmoins deux attaques s&eacute;par&eacute;es). Dans le m&ecirc;me ordre d&rsquo;id&eacute;e, &agrave; partir lu niveau 10, un souffle peut toucher 3 cibles.</p>\n<p style=\"text-align: justify;\">La <strong>port&eacute;e maximale </strong>d&rsquo;un souffle de dragon est de <strong>2 m&egrave;tres multipli&eacute;e par le niveau du pouvoir</strong>.</p>\n<p style=\"text-align: justify;\">Utiliser un tel pouvoir &eacute;tant consid&eacute;r&eacute; comme une action relativement fatigante, un dragon ne peut utiliser son souffle qu&rsquo;<strong>une fois par minute</strong> (donc, en combat, une fois tous les 12 tours).</p>\n<p style=\"text-align: justify;\">&nbsp;</p>\n<table>\n<thead>\n<tr>\n<th>Type</th>\n<th>Puissance</th>\n<th>Type</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<th>Flammes</th>\n<td>Importante</td>\n<td>&Agrave; distance</td>\n</tr>\n<tr>\n<th>D&eacute;charge &eacute;lectrique</th>\n<td>Moyenne</td>\n<td>&Agrave; distance**</td>\n</tr>\n<tr>\n<th>Attaque sonique</th>\n<td>Importante</td>\n<td>&Agrave; distance*</td>\n</tr>\n<tr>\n<th>Gaz soporifique</th>\n<td>Moyenne</td>\n<td>&Agrave; distance*</td>\n</tr>\n</tbody>\n</table>\n<p style=\"text-align: justify;\"><br>* : Bien que consid&eacute;r&eacute;s comme une attaque &agrave; distance, les dommages caus&eacute;s par le gaz soporifique et l&rsquo;attaque sonique sont lus comme s&rsquo;ils avaient &eacute;t&eacute; occasionn&eacute;s par un combat au corps &agrave; corps (et ne provoquent donc g&eacute;n&eacute;ralement que des dommages physiques&nbsp;minimes).<br>** : Alternativement, cette attaque peut &ecirc;tre consid&eacute;r&eacute;e par le dragon comme causant des dommages de corps &agrave; corps de puissance &laquo; Moyenne &raquo;</p>"
     },
     "modifiers": [],
     "unique": false,
@@ -155,14 +155,14 @@
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
     "createdTime": 1704665806350,
-    "modifiedTime": 1705770364050,
+    "modifiedTime": 1706308263896,
     "lastModifiedBy": "r9x0pKEz3JGSJSrG"
   },
-  "_id": "VWhsthzsKZRUe4AK",
+  "_id": "AxZbAg0kc13LPcGL",
   "sort": 0,
   "ownership": {
     "default": 0,
     "r9x0pKEz3JGSJSrG": 3
   },
-  "_key": "!items!VWhsthzsKZRUe4AK"
+  "_key": "!items!AxZbAg0kc13LPcGL"
 }

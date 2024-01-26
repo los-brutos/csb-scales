@@ -197,7 +197,7 @@
                   "minVal": "0",
                   "maxVal": "",
                   "allowRelative": false,
-                  "showControls": false,
+                  "showControls": true,
                   "controlsStyle": "hover",
                   "type": "numberField"
                 }
@@ -247,7 +247,7 @@
                   "minVal": "0",
                   "maxVal": "",
                   "allowRelative": false,
-                  "showControls": false,
+                  "showControls": true,
                   "controlsStyle": "hover",
                   "type": "numberField"
                 }
@@ -313,16 +313,17 @@
     },
     "template": "14jgxwvyYKfEIWkZ",
     "props": {
-      "name": "Coup de poing",
+      "name": "Décharge électrique (distance)",
       "combatType": "3",
       "powerfullMax": "2",
       "descriptionLabel": "Description",
       "attackBonus": "0",
-      "damageBonus": "0"
+      "damageBonus": "0",
+      "description": "<p style=\"text-align: justify;\">Ce pouvoir est consid&eacute;r&eacute; comme une attaque &agrave; distance tout &agrave; fait normale et subit les m&ecirc;mes modificateurs qu&rsquo;une attaque port&eacute;e, par exemple, &agrave; l&rsquo;aide d&rsquo;un revolver.</p>\n<p style=\"text-align: justify;\">Un enfant dragon sous forme draconique poss&egrave;de une <strong>comp&eacute;tence de combat </strong>inn&eacute;e qui correspond &agrave; des chances de r&eacute;ussite &laquo; d&eacute;butant/ moyen &raquo; pour ce type d&rsquo;attaque. Les parents sont consid&eacute;r&eacute;s comme &laquo; qualifi&eacute;/ moyen &raquo; et les grands-parents comme &laquo; expert/ moyen &raquo;.</p>\n<p style=\"text-align: justify;\">Le souffle d&rsquo;un dragon est relativement long &agrave; d&eacute;clencher et toute attaque de souffle subira un <strong>malus de 5 points &agrave; son initiative</strong>.</p>\n<p style=\"text-align: justify;\">Le <strong>niveau du pouvoir</strong> n&rsquo;est qu&rsquo;un <strong>bonus </strong>aux chances de r&eacute;ussite de l&rsquo;attaque en question.</p>\n<p style=\"text-align: justify;\"><strong>A partir du niveau 5</strong>, un souffle de dragon peut toucher 2 cibles avec une seule et m&ecirc;me attaque (on r&eacute;sout n&eacute;anmoins deux attaques s&eacute;par&eacute;es). Dans le m&ecirc;me ordre d&rsquo;id&eacute;e, <strong>&agrave; partir lu niveau 10</strong>, un souffle peut toucher 3 cibles.</p>\n<p style=\"text-align: justify;\">La <strong>port&eacute;e maximale </strong>d&rsquo;un souffle de dragon est de <strong>2 m&egrave;tres multipli&eacute;e par le niveau du pouvoir</strong>.</p>\n<p style=\"text-align: justify;\">Utiliser un tel pouvoir &eacute;tant consid&eacute;r&eacute; comme une action relativement fatigante, un dragon ne peut utiliser son souffle qu&rsquo;<strong>une fois par minute</strong> (donc, en combat, une fois tous les 12 tours).</p>\n<p style=\"text-align: justify;\">&nbsp;</p>"
     },
     "modifiers": [],
     "unique": false,
-    "templateSystemUniqueVersion": 3597308341
+    "templateSystemUniqueVersion": 776077033
   },
   "effects": [],
   "folder": "ZjolQ5wEla5oAoUn",
@@ -337,7 +338,7 @@
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
     "createdTime": 1704469193630,
-    "modifiedTime": 1705770319643,
+    "modifiedTime": 1706308247069,
     "lastModifiedBy": "r9x0pKEz3JGSJSrG"
   },
   "_id": "o4IA6hhzoiGEGEaD",

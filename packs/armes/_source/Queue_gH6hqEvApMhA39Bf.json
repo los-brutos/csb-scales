@@ -197,7 +197,7 @@
                   "minVal": "0",
                   "maxVal": "",
                   "allowRelative": false,
-                  "showControls": false,
+                  "showControls": true,
                   "controlsStyle": "hover",
                   "type": "numberField"
                 }
@@ -247,7 +247,7 @@
                   "minVal": "0",
                   "maxVal": "",
                   "allowRelative": false,
-                  "showControls": false,
+                  "showControls": true,
                   "controlsStyle": "hover",
                   "type": "numberField"
                 }
@@ -313,16 +313,17 @@
     },
     "template": "14jgxwvyYKfEIWkZ",
     "props": {
-      "name": "Coup de poing",
+      "name": "Queue",
       "combatType": "1",
       "powerfullMax": "3",
       "descriptionLabel": "Description",
       "attackBonus": "0",
-      "damageBonus": "0"
+      "damageBonus": "0",
+      "description": "<p style=\"text-align: justify;\">Ce mode d'attaque n&rsquo;est accessible qu&rsquo;&agrave; certains dragons et n&rsquo;est utilisable que si l&rsquo;individu en question est sous forme draconique pure (ce qui demande g&eacute;n&eacute;ralement l&rsquo;utilisation simultan&eacute;e ou pr&eacute;alable d&rsquo;un pouvoir de polymorphie).</p>\n<p style=\"text-align: justify;\">Un enfant dragon sous forme draconique poss&egrave;de une <strong>comp&eacute;tence de combat </strong>inn&eacute;e qui correspond &agrave; des chances de r&eacute;ussite &laquo; d&eacute;butant / moyen &raquo; pour ce type d&rsquo;attaques. Les parents sont consid&eacute;r&eacute;s comme &laquo; qualifi&eacute; / moyen &raquo; et les grands-parents comme &laquo; expert / moyen &raquo;.</p>\n<p style=\"text-align: justify;\">Le <strong>niveau du pouvoir </strong>correspondant est un <strong>bonus </strong>&agrave; l'attaque et aux dommages.&nbsp;</p>\n<p style=\"text-align: justify;\">Un dragon utilisant un tel mode d&rsquo;attaque ne pourra n&eacute;anmoins en porter qu&rsquo;<strong>une seule par tour</strong>.</p>"
     },
     "modifiers": [],
     "unique": false,
-    "templateSystemUniqueVersion": 3597308341
+    "templateSystemUniqueVersion": 776077033
   },
   "effects": [],
   "folder": "ZjolQ5wEla5oAoUn",
@@ -337,7 +338,7 @@
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
     "createdTime": 1704469193630,
-    "modifiedTime": 1705770319643,
+    "modifiedTime": 1706308247069,
     "lastModifiedBy": "r9x0pKEz3JGSJSrG"
   },
   "_id": "gH6hqEvApMhA39Bf",
