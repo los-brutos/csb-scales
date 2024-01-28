@@ -161,7 +161,7 @@
               "role": "0",
               "permission": "0",
               "tooltip": "",
-              "visibilityFormula": "combatType == 3 ? false : true",
+              "visibilityFormula": "",
               "contents": [
                 {
                   "key": "",
@@ -211,7 +211,7 @@
               "role": "0",
               "permission": "0",
               "tooltip": "",
-              "visibilityFormula": "combatType == 3 ? false : true",
+              "visibilityFormula": "",
               "contents": [
                 {
                   "key": "",
@@ -310,42 +310,12 @@
       "pp_width": "64",
       "pp_height": "64"
     },
-    "templateSystemUniqueVersion": 776077033
+    "templateSystemUniqueVersion": 3242897805
   },
   "flags": {
     "custom-system-builder": {
       "version": "3.0.0",
       "templateHistory": [
-        [
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              0,
-              "contents",
-              2,
-              "visibilityFormula"
-            ],
-            "lhs": "",
-            "rhs": "type == 2 ? true : false"
-          }
-        ],
-        [
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              0,
-              "contents",
-              3,
-              "visibilityFormula"
-            ],
-            "lhs": "",
-            "rhs": "type == 2 ? true : false"
-          }
-        ],
         [
           {
             "kind": "E",
@@ -457,6 +427,36 @@
             "lhs": false,
             "rhs": true
           }
+        ],
+        [
+          {
+            "kind": "E",
+            "path": [
+              "body",
+              "contents",
+              0,
+              "contents",
+              2,
+              "visibilityFormula"
+            ],
+            "lhs": "combatType == 3 ? false : true",
+            "rhs": ""
+          }
+        ],
+        [
+          {
+            "kind": "E",
+            "path": [
+              "body",
+              "contents",
+              0,
+              "contents",
+              3,
+              "visibilityFormula"
+            ],
+            "lhs": "combatType == 3 ? false : true",
+            "rhs": ""
+          }
         ]
       ],
       "templateHistoryRedo": []
@@ -471,7 +471,7 @@
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
     "createdTime": 1704467072712,
-    "modifiedTime": 1706308238797,
+    "modifiedTime": 1706483607947,
     "lastModifiedBy": "r9x0pKEz3JGSJSrG"
   },
   "sort": 0,

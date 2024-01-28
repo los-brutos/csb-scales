@@ -10,7 +10,7 @@ ${#(nameTarget?"":notify("error", "Vous devez sélectionner une cible !"))}$
 
 <!-- récupération des données -->
 ${#sante:=       healthMalus}$
-${#combativite:= fightness}$
+${#combativite:= fetchFromActor("self", fightnessForAttack, 0)}$
 ${#type:=        item.combatType}$
 ${#bonusArme:=   item.attackBonus ? item.attackBonus : 0}$
 
@@ -45,10 +45,10 @@ ${#level:=switchCase(type, "1", ccLevel, "2", contactLevel, "3", distanceLevel, 
 
 <!-- définition de la caractéristique de référence -->
 ${#caracteristiqueName:= (1 == type ? ccCombatCharacteristic : 2 == type ? contactCombatCharacteristic : 3 == type ? distanceCombatCharacteristic : "")}$
-${#caracteristique:= first(fetchFromDynamicTable('characteristics', 'value', 'name', caracteristiqueName), 0)}$
+${#caracteristique:=     first(fetchFromDynamicTable('characteristics', 'value', 'name', caracteristiqueName), 0)}$
 
 <!-- combativité de la cible -->
-${#combativiteAdverse:=(3 == type ? fetchFromActor('target', 'fightness') : 0)}$
+${#combativiteAdverse:= fetchFromActor('target', 'fightnessForDefense', 0)}$
 
 <!-- calcul du seuil de réussite -->
 ${#seuil:= 10 - level - diff}$

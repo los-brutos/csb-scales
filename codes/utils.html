@@ -1,4 +1,8 @@
-<!-- Utils -->
+<!-- 
+Utils 
+
+formules dans les conditions d'affichage des éléments d'un template ou dans les hidden attributes
+-->
 
 <!-- afficher l'onglet des pouvoirs innés 
 * true si
@@ -11,7 +15,52 @@ or(and(1 == type, 0 < emergence), 2 == type) ? true : false
 or(2 == type, and(1 == type, accessDraconicMagic)) ? true : false
 
 <!-- calcul du modificateur du jet d'initiative (hidden attribute) -->
-${fightness + first(fetchFromDynamicTable('characteristics', 'value', 'name', characteristicForInitiative), 0)}$
+${fightnessForAttack + first(fetchFromDynamicTable('characteristics', 'value', 'name', characteristicForInitiative), 0)}$
 
 <!-- calcul de la résistance (via caractéristique) lors d'une attaque contre le personnage -->
 ${first(fetchFromDynamicTable('characteristics', 'value', 'name', resistanceCharacteristic), 0)}$
+
+<!-- calcul des combativités pour les attaques et les résistances en prenant en compte l'option du pouvoir Combativité -->
+<!-- fightnessForAttack : le plus grand -->
+${fightness > 0 ? fightness : fightnessPowerCheckbox ? 0 : fightness}$
+<!-- fightnessForDefense : le plus bas -->
+${0 > fightness ? fightness : fightnessPowerCheckbox ? 0 : fightness}$
+
+
+
+
+
+<p>fightness > 0 : ${positiveFightness:= (fightness > 0)}$</p>
+<p>fightness : ${fightness}$</p>
+<p>fetchFromActor(name, 'fightnessPower', false) : ${testfecthFromActor:= fetchFromActor(name, 'fightnessPower', false)}$
+<p>test : ${positiveFightness ? fightness : testfecthFromActor ? 0 : fightness}$</p>
+
+
+attack
+======
+
+SI case cochée ALORS
+  max (0, fightness)
+SINON
+  fightness
+
+${fightnessPowerCheckBox'? max(0, fightness) : fightness}$
+
+
+si combativité > 0 alors
+  Combativité
+sinon Combativité <= 0 alors
+  si pas pouvoir alors
+    Combativité
+  sinon 
+    0
+
+defense
+si combativité > 0 alors
+  si pas pouvoir alors
+    Combativité
+  sinon 
+    0
+sinon Combativité <= 0
+  Combativité
+    
