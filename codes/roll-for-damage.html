@@ -21,7 +21,7 @@ ${#bonusForce:=        3 == type ? 0 : first(fetchFromDynamicTable('characterist
 ${#resistanceAdverse:= -1 * fetchFromActor("target", "resistanceModificator", 0)}$
 
 <!-- combativité de la cible -->
-${combativiteAdverse:= -1 * fetchFromActor("target", "fightnessForDefense", 0)}$
+${combativiteAdverse:= fetchFromActor("target", "fightnessForDefense", 0)}$
 
 <h3>Dégats de puissance ${!switchCase(powerfull, "1", "Faible","2", "Moyenne","3", "Importante", "4", "Remarquable", "<i>non définie</i>")}$ sur <strong>@{target|name}</strong> par ${!name}$</h3>
 

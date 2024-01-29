@@ -10,7 +10,7 @@ ${#(nameTarget?"":notify("error", "Vous devez sélectionner une cible !"))}$
 
 <!-- récupération des données -->
 ${#sante:=       healthMalus}$
-${#combativite:= fetchFromActor("self", fightnessForAttack, 0)}$
+${#combativite:= fightnessForAttack}$
 ${#type:=        item.combatType}$
 ${#bonusArme:=   item.attackBonus ? item.attackBonus : 0}$
 
@@ -57,7 +57,7 @@ ${#seuil:= 10 - level - diff}$
 ${#seuilTemp:= seuil + caracteristique + combativite + combativiteAdverse + bonusArme + modificateur + sante}$
 ${#bonus:=(seuilTemp > 10 ? seuilTemp - 10 : 0)}$
 
-<h3><strong>${!item.name}$</strong> : attaque ${!(0 == diff ? "facile" : (2 == diff ? "normale":"difficile"))}$ ${!and(not(equalText(carrierHobby, "")), 0 != caracteristique) ? "avec" : ""}$ ${! carrierHobby}$ ${! 0 != caracteristique ? concat("et ", caracteristiqueName) : ""}$</h3>
+<h3><strong>${!item.name}$</strong> : attaque ${!(0 == diff ? "facile" : (2 == diff ? "normale":"difficile"))}$ [${! carrierHobby}$${! 0 != caracteristique ? concat(" / ", caracteristiqueName) : ""}$]</h3>
 <table>
   <tbody>
     <tr>
