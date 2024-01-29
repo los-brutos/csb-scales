@@ -1,7 +1,7 @@
 {
   "id": "csb-scales",
   "title": "CSB Scales",
-  "version": "0.0.1",
+  "version": "11.0.0",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
