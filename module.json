@@ -23,6 +23,9 @@
       "flags": {}
     }
   ],
+  "scripts": [
+        "scripts/script.js"
+  ],
   "packs": [
     {
       "name": "templates-actors",
