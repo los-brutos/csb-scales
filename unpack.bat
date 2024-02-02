@@ -48,6 +48,9 @@ echo.
 echo /// unpack compendium "templates-items"
 call fvtt package unpack -c templates-items
 echo.
+echo /// unpack compendium "scenes"
+call fvtt package unpack -c scenes
+echo.
 echo * ********************************** *
 echo * all compendiums have been unpacked *
 echo * ********************************** *

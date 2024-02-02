@@ -63,6 +63,9 @@ fvtt package pack templates-actors
 echo "  * create compendium templates-items"
 fvtt package pack templates-items
 
+echo "  * create compendium scenes"
+fvtt package pack scenes
+
 echo "* ********************************* *"
 echo "* all compendiums have been created *"
 echo "* ********************************* *"

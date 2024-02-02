@@ -146,9 +146,21 @@
     },
     {
       "name": "scenarios-officiels",
-      "label": "SCénarios officiels (Scales)",
+      "label": "Scénarios officiels (Scales)",
       "path": "packs/scenarios-officiels",
       "type": "Adventure",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder",
+      "flags": {}
+    },
+    {
+      "name": "scenes",
+      "label": "Scènes (Scales)",
+      "path": "packs/scenes",
+      "type": "Scene",
       "ownership": {
         "PLAYER": "NONE",
         "ASSISTANT": "OWNER"

@@ -48,6 +48,9 @@ echo.
 echo /// create compendium "templates-items"
 call fvtt package pack templates-items
 echo.
+echo /// create compendium "scenes"
+call fvtt package pack scenes
+echo.
 echo * ********************************* *
 echo * all compendiums have been created *
 echo * ********************************* *

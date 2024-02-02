@@ -63,6 +63,9 @@ fvtt package unpack -c templates-actors
 echo "  * unpack compendium templates-items"
 fvtt package unpack -c templates-items
 
+echo "  * unpack compendium scenes"
+fvtt package unpack -c scenes
+
 echo "* ********************************** *"
 echo "* all compendiums have been unpacked *"
 echo "* ********************************** *"
