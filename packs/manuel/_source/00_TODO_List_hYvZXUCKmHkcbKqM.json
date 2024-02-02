@@ -15,7 +15,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<ul><li><p>dégâts</p><ul><li><p>appliquer automatiquement les dommages à la cible</p></li><li><p>si la cible n'est pas sélectionnée, ne pas lancer le dé mais un message d'alerte</p></li></ul></li></ul>"
+        "content": "<ul><li><p>dégâts</p><ul><li><p>appliquer automatiquement les dommages à la cible</p></li><li><p>si la cible n'est pas sélectionnée, ne pas lancer le dé mais un message d'alerte</p></li><li><p>intégrer la combativité adverse dans les modificateurs des dommages (à vérifier dans les règles si c'est bien ok)</p></li></ul></li></ul>"
       },
       "video": {
         "controls": true,
@@ -33,7 +33,7 @@
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704466698926,
-        "modifiedTime": 1705877475469,
+        "modifiedTime": 1706348232587,
         "lastModifiedBy": "r9x0pKEz3JGSJSrG"
       },
       "_key": "!journal.pages!hYvZXUCKmHkcbKqM.o485kVS5EWrtdaYx"
@@ -86,7 +86,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<ul><li><p>intégrer les évolutions des suppléments</p><ul><li><p>technologie</p></li><li><p>politique</p></li><li><p>magie</p></li><li><p>…</p></li></ul></li></ul>"
+        "content": "<ul><li><p>fixer le bug d'affichage à la magie alchimique</p></li><li><p>intégrer les évolutions des suppléments</p><ul><li><p>technologie</p></li><li><p>politique</p></li><li><p>magie</p></li><li><p>…</p></li></ul></li></ul>"
       },
       "video": {
         "controls": true,
@@ -104,7 +104,7 @@
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704466730236,
-        "modifiedTime": 1705683636389,
+        "modifiedTime": 1706040547017,
         "lastModifiedBy": "r9x0pKEz3JGSJSrG"
       },
       "_key": "!journal.pages!hYvZXUCKmHkcbKqM.6g5jNFq8uFJe6TiE"
@@ -151,7 +151,7 @@
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
     "createdTime": 1704466691458,
-    "modifiedTime": 1705877494727,
+    "modifiedTime": 1706913413331,
     "lastModifiedBy": "r9x0pKEz3JGSJSrG"
   },
   "sort": 0,

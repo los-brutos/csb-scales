@@ -1,6 +1,9 @@
 {
-  "name": "_Scales_Fiche de personnage",
-  "type": "_template",
+  "folder": "LqEmwmVBPVc6xSsz",
+  "name": "Nouveau-né type",
+  "type": "character",
+  "_id": "BPhbw4iwQ9KNHGTU",
+  "img": "icons/svg/mystery-man.svg",
   "system": {
     "hidden": [
       {
@@ -3083,876 +3086,105 @@
     "attributeBar": {},
     "activeEffects": {},
     "activeConditionalModifierGroups": [],
+    "template": "KGZvMOZa6bJPhlh0",
+    "props": {
+      "name": "Assassin",
+      "type": "2",
+      "emergence": "0",
+      "generation": "0",
+      "age": "25",
+      "stun": "0",
+      "health": "0",
+      "fightness": "0",
+      "xp": "0",
+      "healthMalusLabel": "Impact de l'état de santé :",
+      "unskilledRoll": "Jet en tant que non qualifié",
+      "healthMalus": "0",
+      "stunStatus": "Tout va bien",
+      "healthStatus": "Tout va bien",
+      "ccArmorEquiped": "0",
+      "distanceArmorEquiped": "0",
+      "maxMana": "5",
+      "recoveryMana": "1 par jour",
+      "gender": "",
+      "nationality": "",
+      "unskilledCharacteristic": "",
+      "characteristicForInitiative": "Vitesse",
+      "fightnessPowerCheckbox": false,
+      "ccCombatCarrier": "Garde du corps",
+      "ccCombatHobby": "",
+      "ccCombatCharacteristic": "",
+      "contactCombatCarrier": "Garde du corps",
+      "contactCombatHobby": "",
+      "contactCombatCharacteristic": "",
+      "distanceCombatCarrier": "Garde du corps",
+      "distanceCombatHobby": "",
+      "distanceCombatCharacteristic": "",
+      "powerfullCharacteristic": "Force",
+      "resistanceCharacteristic": "Endurance",
+      "resistanceModificator": "4",
+      "fightnessForAttack": "0",
+      "fightnessForDefense": "0",
+      "initiative": "2",
+      "dragonFamily": "",
+      "accessDraconicMagic": false,
+      "accessAlchemicalMagic": false,
+      "characteristics": {
+        "0": {
+          "deleted": false,
+          "predefinedIdx": null,
+          "name": "Force",
+          "value": "4"
+        },
+        "1": {
+          "deleted": false,
+          "predefinedIdx": null,
+          "name": "Endurance",
+          "value": "4"
+        },
+        "2": {
+          "deleted": false,
+          "predefinedIdx": null,
+          "name": "Vitesse",
+          "value": "2"
+        },
+        "3": {
+          "deleted": false,
+          "predefinedIdx": null,
+          "name": "Esprit d'initiative",
+          "value": "-2"
+        }
+      },
+      "mana": "0",
+      "temporaryMana": "",
+      "temporaryManaConservation": "",
+      "unskilledMaskCharacteristic": "",
+      "carriers": {
+        "0": {
+          "deleted": false,
+          "predefinedIdx": null,
+          "name": "Garde du corps",
+          "level": "2",
+          "characteristic": "",
+          "roll": null
+        }
+      },
+      "hobbies": {
+        "0": {
+          "deleted": true,
+          "predefinedIdx": null,
+          "name": "",
+          "level": "4",
+          "characteristic": "",
+          "roll": null
+        }
+      }
+    },
     "templateSystemUniqueVersion": 1442790790
   },
-  "flags": {
-    "custom-system-builder": {
-      "version": "3.0.0",
-      "templateHistory": [
-        [
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              2,
-              "rowLayout",
-              3,
-              "rollMessage"
-            ],
-            "lhs": "<!-- Roll for attack -->\n${#concat(\n  ?{diff:\"Difficulté\"|\"2\",\"Normal\"|\"0\",\"Facile\"|\"4\",\"Difficile\"},\n  ?{modificateur:\"Modificateur\"[number]|0}\n)}$\n\n<!-- vérification qu'une cible a bien été sélectionnée -->\n${#nameTarget:= fetchFromActor(\"target\", \"name\", \"\")}$\n${#(nameTarget?\"\":notify(\"error\", \"Vous devez sélectionner une cible !\"))}$\n\n<!-- récupération des données -->\n${#sante:=       healthMalus}$\n${#combativite:= fetchFromActor(\"self\", fightnessForAttack, 0)}$\n${#type:=        item.combatType}$\n${#bonusArme:=   item.attackBonus ? item.attackBonus : 0}$\n\n<!-- définition des valeurs par défaut -->\n${#ccCombatCarrier:=       ccCombatCarrier       ? ccCombatCarrier       : \"\"}$\n${#ccCombatHobby:=         ccCombatHobby         ? ccCombatHobby         : \"\"}$\n${#contactCombatCarrier:=  contactCombatCarrier  ? contactCombatCarrier  : \"\"}$\n${#contactCombatHobby:=    contactCombatHobby    ? contactCombatHobby    : \"\"}$\n${#distanceCombatCarrier:= distanceCombatCarrier ? distanceCombatCarrier : \"\"}$\n${#distanceCombatHobby:=   distanceCombatHobby   ? distanceCombatHobby   : \"\"}$\n\n${#default:= 6}$\n${#ccCombatCarrierLevel:=       first(fetchFromDynamicTable('carriers', 'level', 'name', ccCombatCarrier),       default)}$\n${#ccCombatHobbyLevel:=         first(fetchFromDynamicTable('hobbies',  'level', 'name', ccCombatHobby),         default)}$\n${#contactCombatCarrierLevel:=  first(fetchFromDynamicTable('carriers', 'level', 'name', contactCombatCarrier),  default)}$\n${#contactCombatHobbyLevel:=    first(fetchFromDynamicTable('hobbies',  'level', 'name', contactCombatHobby),    default)}$\n${#distanceCombatCarrierLevel:= first(fetchFromDynamicTable('carriers', 'level', 'name', distanceCombatCarrier), default)}$\n${#distanceCombatHobbyLevel:=   first(fetchFromDynamicTable('hobbies',  'level', 'name', distanceCombatHobby),   default)}$\n\n<!-- définition du nom du métier ou du hobby de référence -->\n${#ccName:=       ccCombatCarrierLevel       >= ccCombatHobbyLevel       ? ccCombatHobby       : ccCombatCarrier}$\n${#contactName:=  contactCombatCarrierLevel  >= contactCombatHobbyLevel  ? contactCombatHobby  : contactCombatCarrier}$\n${#distanceName:= distanceCombatCarrierLevel >= distanceCombatHobbyLevel ? distanceCombatHobby : distanceCombatCarrier}$\n${#carrierHobby:= switchCase(type, \"1\", ccName, \"2\", contactName, \"3\", distanceName, \"\")}$\n${#carrierHobby:= equalText(\"\", carrierHobby) ? \"Non qualifié\" : carrierHobby}$\n\n<!-- définition du niveau du métier ou du hobby de référence -->\n${#ccLevel:=       ccCombatCarrierLevel       >= ccCombatHobbyLevel       ? ccCombatHobbyLevel       : ccCombatCarrierLevel}$\n${#contactLevel:=  contactCombatCarrierLevel  >= contactCombatHobbyLevel  ? contactCombatHobbyLevel  : contactCombatCarrierLevel}$\n${#distanceLevel:= distanceCombatCarrierLevel >= distanceCombatHobbyLevel ? distanceCombatHobbyLevel : distanceCombatCarrierLevel}$\n${#level:=switchCase(type, \"1\", ccLevel, \"2\", contactLevel, \"3\", distanceLevel, default)}$\n\n<!-- définition de la caractéristique de référence -->\n${#caracteristiqueName:= (1 == type ? ccCombatCharacteristic : 2 == type ? contactCombatCharacteristic : 3 == type ? distanceCombatCharacteristic : \"\")}$\n${#caracteristique:=     first(fetchFromDynamicTable('characteristics', 'value', 'name', caracteristiqueName), 0)}$\n\n<!-- combativité de la cible -->\n${#combativiteAdverse:= -1 * fetchFromActor('target', 'fightnessForDefense', 0)}$\n\n<!-- calcul du seuil de réussite -->\n${#seuil:= 10 - level - diff}$\n\n<!-- calcul du bonus si le seuil est supérieur à 10 -->\n${#seuilTemp:= seuil + caracteristique + combativite + combativiteAdverse + bonusArme + modificateur + sante}$\n${#bonus:=(seuilTemp > 10 ? seuilTemp - 10 : 0)}$\n\n<h3><strong>${!item.name}$</strong> : attaque ${!(0 == diff ? \"facile\" : (2 == diff ? \"normale\":\"difficile\"))}$ ${!and(not(equalText(carrierHobby, \"\")), 0 != caracteristique) ? \"avec\" : \"\"}$ ${! carrierHobby}$ ${! 0 != caracteristique ? concat(\"et \", caracteristiqueName) : \"\"}$</h3>\n<table>\n  <tbody>\n    <tr>\n      <td><h4>Jet du dé</h4></td>\n      <td>\n        <strong>${roll:= [1d10] + bonus}$</strong> / ${seuil:=seuil + caracteristique + combativite + combativiteAdverse + bonusArme + modificateur + sante}$\n      </td>\n    </tr>\n    <tr>\n      <td colspan=\"2\">\n        <p style=\"padding: 2px; text-align: center; font-weight: bold; ${!roll<=seuil ? \"color: var(--color-level-success); border: solid 1px var(--color-level-success)\\\">Réussite\" : \"color: var(--color-level-error); border: solid 1px var(--color-level-error)\\\">Echec\"}$</p>\n      </td>\n    </tr>\n  </tbody>\n</table>",
-            "rhs": "<!-- Roll for attack -->\n${#concat(\n  ?{diff:\"Difficulté\"|\"2\",\"Normal\"|\"0\",\"Facile\"|\"4\",\"Difficile\"},\n  ?{modificateur:\"Modificateur\"[number]|0}\n)}$\n\n<!-- vérification qu'une cible a bien été sélectionnée -->\n${#nameTarget:= fetchFromActor(\"target\", \"name\", \"\")}$\n${#(nameTarget?\"\":notify(\"error\", \"Vous devez sélectionner une cible !\"))}$\n\n<!-- récupération des données -->\n${#sante:=       healthMalus}$\n${#combativite:= fetchFromActor(\"self\", fightnessForAttack, 0)}$\n${#type:=        item.combatType}$\n${#bonusArme:=   item.attackBonus ? item.attackBonus : 0}$\n\n<!-- définition des valeurs par défaut -->\n${#ccCombatCarrier:=       ccCombatCarrier       ? ccCombatCarrier       : \"\"}$\n${#ccCombatHobby:=         ccCombatHobby         ? ccCombatHobby         : \"\"}$\n${#contactCombatCarrier:=  contactCombatCarrier  ? contactCombatCarrier  : \"\"}$\n${#contactCombatHobby:=    contactCombatHobby    ? contactCombatHobby    : \"\"}$\n${#distanceCombatCarrier:= distanceCombatCarrier ? distanceCombatCarrier : \"\"}$\n${#distanceCombatHobby:=   distanceCombatHobby   ? distanceCombatHobby   : \"\"}$\n\n${#default:= 6}$\n${#ccCombatCarrierLevel:=       first(fetchFromDynamicTable('carriers', 'level', 'name', ccCombatCarrier),       default)}$\n${#ccCombatHobbyLevel:=         first(fetchFromDynamicTable('hobbies',  'level', 'name', ccCombatHobby),         default)}$\n${#contactCombatCarrierLevel:=  first(fetchFromDynamicTable('carriers', 'level', 'name', contactCombatCarrier),  default)}$\n${#contactCombatHobbyLevel:=    first(fetchFromDynamicTable('hobbies',  'level', 'name', contactCombatHobby),    default)}$\n${#distanceCombatCarrierLevel:= first(fetchFromDynamicTable('carriers', 'level', 'name', distanceCombatCarrier), default)}$\n${#distanceCombatHobbyLevel:=   first(fetchFromDynamicTable('hobbies',  'level', 'name', distanceCombatHobby),   default)}$\n\n<!-- définition du nom du métier ou du hobby de référence -->\n${#ccName:=       ccCombatCarrierLevel       >= ccCombatHobbyLevel       ? ccCombatHobby       : ccCombatCarrier}$\n${#contactName:=  contactCombatCarrierLevel  >= contactCombatHobbyLevel  ? contactCombatHobby  : contactCombatCarrier}$\n${#distanceName:= distanceCombatCarrierLevel >= distanceCombatHobbyLevel ? distanceCombatHobby : distanceCombatCarrier}$\n${#carrierHobby:= switchCase(type, \"1\", ccName, \"2\", contactName, \"3\", distanceName, \"\")}$\n${#carrierHobby:= equalText(\"\", carrierHobby) ? \"Non qualifié\" : carrierHobby}$\n\n<!-- définition du niveau du métier ou du hobby de référence -->\n${#ccLevel:=       ccCombatCarrierLevel       >= ccCombatHobbyLevel       ? ccCombatHobbyLevel       : ccCombatCarrierLevel}$\n${#contactLevel:=  contactCombatCarrierLevel  >= contactCombatHobbyLevel  ? contactCombatHobbyLevel  : contactCombatCarrierLevel}$\n${#distanceLevel:= distanceCombatCarrierLevel >= distanceCombatHobbyLevel ? distanceCombatHobbyLevel : distanceCombatCarrierLevel}$\n${#level:=switchCase(type, \"1\", ccLevel, \"2\", contactLevel, \"3\", distanceLevel, default)}$\n\n<!-- définition de la caractéristique de référence -->\n${#caracteristiqueName:= (1 == type ? ccCombatCharacteristic : 2 == type ? contactCombatCharacteristic : 3 == type ? distanceCombatCharacteristic : \"\")}$\n${#caracteristique:=     first(fetchFromDynamicTable('characteristics', 'value', 'name', caracteristiqueName), 0)}$\n\n<!-- combativité de la cible -->\n${#combativiteAdverse:= -1 * fetchFromActor('target', 'fightnessForDefense', 0)}$\n\n<!-- calcul du seuil de réussite -->\n${#seuil:= 10 - level - diff}$\n\n<!-- calcul du bonus si le seuil est supérieur à 10 -->\n${#seuilTemp:= seuil + caracteristique + combativite + combativiteAdverse + bonusArme + modificateur + sante}$\n${#bonus:=(seuilTemp > 10 ? seuilTemp - 10 : 0)}$\n\n<h3><strong>${!item.name}$</strong> : attaque ${!(0 == diff ? \"facile\" : (2 == diff ? \"normale\":\"difficile\"))}$ [${! carrierHobby}$ ${! 0 != caracteristique ? concat(\" / \", caracteristiqueName) : \"\"}$]</h3>\n<table>\n  <tbody>\n    <tr>\n      <td><h4>Jet du dé</h4></td>\n      <td>\n        <strong>${roll:= [1d10] + bonus}$</strong> / ${seuil:=seuil + caracteristique + combativite + combativiteAdverse + bonusArme + modificateur + sante}$\n      </td>\n    </tr>\n    <tr>\n      <td colspan=\"2\">\n        <p style=\"padding: 2px; text-align: center; font-weight: bold; ${!roll<=seuil ? \"color: var(--color-level-success); border: solid 1px var(--color-level-success)\\\">Réussite\" : \"color: var(--color-level-error); border: solid 1px var(--color-level-error)\\\">Echec\"}$</p>\n      </td>\n    </tr>\n  </tbody>\n</table>"
-          }
-        ],
-        [
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              2,
-              "rowLayout",
-              3,
-              "rollMessage"
-            ],
-            "lhs": "<!-- Roll for attack -->\n${#concat(\n  ?{diff:\"Difficulté\"|\"2\",\"Normal\"|\"0\",\"Facile\"|\"4\",\"Difficile\"},\n  ?{modificateur:\"Modificateur\"[number]|0}\n)}$\n\n<!-- vérification qu'une cible a bien été sélectionnée -->\n${#nameTarget:= fetchFromActor(\"target\", \"name\", \"\")}$\n${#(nameTarget?\"\":notify(\"error\", \"Vous devez sélectionner une cible !\"))}$\n\n<!-- récupération des données -->\n${#sante:=       healthMalus}$\n${#combativite:= fetchFromActor(\"self\", fightnessForAttack, 0)}$\n${#type:=        item.combatType}$\n${#bonusArme:=   item.attackBonus ? item.attackBonus : 0}$\n\n<!-- définition des valeurs par défaut -->\n${#ccCombatCarrier:=       ccCombatCarrier       ? ccCombatCarrier       : \"\"}$\n${#ccCombatHobby:=         ccCombatHobby         ? ccCombatHobby         : \"\"}$\n${#contactCombatCarrier:=  contactCombatCarrier  ? contactCombatCarrier  : \"\"}$\n${#contactCombatHobby:=    contactCombatHobby    ? contactCombatHobby    : \"\"}$\n${#distanceCombatCarrier:= distanceCombatCarrier ? distanceCombatCarrier : \"\"}$\n${#distanceCombatHobby:=   distanceCombatHobby   ? distanceCombatHobby   : \"\"}$\n\n${#default:= 6}$\n${#ccCombatCarrierLevel:=       first(fetchFromDynamicTable('carriers', 'level', 'name', ccCombatCarrier),       default)}$\n${#ccCombatHobbyLevel:=         first(fetchFromDynamicTable('hobbies',  'level', 'name', ccCombatHobby),         default)}$\n${#contactCombatCarrierLevel:=  first(fetchFromDynamicTable('carriers', 'level', 'name', contactCombatCarrier),  default)}$\n${#contactCombatHobbyLevel:=    first(fetchFromDynamicTable('hobbies',  'level', 'name', contactCombatHobby),    default)}$\n${#distanceCombatCarrierLevel:= first(fetchFromDynamicTable('carriers', 'level', 'name', distanceCombatCarrier), default)}$\n${#distanceCombatHobbyLevel:=   first(fetchFromDynamicTable('hobbies',  'level', 'name', distanceCombatHobby),   default)}$\n\n<!-- définition du nom du métier ou du hobby de référence -->\n${#ccName:=       ccCombatCarrierLevel       >= ccCombatHobbyLevel       ? ccCombatHobby       : ccCombatCarrier}$\n${#contactName:=  contactCombatCarrierLevel  >= contactCombatHobbyLevel  ? contactCombatHobby  : contactCombatCarrier}$\n${#distanceName:= distanceCombatCarrierLevel >= distanceCombatHobbyLevel ? distanceCombatHobby : distanceCombatCarrier}$\n${#carrierHobby:= switchCase(type, \"1\", ccName, \"2\", contactName, \"3\", distanceName, \"\")}$\n${#carrierHobby:= equalText(\"\", carrierHobby) ? \"Non qualifié\" : carrierHobby}$\n\n<!-- définition du niveau du métier ou du hobby de référence -->\n${#ccLevel:=       ccCombatCarrierLevel       >= ccCombatHobbyLevel       ? ccCombatHobbyLevel       : ccCombatCarrierLevel}$\n${#contactLevel:=  contactCombatCarrierLevel  >= contactCombatHobbyLevel  ? contactCombatHobbyLevel  : contactCombatCarrierLevel}$\n${#distanceLevel:= distanceCombatCarrierLevel >= distanceCombatHobbyLevel ? distanceCombatHobbyLevel : distanceCombatCarrierLevel}$\n${#level:=switchCase(type, \"1\", ccLevel, \"2\", contactLevel, \"3\", distanceLevel, default)}$\n\n<!-- définition de la caractéristique de référence -->\n${#caracteristiqueName:= (1 == type ? ccCombatCharacteristic : 2 == type ? contactCombatCharacteristic : 3 == type ? distanceCombatCharacteristic : \"\")}$\n${#caracteristique:=     first(fetchFromDynamicTable('characteristics', 'value', 'name', caracteristiqueName), 0)}$\n\n<!-- combativité de la cible -->\n${#combativiteAdverse:= -1 * fetchFromActor('target', 'fightnessForDefense', 0)}$\n\n<!-- calcul du seuil de réussite -->\n${#seuil:= 10 - level - diff}$\n\n<!-- calcul du bonus si le seuil est supérieur à 10 -->\n${#seuilTemp:= seuil + caracteristique + combativite + combativiteAdverse + bonusArme + modificateur + sante}$\n${#bonus:=(seuilTemp > 10 ? seuilTemp - 10 : 0)}$\n\n<h3><strong>${!item.name}$</strong> : attaque ${!(0 == diff ? \"facile\" : (2 == diff ? \"normale\":\"difficile\"))}$ [${! carrierHobby}$ ${! 0 != caracteristique ? concat(\" / \", caracteristiqueName) : \"\"}$]</h3>\n<table>\n  <tbody>\n    <tr>\n      <td><h4>Jet du dé</h4></td>\n      <td>\n        <strong>${roll:= [1d10] + bonus}$</strong> / ${seuil:=seuil + caracteristique + combativite + combativiteAdverse + bonusArme + modificateur + sante}$\n      </td>\n    </tr>\n    <tr>\n      <td colspan=\"2\">\n        <p style=\"padding: 2px; text-align: center; font-weight: bold; ${!roll<=seuil ? \"color: var(--color-level-success); border: solid 1px var(--color-level-success)\\\">Réussite\" : \"color: var(--color-level-error); border: solid 1px var(--color-level-error)\\\">Echec\"}$</p>\n      </td>\n    </tr>\n  </tbody>\n</table>",
-            "rhs": "<!-- Roll for attack -->\n${#concat(\n  ?{diff:\"Difficulté\"|\"2\",\"Normal\"|\"0\",\"Facile\"|\"4\",\"Difficile\"},\n  ?{modificateur:\"Modificateur\"[number]|0}\n)}$\n\n<!-- vérification qu'une cible a bien été sélectionnée -->\n${#nameTarget:= fetchFromActor(\"target\", \"name\", \"\")}$\n${#(nameTarget?\"\":notify(\"error\", \"Vous devez sélectionner une cible !\"))}$\n\n<!-- récupération des données -->\n${#sante:=       healthMalus}$\n${#combativite:= fetchFromActor(\"self\", fightnessForAttack, 0)}$\n${#type:=        item.combatType}$\n${#bonusArme:=   item.attackBonus ? item.attackBonus : 0}$\n\n<!-- définition des valeurs par défaut -->\n${#ccCombatCarrier:=       ccCombatCarrier       ? ccCombatCarrier       : \"\"}$\n${#ccCombatHobby:=         ccCombatHobby         ? ccCombatHobby         : \"\"}$\n${#contactCombatCarrier:=  contactCombatCarrier  ? contactCombatCarrier  : \"\"}$\n${#contactCombatHobby:=    contactCombatHobby    ? contactCombatHobby    : \"\"}$\n${#distanceCombatCarrier:= distanceCombatCarrier ? distanceCombatCarrier : \"\"}$\n${#distanceCombatHobby:=   distanceCombatHobby   ? distanceCombatHobby   : \"\"}$\n\n${#default:= 6}$\n${#ccCombatCarrierLevel:=       first(fetchFromDynamicTable('carriers', 'level', 'name', ccCombatCarrier),       default)}$\n${#ccCombatHobbyLevel:=         first(fetchFromDynamicTable('hobbies',  'level', 'name', ccCombatHobby),         default)}$\n${#contactCombatCarrierLevel:=  first(fetchFromDynamicTable('carriers', 'level', 'name', contactCombatCarrier),  default)}$\n${#contactCombatHobbyLevel:=    first(fetchFromDynamicTable('hobbies',  'level', 'name', contactCombatHobby),    default)}$\n${#distanceCombatCarrierLevel:= first(fetchFromDynamicTable('carriers', 'level', 'name', distanceCombatCarrier), default)}$\n${#distanceCombatHobbyLevel:=   first(fetchFromDynamicTable('hobbies',  'level', 'name', distanceCombatHobby),   default)}$\n\n<!-- définition du nom du métier ou du hobby de référence -->\n${#ccName:=       ccCombatCarrierLevel       >= ccCombatHobbyLevel       ? ccCombatHobby       : ccCombatCarrier}$\n${#contactName:=  contactCombatCarrierLevel  >= contactCombatHobbyLevel  ? contactCombatHobby  : contactCombatCarrier}$\n${#distanceName:= distanceCombatCarrierLevel >= distanceCombatHobbyLevel ? distanceCombatHobby : distanceCombatCarrier}$\n${#carrierHobby:= switchCase(type, \"1\", ccName, \"2\", contactName, \"3\", distanceName, \"\")}$\n${#carrierHobby:= equalText(\"\", carrierHobby) ? \"Non qualifié\" : carrierHobby}$\n\n<!-- définition du niveau du métier ou du hobby de référence -->\n${#ccLevel:=       ccCombatCarrierLevel       >= ccCombatHobbyLevel       ? ccCombatHobbyLevel       : ccCombatCarrierLevel}$\n${#contactLevel:=  contactCombatCarrierLevel  >= contactCombatHobbyLevel  ? contactCombatHobbyLevel  : contactCombatCarrierLevel}$\n${#distanceLevel:= distanceCombatCarrierLevel >= distanceCombatHobbyLevel ? distanceCombatHobbyLevel : distanceCombatCarrierLevel}$\n${#level:=switchCase(type, \"1\", ccLevel, \"2\", contactLevel, \"3\", distanceLevel, default)}$\n\n<!-- définition de la caractéristique de référence -->\n${#caracteristiqueName:= (1 == type ? ccCombatCharacteristic : 2 == type ? contactCombatCharacteristic : 3 == type ? distanceCombatCharacteristic : \"\")}$\n${#caracteristique:=     first(fetchFromDynamicTable('characteristics', 'value', 'name', caracteristiqueName), 0)}$\n\n<!-- combativité de la cible -->\n${#combativiteAdverse:= -1 * fetchFromActor('target', 'fightnessForDefense', 0)}$\n\n<!-- calcul du seuil de réussite -->\n${#seuil:= 10 - level - diff}$\n\n<!-- calcul du bonus si le seuil est supérieur à 10 -->\n${#seuilTemp:= seuil + caracteristique + combativite + combativiteAdverse + bonusArme + modificateur + sante}$\n${#bonus:=(seuilTemp > 10 ? seuilTemp - 10 : 0)}$\n\n<h3><strong>${!item.name}$</strong> : attaque ${!(0 == diff ? \"facile\" : (2 == diff ? \"normale\":\"difficile\"))}$ [${! carrierHobby}$${! 0 != caracteristique ? concat(\" / \", caracteristiqueName) : \"\"}$]</h3>\n<table>\n  <tbody>\n    <tr>\n      <td><h4>Jet du dé</h4></td>\n      <td>\n        <strong>${roll:= [1d10] + bonus}$</strong> / ${seuil:=seuil + caracteristique + combativite + combativiteAdverse + bonusArme + modificateur + sante}$\n      </td>\n    </tr>\n    <tr>\n      <td colspan=\"2\">\n        <p style=\"padding: 2px; text-align: center; font-weight: bold; ${!roll<=seuil ? \"color: var(--color-level-success); border: solid 1px var(--color-level-success)\\\">Réussite\" : \"color: var(--color-level-error); border: solid 1px var(--color-level-error)\\\">Echec\"}$</p>\n      </td>\n    </tr>\n  </tbody>\n</table>"
-          }
-        ],
-        [
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              2,
-              "rowLayout",
-              3,
-              "rollMessage"
-            ],
-            "lhs": "<!-- Roll for attack -->\n${#concat(\n  ?{diff:\"Difficulté\"|\"2\",\"Normal\"|\"0\",\"Facile\"|\"4\",\"Difficile\"},\n  ?{modificateur:\"Modificateur\"[number]|0}\n)}$\n\n<!-- vérification qu'une cible a bien été sélectionnée -->\n${#nameTarget:= fetchFromActor(\"target\", \"name\", \"\")}$\n${#(nameTarget?\"\":notify(\"error\", \"Vous devez sélectionner une cible !\"))}$\n\n<!-- récupération des données -->\n${#sante:=       healthMalus}$\n${#combativite:= fetchFromActor(\"self\", fightnessForAttack, 0)}$\n${#type:=        item.combatType}$\n${#bonusArme:=   item.attackBonus ? item.attackBonus : 0}$\n\n<!-- définition des valeurs par défaut -->\n${#ccCombatCarrier:=       ccCombatCarrier       ? ccCombatCarrier       : \"\"}$\n${#ccCombatHobby:=         ccCombatHobby         ? ccCombatHobby         : \"\"}$\n${#contactCombatCarrier:=  contactCombatCarrier  ? contactCombatCarrier  : \"\"}$\n${#contactCombatHobby:=    contactCombatHobby    ? contactCombatHobby    : \"\"}$\n${#distanceCombatCarrier:= distanceCombatCarrier ? distanceCombatCarrier : \"\"}$\n${#distanceCombatHobby:=   distanceCombatHobby   ? distanceCombatHobby   : \"\"}$\n\n${#default:= 6}$\n${#ccCombatCarrierLevel:=       first(fetchFromDynamicTable('carriers', 'level', 'name', ccCombatCarrier),       default)}$\n${#ccCombatHobbyLevel:=         first(fetchFromDynamicTable('hobbies',  'level', 'name', ccCombatHobby),         default)}$\n${#contactCombatCarrierLevel:=  first(fetchFromDynamicTable('carriers', 'level', 'name', contactCombatCarrier),  default)}$\n${#contactCombatHobbyLevel:=    first(fetchFromDynamicTable('hobbies',  'level', 'name', contactCombatHobby),    default)}$\n${#distanceCombatCarrierLevel:= first(fetchFromDynamicTable('carriers', 'level', 'name', distanceCombatCarrier), default)}$\n${#distanceCombatHobbyLevel:=   first(fetchFromDynamicTable('hobbies',  'level', 'name', distanceCombatHobby),   default)}$\n\n<!-- définition du nom du métier ou du hobby de référence -->\n${#ccName:=       ccCombatCarrierLevel       >= ccCombatHobbyLevel       ? ccCombatHobby       : ccCombatCarrier}$\n${#contactName:=  contactCombatCarrierLevel  >= contactCombatHobbyLevel  ? contactCombatHobby  : contactCombatCarrier}$\n${#distanceName:= distanceCombatCarrierLevel >= distanceCombatHobbyLevel ? distanceCombatHobby : distanceCombatCarrier}$\n${#carrierHobby:= switchCase(type, \"1\", ccName, \"2\", contactName, \"3\", distanceName, \"\")}$\n${#carrierHobby:= equalText(\"\", carrierHobby) ? \"Non qualifié\" : carrierHobby}$\n\n<!-- définition du niveau du métier ou du hobby de référence -->\n${#ccLevel:=       ccCombatCarrierLevel       >= ccCombatHobbyLevel       ? ccCombatHobbyLevel       : ccCombatCarrierLevel}$\n${#contactLevel:=  contactCombatCarrierLevel  >= contactCombatHobbyLevel  ? contactCombatHobbyLevel  : contactCombatCarrierLevel}$\n${#distanceLevel:= distanceCombatCarrierLevel >= distanceCombatHobbyLevel ? distanceCombatHobbyLevel : distanceCombatCarrierLevel}$\n${#level:=switchCase(type, \"1\", ccLevel, \"2\", contactLevel, \"3\", distanceLevel, default)}$\n\n<!-- définition de la caractéristique de référence -->\n${#caracteristiqueName:= (1 == type ? ccCombatCharacteristic : 2 == type ? contactCombatCharacteristic : 3 == type ? distanceCombatCharacteristic : \"\")}$\n${#caracteristique:=     first(fetchFromDynamicTable('characteristics', 'value', 'name', caracteristiqueName), 0)}$\n\n<!-- combativité de la cible -->\n${#combativiteAdverse:= -1 * fetchFromActor('target', 'fightnessForDefense', 0)}$\n\n<!-- calcul du seuil de réussite -->\n${#seuil:= 10 - level - diff}$\n\n<!-- calcul du bonus si le seuil est supérieur à 10 -->\n${#seuilTemp:= seuil + caracteristique + combativite + combativiteAdverse + bonusArme + modificateur + sante}$\n${#bonus:=(seuilTemp > 10 ? seuilTemp - 10 : 0)}$\n\n<h3><strong>${!item.name}$</strong> : attaque ${!(0 == diff ? \"facile\" : (2 == diff ? \"normale\":\"difficile\"))}$ [${! carrierHobby}$${! 0 != caracteristique ? concat(\" / \", caracteristiqueName) : \"\"}$]</h3>\n<table>\n  <tbody>\n    <tr>\n      <td><h4>Jet du dé</h4></td>\n      <td>\n        <strong>${roll:= [1d10] + bonus}$</strong> / ${seuil:=seuil + caracteristique + combativite + combativiteAdverse + bonusArme + modificateur + sante}$\n      </td>\n    </tr>\n    <tr>\n      <td colspan=\"2\">\n        <p style=\"padding: 2px; text-align: center; font-weight: bold; ${!roll<=seuil ? \"color: var(--color-level-success); border: solid 1px var(--color-level-success)\\\">Réussite\" : \"color: var(--color-level-error); border: solid 1px var(--color-level-error)\\\">Echec\"}$</p>\n      </td>\n    </tr>\n  </tbody>\n</table>",
-            "rhs": "<!-- Roll for attack -->\n${#concat(\n  ?{diff:\"Difficulté\"|\"2\",\"Normal\"|\"0\",\"Facile\"|\"4\",\"Difficile\"},\n  ?{modificateur:\"Modificateur\"[number]|0}\n)}$\n\n<!-- vérification qu'une cible a bien été sélectionnée -->\n${#nameTarget:= fetchFromActor(\"target\", \"name\", \"\")}$\n${#(nameTarget?\"\":notify(\"error\", \"Vous devez sélectionner une cible !\"))}$\n\n<!-- récupération des données -->\n${#sante:=       healthMalus}$\n${#combativite:= fetchFromActor(\"self\", fightnessForAttack, 0)}$\n${#type:=        item.combatType}$\n${#bonusArme:=   item.attackBonus ? item.attackBonus : 0}$\n\n<!-- définition des valeurs par défaut -->\n${#ccCombatCarrier:=       ccCombatCarrier       ? ccCombatCarrier       : \"\"}$\n${#ccCombatHobby:=         ccCombatHobby         ? ccCombatHobby         : \"\"}$\n${#contactCombatCarrier:=  contactCombatCarrier  ? contactCombatCarrier  : \"\"}$\n${#contactCombatHobby:=    contactCombatHobby    ? contactCombatHobby    : \"\"}$\n${#distanceCombatCarrier:= distanceCombatCarrier ? distanceCombatCarrier : \"\"}$\n${#distanceCombatHobby:=   distanceCombatHobby   ? distanceCombatHobby   : \"\"}$\n\n${#default:= 6}$\n${#ccCombatCarrierLevel:=       first(fetchFromDynamicTable('carriers', 'level', 'name', ccCombatCarrier),       default)}$\n${#ccCombatHobbyLevel:=         first(fetchFromDynamicTable('hobbies',  'level', 'name', ccCombatHobby),         default)}$\n${#contactCombatCarrierLevel:=  first(fetchFromDynamicTable('carriers', 'level', 'name', contactCombatCarrier),  default)}$\n${#contactCombatHobbyLevel:=    first(fetchFromDynamicTable('hobbies',  'level', 'name', contactCombatHobby),    default)}$\n${#distanceCombatCarrierLevel:= first(fetchFromDynamicTable('carriers', 'level', 'name', distanceCombatCarrier), default)}$\n${#distanceCombatHobbyLevel:=   first(fetchFromDynamicTable('hobbies',  'level', 'name', distanceCombatHobby),   default)}$\n\n<!-- définition du nom du métier ou du hobby de référence -->\n${#ccName:=       ccCombatCarrierLevel       >= ccCombatHobbyLevel       ? ccCombatHobby       : ccCombatCarrier}$\n${#contactName:=  contactCombatCarrierLevel  >= contactCombatHobbyLevel  ? contactCombatHobby  : contactCombatCarrier}$\n${#distanceName:= distanceCombatCarrierLevel >= distanceCombatHobbyLevel ? distanceCombatHobby : distanceCombatCarrier}$\n${#carrierHobby:= switchCase(type, \"1\", ccName, \"2\", contactName, \"3\", distanceName, \"\")}$\n${#carrierHobby:= equalText(\"\", carrierHobby) ? \"Non qualifié\" : carrierHobby}$\n\n<!-- définition du niveau du métier ou du hobby de référence -->\n${#ccLevel:=       ccCombatCarrierLevel       >= ccCombatHobbyLevel       ? ccCombatHobbyLevel       : ccCombatCarrierLevel}$\n${#contactLevel:=  contactCombatCarrierLevel  >= contactCombatHobbyLevel  ? contactCombatHobbyLevel  : contactCombatCarrierLevel}$\n${#distanceLevel:= distanceCombatCarrierLevel >= distanceCombatHobbyLevel ? distanceCombatHobbyLevel : distanceCombatCarrierLevel}$\n${#level:=switchCase(type, \"1\", ccLevel, \"2\", contactLevel, \"3\", distanceLevel, default)}$\n\n<!-- définition de la caractéristique de référence -->\n${#caracteristiqueName:= (1 == type ? ccCombatCharacteristic : 2 == type ? contactCombatCharacteristic : 3 == type ? distanceCombatCharacteristic : \"\")}$\n${#caracteristique:=     first(fetchFromDynamicTable('characteristics', 'value', 'name', caracteristiqueName), 0)}$\n\n<!-- combativité de la cible -->\n${#combativiteAdverse:= fetchFromActor('target', 'fightnessForDefense', 0)}$\n\n<!-- calcul du seuil de réussite -->\n${#seuil:= 10 - level - diff}$\n\n<!-- calcul du bonus si le seuil est supérieur à 10 -->\n${#seuilTemp:= seuil + caracteristique + combativite + combativiteAdverse + bonusArme + modificateur + sante}$\n${#bonus:=(seuilTemp > 10 ? seuilTemp - 10 : 0)}$\n\n<h3><strong>${!item.name}$</strong> : attaque ${!(0 == diff ? \"facile\" : (2 == diff ? \"normale\":\"difficile\"))}$ [${! carrierHobby}$${! 0 != caracteristique ? concat(\" / \", caracteristiqueName) : \"\"}$]</h3>\n<table>\n  <tbody>\n    <tr>\n      <td><h4>Jet du dé</h4></td>\n      <td>\n        <strong>${roll:= [1d10] + bonus}$</strong> / ${seuil:=seuil + caracteristique + combativite + combativiteAdverse + bonusArme + modificateur + sante}$\n      </td>\n    </tr>\n    <tr>\n      <td colspan=\"2\">\n        <p style=\"padding: 2px; text-align: center; font-weight: bold; ${!roll<=seuil ? \"color: var(--color-level-success); border: solid 1px var(--color-level-success)\\\">Réussite\" : \"color: var(--color-level-error); border: solid 1px var(--color-level-error)\\\">Echec\"}$</p>\n      </td>\n    </tr>\n  </tbody>\n</table>"
-          }
-        ],
-        [
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              2,
-              "key"
-            ],
-            "lhs": "weapons",
-            "rhs": "armors"
-          },
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              2,
-              "tooltip"
-            ],
-            "lhs": "Placer les armes ici",
-            "rhs": ""
-          },
-          {
-            "kind": "A",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              2,
-              "rowLayout"
-            ],
-            "index": 4,
-            "item": {
-              "kind": "D",
-              "lhs": {
-                "key": "damage",
-                "cssClass": "",
-                "role": "0",
-                "permission": "0",
-                "tooltip": "Lancer les dommages",
-                "visibilityFormula": "",
-                "label": null,
-                "defaultValue": null,
-                "size": "full-size",
-                "icon": "star-exclamation",
-                "value": "",
-                "prefix": "",
-                "suffix": "",
-                "rollMessage": "<!-- Jet pour calculer les dégâts des armes aux corps-à-corps, contact et distance -->\n${#concat(\n  ?{powerfull:\"Puissance\"|1,concat(\"Faible\",(1==item.powerfullMax?\" (max)\":\"\"))|2,concat(\"Moyenne\",(2==item.powerfullMax?\" (max)\":\"\"))|3,concat(\"Importante\",(3==item.powerfullMax?\" (max)\":\"\"))|4,concat(\"Remarquable\",(4==item.powerfullMax?\" (max)\":\"\"))},\n  ?{modificateur:\"Modificateur\"[number]|0}\n)}$\n\n<!-- vérification qu'une cible a bien été sélectionnée -->\n${#nameTarget:=       \u001c\u001c\u001c\u001c fetchFromActor(\"target\", \"name\", \"\")}$\n${#nameTarget ? \"\" : notify(\"error\", \"Vous devez sélectionner une cible !\")}$\n\n<!-- récupération des données -->\n${#combativite:=       fightnessForAttack}$\n${#type:=              item.combatType}$\n${#bonusArme:=         item.damageBonus ? item.damageBonus : 0}$\n${#protectionAdverse:= -1 * (3 == type ? fetchFromActor(\"target\", \"distanceArmorEquiped\", 0) : fetchFromActor(\"target\", \"ccArmorEquiped\", 0))}$\n\n<!-- bonus de la caracteristique si combat corps-à-corps ou contact -->\n${#bonusForce:=        3 == type ? 0 : first(fetchFromDynamicTable('characteristics', 'value', 'name', powerfullCharacteristic), 0)}$\n\n<!-- malus de la résistance de la cible -->\n${#resistanceAdverse:= -1 * fetchFromActor(\"target\", \"resistanceModificator\", 0)}$\n\n<!-- combativité de la cible -->\n${combativiteAdverse:= -1 * fetchFromActor(\"target\", \"fightnessForDefense\", 0)}$\n\n<h3>Dégats de puissance ${!switchCase(powerfull, \"1\", \"Faible\",\"2\", \"Moyenne\",\"3\", \"Importante\", \"4\", \"Remarquable\", \"<i>non définie</i>\")}$ sur <strong>@{target|name}</strong> par ${!name}$</h3>\n\n<!-- vérification de la puissance utilisée -->\n${!(powerfull > item.powerfullMax\n  ? \"<div style=\\\"padding: 2px; text-align: center; color: var(--color-level-warning); border: solid 1px var(--color-level-warning)\\\">La <strong>puissance choisie</strong> doit être <strong>inférieure ou</strong> égale à la <strong>puissance maximale</strong> de l'attaque</div>\"\n  :\"\"\n)}$\n\n<!--\ncode blessures :\n*  0 = Rien\n* 10 = Légèrement sonné\n* 20 = Sonné\n* 30 = Assommé\n* 40 = Dommage critique\n* 50 = Egratignure\n* 60 = Blessure légère\n* 70 = Blessure grave\n* 80 = Coma\n* 90 = Mort\n-->\n\n<table>\n  <tbody>\n    <tr>\n      <td><h4>Jet du dé</h4></td>\n      <td>\n        <i class=\"fas fa-dice-d10\"></i>\n        <span>${!roll:= [1d10]}$</span>\n      </td>\n    </tr>\n    <tr>\n      <td><h4>Dégâts</h4></td>\n      <td>\n        <strong>${roll:= roll + combativite + bonusForce + combativiteAdverse + resistanceAdverse + protectionAdverse + bonusArme + modificateur}$</strong>\n      </td>\n    </tr>\n${#damage:=switchCase(type, \"1\", switchCase(powerfull, \"1\", (3 >= roll ? 0:(7 >= roll ? 10 : 20)), \"2\", (3 >= roll ? 10 : (7 >= roll ? 20 : 30)), \"3\", (3 >= roll ? 20 : (7 >= roll ? 30 : 40))), \"2\", switchCase(powerfull, \"1\", (3 >= roll ? 0:(7 >= roll ? 50 : 60)), \"2\", (3 >= roll ? 50 : (7 >= roll ? 60 : 70)), \"3\", (3 >= roll ? 60 : (7 >= roll ? 70 : 80)), \"4\", (3 >= roll ? 70 : (7 >= roll ? 80 : 90))), \"3\", switchCase(powerfull, \"1\", (3 >= roll ? 0:(7 >= roll ? 60 : 70)), \"2\", (3 >= roll ? 60 : (7 >= roll ? 70 : 80)), \"3\", (3 >= roll ? 70 : (7 >= roll ? 80 : 90))))}$\n\n${#damageName:=switchCase(damage, 0, \"Rien\", 10, \"Légèrement sonné\", 20, \"Sonné\", 30, \"Assommé\", 40, \"Dommage critique\", 50, \"Egratignure\", 60, \"Blessure légère\", 70, \"Blessure grave\", 80, \"Coma\", 90, \"Mort\")}$\n\n${#damageDetail:=switchCase(damage, 0, \"Loupé !\", 10, \"Le personnage subit un <strong>malus de 2 points</strong> à toutes ses chances de réussite <strong>au cours du tour suivant</strong> et uniquement celui-ci.\", 20, \"Le personnage subit <strong>un malus de 2 points</strong> à toutes ses chances de réussite jusqu'à ce qu'il puisse récupérer en se reposant environ cinq minutes. <br/>S'il est sonné une seconde fois avant de s'être reposé, il est considéré comme Assommé.\", 30, \"Le personnage s'évanouit <strong>pour ${[1d10]}$ minutes</strong> s'il est convenablement soigné.</strong> <br/>Sans aucune aide extérieure l'évanouissement sera <strong>cinq fois plus long</strong>.\", 40, \"Le personnage est <strong>Assommé</strong>  pour <strong>${[1d10]}$ minutes</strong> et subit une <strong>Blessure Légère</strong>.\", 50, \"L'attaque n'a qu'un effet sanguinolent sans aucune conséquence grave. Le sang coule, mais un bon pansement devrait pouvoir l'arrêter et éviter que la cicatrice ne soit trop visible.\", 60, \"Le personnage est meurtri dans sa chair mais sans que cela ait des conséquences vraiment fâcheuses. La douleur cause un <strong>malus de 1 point</strong> à toutes ses chances de réussite tant que la blessure n'est pas soignée (ce qui prend généralement quelques jours). <br/>Une seconde blessure légère reçue moins d'une heure après la première cause une blessure grave (après une heure, la blessure reste légère).\", 70, \"Le personnage est blessé à un endroit grave. La douleur et la gêne causées par la blessure donnent un <strong>malus de 2 points</strong> à toutes ses chances de réussite tant que la blessure n'est pas soignée (ce qui prend généralement plusieurs semaines d'hôpital).<br/>Une seconde blessure grave reçue moins d'une heure après la première cause un coma immédiat (après une heure, la blessure reste grave).\", 80, \"Le personnage est aux portes de la mort. Il lutte de toutes ses forces pour rester en vie mais sombre néanmoins dans un profond coma. Il ne pourra être réanimé qu'avec des moyens médicaux importants. <strong>S'il n'est pas secouru avant une heure, il meurt sans jamais reprendre conscience</strong>.<br/>Un second coma moins d'une heure après le premier cause la mort immédiate de la victime (après un heure, la blessure reste un coma).\", 90, \"Le personnage est mortellement touché. Il peut à la rigueur s'en sortir avec des séquelles s'il est soigné rapidement (dans les 5 minutes) et s'il est ensuite suivi médicalement avec des appareils médicaux de haute technologie.\")}$\n    <tr>\n      <td colspan=\"2\">\n        <p style=\"padding: 2px; text-align: center; border: solid 1px var(--color-border-dark)\">\n          <strong>${!damageName}$</strong>\n        </p>\n      </td>\n    </tr>\n    <tr>\n      <td colspan=\"2\">\n        <p style=\"padding: 2px; text-align: justify; border: solid 1px var(--color-border-dark)\">\n          ${!damageDetail}$\n        </p>\n      </td>\n    </tr>\n  </tbody>\n</table>\n\n<!-- application des dégâts à la cible \nIF (dommage >= 50 AND dommage >= target.health) THEN\n  AppliquerDommageHealth()\nELSE\n  IF (dommage == 40 AND 60 > target.health) THEN\n    AppliquerDommageCritique()\n  ELSE\n    IF (30 >= dommage AND dommage >= target.stun) THEN\n      AppliquerDommageStun()\n    ELSE\n      // ne rien faire\n    FI\n  FI\nFI\n-->\n\n<!--\n\n${stunTarget:= fetchFromActor('target', 'stun')}$\n<br/>\n${healthTarget:= fetchFromActor('target', 'health')}$\n<br/>\n${#assomme:=30}$\n${#blessureLegere:=60}$\n${setPropertyInEntity('target', 'stun', ref(\"assomme\"))}$\n\n\n\n${$changement:=and(damage >= 50, damage > healthTarget)\n  ? ${setPropertyInEntity('target', 'health', \"damage\")}$\n  : and(40 == damage, 60 > healthTarget)\n    ? ${concat(\n      string(setPropertyInEntity('target', 'stun', \"assomme\")), \n      string(setPropertyInEntity('target', 'health', \"blessureLegere\")))}$\n    : and(30 >= damage, damage > stunTarget)\n      ? ${setPropertyInEntity('target', 'stun', \"damage\")}$\n      : \"pas de changement\"\n)}$\n-->",
-                "altRollMessage": "",
-                "style": "label",
-                "type": "label",
-                "align": "center",
-                "colName": "Dégats"
-              }
-            }
-          },
-          {
-            "kind": "A",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              2,
-              "rowLayout"
-            ],
-            "index": 3,
-            "item": {
-              "kind": "D",
-              "lhs": {
-                "key": "attack",
-                "cssClass": "",
-                "role": "0",
-                "permission": "0",
-                "tooltip": "Faire un jet d'attaque",
-                "visibilityFormula": "",
-                "label": null,
-                "defaultValue": null,
-                "size": "full-size",
-                "icon": "dice-d10",
-                "value": "",
-                "prefix": "",
-                "suffix": "",
-                "rollMessage": "<!-- Roll for attack -->\n${#concat(\n  ?{diff:\"Difficulté\"|\"2\",\"Normal\"|\"0\",\"Facile\"|\"4\",\"Difficile\"},\n  ?{modificateur:\"Modificateur\"[number]|0}\n)}$\n\n<!-- vérification qu'une cible a bien été sélectionnée -->\n${#nameTarget:= fetchFromActor(\"target\", \"name\", \"\")}$\n${#(nameTarget?\"\":notify(\"error\", \"Vous devez sélectionner une cible !\"))}$\n\n<!-- récupération des données -->\n${#sante:=       healthMalus}$\n${#combativite:= fetchFromActor(\"self\", fightnessForAttack, 0)}$\n${#type:=        item.combatType}$\n${#bonusArme:=   item.attackBonus ? item.attackBonus : 0}$\n\n<!-- définition des valeurs par défaut -->\n${#ccCombatCarrier:=       ccCombatCarrier       ? ccCombatCarrier       : \"\"}$\n${#ccCombatHobby:=         ccCombatHobby         ? ccCombatHobby         : \"\"}$\n${#contactCombatCarrier:=  contactCombatCarrier  ? contactCombatCarrier  : \"\"}$\n${#contactCombatHobby:=    contactCombatHobby    ? contactCombatHobby    : \"\"}$\n${#distanceCombatCarrier:= distanceCombatCarrier ? distanceCombatCarrier : \"\"}$\n${#distanceCombatHobby:=   distanceCombatHobby   ? distanceCombatHobby   : \"\"}$\n\n${#default:= 6}$\n${#ccCombatCarrierLevel:=       first(fetchFromDynamicTable('carriers', 'level', 'name', ccCombatCarrier),       default)}$\n${#ccCombatHobbyLevel:=         first(fetchFromDynamicTable('hobbies',  'level', 'name', ccCombatHobby),         default)}$\n${#contactCombatCarrierLevel:=  first(fetchFromDynamicTable('carriers', 'level', 'name', contactCombatCarrier),  default)}$\n${#contactCombatHobbyLevel:=    first(fetchFromDynamicTable('hobbies',  'level', 'name', contactCombatHobby),    default)}$\n${#distanceCombatCarrierLevel:= first(fetchFromDynamicTable('carriers', 'level', 'name', distanceCombatCarrier), default)}$\n${#distanceCombatHobbyLevel:=   first(fetchFromDynamicTable('hobbies',  'level', 'name', distanceCombatHobby),   default)}$\n\n<!-- définition du nom du métier ou du hobby de référence -->\n${#ccName:=       ccCombatCarrierLevel       >= ccCombatHobbyLevel       ? ccCombatHobby       : ccCombatCarrier}$\n${#contactName:=  contactCombatCarrierLevel  >= contactCombatHobbyLevel  ? contactCombatHobby  : contactCombatCarrier}$\n${#distanceName:= distanceCombatCarrierLevel >= distanceCombatHobbyLevel ? distanceCombatHobby : distanceCombatCarrier}$\n${#carrierHobby:= switchCase(type, \"1\", ccName, \"2\", contactName, \"3\", distanceName, \"\")}$\n${#carrierHobby:= equalText(\"\", carrierHobby) ? \"Non qualifié\" : carrierHobby}$\n\n<!-- définition du niveau du métier ou du hobby de référence -->\n${#ccLevel:=       ccCombatCarrierLevel       >= ccCombatHobbyLevel       ? ccCombatHobbyLevel       : ccCombatCarrierLevel}$\n${#contactLevel:=  contactCombatCarrierLevel  >= contactCombatHobbyLevel  ? contactCombatHobbyLevel  : contactCombatCarrierLevel}$\n${#distanceLevel:= distanceCombatCarrierLevel >= distanceCombatHobbyLevel ? distanceCombatHobbyLevel : distanceCombatCarrierLevel}$\n${#level:=switchCase(type, \"1\", ccLevel, \"2\", contactLevel, \"3\", distanceLevel, default)}$\n\n<!-- définition de la caractéristique de référence -->\n${#caracteristiqueName:= (1 == type ? ccCombatCharacteristic : 2 == type ? contactCombatCharacteristic : 3 == type ? distanceCombatCharacteristic : \"\")}$\n${#caracteristique:=     first(fetchFromDynamicTable('characteristics', 'value', 'name', caracteristiqueName), 0)}$\n\n<!-- combativité de la cible -->\n${#combativiteAdverse:= fetchFromActor('target', 'fightnessForDefense', 0)}$\n\n<!-- calcul du seuil de réussite -->\n${#seuil:= 10 - level - diff}$\n\n<!-- calcul du bonus si le seuil est supérieur à 10 -->\n${#seuilTemp:= seuil + caracteristique + combativite + combativiteAdverse + bonusArme + modificateur + sante}$\n${#bonus:=(seuilTemp > 10 ? seuilTemp - 10 : 0)}$\n\n<h3><strong>${!item.name}$</strong> : attaque ${!(0 == diff ? \"facile\" : (2 == diff ? \"normale\":\"difficile\"))}$ [${! carrierHobby}$${! 0 != caracteristique ? concat(\" / \", caracteristiqueName) : \"\"}$]</h3>\n<table>\n  <tbody>\n    <tr>\n      <td><h4>Jet du dé</h4></td>\n      <td>\n        <strong>${roll:= [1d10] + bonus}$</strong> / ${seuil:=seuil + caracteristique + combativite + combativiteAdverse + bonusArme + modificateur + sante}$\n      </td>\n    </tr>\n    <tr>\n      <td colspan=\"2\">\n        <p style=\"padding: 2px; text-align: center; font-weight: bold; ${!roll<=seuil ? \"color: var(--color-level-success); border: solid 1px var(--color-level-success)\\\">Réussite\" : \"color: var(--color-level-error); border: solid 1px var(--color-level-error)\\\">Echec\"}$</p>\n      </td>\n    </tr>\n  </tbody>\n</table>",
-                "altRollMessage": "",
-                "style": "label",
-                "type": "label",
-                "align": "center",
-                "colName": "Jet d'attaque"
-              }
-            }
-          },
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              2,
-              "rowLayout",
-              2,
-              "key"
-            ],
-            "lhs": "bonus",
-            "rhs": "equiped"
-          },
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              2,
-              "rowLayout",
-              2,
-              "value"
-            ],
-            "lhs": "${item.attackBonus}$ / ${item.damageBonus}$",
-            "rhs": "${(item.equiped ? \"Oui\" : \"Non\")}$"
-          },
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              2,
-              "rowLayout",
-              2,
-              "rollMessage"
-            ],
-            "lhs": "",
-            "rhs": "${(item.equiped \n  ? \n    ${concat(\"retire \", item.name)}$\n    ${#setPropertyInEntity('item', 'equiped', \"\")}$\n  :\n    ${concat(\"équipe \", item.name)}$\n    ${#setPropertyInEntity('item', 'equiped', 1)}$\n)}$"
-          },
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              2,
-              "rowLayout",
-              2,
-              "align"
-            ],
-            "lhs": "center",
-            "rhs": "left"
-          },
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              2,
-              "rowLayout",
-              2,
-              "colName"
-            ],
-            "lhs": "Bonus attaque/dégâts",
-            "rhs": "Equipée"
-          },
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              2,
-              "rowLayout",
-              1,
-              "key"
-            ],
-            "lhs": "powerfull",
-            "rhs": "distanceArmor"
-          },
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              2,
-              "rowLayout",
-              1,
-              "tooltip"
-            ],
-            "lhs": "Puissance",
-            "rhs": ""
-          },
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              2,
-              "rowLayout",
-              1,
-              "value"
-            ],
-            "lhs": "${switchCase(item.powerfullMax, \"1\", \"Faible\", \"2\", \"Moyenne\", \"3\", \"Importante\", \"4\", \"Remarquable\", item.powerfullMax)}$",
-            "rhs": "${item.distanceArmor}$"
-          },
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              2,
-              "rowLayout",
-              1,
-              "colName"
-            ],
-            "lhs": "Puissance",
-            "rhs": "Protection contre les armes à feu"
-          },
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              2,
-              "rowLayout",
-              0,
-              "key"
-            ],
-            "lhs": "type",
-            "rhs": "ccArmor"
-          },
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              2,
-              "rowLayout",
-              0,
-              "value"
-            ],
-            "lhs": "${switchCase(item.combatType, \"1\", \"Corps-à-corps\", \"2\", \"Contact\", \"3\", \"Distance\", \"<i>Non défini</i>\")}$",
-            "rhs": "${item.ccArmor}$"
-          },
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              2,
-              "rowLayout",
-              0,
-              "colName"
-            ],
-            "lhs": "Type",
-            "rhs": "Protection au contact"
-          },
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              2,
-              "title"
-            ],
-            "lhs": "<strong>Armes</strong>",
-            "rhs": "<strong>Armures</strong>"
-          },
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              2,
-              "templateFilter",
-              0
-            ],
-            "lhs": "14jgxwvyYKfEIWkZ",
-            "rhs": "EKpHmIAjQI656vcn"
-          },
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              1,
-              "key"
-            ],
-            "lhs": "armors",
-            "rhs": "weapons"
-          },
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              1,
-              "tooltip"
-            ],
-            "lhs": "",
-            "rhs": "Placer les armes ici"
-          },
-          {
-            "kind": "A",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              1,
-              "rowLayout"
-            ],
-            "index": 4,
-            "item": {
-              "kind": "N",
-              "rhs": {
-                "key": "damage",
-                "cssClass": "",
-                "role": "0",
-                "permission": "0",
-                "tooltip": "Lancer les dommages",
-                "visibilityFormula": "",
-                "label": null,
-                "defaultValue": null,
-                "size": "full-size",
-                "icon": "star-exclamation",
-                "value": "",
-                "prefix": "",
-                "suffix": "",
-                "rollMessage": "<!-- Jet pour calculer les dégâts des armes aux corps-à-corps, contact et distance -->\n${#concat(\n  ?{powerfull:\"Puissance\"|1,concat(\"Faible\",(1==item.powerfullMax?\" (max)\":\"\"))|2,concat(\"Moyenne\",(2==item.powerfullMax?\" (max)\":\"\"))|3,concat(\"Importante\",(3==item.powerfullMax?\" (max)\":\"\"))|4,concat(\"Remarquable\",(4==item.powerfullMax?\" (max)\":\"\"))},\n  ?{modificateur:\"Modificateur\"[number]|0}\n)}$\n\n<!-- vérification qu'une cible a bien été sélectionnée -->\n${#nameTarget:=       \u001c\u001c\u001c\u001c fetchFromActor(\"target\", \"name\", \"\")}$\n${#nameTarget ? \"\" : notify(\"error\", \"Vous devez sélectionner une cible !\")}$\n\n<!-- récupération des données -->\n${#combativite:=       fightnessForAttack}$\n${#type:=              item.combatType}$\n${#bonusArme:=         item.damageBonus ? item.damageBonus : 0}$\n${#protectionAdverse:= -1 * (3 == type ? fetchFromActor(\"target\", \"distanceArmorEquiped\", 0) : fetchFromActor(\"target\", \"ccArmorEquiped\", 0))}$\n\n<!-- bonus de la caracteristique si combat corps-à-corps ou contact -->\n${#bonusForce:=        3 == type ? 0 : first(fetchFromDynamicTable('characteristics', 'value', 'name', powerfullCharacteristic), 0)}$\n\n<!-- malus de la résistance de la cible -->\n${#resistanceAdverse:= -1 * fetchFromActor(\"target\", \"resistanceModificator\", 0)}$\n\n<!-- combativité de la cible -->\n${combativiteAdverse:= -1 * fetchFromActor(\"target\", \"fightnessForDefense\", 0)}$\n\n<h3>Dégats de puissance ${!switchCase(powerfull, \"1\", \"Faible\",\"2\", \"Moyenne\",\"3\", \"Importante\", \"4\", \"Remarquable\", \"<i>non définie</i>\")}$ sur <strong>@{target|name}</strong> par ${!name}$</h3>\n\n<!-- vérification de la puissance utilisée -->\n${!(powerfull > item.powerfullMax\n  ? \"<div style=\\\"padding: 2px; text-align: center; color: var(--color-level-warning); border: solid 1px var(--color-level-warning)\\\">La <strong>puissance choisie</strong> doit être <strong>inférieure ou</strong> égale à la <strong>puissance maximale</strong> de l'attaque</div>\"\n  :\"\"\n)}$\n\n<!--\ncode blessures :\n*  0 = Rien\n* 10 = Légèrement sonné\n* 20 = Sonné\n* 30 = Assommé\n* 40 = Dommage critique\n* 50 = Egratignure\n* 60 = Blessure légère\n* 70 = Blessure grave\n* 80 = Coma\n* 90 = Mort\n-->\n\n<table>\n  <tbody>\n    <tr>\n      <td><h4>Jet du dé</h4></td>\n      <td>\n        <i class=\"fas fa-dice-d10\"></i>\n        <span>${!roll:= [1d10]}$</span>\n      </td>\n    </tr>\n    <tr>\n      <td><h4>Dégâts</h4></td>\n      <td>\n        <strong>${roll:= roll + combativite + bonusForce + combativiteAdverse + resistanceAdverse + protectionAdverse + bonusArme + modificateur}$</strong>\n      </td>\n    </tr>\n${#damage:=switchCase(type, \"1\", switchCase(powerfull, \"1\", (3 >= roll ? 0:(7 >= roll ? 10 : 20)), \"2\", (3 >= roll ? 10 : (7 >= roll ? 20 : 30)), \"3\", (3 >= roll ? 20 : (7 >= roll ? 30 : 40))), \"2\", switchCase(powerfull, \"1\", (3 >= roll ? 0:(7 >= roll ? 50 : 60)), \"2\", (3 >= roll ? 50 : (7 >= roll ? 60 : 70)), \"3\", (3 >= roll ? 60 : (7 >= roll ? 70 : 80)), \"4\", (3 >= roll ? 70 : (7 >= roll ? 80 : 90))), \"3\", switchCase(powerfull, \"1\", (3 >= roll ? 0:(7 >= roll ? 60 : 70)), \"2\", (3 >= roll ? 60 : (7 >= roll ? 70 : 80)), \"3\", (3 >= roll ? 70 : (7 >= roll ? 80 : 90))))}$\n\n${#damageName:=switchCase(damage, 0, \"Rien\", 10, \"Légèrement sonné\", 20, \"Sonné\", 30, \"Assommé\", 40, \"Dommage critique\", 50, \"Egratignure\", 60, \"Blessure légère\", 70, \"Blessure grave\", 80, \"Coma\", 90, \"Mort\")}$\n\n${#damageDetail:=switchCase(damage, 0, \"Loupé !\", 10, \"Le personnage subit un <strong>malus de 2 points</strong> à toutes ses chances de réussite <strong>au cours du tour suivant</strong> et uniquement celui-ci.\", 20, \"Le personnage subit <strong>un malus de 2 points</strong> à toutes ses chances de réussite jusqu'à ce qu'il puisse récupérer en se reposant environ cinq minutes. <br/>S'il est sonné une seconde fois avant de s'être reposé, il est considéré comme Assommé.\", 30, \"Le personnage s'évanouit <strong>pour ${[1d10]}$ minutes</strong> s'il est convenablement soigné.</strong> <br/>Sans aucune aide extérieure l'évanouissement sera <strong>cinq fois plus long</strong>.\", 40, \"Le personnage est <strong>Assommé</strong>  pour <strong>${[1d10]}$ minutes</strong> et subit une <strong>Blessure Légère</strong>.\", 50, \"L'attaque n'a qu'un effet sanguinolent sans aucune conséquence grave. Le sang coule, mais un bon pansement devrait pouvoir l'arrêter et éviter que la cicatrice ne soit trop visible.\", 60, \"Le personnage est meurtri dans sa chair mais sans que cela ait des conséquences vraiment fâcheuses. La douleur cause un <strong>malus de 1 point</strong> à toutes ses chances de réussite tant que la blessure n'est pas soignée (ce qui prend généralement quelques jours). <br/>Une seconde blessure légère reçue moins d'une heure après la première cause une blessure grave (après une heure, la blessure reste légère).\", 70, \"Le personnage est blessé à un endroit grave. La douleur et la gêne causées par la blessure donnent un <strong>malus de 2 points</strong> à toutes ses chances de réussite tant que la blessure n'est pas soignée (ce qui prend généralement plusieurs semaines d'hôpital).<br/>Une seconde blessure grave reçue moins d'une heure après la première cause un coma immédiat (après une heure, la blessure reste grave).\", 80, \"Le personnage est aux portes de la mort. Il lutte de toutes ses forces pour rester en vie mais sombre néanmoins dans un profond coma. Il ne pourra être réanimé qu'avec des moyens médicaux importants. <strong>S'il n'est pas secouru avant une heure, il meurt sans jamais reprendre conscience</strong>.<br/>Un second coma moins d'une heure après le premier cause la mort immédiate de la victime (après un heure, la blessure reste un coma).\", 90, \"Le personnage est mortellement touché. Il peut à la rigueur s'en sortir avec des séquelles s'il est soigné rapidement (dans les 5 minutes) et s'il est ensuite suivi médicalement avec des appareils médicaux de haute technologie.\")}$\n    <tr>\n      <td colspan=\"2\">\n        <p style=\"padding: 2px; text-align: center; border: solid 1px var(--color-border-dark)\">\n          <strong>${!damageName}$</strong>\n        </p>\n      </td>\n    </tr>\n    <tr>\n      <td colspan=\"2\">\n        <p style=\"padding: 2px; text-align: justify; border: solid 1px var(--color-border-dark)\">\n          ${!damageDetail}$\n        </p>\n      </td>\n    </tr>\n  </tbody>\n</table>\n\n<!-- application des dégâts à la cible \nIF (dommage >= 50 AND dommage >= target.health) THEN\n  AppliquerDommageHealth()\nELSE\n  IF (dommage == 40 AND 60 > target.health) THEN\n    AppliquerDommageCritique()\n  ELSE\n    IF (30 >= dommage AND dommage >= target.stun) THEN\n      AppliquerDommageStun()\n    ELSE\n      // ne rien faire\n    FI\n  FI\nFI\n-->\n\n<!--\n\n${stunTarget:= fetchFromActor('target', 'stun')}$\n<br/>\n${healthTarget:= fetchFromActor('target', 'health')}$\n<br/>\n${#assomme:=30}$\n${#blessureLegere:=60}$\n${setPropertyInEntity('target', 'stun', ref(\"assomme\"))}$\n\n\n\n${$changement:=and(damage >= 50, damage > healthTarget)\n  ? ${setPropertyInEntity('target', 'health', \"damage\")}$\n  : and(40 == damage, 60 > healthTarget)\n    ? ${concat(\n      string(setPropertyInEntity('target', 'stun', \"assomme\")), \n      string(setPropertyInEntity('target', 'health', \"blessureLegere\")))}$\n    : and(30 >= damage, damage > stunTarget)\n      ? ${setPropertyInEntity('target', 'stun', \"damage\")}$\n      : \"pas de changement\"\n)}$\n-->",
-                "altRollMessage": "",
-                "style": "label",
-                "type": "label",
-                "align": "center",
-                "colName": "Dégats"
-              }
-            }
-          },
-          {
-            "kind": "A",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              1,
-              "rowLayout"
-            ],
-            "index": 3,
-            "item": {
-              "kind": "N",
-              "rhs": {
-                "key": "attack",
-                "cssClass": "",
-                "role": "0",
-                "permission": "0",
-                "tooltip": "Faire un jet d'attaque",
-                "visibilityFormula": "",
-                "label": null,
-                "defaultValue": null,
-                "size": "full-size",
-                "icon": "dice-d10",
-                "value": "",
-                "prefix": "",
-                "suffix": "",
-                "rollMessage": "<!-- Roll for attack -->\n${#concat(\n  ?{diff:\"Difficulté\"|\"2\",\"Normal\"|\"0\",\"Facile\"|\"4\",\"Difficile\"},\n  ?{modificateur:\"Modificateur\"[number]|0}\n)}$\n\n<!-- vérification qu'une cible a bien été sélectionnée -->\n${#nameTarget:= fetchFromActor(\"target\", \"name\", \"\")}$\n${#(nameTarget?\"\":notify(\"error\", \"Vous devez sélectionner une cible !\"))}$\n\n<!-- récupération des données -->\n${#sante:=       healthMalus}$\n${#combativite:= fetchFromActor(\"self\", fightnessForAttack, 0)}$\n${#type:=        item.combatType}$\n${#bonusArme:=   item.attackBonus ? item.attackBonus : 0}$\n\n<!-- définition des valeurs par défaut -->\n${#ccCombatCarrier:=       ccCombatCarrier       ? ccCombatCarrier       : \"\"}$\n${#ccCombatHobby:=         ccCombatHobby         ? ccCombatHobby         : \"\"}$\n${#contactCombatCarrier:=  contactCombatCarrier  ? contactCombatCarrier  : \"\"}$\n${#contactCombatHobby:=    contactCombatHobby    ? contactCombatHobby    : \"\"}$\n${#distanceCombatCarrier:= distanceCombatCarrier ? distanceCombatCarrier : \"\"}$\n${#distanceCombatHobby:=   distanceCombatHobby   ? distanceCombatHobby   : \"\"}$\n\n${#default:= 6}$\n${#ccCombatCarrierLevel:=       first(fetchFromDynamicTable('carriers', 'level', 'name', ccCombatCarrier),       default)}$\n${#ccCombatHobbyLevel:=         first(fetchFromDynamicTable('hobbies',  'level', 'name', ccCombatHobby),         default)}$\n${#contactCombatCarrierLevel:=  first(fetchFromDynamicTable('carriers', 'level', 'name', contactCombatCarrier),  default)}$\n${#contactCombatHobbyLevel:=    first(fetchFromDynamicTable('hobbies',  'level', 'name', contactCombatHobby),    default)}$\n${#distanceCombatCarrierLevel:= first(fetchFromDynamicTable('carriers', 'level', 'name', distanceCombatCarrier), default)}$\n${#distanceCombatHobbyLevel:=   first(fetchFromDynamicTable('hobbies',  'level', 'name', distanceCombatHobby),   default)}$\n\n<!-- définition du nom du métier ou du hobby de référence -->\n${#ccName:=       ccCombatCarrierLevel       >= ccCombatHobbyLevel       ? ccCombatHobby       : ccCombatCarrier}$\n${#contactName:=  contactCombatCarrierLevel  >= contactCombatHobbyLevel  ? contactCombatHobby  : contactCombatCarrier}$\n${#distanceName:= distanceCombatCarrierLevel >= distanceCombatHobbyLevel ? distanceCombatHobby : distanceCombatCarrier}$\n${#carrierHobby:= switchCase(type, \"1\", ccName, \"2\", contactName, \"3\", distanceName, \"\")}$\n${#carrierHobby:= equalText(\"\", carrierHobby) ? \"Non qualifié\" : carrierHobby}$\n\n<!-- définition du niveau du métier ou du hobby de référence -->\n${#ccLevel:=       ccCombatCarrierLevel       >= ccCombatHobbyLevel       ? ccCombatHobbyLevel       : ccCombatCarrierLevel}$\n${#contactLevel:=  contactCombatCarrierLevel  >= contactCombatHobbyLevel  ? contactCombatHobbyLevel  : contactCombatCarrierLevel}$\n${#distanceLevel:= distanceCombatCarrierLevel >= distanceCombatHobbyLevel ? distanceCombatHobbyLevel : distanceCombatCarrierLevel}$\n${#level:=switchCase(type, \"1\", ccLevel, \"2\", contactLevel, \"3\", distanceLevel, default)}$\n\n<!-- définition de la caractéristique de référence -->\n${#caracteristiqueName:= (1 == type ? ccCombatCharacteristic : 2 == type ? contactCombatCharacteristic : 3 == type ? distanceCombatCharacteristic : \"\")}$\n${#caracteristique:=     first(fetchFromDynamicTable('characteristics', 'value', 'name', caracteristiqueName), 0)}$\n\n<!-- combativité de la cible -->\n${#combativiteAdverse:= fetchFromActor('target', 'fightnessForDefense', 0)}$\n\n<!-- calcul du seuil de réussite -->\n${#seuil:= 10 - level - diff}$\n\n<!-- calcul du bonus si le seuil est supérieur à 10 -->\n${#seuilTemp:= seuil + caracteristique + combativite + combativiteAdverse + bonusArme + modificateur + sante}$\n${#bonus:=(seuilTemp > 10 ? seuilTemp - 10 : 0)}$\n\n<h3><strong>${!item.name}$</strong> : attaque ${!(0 == diff ? \"facile\" : (2 == diff ? \"normale\":\"difficile\"))}$ [${! carrierHobby}$${! 0 != caracteristique ? concat(\" / \", caracteristiqueName) : \"\"}$]</h3>\n<table>\n  <tbody>\n    <tr>\n      <td><h4>Jet du dé</h4></td>\n      <td>\n        <strong>${roll:= [1d10] + bonus}$</strong> / ${seuil:=seuil + caracteristique + combativite + combativiteAdverse + bonusArme + modificateur + sante}$\n      </td>\n    </tr>\n    <tr>\n      <td colspan=\"2\">\n        <p style=\"padding: 2px; text-align: center; font-weight: bold; ${!roll<=seuil ? \"color: var(--color-level-success); border: solid 1px var(--color-level-success)\\\">Réussite\" : \"color: var(--color-level-error); border: solid 1px var(--color-level-error)\\\">Echec\"}$</p>\n      </td>\n    </tr>\n  </tbody>\n</table>",
-                "altRollMessage": "",
-                "style": "label",
-                "type": "label",
-                "align": "center",
-                "colName": "Jet d'attaque"
-              }
-            }
-          },
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              1,
-              "rowLayout",
-              2,
-              "key"
-            ],
-            "lhs": "equiped",
-            "rhs": "bonus"
-          },
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              1,
-              "rowLayout",
-              2,
-              "value"
-            ],
-            "lhs": "${(item.equiped ? \"Oui\" : \"Non\")}$",
-            "rhs": "${item.attackBonus}$ / ${item.damageBonus}$"
-          },
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              1,
-              "rowLayout",
-              2,
-              "rollMessage"
-            ],
-            "lhs": "${(item.equiped \n  ? \n    ${concat(\"retire \", item.name)}$\n    ${#setPropertyInEntity('item', 'equiped', \"\")}$\n  :\n    ${concat(\"équipe \", item.name)}$\n    ${#setPropertyInEntity('item', 'equiped', 1)}$\n)}$",
-            "rhs": ""
-          },
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              1,
-              "rowLayout",
-              2,
-              "align"
-            ],
-            "lhs": "left",
-            "rhs": "center"
-          },
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              1,
-              "rowLayout",
-              2,
-              "colName"
-            ],
-            "lhs": "Equipée",
-            "rhs": "Bonus attaque/dégâts"
-          },
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              1,
-              "rowLayout",
-              1,
-              "key"
-            ],
-            "lhs": "distanceArmor",
-            "rhs": "powerfull"
-          },
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              1,
-              "rowLayout",
-              1,
-              "tooltip"
-            ],
-            "lhs": "",
-            "rhs": "Puissance"
-          },
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              1,
-              "rowLayout",
-              1,
-              "value"
-            ],
-            "lhs": "${item.distanceArmor}$",
-            "rhs": "${switchCase(item.powerfullMax, \"1\", \"Faible\", \"2\", \"Moyenne\", \"3\", \"Importante\", \"4\", \"Remarquable\", item.powerfullMax)}$"
-          },
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              1,
-              "rowLayout",
-              1,
-              "colName"
-            ],
-            "lhs": "Protection contre les armes à feu",
-            "rhs": "Puissance"
-          },
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              1,
-              "rowLayout",
-              0,
-              "key"
-            ],
-            "lhs": "ccArmor",
-            "rhs": "type"
-          },
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              1,
-              "rowLayout",
-              0,
-              "value"
-            ],
-            "lhs": "${item.ccArmor}$",
-            "rhs": "${switchCase(item.combatType, \"1\", \"Corps-à-corps\", \"2\", \"Contact\", \"3\", \"Distance\", \"<i>Non défini</i>\")}$"
-          },
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              1,
-              "rowLayout",
-              0,
-              "colName"
-            ],
-            "lhs": "Protection au contact",
-            "rhs": "Type"
-          },
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              1,
-              "title"
-            ],
-            "lhs": "<strong>Armures</strong>",
-            "rhs": "<strong>Armes</strong>"
-          },
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              1,
-              "templateFilter",
-              0
-            ],
-            "lhs": "EKpHmIAjQI656vcn",
-            "rhs": "14jgxwvyYKfEIWkZ"
-          }
-        ],
-        [
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              1,
-              "rowLayout",
-              3,
-              "rollMessage"
-            ],
-            "lhs": "<!-- Roll for attack -->\n${#concat(\n  ?{diff:\"Difficulté\"|\"2\",\"Normal\"|\"0\",\"Facile\"|\"4\",\"Difficile\"},\n  ?{modificateur:\"Modificateur\"[number]|0}\n)}$\n\n<!-- vérification qu'une cible a bien été sélectionnée -->\n${#nameTarget:= fetchFromActor(\"target\", \"name\", \"\")}$\n${#(nameTarget?\"\":notify(\"error\", \"Vous devez sélectionner une cible !\"))}$\n\n<!-- récupération des données -->\n${#sante:=       healthMalus}$\n${#combativite:= fetchFromActor(\"self\", fightnessForAttack, 0)}$\n${#type:=        item.combatType}$\n${#bonusArme:=   item.attackBonus ? item.attackBonus : 0}$\n\n<!-- définition des valeurs par défaut -->\n${#ccCombatCarrier:=       ccCombatCarrier       ? ccCombatCarrier       : \"\"}$\n${#ccCombatHobby:=         ccCombatHobby         ? ccCombatHobby         : \"\"}$\n${#contactCombatCarrier:=  contactCombatCarrier  ? contactCombatCarrier  : \"\"}$\n${#contactCombatHobby:=    contactCombatHobby    ? contactCombatHobby    : \"\"}$\n${#distanceCombatCarrier:= distanceCombatCarrier ? distanceCombatCarrier : \"\"}$\n${#distanceCombatHobby:=   distanceCombatHobby   ? distanceCombatHobby   : \"\"}$\n\n${#default:= 6}$\n${#ccCombatCarrierLevel:=       first(fetchFromDynamicTable('carriers', 'level', 'name', ccCombatCarrier),       default)}$\n${#ccCombatHobbyLevel:=         first(fetchFromDynamicTable('hobbies',  'level', 'name', ccCombatHobby),         default)}$\n${#contactCombatCarrierLevel:=  first(fetchFromDynamicTable('carriers', 'level', 'name', contactCombatCarrier),  default)}$\n${#contactCombatHobbyLevel:=    first(fetchFromDynamicTable('hobbies',  'level', 'name', contactCombatHobby),    default)}$\n${#distanceCombatCarrierLevel:= first(fetchFromDynamicTable('carriers', 'level', 'name', distanceCombatCarrier), default)}$\n${#distanceCombatHobbyLevel:=   first(fetchFromDynamicTable('hobbies',  'level', 'name', distanceCombatHobby),   default)}$\n\n<!-- définition du nom du métier ou du hobby de référence -->\n${#ccName:=       ccCombatCarrierLevel       >= ccCombatHobbyLevel       ? ccCombatHobby       : ccCombatCarrier}$\n${#contactName:=  contactCombatCarrierLevel  >= contactCombatHobbyLevel  ? contactCombatHobby  : contactCombatCarrier}$\n${#distanceName:= distanceCombatCarrierLevel >= distanceCombatHobbyLevel ? distanceCombatHobby : distanceCombatCarrier}$\n${#carrierHobby:= switchCase(type, \"1\", ccName, \"2\", contactName, \"3\", distanceName, \"\")}$\n${#carrierHobby:= equalText(\"\", carrierHobby) ? \"Non qualifié\" : carrierHobby}$\n\n<!-- définition du niveau du métier ou du hobby de référence -->\n${#ccLevel:=       ccCombatCarrierLevel       >= ccCombatHobbyLevel       ? ccCombatHobbyLevel       : ccCombatCarrierLevel}$\n${#contactLevel:=  contactCombatCarrierLevel  >= contactCombatHobbyLevel  ? contactCombatHobbyLevel  : contactCombatCarrierLevel}$\n${#distanceLevel:= distanceCombatCarrierLevel >= distanceCombatHobbyLevel ? distanceCombatHobbyLevel : distanceCombatCarrierLevel}$\n${#level:=switchCase(type, \"1\", ccLevel, \"2\", contactLevel, \"3\", distanceLevel, default)}$\n\n<!-- définition de la caractéristique de référence -->\n${#caracteristiqueName:= (1 == type ? ccCombatCharacteristic : 2 == type ? contactCombatCharacteristic : 3 == type ? distanceCombatCharacteristic : \"\")}$\n${#caracteristique:=     first(fetchFromDynamicTable('characteristics', 'value', 'name', caracteristiqueName), 0)}$\n\n<!-- combativité de la cible -->\n${#combativiteAdverse:= fetchFromActor('target', 'fightnessForDefense', 0)}$\n\n<!-- calcul du seuil de réussite -->\n${#seuil:= 10 - level - diff}$\n\n<!-- calcul du bonus si le seuil est supérieur à 10 -->\n${#seuilTemp:= seuil + caracteristique + combativite + combativiteAdverse + bonusArme + modificateur + sante}$\n${#bonus:=(seuilTemp > 10 ? seuilTemp - 10 : 0)}$\n\n<h3><strong>${!item.name}$</strong> : attaque ${!(0 == diff ? \"facile\" : (2 == diff ? \"normale\":\"difficile\"))}$ [${! carrierHobby}$${! 0 != caracteristique ? concat(\" / \", caracteristiqueName) : \"\"}$]</h3>\n<table>\n  <tbody>\n    <tr>\n      <td><h4>Jet du dé</h4></td>\n      <td>\n        <strong>${roll:= [1d10] + bonus}$</strong> / ${seuil:=seuil + caracteristique + combativite + combativiteAdverse + bonusArme + modificateur + sante}$\n      </td>\n    </tr>\n    <tr>\n      <td colspan=\"2\">\n        <p style=\"padding: 2px; text-align: center; font-weight: bold; ${!roll<=seuil ? \"color: var(--color-level-success); border: solid 1px var(--color-level-success)\\\">Réussite\" : \"color: var(--color-level-error); border: solid 1px var(--color-level-error)\\\">Echec\"}$</p>\n      </td>\n    </tr>\n  </tbody>\n</table>",
-            "rhs": "<!-- Roll for attack -->\n${#concat(\n  ?{diff:\"Difficulté\"|\"2\",\"Normal\"|\"0\",\"Facile\"|\"4\",\"Difficile\"},\n  ?{modificateur:\"Modificateur\"[number]|0}\n)}$\n\n<!-- vérification qu'une cible a bien été sélectionnée -->\n${#nameTarget:= fetchFromActor(\"target\", \"name\", \"\")}$\n${#(nameTarget?\"\":notify(\"error\", \"Vous devez sélectionner une cible !\"))}$\n\n<!-- récupération des données -->\n${#sante:=       healthMalus}$\n${#combativite:= fetchFromActor(\"self\", fightnessForAttack, 0)}$\n${#type:=        item.combatType}$\n${#bonusArme:=   item.attackBonus ? item.attackBonus : 0}$\n\n<!-- définition des valeurs par défaut -->\n${#ccCombatCarrier:=       ccCombatCarrier       ? ccCombatCarrier       : \"\"}$\n${#ccCombatHobby:=         ccCombatHobby         ? ccCombatHobby         : \"\"}$\n${#contactCombatCarrier:=  contactCombatCarrier  ? contactCombatCarrier  : \"\"}$\n${#contactCombatHobby:=    contactCombatHobby    ? contactCombatHobby    : \"\"}$\n${#distanceCombatCarrier:= distanceCombatCarrier ? distanceCombatCarrier : \"\"}$\n${#distanceCombatHobby:=   distanceCombatHobby   ? distanceCombatHobby   : \"\"}$\n\n${#default:= 6}$\n${#ccCombatCarrierLevel:=       first(fetchFromDynamicTable('carriers', 'level', 'name', ccCombatCarrier),       default)}$\n${#ccCombatHobbyLevel:=         first(fetchFromDynamicTable('hobbies',  'level', 'name', ccCombatHobby),         default)}$\n${#contactCombatCarrierLevel:=  first(fetchFromDynamicTable('carriers', 'level', 'name', contactCombatCarrier),  default)}$\n${#contactCombatHobbyLevel:=    first(fetchFromDynamicTable('hobbies',  'level', 'name', contactCombatHobby),    default)}$\n${#distanceCombatCarrierLevel:= first(fetchFromDynamicTable('carriers', 'level', 'name', distanceCombatCarrier), default)}$\n${#distanceCombatHobbyLevel:=   first(fetchFromDynamicTable('hobbies',  'level', 'name', distanceCombatHobby),   default)}$\n\n<!-- définition du nom du métier ou du hobby de référence -->\n${#ccName:=       ccCombatCarrierLevel       >= ccCombatHobbyLevel       ? ccCombatHobby       : ccCombatCarrier}$\n${#contactName:=  contactCombatCarrierLevel  >= contactCombatHobbyLevel  ? contactCombatHobby  : contactCombatCarrier}$\n${#distanceName:= distanceCombatCarrierLevel >= distanceCombatHobbyLevel ? distanceCombatHobby : distanceCombatCarrier}$\n${#carrierHobby:= switchCase(type, \"1\", ccName, \"2\", contactName, \"3\", distanceName, \"\")}$\n${#carrierHobby:= equalText(\"\", carrierHobby) ? \"Non qualifié\" : carrierHobby}$\n\n<!-- définition du niveau du métier ou du hobby de référence -->\n${#ccLevel:=       ccCombatCarrierLevel       >= ccCombatHobbyLevel       ? ccCombatHobbyLevel       : ccCombatCarrierLevel}$\n${#contactLevel:=  contactCombatCarrierLevel  >= contactCombatHobbyLevel  ? contactCombatHobbyLevel  : contactCombatCarrierLevel}$\n${#distanceLevel:= distanceCombatCarrierLevel >= distanceCombatHobbyLevel ? distanceCombatHobbyLevel : distanceCombatCarrierLevel}$\n${#level:=switchCase(type, \"1\", ccLevel, \"2\", contactLevel, \"3\", distanceLevel, default)}$\n\n<!-- définition de la caractéristique de référence -->\n${#caracteristiqueName:= (1 == type ? ccCombatCharacteristic : 2 == type ? contactCombatCharacteristic : 3 == type ? distanceCombatCharacteristic : \"\")}$\n${#caracteristique:=     first(fetchFromDynamicTable('characteristics', 'value', 'name', caracteristiqueName), 0)}$\n\n<!-- combativité de la cible -->\n${#combativiteAdverse:= -1 * fetchFromActor('target', 'fightnessForDefense', 0)}$\n\n<!-- calcul du seuil de réussite -->\n${#seuil:= 10 - level - diff}$\n\n<!-- calcul du bonus si le seuil est supérieur à 10 -->\n${#seuilTemp:= seuil + caracteristique + combativite + combativiteAdverse + bonusArme + modificateur + sante}$\n${#bonus:=(seuilTemp > 10 ? seuilTemp - 10 : 0)}$\n\n<h3><strong>${!item.name}$</strong> : attaque ${!(0 == diff ? \"facile\" : (2 == diff ? \"normale\":\"difficile\"))}$ [${! carrierHobby}$${! 0 != caracteristique ? concat(\" / \", caracteristiqueName) : \"\"}$]</h3>\n<table>\n  <tbody>\n    <tr>\n      <td><h4>Jet du dé</h4></td>\n      <td>\n        <strong>${roll:= [1d10] + bonus}$</strong> / ${seuil:=seuil + caracteristique + combativite + combativiteAdverse + bonusArme + modificateur + sante}$\n      </td>\n    </tr>\n    <tr>\n      <td colspan=\"2\">\n        <p style=\"padding: 2px; text-align: center; font-weight: bold; ${!roll<=seuil ? \"color: var(--color-level-success); border: solid 1px var(--color-level-success)\\\">Réussite\" : \"color: var(--color-level-error); border: solid 1px var(--color-level-error)\\\">Echec\"}$</p>\n      </td>\n    </tr>\n  </tbody>\n</table>"
-          }
-        ],
-        [
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              1,
-              "rowLayout",
-              3,
-              "rollMessage"
-            ],
-            "lhs": "<!-- Roll for attack -->\n${#concat(\n  ?{diff:\"Difficulté\"|\"2\",\"Normal\"|\"0\",\"Facile\"|\"4\",\"Difficile\"},\n  ?{modificateur:\"Modificateur\"[number]|0}\n)}$\n\n<!-- vérification qu'une cible a bien été sélectionnée -->\n${#nameTarget:= fetchFromActor(\"target\", \"name\", \"\")}$\n${#(nameTarget?\"\":notify(\"error\", \"Vous devez sélectionner une cible !\"))}$\n\n<!-- récupération des données -->\n${#sante:=       healthMalus}$\n${#combativite:= fetchFromActor(\"self\", fightnessForAttack, 0)}$\n${#type:=        item.combatType}$\n${#bonusArme:=   item.attackBonus ? item.attackBonus : 0}$\n\n<!-- définition des valeurs par défaut -->\n${#ccCombatCarrier:=       ccCombatCarrier       ? ccCombatCarrier       : \"\"}$\n${#ccCombatHobby:=         ccCombatHobby         ? ccCombatHobby         : \"\"}$\n${#contactCombatCarrier:=  contactCombatCarrier  ? contactCombatCarrier  : \"\"}$\n${#contactCombatHobby:=    contactCombatHobby    ? contactCombatHobby    : \"\"}$\n${#distanceCombatCarrier:= distanceCombatCarrier ? distanceCombatCarrier : \"\"}$\n${#distanceCombatHobby:=   distanceCombatHobby   ? distanceCombatHobby   : \"\"}$\n\n${#default:= 6}$\n${#ccCombatCarrierLevel:=       first(fetchFromDynamicTable('carriers', 'level', 'name', ccCombatCarrier),       default)}$\n${#ccCombatHobbyLevel:=         first(fetchFromDynamicTable('hobbies',  'level', 'name', ccCombatHobby),         default)}$\n${#contactCombatCarrierLevel:=  first(fetchFromDynamicTable('carriers', 'level', 'name', contactCombatCarrier),  default)}$\n${#contactCombatHobbyLevel:=    first(fetchFromDynamicTable('hobbies',  'level', 'name', contactCombatHobby),    default)}$\n${#distanceCombatCarrierLevel:= first(fetchFromDynamicTable('carriers', 'level', 'name', distanceCombatCarrier), default)}$\n${#distanceCombatHobbyLevel:=   first(fetchFromDynamicTable('hobbies',  'level', 'name', distanceCombatHobby),   default)}$\n\n<!-- définition du nom du métier ou du hobby de référence -->\n${#ccName:=       ccCombatCarrierLevel       >= ccCombatHobbyLevel       ? ccCombatHobby       : ccCombatCarrier}$\n${#contactName:=  contactCombatCarrierLevel  >= contactCombatHobbyLevel  ? contactCombatHobby  : contactCombatCarrier}$\n${#distanceName:= distanceCombatCarrierLevel >= distanceCombatHobbyLevel ? distanceCombatHobby : distanceCombatCarrier}$\n${#carrierHobby:= switchCase(type, \"1\", ccName, \"2\", contactName, \"3\", distanceName, \"\")}$\n${#carrierHobby:= equalText(\"\", carrierHobby) ? \"Non qualifié\" : carrierHobby}$\n\n<!-- définition du niveau du métier ou du hobby de référence -->\n${#ccLevel:=       ccCombatCarrierLevel       >= ccCombatHobbyLevel       ? ccCombatHobbyLevel       : ccCombatCarrierLevel}$\n${#contactLevel:=  contactCombatCarrierLevel  >= contactCombatHobbyLevel  ? contactCombatHobbyLevel  : contactCombatCarrierLevel}$\n${#distanceLevel:= distanceCombatCarrierLevel >= distanceCombatHobbyLevel ? distanceCombatHobbyLevel : distanceCombatCarrierLevel}$\n${#level:=switchCase(type, \"1\", ccLevel, \"2\", contactLevel, \"3\", distanceLevel, default)}$\n\n<!-- définition de la caractéristique de référence -->\n${#caracteristiqueName:= (1 == type ? ccCombatCharacteristic : 2 == type ? contactCombatCharacteristic : 3 == type ? distanceCombatCharacteristic : \"\")}$\n${#caracteristique:=     first(fetchFromDynamicTable('characteristics', 'value', 'name', caracteristiqueName), 0)}$\n\n<!-- combativité de la cible -->\n${#combativiteAdverse:= -1 * fetchFromActor('target', 'fightnessForDefense', 0)}$\n\n<!-- calcul du seuil de réussite -->\n${#seuil:= 10 - level - diff}$\n\n<!-- calcul du bonus si le seuil est supérieur à 10 -->\n${#seuilTemp:= seuil + caracteristique + combativite + combativiteAdverse + bonusArme + modificateur + sante}$\n${#bonus:=(seuilTemp > 10 ? seuilTemp - 10 : 0)}$\n\n<h3><strong>${!item.name}$</strong> : attaque ${!(0 == diff ? \"facile\" : (2 == diff ? \"normale\":\"difficile\"))}$ [${! carrierHobby}$${! 0 != caracteristique ? concat(\" / \", caracteristiqueName) : \"\"}$]</h3>\n<table>\n  <tbody>\n    <tr>\n      <td><h4>Jet du dé</h4></td>\n      <td>\n        <strong>${roll:= [1d10] + bonus}$</strong> / ${seuil:=seuil + caracteristique + combativite + combativiteAdverse + bonusArme + modificateur + sante}$\n      </td>\n    </tr>\n    <tr>\n      <td colspan=\"2\">\n        <p style=\"padding: 2px; text-align: center; font-weight: bold; ${!roll<=seuil ? \"color: var(--color-level-success); border: solid 1px var(--color-level-success)\\\">Réussite\" : \"color: var(--color-level-error); border: solid 1px var(--color-level-error)\\\">Echec\"}$</p>\n      </td>\n    </tr>\n  </tbody>\n</table>",
-            "rhs": "<!-- Roll for attack -->\n${#concat(\n  ?{diff:\"Difficulté\"|\"2\",\"Normal\"|\"0\",\"Facile\"|\"4\",\"Difficile\"},\n  ?{modificateur:\"Modificateur\"[number]|0}\n)}$\n\n<!-- vérification qu'une cible a bien été sélectionnée -->\n${#nameTarget:= fetchFromActor(\"target\", \"name\", \"\")}$\n${#(nameTarget?\"\":notify(\"error\", \"Vous devez sélectionner une cible !\"))}$\n\n<!-- récupération des données -->\n${#sante:=       healthMalus}$\n${#combativite:= fightnessForAttack}$\n${#type:=        item.combatType}$\n${#bonusArme:=   item.attackBonus ? item.attackBonus : 0}$\n\n<!-- définition des valeurs par défaut -->\n${#ccCombatCarrier:=       ccCombatCarrier       ? ccCombatCarrier       : \"\"}$\n${#ccCombatHobby:=         ccCombatHobby         ? ccCombatHobby         : \"\"}$\n${#contactCombatCarrier:=  contactCombatCarrier  ? contactCombatCarrier  : \"\"}$\n${#contactCombatHobby:=    contactCombatHobby    ? contactCombatHobby    : \"\"}$\n${#distanceCombatCarrier:= distanceCombatCarrier ? distanceCombatCarrier : \"\"}$\n${#distanceCombatHobby:=   distanceCombatHobby   ? distanceCombatHobby   : \"\"}$\n\n${#default:= 6}$\n${#ccCombatCarrierLevel:=       first(fetchFromDynamicTable('carriers', 'level', 'name', ccCombatCarrier),       default)}$\n${#ccCombatHobbyLevel:=         first(fetchFromDynamicTable('hobbies',  'level', 'name', ccCombatHobby),         default)}$\n${#contactCombatCarrierLevel:=  first(fetchFromDynamicTable('carriers', 'level', 'name', contactCombatCarrier),  default)}$\n${#contactCombatHobbyLevel:=    first(fetchFromDynamicTable('hobbies',  'level', 'name', contactCombatHobby),    default)}$\n${#distanceCombatCarrierLevel:= first(fetchFromDynamicTable('carriers', 'level', 'name', distanceCombatCarrier), default)}$\n${#distanceCombatHobbyLevel:=   first(fetchFromDynamicTable('hobbies',  'level', 'name', distanceCombatHobby),   default)}$\n\n<!-- définition du nom du métier ou du hobby de référence -->\n${#ccName:=       ccCombatCarrierLevel       >= ccCombatHobbyLevel       ? ccCombatHobby       : ccCombatCarrier}$\n${#contactName:=  contactCombatCarrierLevel  >= contactCombatHobbyLevel  ? contactCombatHobby  : contactCombatCarrier}$\n${#distanceName:= distanceCombatCarrierLevel >= distanceCombatHobbyLevel ? distanceCombatHobby : distanceCombatCarrier}$\n${#carrierHobby:= switchCase(type, \"1\", ccName, \"2\", contactName, \"3\", distanceName, \"\")}$\n${#carrierHobby:= equalText(\"\", carrierHobby) ? \"Non qualifié\" : carrierHobby}$\n\n<!-- définition du niveau du métier ou du hobby de référence -->\n${#ccLevel:=       ccCombatCarrierLevel       >= ccCombatHobbyLevel       ? ccCombatHobbyLevel       : ccCombatCarrierLevel}$\n${#contactLevel:=  contactCombatCarrierLevel  >= contactCombatHobbyLevel  ? contactCombatHobbyLevel  : contactCombatCarrierLevel}$\n${#distanceLevel:= distanceCombatCarrierLevel >= distanceCombatHobbyLevel ? distanceCombatHobbyLevel : distanceCombatCarrierLevel}$\n${#level:=switchCase(type, \"1\", ccLevel, \"2\", contactLevel, \"3\", distanceLevel, default)}$\n\n<!-- définition de la caractéristique de référence -->\n${#caracteristiqueName:= (1 == type ? ccCombatCharacteristic : 2 == type ? contactCombatCharacteristic : 3 == type ? distanceCombatCharacteristic : \"\")}$\n${#caracteristique:=     first(fetchFromDynamicTable('characteristics', 'value', 'name', caracteristiqueName), 0)}$\n\n<!-- combativité de la cible -->\n${#combativiteAdverse:= -1 * fetchFromActor('target', 'fightnessForDefense', 0)}$\n\n<!-- calcul du seuil de réussite -->\n${#seuil:= 10 - level - diff}$\n\n<!-- calcul du bonus si le seuil est supérieur à 10 -->\n${#seuilTemp:= seuil + caracteristique + combativite + combativiteAdverse + bonusArme + modificateur + sante}$\n${#bonus:=(seuilTemp > 10 ? seuilTemp - 10 : 0)}$\n\n<h3><strong>${!item.name}$</strong> : attaque ${!(0 == diff ? \"facile\" : (2 == diff ? \"normale\":\"difficile\"))}$ [${! carrierHobby}$${! 0 != caracteristique ? concat(\" / \", caracteristiqueName) : \"\"}$]</h3>\n<table>\n  <tbody>\n    <tr>\n      <td><h4>Jet du dé</h4></td>\n      <td>\n        <strong>${roll:= [1d10] + bonus}$</strong> / ${seuil:=seuil + caracteristique + combativite + combativiteAdverse + bonusArme + modificateur + sante}$\n      </td>\n    </tr>\n    <tr>\n      <td colspan=\"2\">\n        <p style=\"padding: 2px; text-align: center; font-weight: bold; ${!roll<=seuil ? \"color: var(--color-level-success); border: solid 1px var(--color-level-success)\\\">Réussite\" : \"color: var(--color-level-error); border: solid 1px var(--color-level-error)\\\">Echec\"}$</p>\n      </td>\n    </tr>\n  </tbody>\n</table>"
-          }
-        ],
-        [
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              1,
-              "rowLayout",
-              3,
-              "rollMessage"
-            ],
-            "lhs": "<!-- Roll for attack -->\n${#concat(\n  ?{diff:\"Difficulté\"|\"2\",\"Normal\"|\"0\",\"Facile\"|\"4\",\"Difficile\"},\n  ?{modificateur:\"Modificateur\"[number]|0}\n)}$\n\n<!-- vérification qu'une cible a bien été sélectionnée -->\n${#nameTarget:= fetchFromActor(\"target\", \"name\", \"\")}$\n${#(nameTarget?\"\":notify(\"error\", \"Vous devez sélectionner une cible !\"))}$\n\n<!-- récupération des données -->\n${#sante:=       healthMalus}$\n${#combativite:= fightnessForAttack}$\n${#type:=        item.combatType}$\n${#bonusArme:=   item.attackBonus ? item.attackBonus : 0}$\n\n<!-- définition des valeurs par défaut -->\n${#ccCombatCarrier:=       ccCombatCarrier       ? ccCombatCarrier       : \"\"}$\n${#ccCombatHobby:=         ccCombatHobby         ? ccCombatHobby         : \"\"}$\n${#contactCombatCarrier:=  contactCombatCarrier  ? contactCombatCarrier  : \"\"}$\n${#contactCombatHobby:=    contactCombatHobby    ? contactCombatHobby    : \"\"}$\n${#distanceCombatCarrier:= distanceCombatCarrier ? distanceCombatCarrier : \"\"}$\n${#distanceCombatHobby:=   distanceCombatHobby   ? distanceCombatHobby   : \"\"}$\n\n${#default:= 6}$\n${#ccCombatCarrierLevel:=       first(fetchFromDynamicTable('carriers', 'level', 'name', ccCombatCarrier),       default)}$\n${#ccCombatHobbyLevel:=         first(fetchFromDynamicTable('hobbies',  'level', 'name', ccCombatHobby),         default)}$\n${#contactCombatCarrierLevel:=  first(fetchFromDynamicTable('carriers', 'level', 'name', contactCombatCarrier),  default)}$\n${#contactCombatHobbyLevel:=    first(fetchFromDynamicTable('hobbies',  'level', 'name', contactCombatHobby),    default)}$\n${#distanceCombatCarrierLevel:= first(fetchFromDynamicTable('carriers', 'level', 'name', distanceCombatCarrier), default)}$\n${#distanceCombatHobbyLevel:=   first(fetchFromDynamicTable('hobbies',  'level', 'name', distanceCombatHobby),   default)}$\n\n<!-- définition du nom du métier ou du hobby de référence -->\n${#ccName:=       ccCombatCarrierLevel       >= ccCombatHobbyLevel       ? ccCombatHobby       : ccCombatCarrier}$\n${#contactName:=  contactCombatCarrierLevel  >= contactCombatHobbyLevel  ? contactCombatHobby  : contactCombatCarrier}$\n${#distanceName:= distanceCombatCarrierLevel >= distanceCombatHobbyLevel ? distanceCombatHobby : distanceCombatCarrier}$\n${#carrierHobby:= switchCase(type, \"1\", ccName, \"2\", contactName, \"3\", distanceName, \"\")}$\n${#carrierHobby:= equalText(\"\", carrierHobby) ? \"Non qualifié\" : carrierHobby}$\n\n<!-- définition du niveau du métier ou du hobby de référence -->\n${#ccLevel:=       ccCombatCarrierLevel       >= ccCombatHobbyLevel       ? ccCombatHobbyLevel       : ccCombatCarrierLevel}$\n${#contactLevel:=  contactCombatCarrierLevel  >= contactCombatHobbyLevel  ? contactCombatHobbyLevel  : contactCombatCarrierLevel}$\n${#distanceLevel:= distanceCombatCarrierLevel >= distanceCombatHobbyLevel ? distanceCombatHobbyLevel : distanceCombatCarrierLevel}$\n${#level:=switchCase(type, \"1\", ccLevel, \"2\", contactLevel, \"3\", distanceLevel, default)}$\n\n<!-- définition de la caractéristique de référence -->\n${#caracteristiqueName:= (1 == type ? ccCombatCharacteristic : 2 == type ? contactCombatCharacteristic : 3 == type ? distanceCombatCharacteristic : \"\")}$\n${#caracteristique:=     first(fetchFromDynamicTable('characteristics', 'value', 'name', caracteristiqueName), 0)}$\n\n<!-- combativité de la cible -->\n${#combativiteAdverse:= -1 * fetchFromActor('target', 'fightnessForDefense', 0)}$\n\n<!-- calcul du seuil de réussite -->\n${#seuil:= 10 - level - diff}$\n\n<!-- calcul du bonus si le seuil est supérieur à 10 -->\n${#seuilTemp:= seuil + caracteristique + combativite + combativiteAdverse + bonusArme + modificateur + sante}$\n${#bonus:=(seuilTemp > 10 ? seuilTemp - 10 : 0)}$\n\n<h3><strong>${!item.name}$</strong> : attaque ${!(0 == diff ? \"facile\" : (2 == diff ? \"normale\":\"difficile\"))}$ [${! carrierHobby}$${! 0 != caracteristique ? concat(\" / \", caracteristiqueName) : \"\"}$]</h3>\n<table>\n  <tbody>\n    <tr>\n      <td><h4>Jet du dé</h4></td>\n      <td>\n        <strong>${roll:= [1d10] + bonus}$</strong> / ${seuil:=seuil + caracteristique + combativite + combativiteAdverse + bonusArme + modificateur + sante}$\n      </td>\n    </tr>\n    <tr>\n      <td colspan=\"2\">\n        <p style=\"padding: 2px; text-align: center; font-weight: bold; ${!roll<=seuil ? \"color: var(--color-level-success); border: solid 1px var(--color-level-success)\\\">Réussite\" : \"color: var(--color-level-error); border: solid 1px var(--color-level-error)\\\">Echec\"}$</p>\n      </td>\n    </tr>\n  </tbody>\n</table>",
-            "rhs": "<!-- Roll for attack -->\n${#concat(\n  ?{diff:\"Difficulté\"|\"2\",\"Normal\"|\"0\",\"Facile\"|\"4\",\"Difficile\"},\n  ?{modificateur:\"Modificateur\"[number]|0}\n)}$\n\n<!-- vérification qu'une cible a bien été sélectionnée -->\n${#nameTarget:= fetchFromActor(\"target\", \"name\", \"\")}$\n${#(nameTarget?\"\":notify(\"error\", \"Vous devez sélectionner une cible !\"))}$\n\n<!-- récupération des données -->\n${#sante:=       healthMalus}$\n${#combativite:= fightnessForAttack}$\n${#type:=        item.combatType}$\n${#bonusArme:=   item.attackBonus ? item.attackBonus : 0}$\n\n<!-- définition des valeurs par défaut -->\n${#ccCombatCarrier:=       ccCombatCarrier       ? ccCombatCarrier       : \"\"}$\n${#ccCombatHobby:=         ccCombatHobby         ? ccCombatHobby         : \"\"}$\n${#contactCombatCarrier:=  contactCombatCarrier  ? contactCombatCarrier  : \"\"}$\n${#contactCombatHobby:=    contactCombatHobby    ? contactCombatHobby    : \"\"}$\n${#distanceCombatCarrier:= distanceCombatCarrier ? distanceCombatCarrier : \"\"}$\n${#distanceCombatHobby:=   distanceCombatHobby   ? distanceCombatHobby   : \"\"}$\n\n${#default:= 6}$\n${#ccCombatCarrierLevel:=       first(fetchFromDynamicTable('carriers', 'level', 'name', ccCombatCarrier),       default)}$\n${#ccCombatHobbyLevel:=         first(fetchFromDynamicTable('hobbies',  'level', 'name', ccCombatHobby),         default)}$\n${#contactCombatCarrierLevel:=  first(fetchFromDynamicTable('carriers', 'level', 'name', contactCombatCarrier),  default)}$\n${#contactCombatHobbyLevel:=    first(fetchFromDynamicTable('hobbies',  'level', 'name', contactCombatHobby),    default)}$\n${#distanceCombatCarrierLevel:= first(fetchFromDynamicTable('carriers', 'level', 'name', distanceCombatCarrier), default)}$\n${#distanceCombatHobbyLevel:=   first(fetchFromDynamicTable('hobbies',  'level', 'name', distanceCombatHobby),   default)}$\n\n<!-- définition du nom du métier ou du hobby de référence -->\n${#ccName:=       ccCombatCarrierLevel       >= ccCombatHobbyLevel       ? ccCombatHobby       : ccCombatCarrier}$\n${#contactName:=  contactCombatCarrierLevel  >= contactCombatHobbyLevel  ? contactCombatHobby  : contactCombatCarrier}$\n${#distanceName:= distanceCombatCarrierLevel >= distanceCombatHobbyLevel ? distanceCombatHobby : distanceCombatCarrier}$\n${#carrierHobby:= switchCase(type, \"1\", ccName, \"2\", contactName, \"3\", distanceName, \"\")}$\n${#carrierHobby:= equalText(\"\", carrierHobby) ? \"Non qualifié\" : carrierHobby}$\n\n<!-- définition du niveau du métier ou du hobby de référence -->\n${#ccLevel:=       ccCombatCarrierLevel       >= ccCombatHobbyLevel       ? ccCombatHobbyLevel       : ccCombatCarrierLevel}$\n${#contactLevel:=  contactCombatCarrierLevel  >= contactCombatHobbyLevel  ? contactCombatHobbyLevel  : contactCombatCarrierLevel}$\n${#distanceLevel:= distanceCombatCarrierLevel >= distanceCombatHobbyLevel ? distanceCombatHobbyLevel : distanceCombatCarrierLevel}$\n${#level:=switchCase(type, \"1\", ccLevel, \"2\", contactLevel, \"3\", distanceLevel, default)}$\n\n<!-- définition de la caractéristique de référence -->\n${#caracteristiqueName:= (1 == type ? ccCombatCharacteristic : 2 == type ? contactCombatCharacteristic : 3 == type ? distanceCombatCharacteristic : \"\")}$\n${#caracteristique:=     first(fetchFromDynamicTable('characteristics', 'value', 'name', caracteristiqueName), 0)}$\n\n<!-- combativité de la cible -->\n${combativiteAdverse:= fetchFromActor('target', 'fightnessForDefense', 0)}$\n\n<!-- calcul du seuil de réussite -->\n${#seuil:= 10 - level - diff}$\n\n<!-- calcul du bonus si le seuil est supérieur à 10 -->\n${#seuilTemp:= seuil + caracteristique + combativite + combativiteAdverse + bonusArme + modificateur + sante}$\n${#bonus:=(seuilTemp > 10 ? seuilTemp - 10 : 0)}$\n\n<h3><strong>${!item.name}$</strong> : attaque ${!(0 == diff ? \"facile\" : (2 == diff ? \"normale\":\"difficile\"))}$ [${! carrierHobby}$${! 0 != caracteristique ? concat(\" / \", caracteristiqueName) : \"\"}$]</h3>\n<table>\n  <tbody>\n    <tr>\n      <td><h4>Jet du dé</h4></td>\n      <td>\n        <strong>${roll:= [1d10] + bonus}$</strong> / ${seuil:=seuil + caracteristique + combativite + combativiteAdverse + bonusArme + modificateur + sante}$\n      </td>\n    </tr>\n    <tr>\n      <td colspan=\"2\">\n        <p style=\"padding: 2px; text-align: center; font-weight: bold; ${!roll<=seuil ? \"color: var(--color-level-success); border: solid 1px var(--color-level-success)\\\">Réussite\" : \"color: var(--color-level-error); border: solid 1px var(--color-level-error)\\\">Echec\"}$</p>\n      </td>\n    </tr>\n  </tbody>\n</table>"
-          }
-        ],
-        [
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              1,
-              "rowLayout",
-              3,
-              "rollMessage"
-            ],
-            "lhs": "<!-- Roll for attack -->\n${#concat(\n  ?{diff:\"Difficulté\"|\"2\",\"Normal\"|\"0\",\"Facile\"|\"4\",\"Difficile\"},\n  ?{modificateur:\"Modificateur\"[number]|0}\n)}$\n\n<!-- vérification qu'une cible a bien été sélectionnée -->\n${#nameTarget:= fetchFromActor(\"target\", \"name\", \"\")}$\n${#(nameTarget?\"\":notify(\"error\", \"Vous devez sélectionner une cible !\"))}$\n\n<!-- récupération des données -->\n${#sante:=       healthMalus}$\n${#combativite:= fightnessForAttack}$\n${#type:=        item.combatType}$\n${#bonusArme:=   item.attackBonus ? item.attackBonus : 0}$\n\n<!-- définition des valeurs par défaut -->\n${#ccCombatCarrier:=       ccCombatCarrier       ? ccCombatCarrier       : \"\"}$\n${#ccCombatHobby:=         ccCombatHobby         ? ccCombatHobby         : \"\"}$\n${#contactCombatCarrier:=  contactCombatCarrier  ? contactCombatCarrier  : \"\"}$\n${#contactCombatHobby:=    contactCombatHobby    ? contactCombatHobby    : \"\"}$\n${#distanceCombatCarrier:= distanceCombatCarrier ? distanceCombatCarrier : \"\"}$\n${#distanceCombatHobby:=   distanceCombatHobby   ? distanceCombatHobby   : \"\"}$\n\n${#default:= 6}$\n${#ccCombatCarrierLevel:=       first(fetchFromDynamicTable('carriers', 'level', 'name', ccCombatCarrier),       default)}$\n${#ccCombatHobbyLevel:=         first(fetchFromDynamicTable('hobbies',  'level', 'name', ccCombatHobby),         default)}$\n${#contactCombatCarrierLevel:=  first(fetchFromDynamicTable('carriers', 'level', 'name', contactCombatCarrier),  default)}$\n${#contactCombatHobbyLevel:=    first(fetchFromDynamicTable('hobbies',  'level', 'name', contactCombatHobby),    default)}$\n${#distanceCombatCarrierLevel:= first(fetchFromDynamicTable('carriers', 'level', 'name', distanceCombatCarrier), default)}$\n${#distanceCombatHobbyLevel:=   first(fetchFromDynamicTable('hobbies',  'level', 'name', distanceCombatHobby),   default)}$\n\n<!-- définition du nom du métier ou du hobby de référence -->\n${#ccName:=       ccCombatCarrierLevel       >= ccCombatHobbyLevel       ? ccCombatHobby       : ccCombatCarrier}$\n${#contactName:=  contactCombatCarrierLevel  >= contactCombatHobbyLevel  ? contactCombatHobby  : contactCombatCarrier}$\n${#distanceName:= distanceCombatCarrierLevel >= distanceCombatHobbyLevel ? distanceCombatHobby : distanceCombatCarrier}$\n${#carrierHobby:= switchCase(type, \"1\", ccName, \"2\", contactName, \"3\", distanceName, \"\")}$\n${#carrierHobby:= equalText(\"\", carrierHobby) ? \"Non qualifié\" : carrierHobby}$\n\n<!-- définition du niveau du métier ou du hobby de référence -->\n${#ccLevel:=       ccCombatCarrierLevel       >= ccCombatHobbyLevel       ? ccCombatHobbyLevel       : ccCombatCarrierLevel}$\n${#contactLevel:=  contactCombatCarrierLevel  >= contactCombatHobbyLevel  ? contactCombatHobbyLevel  : contactCombatCarrierLevel}$\n${#distanceLevel:= distanceCombatCarrierLevel >= distanceCombatHobbyLevel ? distanceCombatHobbyLevel : distanceCombatCarrierLevel}$\n${#level:=switchCase(type, \"1\", ccLevel, \"2\", contactLevel, \"3\", distanceLevel, default)}$\n\n<!-- définition de la caractéristique de référence -->\n${#caracteristiqueName:= (1 == type ? ccCombatCharacteristic : 2 == type ? contactCombatCharacteristic : 3 == type ? distanceCombatCharacteristic : \"\")}$\n${#caracteristique:=     first(fetchFromDynamicTable('characteristics', 'value', 'name', caracteristiqueName), 0)}$\n\n<!-- combativité de la cible -->\n${combativiteAdverse:= fetchFromActor('target', 'fightnessForDefense', 0)}$\n\n<!-- calcul du seuil de réussite -->\n${#seuil:= 10 - level - diff}$\n\n<!-- calcul du bonus si le seuil est supérieur à 10 -->\n${#seuilTemp:= seuil + caracteristique + combativite + combativiteAdverse + bonusArme + modificateur + sante}$\n${#bonus:=(seuilTemp > 10 ? seuilTemp - 10 : 0)}$\n\n<h3><strong>${!item.name}$</strong> : attaque ${!(0 == diff ? \"facile\" : (2 == diff ? \"normale\":\"difficile\"))}$ [${! carrierHobby}$${! 0 != caracteristique ? concat(\" / \", caracteristiqueName) : \"\"}$]</h3>\n<table>\n  <tbody>\n    <tr>\n      <td><h4>Jet du dé</h4></td>\n      <td>\n        <strong>${roll:= [1d10] + bonus}$</strong> / ${seuil:=seuil + caracteristique + combativite + combativiteAdverse + bonusArme + modificateur + sante}$\n      </td>\n    </tr>\n    <tr>\n      <td colspan=\"2\">\n        <p style=\"padding: 2px; text-align: center; font-weight: bold; ${!roll<=seuil ? \"color: var(--color-level-success); border: solid 1px var(--color-level-success)\\\">Réussite\" : \"color: var(--color-level-error); border: solid 1px var(--color-level-error)\\\">Echec\"}$</p>\n      </td>\n    </tr>\n  </tbody>\n</table>",
-            "rhs": "<!-- Roll for attack -->\n${#concat(\n  ?{diff:\"Difficulté\"|\"2\",\"Normal\"|\"0\",\"Facile\"|\"4\",\"Difficile\"},\n  ?{modificateur:\"Modificateur\"[number]|0}\n)}$\n\n<!-- vérification qu'une cible a bien été sélectionnée -->\n${#nameTarget:= fetchFromActor(\"target\", \"name\", \"\")}$\n${#(nameTarget?\"\":notify(\"error\", \"Vous devez sélectionner une cible !\"))}$\n\n<!-- récupération des données -->\n${#sante:=       healthMalus}$\n${#combativite:= fightnessForAttack}$\n${#type:=        item.combatType}$\n${#bonusArme:=   item.attackBonus ? item.attackBonus : 0}$\n\n<!-- définition des valeurs par défaut -->\n${#ccCombatCarrier:=       ccCombatCarrier       ? ccCombatCarrier       : \"\"}$\n${#ccCombatHobby:=         ccCombatHobby         ? ccCombatHobby         : \"\"}$\n${#contactCombatCarrier:=  contactCombatCarrier  ? contactCombatCarrier  : \"\"}$\n${#contactCombatHobby:=    contactCombatHobby    ? contactCombatHobby    : \"\"}$\n${#distanceCombatCarrier:= distanceCombatCarrier ? distanceCombatCarrier : \"\"}$\n${#distanceCombatHobby:=   distanceCombatHobby   ? distanceCombatHobby   : \"\"}$\n\n${#default:= 6}$\n${#ccCombatCarrierLevel:=       first(fetchFromDynamicTable('carriers', 'level', 'name', ccCombatCarrier),       default)}$\n${#ccCombatHobbyLevel:=         first(fetchFromDynamicTable('hobbies',  'level', 'name', ccCombatHobby),         default)}$\n${#contactCombatCarrierLevel:=  first(fetchFromDynamicTable('carriers', 'level', 'name', contactCombatCarrier),  default)}$\n${#contactCombatHobbyLevel:=    first(fetchFromDynamicTable('hobbies',  'level', 'name', contactCombatHobby),    default)}$\n${#distanceCombatCarrierLevel:= first(fetchFromDynamicTable('carriers', 'level', 'name', distanceCombatCarrier), default)}$\n${#distanceCombatHobbyLevel:=   first(fetchFromDynamicTable('hobbies',  'level', 'name', distanceCombatHobby),   default)}$\n\n<!-- définition du nom du métier ou du hobby de référence -->\n${#ccName:=       ccCombatCarrierLevel       >= ccCombatHobbyLevel       ? ccCombatHobby       : ccCombatCarrier}$\n${#contactName:=  contactCombatCarrierLevel  >= contactCombatHobbyLevel  ? contactCombatHobby  : contactCombatCarrier}$\n${#distanceName:= distanceCombatCarrierLevel >= distanceCombatHobbyLevel ? distanceCombatHobby : distanceCombatCarrier}$\n${#carrierHobby:= switchCase(type, \"1\", ccName, \"2\", contactName, \"3\", distanceName, \"\")}$\n${#carrierHobby:= equalText(\"\", carrierHobby) ? \"Non qualifié\" : carrierHobby}$\n\n<!-- définition du niveau du métier ou du hobby de référence -->\n${#ccLevel:=       ccCombatCarrierLevel       >= ccCombatHobbyLevel       ? ccCombatHobbyLevel       : ccCombatCarrierLevel}$\n${#contactLevel:=  contactCombatCarrierLevel  >= contactCombatHobbyLevel  ? contactCombatHobbyLevel  : contactCombatCarrierLevel}$\n${#distanceLevel:= distanceCombatCarrierLevel >= distanceCombatHobbyLevel ? distanceCombatHobbyLevel : distanceCombatCarrierLevel}$\n${#level:=switchCase(type, \"1\", ccLevel, \"2\", contactLevel, \"3\", distanceLevel, default)}$\n\n<!-- définition de la caractéristique de référence -->\n${#caracteristiqueName:= (1 == type ? ccCombatCharacteristic : 2 == type ? contactCombatCharacteristic : 3 == type ? distanceCombatCharacteristic : \"\")}$\n${#caracteristique:=     first(fetchFromDynamicTable('characteristics', 'value', 'name', caracteristiqueName), 0)}$\n\n<!-- combativité de la cible -->\n${#combativiteAdverse:= fetchFromActor('target', 'fightnessForDefense', 0)}$\n\n<!-- calcul du seuil de réussite -->\n${#seuil:= 10 - level - diff}$\n\n<!-- calcul du bonus si le seuil est supérieur à 10 -->\n${#seuilTemp:= seuil + caracteristique + combativite + combativiteAdverse + bonusArme + modificateur + sante}$\n${#bonus:=(seuilTemp > 10 ? seuilTemp - 10 : 0)}$\n\n<h3><strong>${!item.name}$</strong> : attaque ${!(0 == diff ? \"facile\" : (2 == diff ? \"normale\":\"difficile\"))}$ [${! carrierHobby}$${! 0 != caracteristique ? concat(\" / \", caracteristiqueName) : \"\"}$]</h3>\n<table>\n  <tbody>\n    <tr>\n      <td><h4>Jet du dé</h4></td>\n      <td>\n        <strong>${roll:= [1d10] + bonus}$</strong> / ${seuil:=seuil + caracteristique + combativite + combativiteAdverse + bonusArme + modificateur + sante}$\n      </td>\n    </tr>\n    <tr>\n      <td colspan=\"2\">\n        <p style=\"padding: 2px; text-align: center; font-weight: bold; ${!roll<=seuil ? \"color: var(--color-level-success); border: solid 1px var(--color-level-success)\\\">Réussite\" : \"color: var(--color-level-error); border: solid 1px var(--color-level-error)\\\">Echec\"}$</p>\n      </td>\n    </tr>\n  </tbody>\n</table>"
-          }
-        ],
-        [
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              2,
-              "contents",
-              1,
-              "rowLayout",
-              4,
-              "rollMessage"
-            ],
-            "lhs": "<!-- Jet pour calculer les dégâts des armes aux corps-à-corps, contact et distance -->\n${#concat(\n  ?{powerfull:\"Puissance\"|1,concat(\"Faible\",(1==item.powerfullMax?\" (max)\":\"\"))|2,concat(\"Moyenne\",(2==item.powerfullMax?\" (max)\":\"\"))|3,concat(\"Importante\",(3==item.powerfullMax?\" (max)\":\"\"))|4,concat(\"Remarquable\",(4==item.powerfullMax?\" (max)\":\"\"))},\n  ?{modificateur:\"Modificateur\"[number]|0}\n)}$\n\n<!-- vérification qu'une cible a bien été sélectionnée -->\n${#nameTarget:=       \u001c\u001c\u001c\u001c fetchFromActor(\"target\", \"name\", \"\")}$\n${#nameTarget ? \"\" : notify(\"error\", \"Vous devez sélectionner une cible !\")}$\n\n<!-- récupération des données -->\n${#combativite:=       fightnessForAttack}$\n${#type:=              item.combatType}$\n${#bonusArme:=         item.damageBonus ? item.damageBonus : 0}$\n${#protectionAdverse:= -1 * (3 == type ? fetchFromActor(\"target\", \"distanceArmorEquiped\", 0) : fetchFromActor(\"target\", \"ccArmorEquiped\", 0))}$\n\n<!-- bonus de la caracteristique si combat corps-à-corps ou contact -->\n${#bonusForce:=        3 == type ? 0 : first(fetchFromDynamicTable('characteristics', 'value', 'name', powerfullCharacteristic), 0)}$\n\n<!-- malus de la résistance de la cible -->\n${#resistanceAdverse:= -1 * fetchFromActor(\"target\", \"resistanceModificator\", 0)}$\n\n<!-- combativité de la cible -->\n${combativiteAdverse:= -1 * fetchFromActor(\"target\", \"fightnessForDefense\", 0)}$\n\n<h3>Dégats de puissance ${!switchCase(powerfull, \"1\", \"Faible\",\"2\", \"Moyenne\",\"3\", \"Importante\", \"4\", \"Remarquable\", \"<i>non définie</i>\")}$ sur <strong>@{target|name}</strong> par ${!name}$</h3>\n\n<!-- vérification de la puissance utilisée -->\n${!(powerfull > item.powerfullMax\n  ? \"<div style=\\\"padding: 2px; text-align: center; color: var(--color-level-warning); border: solid 1px var(--color-level-warning)\\\">La <strong>puissance choisie</strong> doit être <strong>inférieure ou</strong> égale à la <strong>puissance maximale</strong> de l'attaque</div>\"\n  :\"\"\n)}$\n\n<!--\ncode blessures :\n*  0 = Rien\n* 10 = Légèrement sonné\n* 20 = Sonné\n* 30 = Assommé\n* 40 = Dommage critique\n* 50 = Egratignure\n* 60 = Blessure légère\n* 70 = Blessure grave\n* 80 = Coma\n* 90 = Mort\n-->\n\n<table>\n  <tbody>\n    <tr>\n      <td><h4>Jet du dé</h4></td>\n      <td>\n        <i class=\"fas fa-dice-d10\"></i>\n        <span>${!roll:= [1d10]}$</span>\n      </td>\n    </tr>\n    <tr>\n      <td><h4>Dégâts</h4></td>\n      <td>\n        <strong>${roll:= roll + combativite + bonusForce + combativiteAdverse + resistanceAdverse + protectionAdverse + bonusArme + modificateur}$</strong>\n      </td>\n    </tr>\n${#damage:=switchCase(type, \"1\", switchCase(powerfull, \"1\", (3 >= roll ? 0:(7 >= roll ? 10 : 20)), \"2\", (3 >= roll ? 10 : (7 >= roll ? 20 : 30)), \"3\", (3 >= roll ? 20 : (7 >= roll ? 30 : 40))), \"2\", switchCase(powerfull, \"1\", (3 >= roll ? 0:(7 >= roll ? 50 : 60)), \"2\", (3 >= roll ? 50 : (7 >= roll ? 60 : 70)), \"3\", (3 >= roll ? 60 : (7 >= roll ? 70 : 80)), \"4\", (3 >= roll ? 70 : (7 >= roll ? 80 : 90))), \"3\", switchCase(powerfull, \"1\", (3 >= roll ? 0:(7 >= roll ? 60 : 70)), \"2\", (3 >= roll ? 60 : (7 >= roll ? 70 : 80)), \"3\", (3 >= roll ? 70 : (7 >= roll ? 80 : 90))))}$\n\n${#damageName:=switchCase(damage, 0, \"Rien\", 10, \"Légèrement sonné\", 20, \"Sonné\", 30, \"Assommé\", 40, \"Dommage critique\", 50, \"Egratignure\", 60, \"Blessure légère\", 70, \"Blessure grave\", 80, \"Coma\", 90, \"Mort\")}$\n\n${#damageDetail:=switchCase(damage, 0, \"Loupé !\", 10, \"Le personnage subit un <strong>malus de 2 points</strong> à toutes ses chances de réussite <strong>au cours du tour suivant</strong> et uniquement celui-ci.\", 20, \"Le personnage subit <strong>un malus de 2 points</strong> à toutes ses chances de réussite jusqu'à ce qu'il puisse récupérer en se reposant environ cinq minutes. <br/>S'il est sonné une seconde fois avant de s'être reposé, il est considéré comme Assommé.\", 30, \"Le personnage s'évanouit <strong>pour ${[1d10]}$ minutes</strong> s'il est convenablement soigné.</strong> <br/>Sans aucune aide extérieure l'évanouissement sera <strong>cinq fois plus long</strong>.\", 40, \"Le personnage est <strong>Assommé</strong>  pour <strong>${[1d10]}$ minutes</strong> et subit une <strong>Blessure Légère</strong>.\", 50, \"L'attaque n'a qu'un effet sanguinolent sans aucune conséquence grave. Le sang coule, mais un bon pansement devrait pouvoir l'arrêter et éviter que la cicatrice ne soit trop visible.\", 60, \"Le personnage est meurtri dans sa chair mais sans que cela ait des conséquences vraiment fâcheuses. La douleur cause un <strong>malus de 1 point</strong> à toutes ses chances de réussite tant que la blessure n'est pas soignée (ce qui prend généralement quelques jours). <br/>Une seconde blessure légère reçue moins d'une heure après la première cause une blessure grave (après une heure, la blessure reste légère).\", 70, \"Le personnage est blessé à un endroit grave. La douleur et la gêne causées par la blessure donnent un <strong>malus de 2 points</strong> à toutes ses chances de réussite tant que la blessure n'est pas soignée (ce qui prend généralement plusieurs semaines d'hôpital).<br/>Une seconde blessure grave reçue moins d'une heure après la première cause un coma immédiat (après une heure, la blessure reste grave).\", 80, \"Le personnage est aux portes de la mort. Il lutte de toutes ses forces pour rester en vie mais sombre néanmoins dans un profond coma. Il ne pourra être réanimé qu'avec des moyens médicaux importants. <strong>S'il n'est pas secouru avant une heure, il meurt sans jamais reprendre conscience</strong>.<br/>Un second coma moins d'une heure après le premier cause la mort immédiate de la victime (après un heure, la blessure reste un coma).\", 90, \"Le personnage est mortellement touché. Il peut à la rigueur s'en sortir avec des séquelles s'il est soigné rapidement (dans les 5 minutes) et s'il est ensuite suivi médicalement avec des appareils médicaux de haute technologie.\")}$\n    <tr>\n      <td colspan=\"2\">\n        <p style=\"padding: 2px; text-align: center; border: solid 1px var(--color-border-dark)\">\n          <strong>${!damageName}$</strong>\n        </p>\n      </td>\n    </tr>\n    <tr>\n      <td colspan=\"2\">\n        <p style=\"padding: 2px; text-align: justify; border: solid 1px var(--color-border-dark)\">\n          ${!damageDetail}$\n        </p>\n      </td>\n    </tr>\n  </tbody>\n</table>\n\n<!-- application des dégâts à la cible \nIF (dommage >= 50 AND dommage >= target.health) THEN\n  AppliquerDommageHealth()\nELSE\n  IF (dommage == 40 AND 60 > target.health) THEN\n    AppliquerDommageCritique()\n  ELSE\n    IF (30 >= dommage AND dommage >= target.stun) THEN\n      AppliquerDommageStun()\n    ELSE\n      // ne rien faire\n    FI\n  FI\nFI\n-->\n\n<!--\n\n${stunTarget:= fetchFromActor('target', 'stun')}$\n<br/>\n${healthTarget:= fetchFromActor('target', 'health')}$\n<br/>\n${#assomme:=30}$\n${#blessureLegere:=60}$\n${setPropertyInEntity('target', 'stun', ref(\"assomme\"))}$\n\n\n\n${$changement:=and(damage >= 50, damage > healthTarget)\n  ? ${setPropertyInEntity('target', 'health', \"damage\")}$\n  : and(40 == damage, 60 > healthTarget)\n    ? ${concat(\n      string(setPropertyInEntity('target', 'stun', \"assomme\")), \n      string(setPropertyInEntity('target', 'health', \"blessureLegere\")))}$\n    : and(30 >= damage, damage > stunTarget)\n      ? ${setPropertyInEntity('target', 'stun', \"damage\")}$\n      : \"pas de changement\"\n)}$\n-->",
-            "rhs": "<!-- Jet pour calculer les dégâts des armes aux corps-à-corps, contact et distance -->\n${#concat(\n  ?{powerfull:\"Puissance\"|1,concat(\"Faible\",(1==item.powerfullMax?\" (max)\":\"\"))|2,concat(\"Moyenne\",(2==item.powerfullMax?\" (max)\":\"\"))|3,concat(\"Importante\",(3==item.powerfullMax?\" (max)\":\"\"))|4,concat(\"Remarquable\",(4==item.powerfullMax?\" (max)\":\"\"))},\n  ?{modificateur:\"Modificateur\"[number]|0}\n)}$\n\n<!-- vérification qu'une cible a bien été sélectionnée -->\n${#nameTarget:=       \u001c\u001c\u001c\u001c fetchFromActor(\"target\", \"name\", \"\")}$\n${#nameTarget ? \"\" : notify(\"error\", \"Vous devez sélectionner une cible !\")}$\n\n<!-- récupération des données -->\n${#combativite:=       fightnessForAttack}$\n${#type:=              item.combatType}$\n${#bonusArme:=         item.damageBonus ? item.damageBonus : 0}$\n${#protectionAdverse:= -1 * (3 == type ? fetchFromActor(\"target\", \"distanceArmorEquiped\", 0) : fetchFromActor(\"target\", \"ccArmorEquiped\", 0))}$\n\n<!-- bonus de la caracteristique si combat corps-à-corps ou contact -->\n${#bonusForce:=        3 == type ? 0 : first(fetchFromDynamicTable('characteristics', 'value', 'name', powerfullCharacteristic), 0)}$\n\n<!-- malus de la résistance de la cible -->\n${#resistanceAdverse:= -1 * fetchFromActor(\"target\", \"resistanceModificator\", 0)}$\n\n<!-- combativité de la cible -->\n${combativiteAdverse:= fetchFromActor(\"target\", \"fightnessForDefense\", 0)}$\n\n<h3>Dégats de puissance ${!switchCase(powerfull, \"1\", \"Faible\",\"2\", \"Moyenne\",\"3\", \"Importante\", \"4\", \"Remarquable\", \"<i>non définie</i>\")}$ sur <strong>@{target|name}</strong> par ${!name}$</h3>\n\n<!-- vérification de la puissance utilisée -->\n${!(powerfull > item.powerfullMax\n  ? \"<div style=\\\"padding: 2px; text-align: center; color: var(--color-level-warning); border: solid 1px var(--color-level-warning)\\\">La <strong>puissance choisie</strong> doit être <strong>inférieure ou</strong> égale à la <strong>puissance maximale</strong> de l'attaque</div>\"\n  :\"\"\n)}$\n\n<!--\ncode blessures :\n*  0 = Rien\n* 10 = Légèrement sonné\n* 20 = Sonné\n* 30 = Assommé\n* 40 = Dommage critique\n* 50 = Egratignure\n* 60 = Blessure légère\n* 70 = Blessure grave\n* 80 = Coma\n* 90 = Mort\n-->\n\n<table>\n  <tbody>\n    <tr>\n      <td><h4>Jet du dé</h4></td>\n      <td>\n        <i class=\"fas fa-dice-d10\"></i>\n        <span>${!roll:= [1d10]}$</span>\n      </td>\n    </tr>\n    <tr>\n      <td><h4>Dégâts</h4></td>\n      <td>\n        <strong>${roll:= roll + combativite + bonusForce + combativiteAdverse + resistanceAdverse + protectionAdverse + bonusArme + modificateur}$</strong>\n      </td>\n    </tr>\n${#damage:=switchCase(type, \"1\", switchCase(powerfull, \"1\", (3 >= roll ? 0:(7 >= roll ? 10 : 20)), \"2\", (3 >= roll ? 10 : (7 >= roll ? 20 : 30)), \"3\", (3 >= roll ? 20 : (7 >= roll ? 30 : 40))), \"2\", switchCase(powerfull, \"1\", (3 >= roll ? 0:(7 >= roll ? 50 : 60)), \"2\", (3 >= roll ? 50 : (7 >= roll ? 60 : 70)), \"3\", (3 >= roll ? 60 : (7 >= roll ? 70 : 80)), \"4\", (3 >= roll ? 70 : (7 >= roll ? 80 : 90))), \"3\", switchCase(powerfull, \"1\", (3 >= roll ? 0:(7 >= roll ? 60 : 70)), \"2\", (3 >= roll ? 60 : (7 >= roll ? 70 : 80)), \"3\", (3 >= roll ? 70 : (7 >= roll ? 80 : 90))))}$\n\n${#damageName:=switchCase(damage, 0, \"Rien\", 10, \"Légèrement sonné\", 20, \"Sonné\", 30, \"Assommé\", 40, \"Dommage critique\", 50, \"Egratignure\", 60, \"Blessure légère\", 70, \"Blessure grave\", 80, \"Coma\", 90, \"Mort\")}$\n\n${#damageDetail:=switchCase(damage, 0, \"Loupé !\", 10, \"Le personnage subit un <strong>malus de 2 points</strong> à toutes ses chances de réussite <strong>au cours du tour suivant</strong> et uniquement celui-ci.\", 20, \"Le personnage subit <strong>un malus de 2 points</strong> à toutes ses chances de réussite jusqu'à ce qu'il puisse récupérer en se reposant environ cinq minutes. <br/>S'il est sonné une seconde fois avant de s'être reposé, il est considéré comme Assommé.\", 30, \"Le personnage s'évanouit <strong>pour ${[1d10]}$ minutes</strong> s'il est convenablement soigné.</strong> <br/>Sans aucune aide extérieure l'évanouissement sera <strong>cinq fois plus long</strong>.\", 40, \"Le personnage est <strong>Assommé</strong>  pour <strong>${[1d10]}$ minutes</strong> et subit une <strong>Blessure Légère</strong>.\", 50, \"L'attaque n'a qu'un effet sanguinolent sans aucune conséquence grave. Le sang coule, mais un bon pansement devrait pouvoir l'arrêter et éviter que la cicatrice ne soit trop visible.\", 60, \"Le personnage est meurtri dans sa chair mais sans que cela ait des conséquences vraiment fâcheuses. La douleur cause un <strong>malus de 1 point</strong> à toutes ses chances de réussite tant que la blessure n'est pas soignée (ce qui prend généralement quelques jours). <br/>Une seconde blessure légère reçue moins d'une heure après la première cause une blessure grave (après une heure, la blessure reste légère).\", 70, \"Le personnage est blessé à un endroit grave. La douleur et la gêne causées par la blessure donnent un <strong>malus de 2 points</strong> à toutes ses chances de réussite tant que la blessure n'est pas soignée (ce qui prend généralement plusieurs semaines d'hôpital).<br/>Une seconde blessure grave reçue moins d'une heure après la première cause un coma immédiat (après une heure, la blessure reste grave).\", 80, \"Le personnage est aux portes de la mort. Il lutte de toutes ses forces pour rester en vie mais sombre néanmoins dans un profond coma. Il ne pourra être réanimé qu'avec des moyens médicaux importants. <strong>S'il n'est pas secouru avant une heure, il meurt sans jamais reprendre conscience</strong>.<br/>Un second coma moins d'une heure après le premier cause la mort immédiate de la victime (après un heure, la blessure reste un coma).\", 90, \"Le personnage est mortellement touché. Il peut à la rigueur s'en sortir avec des séquelles s'il est soigné rapidement (dans les 5 minutes) et s'il est ensuite suivi médicalement avec des appareils médicaux de haute technologie.\")}$\n    <tr>\n      <td colspan=\"2\">\n        <p style=\"padding: 2px; text-align: center; border: solid 1px var(--color-border-dark)\">\n          <strong>${!damageName}$</strong>\n        </p>\n      </td>\n    </tr>\n    <tr>\n      <td colspan=\"2\">\n        <p style=\"padding: 2px; text-align: justify; border: solid 1px var(--color-border-dark)\">\n          ${!damageDetail}$\n        </p>\n      </td>\n    </tr>\n  </tbody>\n</table>\n\n<!-- application des dégâts à la cible \nIF (dommage >= 50 AND dommage >= target.health) THEN\n  AppliquerDommageHealth()\nELSE\n  IF (dommage == 40 AND 60 > target.health) THEN\n    AppliquerDommageCritique()\n  ELSE\n    IF (30 >= dommage AND dommage >= target.stun) THEN\n      AppliquerDommageStun()\n    ELSE\n      // ne rien faire\n    FI\n  FI\nFI\n-->\n\n<!--\n\n${stunTarget:= fetchFromActor('target', 'stun')}$\n<br/>\n${healthTarget:= fetchFromActor('target', 'health')}$\n<br/>\n${#assomme:=30}$\n${#blessureLegere:=60}$\n${setPropertyInEntity('target', 'stun', ref(\"assomme\"))}$\n\n\n\n${$changement:=and(damage >= 50, damage > healthTarget)\n  ? ${setPropertyInEntity('target', 'health', \"damage\")}$\n  : and(40 == damage, 60 > healthTarget)\n    ? ${concat(\n      string(setPropertyInEntity('target', 'stun', \"assomme\")), \n      string(setPropertyInEntity('target', 'health', \"blessureLegere\")))}$\n    : and(30 >= damage, damage > stunTarget)\n      ? ${setPropertyInEntity('target', 'stun', \"damage\")}$\n      : \"pas de changement\"\n)}$\n-->"
-          }
-        ],
-        [
-          {
-            "kind": "E",
-            "path": [
-              "body",
-              "contents",
-              2,
-              "contents",
-              5,
-              "contents",
-              2,
-              "rowLayout",
-              2,
-              "rollMessage"
-            ],
-            "lhs": "<!-- roll-draconicMagic-spell -->\n\n<!-- \nPour le lancement du sort :\n* seuil = dépend du nombre de points de Mana impliqué (dépend du sort ou est variable) => saisie à faire au moment du jet\n* MODIFICATEURS à récupérer de la fiche : \n  * + niveau en magie draconique\n  * + niveau du sort\n-->\n\n${#concat(\n  ?{manaCost:\"Mana dépensée\"|\"1 à 5\"|\"6 à 10\"|\"11 à 15\"|\"16 à 20\"|\"21 à 24\"|\"25 et plus\"}\n  ?{modificateur:\"Modificateur\"[number]|0}\n)}$\n\n${#sante:=healthMalus}$\n\n${#seuil:= switchCase(manaCost, \"1 à 5\", 5, \"6 à 10\", 4, \"11 à 15\", 3, \"16 à 20\", 2, \"21 et plus\", 1, 0)}$\n\n${#magieDraconique:= draconicMagicLevel}$\n\n${#niveauSort:= item.level}$\n\n${#bonus:=((seuil + magieDraconique + niveauSort + modificateur + sante) > 10 ? seuil + magieDraconique + niveauSort + modificateur + sante - 10 : 0)}$\n\n<h3>Lancement du sort <strong>${!item.name}$</strong></h3>\n<table>\n  <tbody>\n    <tr>\n      <td><h4>Jet du dé</h4></td>\n      <td>\n        <strong>${roll:= [1d10] + bonus}$</strong> / ${seuil:= seuil + magieDraconique + niveauSort + modificateur + sante}$\n      </td>\n    </tr>\n    <tr>\n      <td colspan=\"2\">\n        <p style=\"padding: 2px; text-align: center; font-weight: bold; ${!roll<=seuil ? \"color: var(--color-level-success); border: solid 1px var(--color-level-success)\\\">Réussite\" : \"color: var(--color-level-error); border: solid 1px var(--color-level-error)\\\">Echec\"}$</p>\n      </td>\n    </tr>\n  </tbody>\n</table>\n",
-            "rhs": "<!-- roll-draconicMagic-spell -->\n\n<!-- \nPour le lancement du sort :\n* seuil = dépend du nombre de points de Mana impliqué (dépend du sort ou est variable) => saisie à faire au moment du jet\n* MODIFICATEURS à récupérer de la fiche : \n  * + niveau en magie draconique\n  * + niveau du sort\n-->\n\n${#concat(\n  ?{manaCost:\"Mana dépensée\"|\"1 à 5\"|\"6 à 10\"|\"11 à 15\"|\"16 à 20\"|\"21 à 24\"|\"25 et plus\"}\n  ?{modificateur:\"Modificateur\"[number]|0}\n)}$\n\n${#sante:=healthMalus}$\n\n${#seuil:= switchCase(manaCost, \"1 à 5\", 5, \"6 à 10\", 4, \"11 à 15\", 3, \"16 à 20\", 2, \"21 à 24\", 1, 0)}$\n\n${#magieDraconique:= draconicMagicLevel}$\n\n${#niveauSort:= item.level}$\n\n${#bonus:=((seuil + magieDraconique + niveauSort + modificateur + sante) > 10 ? seuil + magieDraconique + niveauSort + modificateur + sante - 10 : 0)}$\n\n<h3>Lancement du sort <strong>${!item.name}$</strong></h3>\n<table>\n  <tbody>\n    <tr>\n      <td><h4>Jet du dé</h4></td>\n      <td>\n        <strong>${roll:= [1d10] + bonus}$</strong> / ${seuil:= seuil + magieDraconique + niveauSort + modificateur + sante}$\n      </td>\n    </tr>\n    <tr>\n      <td colspan=\"2\">\n        <p style=\"padding: 2px; text-align: center; font-weight: bold; ${!roll<=seuil ? \"color: var(--color-level-success); border: solid 1px var(--color-level-success)\\\">Réussite\" : \"color: var(--color-level-error); border: solid 1px var(--color-level-error)\\\">Echec\"}$</p>\n      </td>\n    </tr>\n  </tbody>\n</table>\n"
-          }
-        ]
-      ],
-      "templateHistoryRedo": []
-    },
-    "core": {}
-  },
-  "img": "icons/svg/mystery-man.svg",
   "prototypeToken": {
-    "name": "_Scales",
-    "displayName": 20,
+    "name": "Assassin",
+    "displayName": 40,
     "actorLink": false,
     "appendNumber": false,
     "prependAdjective": false,
@@ -3962,8 +3194,7 @@
       "scaleY": 1,
       "offsetX": 0,
       "offsetY": 0,
-      "rotation": 0,
-      "tint": null
+      "rotation": 0
     },
     "width": 1,
     "height": 1,
@@ -3998,19 +3229,18 @@
       "darkness": {
         "min": 0,
         "max": 1
-      },
-      "color": null
+      }
     },
     "sight": {
       "enabled": true,
       "range": 0,
       "angle": 360,
       "visionMode": "basic",
+      "color": null,
       "attenuation": 0.1,
       "brightness": 0,
       "saturation": 0,
-      "contrast": 0,
-      "color": null
+      "contrast": 0
     },
     "detectionModes": [],
     "flags": {},
@@ -4018,20 +3248,23 @@
   },
   "items": [],
   "effects": [],
-  "folder": null,
+  "flags": {
+    "custom-system-builder": {
+      "version": "3.0.0"
+    }
+  },
   "_stats": {
     "systemId": "custom-system-builder",
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
-    "createdTime": 1704467072634,
-    "modifiedTime": 1706913398069,
+    "createdTime": 1706881920740,
+    "modifiedTime": 1706913392670,
     "lastModifiedBy": "r9x0pKEz3JGSJSrG"
   },
-  "_id": "KGZvMOZa6bJPhlh0",
   "sort": 0,
   "ownership": {
     "default": 0,
     "r9x0pKEz3JGSJSrG": 3
   },
-  "_key": "!actors!KGZvMOZa6bJPhlh0"
+  "_key": "!actors!BPhbw4iwQ9KNHGTU"
 }

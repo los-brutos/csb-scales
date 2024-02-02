@@ -1,5 +1,5 @@
 {
-  "name": "Accueil",
+  "name": "Ecran",
   "_id": "SpS2PuzhfGHinQ86",
   "navigation": true,
   "navOrder": 0,
@@ -49,15 +49,13 @@
   "journal": null,
   "journalEntryPage": null,
   "folder": null,
-  "flags": {
-    "core": {}
-  },
+  "flags": {},
   "_stats": {
     "systemId": "custom-system-builder",
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
     "createdTime": 1706828307351,
-    "modifiedTime": 1706883813834,
+    "modifiedTime": 1706913303555,
     "lastModifiedBy": "r9x0pKEz3JGSJSrG"
   },
   "foreground": null,

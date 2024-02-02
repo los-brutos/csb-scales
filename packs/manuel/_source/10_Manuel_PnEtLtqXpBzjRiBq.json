@@ -15,7 +15,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<h2>Templates</h2><p>Importer les compendium suivants du répertoire Scales/Templates et manuel pour Scales :</p><ul><li><p>Templates acteurs (Scales)</p></li><li><p>Templates objets (Scales)</p></li></ul><h2>Initiative</h2><p>dans les options du système CSB mettre la valeur suivante dans le champ <strong>Initiative Fomula</strong> :</p><p></p><p><code>[1d10] + initiative</code></p>"
+        "content": "<h2>Templates</h2><p>Importer les compendium suivants du répertoire Scales/Templates et manuel pour Scales :</p><ul><li><p>Templates acteurs (Scales)</p></li><li><p>Templates objets (Scales)</p></li></ul><h2>Initiative</h2><p>dans les options du système CSB mettre la valeur suivante dans le champ <strong>Initiative Fomula</strong> :</p><p><code>[1d10] + initiative</code></p>"
       },
       "video": {
         "controls": true,
@@ -33,7 +33,7 @@
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704466777594,
-        "modifiedTime": 1705877227783,
+        "modifiedTime": 1706564288890,
         "lastModifiedBy": "r9x0pKEz3JGSJSrG"
       },
       "_key": "!journal.pages!PnEtLtqXpBzjRiBq.SfXS84f8xU4j6ZkB"
@@ -50,7 +50,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p style=\"font-size:x-large\">Merci à <a href=\"https://asmodee.fr/\" title=\"lien vers le site de l'éditeur Asmodée\"><strong>Asmodée</strong></a>, éditeur, et <strong>CROC</strong>, auteur, pour l'autorisation de publier ce module regroupant le jeu de rôles Scales avec ses scénarios.</p><p></p><h2>Crédits</h2><h3>Livre des règles</h3><ul><li><p>Création : CROC</p></li><li><p>Textes additionnels : G.E. Ranne et Stéphane Bura</p></li><li><p>Scénario : Stéphane Bura</p></li><li><p>Logo et pictogrammes : Pierre Lepivain et Stéphane Beau</p></li><li><p>Dessins : Alberto Varanda, Guillaume Sorel et Stéphane Beau</p></li><li><p>Corrections : Sabine Wong et Guillaume Delafosse</p></li></ul><p></p><p></p>"
+        "content": "<p style=\"font-size:x-large\">Merci à <a href=\"https://asmodee.fr/\" title=\"lien vers le site de l'éditeur Asmodée\"><strong>Asmodée</strong></a>, éditeur, et <strong>CROC</strong>, auteur, pour l'autorisation de publier ce module regroupant le jeu de rôles Scales avec ses scénarios.</p><p></p><h2>Crédits</h2><h3>Livre des règles</h3><ul><li><p>Création : CROC</p></li><li><p>Textes additionnels : G.E. Ranne et Stéphane Bura</p></li><li><p>Scénario : Stéphane Bura</p></li><li><p>Logo et pictogrammes : Pierre Lepivain et Stéphane Beau</p></li><li><p>Dessins : Alberto Varanda, Guillaume Sorel et Stéphane Beau</p></li><li><p>Corrections : Sabine Wong et Guillaume Delafosse</p></li></ul><p></p><h3>Ecran</h3><ul><li><p>Guillaume Sorel</p></li></ul><p></p><h3>Tokens &amp; images des personnages</h3><ul><li><p>les images des personnages et les tokens ont été générés par IA</p></li></ul>"
       },
       "video": {
         "controls": true,
@@ -68,7 +68,7 @@
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705501634306,
-        "modifiedTime": 1705877388745,
+        "modifiedTime": 1706913374342,
         "lastModifiedBy": "r9x0pKEz3JGSJSrG"
       },
       "_key": "!journal.pages!PnEtLtqXpBzjRiBq.psOKt1JlHVlhVBcW"
@@ -80,7 +80,7 @@
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
     "createdTime": 1704466680906,
-    "modifiedTime": 1705877494727,
+    "modifiedTime": 1706913413331,
     "lastModifiedBy": "r9x0pKEz3JGSJSrG"
   },
   "sort": 0,
