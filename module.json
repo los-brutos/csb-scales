@@ -26,6 +26,9 @@
   "scripts": [
         "scripts/script.js"
   ],
+  "styles": [
+      "styles/scales.css"
+    ],
   "packs": [
     {
       "name": "templates-actors",

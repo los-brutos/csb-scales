@@ -1,0 +1,39 @@
+:root{
+	--color-title-primary:#EEEEEE;
+	--color-background-title-primary:#3d3d3d;
+	--color-title-primary-negative:#3d3d3d;
+	--color-background-title-primary-negative:#EEEEEE;
+	--color-text-primary:#000000;
+	--color-background-text-primary:#3d3d3d;
+}
+
+/**
+ * journal
+ */
+.journal-sheet .journal-header .title,
+.sheet.journal-entry .journal-entry-page h1, 
+.sheet.journal-entry .journal-entry-page h2, 
+.sheet.journal-entry .journal-entry-page h3, 
+.sheet.journal-entry .journal-entry-page h4{
+	color:var(--color-title-primary);
+	background-color:var(--color-background-title-primary);
+	border-bottom:none;
+}
+
+.sheet.journal-entry .journal-entry-page h1{
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+.sheet.journal-entry .journal-entry-page h2{
+	margin-top:0.5em;
+	margin-bottom:0.5em;
+	padding-left:1em;
+}
+.sheet.journal-entry .journal-entry-page h3{
+	margin:1em;
+	padding-left:2em;
+}
+.sheet.journal-entry img {
+  margin: 1em;
+}
