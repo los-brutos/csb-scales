@@ -60,6 +60,11 @@ Les items présents dans le livre de base et son scénarion sont présents dans 
 
 ### Scénarios
 
+#### Ecran
+
+* 7 idées de scénarios
+
+#### Livre de base et autres suppléments
 _à venir_
 
 ## Installation & configuration
@@ -80,7 +85,7 @@ _à venir_
 ## Remerciements
 Merci à l'éditeur [Asmodée](https://asmodee.fr/) et à CROC pour l'aimable autorisation de publier ce module.
 
-## Crédits
+## Crédits du jeu de rôle Scales
 * Création : CROC
 * Textes additionnels : G.E. Ranne et Stéphane Bura
 * Scénario : Stéphane Bura
@@ -88,9 +93,13 @@ Merci à l'éditeur [Asmodée](https://asmodee.fr/) et à CROC pour l'aimable au
 * Dessins : Alberto Varanda, Guillaume Sorel et Stéphane Beau
 * Corrections : Sabine Wong et Guillaume Delafosse
 
+## Licence
+L'ensemble du code est sous licence Creative Commons :
+
+CSB Scales © 2024 by Los Brutos is licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/) 
+
 ## A venir
 
-  * amélioration du design
   * prise en compte automatique des dommages de la cible (dès que CSB pourra le permettre)
   * ajout des éléments de jeu des suppléments Politique, Technologie et Magie
   * ajout du scénario A0 KEENING du livre de base
