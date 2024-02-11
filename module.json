@@ -2,6 +2,10 @@
   "id": "csb-scales",
   "title": "CSB Scales",
   "version": "11.0.0",
+  "url": "https://github.com/los-brutos/csb-scales",
+  "manifest": "https://raw.githubusercontent.com/los-brutos/csb-scales/main/module.json",
+  "download": "https://github.com/los-brutos/csb-scales/releases/download/11.1.0/csb-scales.zip",
+  "changelog": "https://github.com/los-brutos/csb-scales/raw/main/changelog.md",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -11,6 +15,7 @@
       {
         "id": "custom-system-builder",
         "type": "system",
+        "manifest": "https://gitlab.com/custom-system-builder/custom-system-builder/-/raw/main/system.json",
         "compatibility": {}
       }
     ]
@@ -194,6 +199,5 @@
       }
     ],
     "packs": ["scenarios-officiels"]
-  }
-]
+  }]
 }
