@@ -2,6 +2,9 @@
 
 ## v11.1
 
+### v11.1.3
+* ajout de l'aventure A0 KEENING
+
 ### v11.1.2
 * fix compendiums
 
