@@ -2,6 +2,20 @@
 
 ## v11.1
 
+
+### v11.1.4
+* ajout de l'aventure A1 CLAYMORE
+* suppression de la limitation des caractéristiques à 8 maximum et -8 minimum
+* Camouflage 
+  * correction d'une typo dans la description 
+* Compétence 
+  * correction d'une typo dans la description 
+* Immunité
+  * correction d'une typo dans le nom
+  * correction du lien vers Résistance  
+* Résistance
+  * correction du lien vers Immunité  
+
 ### v11.1.3
 * ajout de l'aventure A0 KEENING
 
