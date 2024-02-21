@@ -1,6 +1,6 @@
 {
   "folder": null,
-  "name": "lmmunité (à préciser)",
+  "name": "Immunité (à préciser)",
   "type": "equippableItem",
   "img": "icons/svg/aura.svg",
   "system": {
@@ -135,9 +135,9 @@
     },
     "template": "TOIxmn68EGfcsuRW",
     "props": {
-      "name": "lmmunité (à préciser)",
+      "name": "Immunité (à préciser)",
       "level": "0",
-      "description": "<p style=\"text-align: justify;\">Ce pouvoir immunise totalement son possesseur contre une forme d&rsquo;attaque tr&egrave;s sp&eacute;ciale qui devra &ecirc;tre pr&eacute;cis&eacute;e entre parenth&egrave;ses.</p>\n<p style=\"text-align: justify;\">Pour ne pas d&eacute;s&eacute;quilibrer le jeu et &eacute;viter toute exag&eacute;ration, l&rsquo;immunit&eacute; aux attaques plus communes (comme par exemple les armes &agrave; feu) devra plut&ocirc;t &ecirc;tre d&eacute;finie avec le pouvoir de @UUID[Item.5nC2UoJ333bRJ2lC]{r&eacute;sistance)}</p>\n<p style=\"text-align: justify;\">Ce pouvoir ne poss&egrave;de qu&rsquo;un seul et unique niveau puisque sa seule pr&eacute;sence permet d&rsquo;&ecirc;tre totalement immunis&eacute; contre l&rsquo;attaque en question.&nbsp;</p>\n<p style=\"text-align: justify;\">Ce pouvoir est permanent.</p>"
+      "description": "<p style=\"text-align: justify;\">Ce pouvoir immunise totalement son possesseur contre une forme d&rsquo;attaque tr&egrave;s sp&eacute;ciale qui devra &ecirc;tre pr&eacute;cis&eacute;e entre parenth&egrave;ses.</p>\n<p style=\"text-align: justify;\">Pour ne pas d&eacute;s&eacute;quilibrer le jeu et &eacute;viter toute exag&eacute;ration, l&rsquo;immunit&eacute; aux attaques plus communes (comme par exemple les armes &agrave; feu) devra plut&ocirc;t &ecirc;tre d&eacute;finie avec le pouvoir de @UUID[Item.L8DYDg7aJNslF7oU]{r&eacute;sistance)}</p>\n<p style=\"text-align: justify;\">Ce pouvoir ne poss&egrave;de qu&rsquo;un seul et unique niveau puisque sa seule pr&eacute;sence permet d&rsquo;&ecirc;tre totalement immunis&eacute; contre l&rsquo;attaque en question.&nbsp;</p>\n<p style=\"text-align: justify;\">Ce pouvoir est permanent.</p>"
     },
     "modifiers": [],
     "unique": false,
@@ -155,7 +155,7 @@
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
     "createdTime": 1704665806350,
-    "modifiedTime": 1706308263813,
+    "modifiedTime": 1708381215936,
     "lastModifiedBy": "r9x0pKEz3JGSJSrG"
   },
   "_id": "ABJaoK67JcpG4PBO",

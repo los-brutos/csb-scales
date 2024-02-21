@@ -137,7 +137,7 @@
     "props": {
       "name": "Compétence (à préciser)",
       "level": "0",
-      "description": "<p style=\"text-align: justify;\">Ce pouvoir accorde &agrave; celui qui le poss&egrave;de un talent tr&egrave;s sp&eacute;cialis&eacute; qui<br>devra &ecirc;tre pr&eacute;cis&eacute; entre parenth&egrave;ses. Il sera utilis&eacute; encore plus rarement qu&rsquo;un hobby mais ses chances de r&eacute;ussite seront g&eacute;n&eacute;ralement assez hautes.</p>\n<p style=\"text-align: justify;\">Au niveau 1, on utilisera la ligne &laquo; expert &raquo;. Tout niveau sup&eacute;rieur &agrave; 1 sera lu sur la ligne &laquo; expert &raquo; avec un bonus de 1 point par niveau au dessus du premier. Exemple: Un &ecirc;tre magique ayant le pouvoir inn&eacute; de &laquo; comp&eacute;tence (cuisine) &raquo; au niveau 5 consultera la ligne &laquo; expert &raquo; avec un bonus de 4 points.<br>Ce pouvoir est permanent.</p>"
+      "description": "<p style=\"text-align: justify;\">Ce pouvoir accorde &agrave; celui qui le poss&egrave;de un talent tr&egrave;s sp&eacute;cialis&eacute; qui devra &ecirc;tre pr&eacute;cis&eacute; entre parenth&egrave;ses. Il sera utilis&eacute; encore plus rarement qu&rsquo;un hobby mais ses chances de r&eacute;ussite seront g&eacute;n&eacute;ralement assez hautes.</p>\n<p style=\"text-align: justify;\">Au niveau 1, on utilisera la ligne &laquo; expert &raquo;. Tout niveau sup&eacute;rieur &agrave; 1 sera lu sur la ligne &laquo; expert &raquo; avec un bonus de 1 point par niveau au dessus du premier. Exemple: Un &ecirc;tre magique ayant le pouvoir inn&eacute; de &laquo; comp&eacute;tence (cuisine) &raquo; au niveau 5 consultera la ligne &laquo; expert &raquo; avec un bonus de 4 points.<br>Ce pouvoir est permanent.</p>"
     },
     "modifiers": [],
     "unique": false,
@@ -155,7 +155,7 @@
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
     "createdTime": 1704665806350,
-    "modifiedTime": 1706308263813,
+    "modifiedTime": 1708381433550,
     "lastModifiedBy": "r9x0pKEz3JGSJSrG"
   },
   "_id": "ZmINZuz6AmOFN4RA",
