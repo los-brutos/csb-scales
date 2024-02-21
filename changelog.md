@@ -2,7 +2,6 @@
 
 ## v11.1
 
-
 ### v11.1.4
 * ajout de l'aventure A1 CLAYMORE
 * suppression de la limitation des caractéristiques à 8 maximum et -8 minimum
