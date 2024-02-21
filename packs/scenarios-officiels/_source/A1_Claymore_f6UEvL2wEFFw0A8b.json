@@ -3439,6 +3439,9 @@
       "flags": {
         "custom-system-builder": {
           "version": "3.0.0"
+        },
+        "core": {
+          "sourceId": "Actor.jrUDD1Nv2neHNN8F"
         }
       },
       "_stats": {
@@ -3446,7 +3449,7 @@
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1708377354284,
-        "modifiedTime": 1708379439101,
+        "modifiedTime": 1708531163700,
         "lastModifiedBy": "r9x0pKEz3JGSJSrG"
       }
     },
@@ -28604,7 +28607,7 @@
           "image": {},
           "text": {
             "format": 1,
-            "content": "<p style=\"text-align:justify\">Si on devait faire une liste des voyages que l’on souhaite entreprendre seul, c’est bien une visite auprès du vieux Gwellarion qui arrive en première place. Déjà que la rencontre n’est jamais agréable sauf pour certains maniaques aux dents longues, la présence de son gestalt est toujours un point négatif que la Wyvern ne manque jamais de faire remarquer.</p><p style=\"text-align:justify\">Or, en ce beau matin d’été, le dragon du groupe reçoit un message apporté par un bien curieux messager. Il doit se rendre au plus vite en Irlande afin d’y rencontrer Gwellarion. Et le dragon devra prendre bien soin de faire venir la totalité de son gestalt pour l’occasion. Voilà une requête bien étrange que le joueur devrait cependant n’avoir pas trop de mal à satisfaire.</p><p style=\"text-align:justify\">Mais l’affaire qui nous importe est bien plus compliquée que cela. C’est bien laWyvern elle-même qui a fait quérir les joueurs par un de ses plus fidèles serviteurs (mais en tout cas pas le plus discret).</p><p style=\"text-align:justify\">Tout commence alors que Gwellarion reçoit, quelques semaines auparavant, la visite d’un bien curieux dragon. Il se présente comme étant un dragon rouge et demande à recevoir des cours de la part de la Wyvern. Gwellarion trouve cette demande relativement étrange, mais prodigue néanmoins son enseignement avec la plus grande rigueur.</p><p style=\"text-align:justify\">L’élève est très bon et il progresse très vite.</p><p style=\"text-align:justify\">Son allure élégante et précieuse disparaît rapidement et laisse la place à une véritable bête de combat. Le jour où Gwellarion montre sa vraie forme à son hôte et demande à ce dernier d’en faire de même, il se transforme alors et apparaît sous la forme d’un grand dragon de couleur rouge. Mais il semble que ce ne soit pas un \"rouge normal\". Il est plus trapu et d’une taille relativement imposante pour un être qui se dit être un enfant.</p><p style=\"text-align:justify\">L’invité agresse volontairement Gwellarion en lui disant que tout ce qu’il a appris avec lui ne sert à rien et se jette sur lui. Le combat qui s’engage est terrible et les cris des deux monstres résonnent dans les collines environnantes. Le dragon \"rouge\" est bien plus fort que Gwellarion et prend rapidement le dessus. Après plusieurs heures ( !) de combat, la Wyvern sent que la mort est proche et offre son cou à son adversaire. Ce dernier semble connaître cette coutume ancestrale et accepte de gracier sa victime. II part en prenant son envol du haut de la falaise qui surplombe la mer et disparaît rapidement à la vue de laWyvern gravement blessée.</p><p style=\"text-align:justify\">Gwellarion est fou de rage et téléphone à tous ses informateurs. Aucun ne connaît le dragon en question et les rumeurs les plus folles commencent à circuler. Gupta serait en fait le dragon incriminé et aurait pris la forme d’un dragon rouge pour venir tuer Gwellarion. Gupta est outré par une telle accusation et dépêche sur place un de ses meilleurs éléments. L’arrivée de l’agent en question provoque un énorme tollé dans l’entourage de la Wyvern.</p><p style=\"text-align:justify\">En fait d’agent, c’est une sorte de mystique, mi-voyant mi-alchimiste, dragon qui plus est, et dont les prédictions vaseuses laissent tout le monde perplexe. Le dragon agresseur serait une créature venue du fond des âges et dont la vengeance couvait depuis des centaines de milliers d’années.</p><p style=\"text-align:justify\">La grande Wyvern considéra l’agent de Gupta comme un doux dingue dont les élucubrations n’avaient aucun sens. Pour prouver sa puissance, l’agent se livra alors à plusieurs divinations qui obligèrent Gwellarion à prendre en considération ces dires, aussi étranges soient-ils. Lorsque l’agent vit dans un demi-rêve le gestalt des joueurs, laWyvern prit rapidement des renseignements et envoya un de ses plus fidèles serviteurs les chercher, sans leur faire aucun mal avait-il précisé avant que la bête ne soit lâchée.</p>"
+            "content": "<p style=\"text-align:justify\">Si on devait faire une liste des voyages que l’on souhaite entreprendre seul, c’est bien une visite auprès du vieux Gwellarion qui arrive en première place. Déjà que la rencontre n’est jamais agréable sauf pour certains maniaques aux dents longues, la présence de son gestalt est toujours un point négatif que la Wyvern ne manque jamais de faire remarquer.</p><p style=\"text-align:justify\">Or, en ce beau matin d’été, le dragon du groupe reçoit un message apporté par un bien curieux messager. Il doit se rendre au plus vite en Irlande afin d’y rencontrer Gwellarion. Et le dragon devra prendre bien soin de faire venir la totalité de son gestalt pour l’occasion. Voilà une requête bien étrange que le joueur devrait cependant n’avoir pas trop de mal à satisfaire.</p><p style=\"text-align:justify\">Mais l’affaire qui nous importe est bien plus compliquée que cela. C’est bien la Wyvern elle-même qui a fait quérir les joueurs par un de ses plus fidèles serviteurs (mais en tout cas pas le plus discret).</p><p style=\"text-align:justify\">Tout commence alors que Gwellarion reçoit, quelques semaines auparavant, la visite d’un bien curieux dragon. Il se présente comme étant un dragon rouge et demande à recevoir des cours de la part de la Wyvern. Gwellarion trouve cette demande relativement étrange, mais prodigue néanmoins son enseignement avec la plus grande rigueur.</p><p style=\"text-align:justify\">L’élève est très bon et il progresse très vite.</p><p style=\"text-align:justify\">Son allure élégante et précieuse disparaît rapidement et laisse la place à une véritable bête de combat. Le jour où Gwellarion montre sa vraie forme à son hôte et demande à ce dernier d’en faire de même, il se transforme alors et apparaît sous la forme d’un grand dragon de couleur rouge. Mais il semble que ce ne soit pas un \"rouge normal\". Il est plus trapu et d’une taille relativement imposante pour un être qui se dit être un enfant.</p><p style=\"text-align:justify\">L’invité agresse volontairement Gwellarion en lui disant que tout ce qu’il a appris avec lui ne sert à rien et se jette sur lui. Le combat qui s’engage est terrible et les cris des deux monstres résonnent dans les collines environnantes. Le dragon \"rouge\" est bien plus fort que Gwellarion et prend rapidement le dessus. Après plusieurs heures ( !) de combat, la Wyvern sent que la mort est proche et offre son cou à son adversaire. Ce dernier semble connaître cette coutume ancestrale et accepte de gracier sa victime. II part en prenant son envol du haut de la falaise qui surplombe la mer et disparaît rapidement à la vue de laWyvern gravement blessée.</p><p style=\"text-align:justify\">Gwellarion est fou de rage et téléphone à tous ses informateurs. Aucun ne connaît le dragon en question et les rumeurs les plus folles commencent à circuler. Gupta serait en fait le dragon incriminé et aurait pris la forme d’un dragon rouge pour venir tuer Gwellarion. Gupta est outré par une telle accusation et dépêche sur place un de ses meilleurs éléments. L’arrivée de l’agent en question provoque un énorme tollé dans l’entourage de la Wyvern.</p><p style=\"text-align:justify\">En fait d’agent, c’est une sorte de mystique, mi-voyant mi-alchimiste, dragon qui plus est, et dont les prédictions vaseuses laissent tout le monde perplexe. Le dragon agresseur serait une créature venue du fond des âges et dont la vengeance couvait depuis des centaines de milliers d’années.</p><p style=\"text-align:justify\">La grande Wyvern considéra l’agent de Gupta comme un doux dingue dont les élucubrations n’avaient aucun sens. Pour prouver sa puissance, l’agent se livra alors à plusieurs divinations qui obligèrent Gwellarion à prendre en considération ces dires, aussi étranges soient-ils. Lorsque l’agent vit dans un demi-rêve le gestalt des joueurs, laWyvern prit rapidement des renseignements et envoya un de ses plus fidèles serviteurs les chercher, sans leur faire aucun mal avait-il précisé avant que la bête ne soit lâchée.</p>"
           },
           "video": {
             "controls": true,
@@ -28622,7 +28625,7 @@
             "systemVersion": "3.0.0",
             "coreVersion": "11.315",
             "createdTime": 1708268412868,
-            "modifiedTime": 1708269197879,
+            "modifiedTime": 1708462171775,
             "lastModifiedBy": "r9x0pKEz3JGSJSrG"
           }
         },
@@ -28656,7 +28659,7 @@
             "systemVersion": "3.0.0",
             "coreVersion": "11.315",
             "createdTime": 1708269208139,
-            "modifiedTime": 1708270006607,
+            "modifiedTime": 1708462184039,
             "lastModifiedBy": "r9x0pKEz3JGSJSrG"
           }
         },
@@ -28672,7 +28675,7 @@
           "image": {},
           "text": {
             "format": 1,
-            "content": "<p style=\"text-align:justify\">Les joueurs se reposent de leurs dernières aventures avec la ferme intention de passer quelques vacances sympathiques à flemmarder devant la télé ou dans leur jardin, lorsqu’un curieux visiteur frappe à leur porte (la porte en question sera celle du dragon du groupe). Précisons que ce scénario est jouable quelle que soit la nature de ce dragon, le gestalt du groupe étant bien malgré lui mêlé à cette histoire.</p><p style=\"text-align:justify\">Le visiteur en question se présente comme le porteur d’un message venant d’un grand-père, mais son look peut inciter les joueurs à plus de méfiance.</p><p style=\"text-align:justify\">Il fera tout pour obliger les joueurs à se rendre dans l’antre de Gwellarion et ce en prenant bien soin que tout le gestalt soit présent. Il ne leur donnera aucune indication sur les motifs de ce voyage, pour la simple et bonne raison qu’il ne sait pas ce que la Wyvern leur veut. Il ne sait que ce qu’elle lui a dit : \"Ramenez-moi <em>X (nom du joueur dragon)</em> et tous les membres de son gestalt\". Prenez bien soin de ne blesser personne durant le transport. Pour bien faire, le maître de jeu devra rendre la présence de Chris, le messager, totalement détestable et devra faire craquer les joueurs à force d’exactions commises par l’individu en question sur les voisins, animaux familiers ou objets divers. Néanmoins, faites tout pour que Chris ne risque pas d’être attaqué par les joueurs (cela risquerait de déclencher un combat qui ne tournerait sûrement pas à leur avantage).</p><p style=\"text-align:justify\">Un des membres du gestalt devra être convoqué, plusieurs jours avant l’arrivée du messager, par son patron qui lui indiquera que son entreprise fonde une nouvelle branche en écosse, à Nairn, et qu’il est pressenti pour aller préparer les choses sur place. Le maître de jeu devra faire passer cette nouvelle comme une petite péripétie de la vie afin que le joueur ne se doute de rien (le nom de la ville peut être prononcée rapidement, sans que le joueur puisse le noter avec précision). Cet événement est seulement destiné à ce que la suite de l’aventure se passe le mieux du monde.</p>"
+            "content": "<p style=\"text-align:justify\">Les joueurs se reposent de leurs dernières aventures avec la ferme intention de passer quelques vacances sympathiques à flemmarder devant la télé ou dans leur jardin, lorsqu’un @UUID[JournalEntry.IdApNpEQnq3BPM64]{curieux visiteur} frappe à leur porte (la porte en question sera celle du dragon du groupe). Précisons que ce scénario est jouable quelle que soit la nature de ce dragon, le gestalt du groupe étant bien malgré lui mêlé à cette histoire.</p><p style=\"text-align:justify\">Le visiteur en question se présente comme le porteur d’un message venant d’un grand-père, mais son look peut inciter les joueurs à plus de méfiance.</p><p style=\"text-align:justify\">Il fera tout pour obliger les joueurs à se rendre dans l’antre de Gwellarion et ce en prenant bien soin que tout le gestalt soit présent. Il ne leur donnera aucune indication sur les motifs de ce voyage, pour la simple et bonne raison qu’il ne sait pas ce que la Wyvern leur veut. Il ne sait que ce qu’elle lui a dit : </p><blockquote><p style=\"text-align:justify\">\"Ramenez-moi <em>X (nom du joueur dragon)</em> et tous les membres de son gestalt\". </p></blockquote><p style=\"text-align:justify\">Prenez bien soin de ne blesser personne durant le transport. Pour bien faire, le maître de jeu devra rendre la présence de Chris, le messager, totalement détestable et devra faire craquer les joueurs à force d’exactions commises par l’individu en question sur les voisins, animaux familiers ou objets divers. Néanmoins, faites tout pour que Chris ne risque pas d’être attaqué par les joueurs (cela risquerait de déclencher un combat qui ne tournerait sûrement pas à leur avantage).</p><p style=\"text-align:justify\"><strong>Un des membres du gestalt devra être convoqué, plusieurs jours avant l’arrivée du messager</strong>, par son patron qui lui indiquera que son entreprise fonde une nouvelle branche en écosse, à Nairn, et qu’il est pressenti pour aller préparer les choses sur place. <strong>Le maître de jeu devra faire passer cette nouvelle comme une petite péripétie de la vie</strong> afin que le joueur ne se doute de rien (le nom de la ville peut être prononcée rapidement, sans que le joueur puisse le noter avec précision). Cet événement est seulement destiné à ce que la suite de l’aventure se passe le mieux du monde.</p>"
           },
           "video": {
             "controls": true,
@@ -28690,7 +28693,7 @@
             "systemVersion": "3.0.0",
             "coreVersion": "11.315",
             "createdTime": 1708270028455,
-            "modifiedTime": 1708272558106,
+            "modifiedTime": 1708462340242,
             "lastModifiedBy": "r9x0pKEz3JGSJSrG"
           }
         },
@@ -28740,7 +28743,7 @@
           "image": {},
           "text": {
             "format": 1,
-            "content": "<p style=\"text-align:justify\">L’arrivée dans les collines de Carrantoohill se fera via l’aéroport de Cork et par la ville de Killarney. Après la superbe traversée de tout l’ouest de l’Irlande en camping-car panoramique, les derniers kilomètres devront être parcourus à pied. Il est environ 19 heures et le jour est encore levé (je vous rappelle que <strong>notre aventure se passe en été</strong>).</p><p style=\"text-align:justify\">Les collines sont verdoyantes malgré la chaleur fort agréable. Après une demi-heure de marche, le décor changera tout d’un coup. Les insectes bruyants se tairont et le paysage deviendra légèrement plus aride, pour finir par être complètement lunaire. Les rochers gris et rouges composent en effet la majorité du décor qui entoure l’antre de la Wyvern. La mer est proche et la marée montante frappe la falaise de ses vagues déferlantes. Le vent venant de la mer porte un bruit assourdissant et un goût de sel très exotique.</p><p style=\"text-align:justify\">L’entrée de la caverne de la Wyvern est partiellement cachée par un petit bosquet d’arbres desséchés.</p><p style=\"text-align:justify\">Une fois à l’intérieur, les joueurs seront assaillis par une odeur particulièrement forte mais pas vraiment désagréable. Ce sont une fumée issue de gros braseros que les disciples de la Wyvern couvrent de plantes et c’est ces végétaux qui créent cette fumée épaisse et odorante. Assises en tailleur ou sur de petits tabourets de bois se tiennent 4 personnes. Les torches qui tapissent les murs donnent une teinte rougeâtre à l’ensemble. Si ce n’était la présence d’un poste de radio et de quelques objets technologiques, on pourrait croire à un voyage temporel.</p><p style=\"text-align:justify\">Chris ne perd pas de temps et se déshabille pour revêtir ensuite une simple tunique de cuir recouverte de symboles mystiques. Ce qui semble être la Wyvern (un grand homme âgé à la barbe touffue et aux muscles saillants) se dresse devant les joueurs et les prie de s’asseoir là où il y a de la place. Les quelques places prises le sont par des disciples de la Wyvern, ainsi que par Synk qui semble être un peu étranger à tout cela puisqu’il porte tunique et turban comme un bon citoyen indien.</p><p style=\"text-align:justify\">Les 2 autres personnes devront être décrites par le maître de jeu (il est par exemple possible que les joueurs rencontrent ici un dragon violent auquel ils ont déjà été confrontés). Quoi qu’il en soit, et quels que soient les démêlés qui ont déjà eu lieu entre eux et les joueurs, les deux disciples resteront muets durant tout le séjour, ne répondant qu’à des ordres brefs de la part de Gwellarion). La grande Wyvern s’adressera à eux de cette façon :</p><blockquote><p style=\"text-align:justify\">\"Je vous ai fait quérir par mon fidèle fils simplement parce que j’ai besoin de l’un d’entre vous. Je sais que vous faites partie d’un même groupe et c’est pour cela que je n’ai pas voulu vous séparer.</p><p style=\"text-align:justify\">Même si je n’ai aucune raison d’apprécier votre présence ici, Synk (il montre l’homme au turban d’un geste large) qui a la capacité de lire dans l’avenir et dans le passé m’assure que vous pouvez m’aider. Et c’est avec lui que je vais vous laisser discuter, n’ayant pas les moyens de vous aider plus que cela. De plus, ces blessures (il montre de larges entailles sur le cou et sur le corps) me font terriblement souffrir et je dois me retirer pour me reposer.\"</p><p style=\"text-align:justify\">Un joueur observateur pourra remarquer que la Wyvern a les traits particulièrement tirés et que les blessures qu’elle porte ont dû lui être infligées par des coups portés par un dragon alors qu’il se trouvait sous forme draconique (vu la réputation de Gwellarion, on peut supposer que son adversaire est passé de vie à trépas).</p></blockquote><p style=\"text-align:justify\">Synk se mettra alors à parler, à la fois de façon fort obséquieuse, puis de façon très étrange, son accent se mariant difficilement avec l’anglais hésitant qu’il utilise avec peine. Il parle en ces mots : </p><blockquote><p style=\"text-align:justify\">\"Gwellarion, que vous venez de voir, a été sauvagement agressé par un dragon terriblement puissant qui a d’ailleurs réussi à prendre la fuite. Cet être draconique n’est pas un des treize grands dragons, mais en possède la force physique et les talents de combat au corps à corps. On murmure que ce doit être une forme de vie pervertie issue des accouplements entre les récupérateurs de mana et les êtres vivants terrestres. Mes pouvoirs magiques m’ont permis d’obtenir des informations qui tendent à prouver que l’un d’entre vous est un élément important de l’affaire qui nous intéresse (il montre alors du doigt un des membres du gestalt, celui-là même qui a été convoqué par son patron au début du scénario). Le reste est très confus, seuls quelques mots sont apparus dans mon esprit. Ces mots sont les suivants : Marais, Claymore et Nairn. Vous connaissez sans doute la signification de \"Claymore\". Nairn est le nom d’une ville d’Ecosse située au nord-est de l’Angleterre. Vous devez trouver cette forme draconique et la tuer, car tel est votre destin (il regarde alors fixement l’être magique concerné)\".</p></blockquote><p style=\"text-align:justify\">En toute logique, l’être magique du groupe choisi par Synk connaît déjà cette ville. Tout laisse donc à penser que le destin du personnage se trouve bel et bien dans le petit port de pêche de Nairn. Il ne lui reste plus qu’à s’y rendre pour être confronté à son propre futur.</p><p style=\"text-align:justify\">Si les joueurs sont difficiles à décider, Synk ajoutera que Gwellarion leur sera certainement éternellement reconnaissant, ce qui devrait leur suffire à prendre leurs affaires. Direction l’Ecosse et le petit port de Nairn. Précisons que Synk met à leur disposition une série de billets d’avion allant de Cork à Inverness via Londres. Une voiture a été louée pour eux et les attend au parking de l’aéroport. Synk leur en remet les clefs. Il ne reste plus qu’à trouver ce dragon et accomplir leur destin. Cela passe obligatoirement par la mort de ce monstre dont les joueurs n’ont d’ailleurs aucune description de l’apparence humaine.</p>"
+            "content": "<p style=\"text-align:justify\">L’arrivée dans les collines de Carrantoohill se fera via l’aéroport de Cork et par la ville de Killarney. Après la superbe traversée de tout l’ouest de l’Irlande en camping-car panoramique, les derniers kilomètres devront être parcourus à pied. Il est environ 19 heures et le jour est encore levé (je vous rappelle que <strong>notre aventure se passe en été</strong>).</p><p style=\"text-align:justify\">Les collines sont verdoyantes malgré la chaleur fort agréable. Après une demi-heure de marche, le @UUID[Scene.bkE69TC74eJDTmea]{décor} changera tout d’un coup. Les insectes bruyants se tairont et le paysage deviendra légèrement plus aride, pour finir par être complètement lunaire. Les rochers gris et rouges composent en effet la majorité du décor qui entoure l’antre de la Wyvern. La mer est proche et la marée montante frappe la falaise de ses vagues déferlantes. Le vent venant de la mer porte un bruit assourdissant et un goût de sel très exotique.</p><p style=\"text-align:justify\">L’entrée de la caverne de la Wyvern est partiellement cachée par un petit bosquet d’arbres desséchés.</p><p style=\"text-align:justify\">Une fois à l’intérieur, les joueurs seront assaillis par une odeur particulièrement forte mais pas vraiment désagréable. Ce sont une fumée issue de gros braseros que les disciples de la Wyvern couvrent de plantes et c’est ces végétaux qui créent cette fumée épaisse et odorante. Assises en tailleur ou sur de petits tabourets de bois se tiennent 4 personnes. Les torches qui tapissent les murs donnent une teinte rougeâtre à l’ensemble. Si ce n’était la présence d’un poste de radio et de quelques objets technologiques, on pourrait croire à un voyage temporel.</p><p style=\"text-align:justify\">Chris ne perd pas de temps et se déshabille pour revêtir ensuite une simple tunique de cuir recouverte de symboles mystiques. Ce qui semble être la Wyvern (un grand homme âgé à la barbe touffue et aux muscles saillants) se dresse devant les joueurs et les prie de s’asseoir là où il y a de la place. Les quelques places prises le sont par des disciples de la Wyvern, ainsi que par Synk qui semble être un peu étranger à tout cela puisqu’il porte tunique et turban comme un bon citoyen indien.</p><p style=\"text-align:justify\">Les 2 autres personnes devront être décrites par le maître de jeu (il est par exemple possible que les joueurs rencontrent ici un dragon violent auquel ils ont déjà été confrontés). Quoi qu’il en soit, et quels que soient les démêlés qui ont déjà eu lieu entre eux et les joueurs, les deux disciples resteront muets durant tout le séjour, ne répondant qu’à des ordres brefs de la part de Gwellarion). La grande Wyvern s’adressera à eux de cette façon :</p><blockquote><p style=\"text-align:justify\">\"Je vous ai fait quérir par mon fidèle fils simplement parce que j’ai besoin de l’un d’entre vous. Je sais que vous faites partie d’un même groupe et c’est pour cela que je n’ai pas voulu vous séparer.</p><p style=\"text-align:justify\">Même si je n’ai aucune raison d’apprécier votre présence ici, Synk (il montre l’homme au turban d’un geste large) qui a la capacité de lire dans l’avenir et dans le passé m’assure que vous pouvez m’aider. Et c’est avec lui que je vais vous laisser discuter, n’ayant pas les moyens de vous aider plus que cela. De plus, ces blessures (il montre de larges entailles sur le cou et sur le corps) me font terriblement souffrir et je dois me retirer pour me reposer.\"</p><p style=\"text-align:justify\">Un joueur observateur pourra remarquer que la Wyvern a les traits particulièrement tirés et que les blessures qu’elle porte ont dû lui être infligées par des coups portés par un dragon alors qu’il se trouvait sous forme draconique (vu la réputation de Gwellarion, on peut supposer que son adversaire est passé de vie à trépas).</p></blockquote><p style=\"text-align:justify\">Synk se mettra alors à parler, à la fois de façon fort obséquieuse, puis de façon très étrange, son accent se mariant difficilement avec l’anglais hésitant qu’il utilise avec peine. Il parle en ces mots :</p><blockquote><p style=\"text-align:justify\">\"Gwellarion, que vous venez de voir, a été sauvagement agressé par un dragon terriblement puissant qui a d’ailleurs réussi à prendre la fuite. Cet être draconique n’est pas un des treize grands dragons, mais en possède la force physique et les talents de combat au corps à corps. On murmure que ce doit être une forme de vie pervertie issue des accouplements entre les récupérateurs de mana et les êtres vivants terrestres. Mes pouvoirs magiques m’ont permis d’obtenir des informations qui tendent à prouver que l’un d’entre vous est un élément important de l’affaire qui nous intéresse (il montre alors du doigt un des membres du gestalt, celui-là même qui a été convoqué par son patron au début du scénario). Le reste est très confus, seuls quelques mots sont apparus dans mon esprit. Ces mots sont les suivants : Marais, Claymore et Nairn. Vous connaissez sans doute la signification de \"Claymore\". Nairn est le nom d’une ville d’Ecosse située au nord-est de l’Angleterre. Vous devez trouver cette forme draconique et la tuer, car tel est votre destin (il regarde alors fixement l’être magique concerné)\".</p></blockquote><p style=\"text-align:justify\">En toute logique, l’être magique du groupe choisi par Synk connaît déjà cette ville. Tout laisse donc à penser que le destin du personnage se trouve bel et bien dans le petit port de pêche de Nairn. Il ne lui reste plus qu’à s’y rendre pour être confronté à son propre futur.</p><p style=\"text-align:justify\">Si les joueurs sont difficiles à décider, Synk ajoutera que Gwellarion leur sera certainement éternellement reconnaissant, ce qui devrait leur suffire à prendre leurs affaires. Direction l’Ecosse et le petit port de Nairn. Précisons que Synk met à leur disposition une série de billets d’avion allant de Cork à Inverness via Londres. Une voiture a été louée pour eux et les attend au parking de l’aéroport. Synk leur en remet les clefs. Il ne reste plus qu’à trouver ce dragon et accomplir leur destin. Cela passe obligatoirement par la mort de ce monstre dont les joueurs n’ont d’ailleurs aucune description de l’apparence humaine.</p>"
           },
           "video": {
             "controls": true,
@@ -28758,7 +28761,7 @@
             "systemVersion": "3.0.0",
             "coreVersion": "11.315",
             "createdTime": 1708272665475,
-            "modifiedTime": 1708274124948,
+            "modifiedTime": 1708468588631,
             "lastModifiedBy": "r9x0pKEz3JGSJSrG"
           }
         },
@@ -28774,7 +28777,8 @@
           "image": {},
           "text": {
             "format": 1,
-            "content": "<p style=\"text-align:justify\">Son port de pêche et ses chômeurs…</p><p style=\"text-align:justify\">Les joueurs trouveront sans aucun doute qu’Inverness est une ville paumée au milieu de nulle part. C’est dire s’ils trouveront que Nairn est l’endroit le plus pitoyable de la Terre. Les décors sont très beaux, mais l’ambiance de la ville est plutôt sinistre. La campagne de pêche bat son plein et les quelques hommes qui travaillent sont absents. Restent tous ceux qui sont au chômage et qui rôdent de pub en pub pour passer le temps en attendant un hypothétique travail. Il n’est d’ailleurs pas étonnant que la société qui embauche l’être magique convoqué en début de scénario recherche ici de la main-d’oeuvre bon marché.</p><p style=\"text-align:justify\">Mais pour l’affaire qui nous intéresse, l’attitude légèrement xénophobe des habitants va rendre leur enquête difficile. Ils seront par contre aidés par les rêves prémonitoires qui iront en s’accentuant tout au cours du scénario. Le \"rêveur\" en question sera, bien entendu, l’être magique choisi par Synk (ou plutôt, dirons-nous, \"choisi\" par le destin).</p><p style=\"text-align:justify\">Les endroits où les joueurs pourront trouver les indices leur permettant de continuer sont décrits ci-après. Pour tout ce qui concerne la ville elle-même, prenez soin de décrire une ville d’environ 10.000 habitants, à mi-chemin entre une ville industrialisée du nord de l’Angleterre et un port de pêche breton (faute de mieux). Résumons donc les emplacements où il va se passer quelque chose :</p><ul><li><p style=\"text-align:justify\"><strong>Les @UUID[.0hTuPuWNPPqHia9o]{marais}</strong> : Ils pourront trouver la tanière du dragon, où il a passé les quelques dernières centaines d’années.</p></li><li><p style=\"text-align:justify\"><strong>Le @UUID[.7ZPABnQm5LcqJwH1]{château}</strong> : Ils pourront y trouver le pommeau de l’épée et le descendant du tueur de dragon.</p></li><li><p style=\"text-align:justify\"><strong>La @UUID[.0PRJavMkIcxzDaVO]{boîte de nuit \"The Pit\"}</strong> : Ils pourront y trouver Mike Shrimp qui les mènera à son tour à Fernak.</p></li><li><p style=\"text-align:justify\"><strong>L’@UUID[.XMKSuRccHbu0he37]{usine de caoutchouc}</strong> : Ils pourront y trouver Fernak.</p></li></ul>"
+            "content": "<p style=\"text-align:justify\">Son port de pêche et ses chômeurs…</p><p style=\"text-align:justify\">Les joueurs trouveront sans aucun doute qu’Inverness est une ville paumée au milieu de nulle part. C’est dire s’ils trouveront que @UUID[Scene.EtKoJRfO6Du427qd]{Nairn} est l’endroit le plus pitoyable de la Terre. Les décors sont très beaux, mais l’ambiance de la ville est plutôt sinistre. La campagne de pêche bat son plein et les quelques hommes qui travaillent sont absents. Restent tous ceux qui sont au chômage et qui rôdent de pub en pub pour passer le temps en attendant un hypothétique travail. </p><p style=\"text-align:justify\">Il n’est d’ailleurs pas étonnant que la société qui embauche l’être magique convoqué en début de scénario recherche ici de la main-d’oeuvre bon marché.</p><p style=\"text-align:justify\">Mais pour l’affaire qui nous intéresse, l’<strong>attitude légèrement xénophobe des habitants</strong> va rendre leur enquête difficile. Ils seront par contre aidés par les @UUID[.H4bMsJ9f6vq8qLCK]{rêves prémonitoires} qui iront en s’accentuant tout au cours du scénario. Le \"rêveur\" en question sera, bien entendu, l’être magique choisi par Synk (ou plutôt, dirons-nous, \"choisi\" par le destin).</p><p style=\"text-align:justify\">Les endroits où les joueurs pourront trouver les indices leur permettant de continuer sont décrits ci-après. Pour tout ce qui concerne <strong>la ville elle-même</strong>, prenez soin de décrire une ville d’environ 10.000 habitants, à mi-chemin entre une ville industrialisée du nord de l’Angleterre et un port de pêche breton (faute de mieux). </p><p style=\"text-align:justify\">Résumons donc les emplacements où il va se passer quelque chose :</p><ul><li><p style=\"text-align:justify\"><strong>Les @UUID[.0hTuPuWNPPqHia9o]{marais}</strong> : Ils pourront trouver la tanière du dragon, où il a passé les quelques dernières centaines d’années.</p></li><li><p style=\"text-align:justify\"><strong>Le @UUID[.7ZPABnQm5LcqJwH1]{château}</strong> : Ils pourront y trouver le pommeau de l’épée et le descendant du tueur de dragon.</p></li><li><p style=\"text-align:justify\"><strong>La @UUID[.0PRJavMkIcxzDaVO]{boîte de nuit \"The Pit\"}</strong> : Ils pourront y trouver Mike Shrimp qui les mènera à son tour à Fernak.</p></li><li><p style=\"text-align:justify\"><strong>L’@UUID[.XMKSuRccHbu0he37]{usine de caoutchouc}</strong> : Ils pourront y trouver Fernak.</p></li></ul>",
+            "markdown": ""
           },
           "video": {
             "controls": true,
@@ -28792,7 +28796,7 @@
             "systemVersion": "3.0.0",
             "coreVersion": "11.315",
             "createdTime": 1708274145447,
-            "modifiedTime": 1708277258920,
+            "modifiedTime": 1708469009430,
             "lastModifiedBy": "r9x0pKEz3JGSJSrG"
           }
         },
@@ -28808,7 +28812,7 @@
           "image": {},
           "text": {
             "format": 1,
-            "content": "<p style=\"text-align:justify\">Les joueurs devraient se rendre assez rapidement dans les marais qui couvrent tout le nord de la ville. Les rêves de l’être magique et les quelques rapports de police qui indiquent que deux chasseurs ont été portés disparus devraient leur suffire pour qu’ils déclenchent une petit battue-promenade afin de savoir s’ils ne pourraient pas y trouver un indice.</p><p style=\"text-align:justify\">Le marais est relativement étendu, mais le manque d’arbres et de reliefs devrait permettre aux joueurs de trouver la nappe de boue qui abritait le grand dragon il y a quelques semaines encore.</p><p style=\"text-align:justify\">L’endroit semble avoir été passé au bulldozer, mais il n’y a bien entendu aucune trace de chenilles. L’endroit ne recèle aucun indice un tant soit peu utilisable, même s’il permet aux joueurs de savoir qu’ils sont bien sur la bonne piste et que le dragon, même s’il n’est plus ici, l’a été. Rester en planque ne donnera rien, le dragon ne revenant pas à cet endroit durant toute la durée du scénario.</p>",
+            "content": "<p style=\"text-align:justify\">Les joueurs devraient se rendre assez rapidement dans @UUID[Scene.Eeri1KPUtglJh0Nh]{les marais} qui couvrent tout le nord de la ville. </p><p style=\"text-align:justify\">Les rêves de l’être magique et les quelques rapports de police qui indiquent que deux chasseurs ont été portés disparus devraient leur suffire pour qu’ils déclenchent une petit battue-promenade afin de savoir s’ils ne pourraient pas y trouver un indice.</p><p style=\"text-align:justify\">Le marais est relativement étendu, mais le manque d’arbres et de reliefs devrait permettre aux joueurs de trouver la nappe de boue qui abritait le grand dragon il y a quelques semaines encore.</p><p style=\"text-align:justify\">L’endroit semble avoir été passé au bulldozer, mais il n’y a bien entendu aucune trace de chenilles. L’endroit ne recèle aucun indice un tant soit peu utilisable, même s’il permet aux joueurs de savoir qu’ils sont bien sur la bonne piste et que le dragon, même s’il n’est plus ici, l’a été. Rester en planque ne donnera rien, le dragon ne revenant pas à cet endroit durant toute la durée du scénario.</p>",
             "markdown": ""
           },
           "video": {
@@ -28827,7 +28831,7 @@
             "systemVersion": "3.0.0",
             "coreVersion": "11.315",
             "createdTime": 1708274364889,
-            "modifiedTime": 1708274889016,
+            "modifiedTime": 1708469435396,
             "lastModifiedBy": "r9x0pKEz3JGSJSrG"
           }
         },
@@ -28843,7 +28847,7 @@
           "image": {},
           "text": {
             "format": 1,
-            "content": "<p style=\"text-align:justify\">C’est là que les joueurs pourront trouver tous les indices qui leur permettront de savoir ce qu’ils doivent faire dans cette bonne vieille ville. Le château lui-même est assez récent et date du XV<sup>e</sup> siècle environ. On peut y trouver un musée contenant quelques objets intéressants ainsi que le descendant du seigneur local qui semble être plus branché par la mode techno du moment que par les richesses contenues dans son musée.</p><p style=\"text-align:justify\">Le premier objet digne d’intérêt est le pommeau de l’épée qui a tué (!) Fernak, un dragon qui rôdait dans les marais au nord de la ville au tout début du XVe siècle. Le texte précise que la lame n’a jamais été retrouvée puisqu’elle est restée plantée dans le corps du dragon au moment où il a sombré au beau milieu du marais. L’être magique du groupe sera irrésistiblement attiré par le pommeau et ceci même s’il est dans une autre partie du musée.</p><p style=\"text-align:justify\">Le deuxième objet n’est autre qu’un grand livre qui contient toutes les légendes ayant trait à la ville. On y trouve l’histoire de Clint Asburry qui devint seigneur de Nairn après avoir tué le monstre des marais. Le dernier Asburry est encore vivant et loge en ce moment même dans le château. Le livre dit aussi que Fernak a la particularité de pouvoir revivre après sa mort et qu’une prophétie indique que les descendants des guerriers qui ont oeuvré pour sa destruction devront à nouveau forger une arme et combattre le monstre.</p><p style=\"text-align:justify\">Arnold Asburry est le dernier morceau du puzzle dont les joueurs ont besoin pour permettre au destin de se réaliser. En fait, c’est ce noble dégénéré et lâche qui devra porter le coup qui tuera, une fois pour toutes, Fernak. Mais nous discuterons de ce curieux personnage plus en détail dans un prochain chapitre.</p>"
+            "content": "<p style=\"text-align:justify\">C’est là que les joueurs pourront trouver tous les indices qui leur permettront de savoir ce qu’ils doivent faire dans cette bonne vieille ville.</p><p style=\"text-align:justify\">Le @UUID[Scene.cQbSvWFfLO6kzLmW]{château} lui-même est assez récent et date du XV<sup>e</sup> siècle environ. On peut y trouver un musée contenant quelques objets intéressants ainsi que le descendant du seigneur local qui semble être plus branché par la mode techno du moment que par les richesses contenues dans son musée.</p><p style=\"text-align:justify\">Le premier objet digne d’intérêt est le <strong>pommeau</strong> de l’épée qui a tué (!) Fernak, un dragon qui rôdait dans les marais au nord de la ville au tout début du XVe siècle. Le texte précise que la lame n’a jamais été retrouvée puisqu’elle est restée plantée dans le corps du dragon au moment où il a sombré au beau milieu du marais. L’être magique du groupe sera irrésistiblement attiré par le pommeau et ceci même s’il est dans une autre partie du musée.</p><p style=\"text-align:justify\">Le deuxième objet n’est autre qu’un <strong>grand livre</strong> qui contient toutes les légendes ayant trait à la ville. On y trouve l’histoire de Clint Asburry qui devint seigneur de Nairn après avoir tué le monstre des marais. Le dernier Asburry est encore vivant et loge en ce moment même dans le château. Le livre dit aussi que Fernak a la particularité de pouvoir revivre après sa mort et qu’une prophétie indique que les descendants des guerriers qui ont oeuvré pour sa destruction devront à nouveau forger une arme et combattre le monstre.</p><p style=\"text-align:justify\">@UUID[JournalEntry.lLcDLUqk0hOKfFUF]{Arnold Asburry} est le dernier morceau du puzzle dont les joueurs ont besoin pour permettre au destin de se réaliser. En fait, c’est ce noble dégénéré et lâche qui devra porter le coup qui tuera, une fois pour toutes, Fernak. Mais nous discuterons de ce curieux personnage plus en détail dans un prochain chapitre.</p>"
           },
           "video": {
             "controls": true,
@@ -28861,7 +28865,7 @@
             "systemVersion": "3.0.0",
             "coreVersion": "11.315",
             "createdTime": 1708274882316,
-            "modifiedTime": 1708275277922,
+            "modifiedTime": 1708471016985,
             "lastModifiedBy": "r9x0pKEz3JGSJSrG"
           }
         },
@@ -28877,7 +28881,7 @@
           "image": {},
           "text": {
             "format": 1,
-            "content": "<p style=\"text-align:justify\">Etant le seul endroit où l’on s’amuse à Nairn, il y a de grandes chances que les joueurs finissent par y aboutir. L’endroit se compose de deux parties distinctes. La boîte de nuit proprement dite, qui passe tous les soirs de la techno même pas à la mode, et la salle de concert au sous-sol, qui accueille nombre de groupes hard-core, hard-rock et punk-rock. La boîte n’a aucun intérêt pour le scénario à ceci près que c’est certainement le seul endroit où l’on peut être sûr de rencontrer Arnold une fois la nuit venue. La salle de concert semble n’avoir aucun intérêt… A moins qu’un des joueurs ne remarque que le groupe prévu pour le lendemain porte un nom bien étrange : Fernak. En voyant ceci, le sang de l’être magique du groupe ne fera qu’un tour.</p><p style=\"text-align:justify\">Il se souvient maintenant : c’est le nom du dragon qui terrorisait la région au XVe siècle. Ce nom est bien sûr un indice important en ce qui concerne le lien entre ce groupe minable et le monstre qui nous importe, mais d’une façon quelque peu tordue. En effet, c’est Mike qui a pris ce nom en partant d’une vieille légende de sa ville et c’est Fernak qui, cherchant des serviteurs humains dans la ville, a décidé de commander à ceux qui avaient bien imprudemment pris son nom pour ce groupe minable. De plus, Mike avait fait l’erreur de lancer un sort non masqué alors que Fernak se trouvait non loin de lui.</p><p style=\"text-align:justify\">De toute façon, cette histoire ne nous intéresse que très peu puisque le simple fait d’interroger de façon musclée ou de suivre tout simplement Mike devrait suffire à lui faire avouer qu’il connaît une fille qui se fait appeler Fernak. Il refusera de dire qu’elle est un dragon, espérant qu’elle les tue sans qu’ils puissent avoir le temps de prouver quoi que ce soit aux autorités locales ou nationales.</p><p style=\"text-align:justify\">Si les joueurs ont un doute quant à l’identité de Mike, le maître de jeu pourra leur balancer un ultime indice sous la forme d’un sort lancé inconsidérément par le dragon durant un concert ou pendant une répétition.</p>"
+            "content": "<p style=\"text-align:justify\">Etant le seul endroit où l’on s’amuse à Nairn, il y a de grandes chances que les joueurs finissent par y aboutir. @UUID[Scene.wcqgWIJaIsCGkdTB]{L’endroit} se compose de deux parties distinctes. La boîte de nuit proprement dite, qui passe tous les soirs de la techno même pas à la mode, et la salle de concert au sous-sol, qui accueille nombre de groupes hard-core, hard-rock et punk-rock. La boîte n’a aucun intérêt pour le scénario à ceci près que c’est certainement le seul endroit où l’on peut être sûr de rencontrer Arnold une fois la nuit venue. </p><p style=\"text-align:justify\">La salle de concert semble n’avoir aucun intérêt… à moins qu’un des joueurs ne remarque que le groupe prévu pour le lendemain porte un nom bien étrange : Fernak. En voyant ceci, le sang de l’être magique du groupe ne fera qu’un tour.</p><p style=\"text-align:justify\"><strong>Il se souvient maintenant</strong> : c’est le nom du dragon qui terrorisait la région au XVe siècle. Ce nom est bien sûr un indice important en ce qui concerne le lien entre ce groupe minable et le monstre qui nous importe, mais d’une façon quelque peu tordue. En effet, c’est Mike qui a pris ce nom en partant d’une vieille légende de sa ville et c’est Fernak qui, cherchant des serviteurs humains dans la ville, a décidé de commander à ceux qui avaient bien imprudemment pris son nom pour ce groupe minable. De plus, Mike avait fait l’erreur de lancer un sort non masqué alors que Fernak se trouvait non loin de lui.</p><p style=\"text-align:justify\">De toute façon, cette histoire ne nous intéresse que très peu puisque le simple fait d’interroger de façon musclée ou de suivre tout simplement Mike devrait suffire à lui faire avouer qu’il connaît une fille qui se fait appeler Fernak. Il refusera de dire qu’elle est un dragon, espérant qu’elle les tue sans qu’ils puissent avoir le temps de prouver quoi que ce soit aux autorités locales ou nationales.</p><p style=\"text-align:justify\">Si les joueurs ont un doute quant à l’identité de Mike, le maître de jeu pourra leur balancer un ultime indice sous la forme d’un sort lancé inconsidérément par le dragon durant un concert ou pendant une répétition.</p>"
           },
           "video": {
             "controls": true,
@@ -28895,7 +28899,7 @@
             "systemVersion": "3.0.0",
             "coreVersion": "11.315",
             "createdTime": 1708275288088,
-            "modifiedTime": 1708276901885,
+            "modifiedTime": 1708518649317,
             "lastModifiedBy": "r9x0pKEz3JGSJSrG"
           }
         },
@@ -28911,7 +28915,7 @@
           "image": {},
           "text": {
             "format": 1,
-            "content": "<p style=\"text-align:justify\">Le repaire de Fernak peut être trouvé de deux façons différentes. La première est vraiment téléphonée et ne devrait servir qu’aux joueurs à l’esprit particulièrement torturé : si l’être magique du groupe téléphone à son entreprise pour demander l’endroit où va être construite l’usine dont il doit s’occuper, sa secrétaire particulière lui donnera l’adresse de l’usine de caoutchouc.</p><p style=\"text-align:justify\">L’autre moyen est de faire parler, de torturer ou de suivre Mike, le leader du groupe Fernak. En effet, l’usine désaffectée est aussi bien la tanière du dragon que l’endroit où le groupe vit et répète.</p><p style=\"text-align:justify\">Lorsque vous la décrirez, n’oubliez pas de mêler la technologie de l’endroit avec des périphrases rappelant les histoires d’heroic-fantasy.</p><p style=\"text-align:justify\">L’usine est en effet comme un immense château en ruine où le dragon règne en maître. Ses serviteurs lâches et cruels sont les membres du groupe.</p><p style=\"text-align:justify\">Le tout devrait donner un cadre idéal pour un final majestueux... Si tous les acteurs de ce final sont bien au rendez-vous.</p>"
+            "content": "<p style=\"text-align:justify\">Le @UUID[Scene.BZSWTi4WtAJeimyZ]{repaire} de Fernak peut être trouvé de deux façons différentes. </p><p style=\"text-align:justify\">La première est vraiment téléphonée et ne devrait servir qu’aux joueurs à l’esprit particulièrement torturé : si l’être magique du groupe téléphone à son entreprise pour demander l’endroit où va être construite l’usine dont il doit s’occuper, sa secrétaire particulière lui donnera l’adresse de l’usine de caoutchouc.</p><p style=\"text-align:justify\">L’autre moyen est de faire parler, de torturer ou de suivre Mike, le leader du groupe Fernak. En effet, l’usine désaffectée est aussi bien la tanière du dragon que l’endroit où le groupe vit et répète.</p><p style=\"text-align:justify\">Lorsque vous la décrirez, n’oubliez pas de mêler la technologie de l’endroit avec des périphrases rappelant les histoires d’heroic-fantasy.</p><p style=\"text-align:justify\">L’usine est en effet comme un immense château en ruine où le dragon règne en maître. Ses serviteurs lâches et cruels sont les membres du groupe.</p><p style=\"text-align:justify\">Le tout devrait donner un cadre idéal pour un @UUID[.af6G821qT7RvolVI]{final majestueux}… Si tous les acteurs de ce final sont bien au rendez-vous.</p>"
           },
           "video": {
             "controls": true,
@@ -28929,7 +28933,7 @@
             "systemVersion": "3.0.0",
             "coreVersion": "11.315",
             "createdTime": 1708276919650,
-            "modifiedTime": 1708277206786,
+            "modifiedTime": 1708530967664,
             "lastModifiedBy": "r9x0pKEz3JGSJSrG"
           }
         },
@@ -28957,7 +28961,11 @@
             "default": -1,
             "r9x0pKEz3JGSJSrG": 3
           },
-          "flags": {},
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.OBWeTucBPRbDL80g.JournalEntryPage.af6G821qT7RvolVI"
+            }
+          },
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
@@ -29047,7 +29055,7 @@
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1708268369379,
-        "modifiedTime": 1708281768734,
+        "modifiedTime": 1708518649317,
         "lastModifiedBy": "r9x0pKEz3JGSJSrG"
       }
     },
@@ -29339,7 +29347,7 @@
       "navOrder": 0,
       "navName": "",
       "background": {
-        "src": "modules/csb-scales/scenarios/A1-CLAYMORE/assets/scenes/Nairn.jpg",
+        "src": "modules/csb-scales/scenarios/A1-CLAYMORE/assets/scenes/nairn_day.jpg",
         "scaleX": 1,
         "scaleY": 1,
         "offsetX": 0,
@@ -29372,6 +29380,1766 @@
       "darkness": 0,
       "drawings": [],
       "tokens": [],
+      "lights": [
+        {
+          "_id": "kRqODIaUwu2o7Ees",
+          "x": 774,
+          "y": 697,
+          "rotation": 0,
+          "walls": true,
+          "vision": false,
+          "config": {
+            "alpha": 0.5,
+            "angle": 360,
+            "bright": 0.2,
+            "coloration": 1,
+            "dim": 0.4,
+            "attenuation": 0.5,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": "flame",
+              "speed": 4,
+              "intensity": 5,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            },
+            "color": "#ffffff"
+          },
+          "hidden": false,
+          "flags": {}
+        },
+        {
+          "x": 1058,
+          "y": 941,
+          "rotation": 0,
+          "walls": true,
+          "vision": false,
+          "config": {
+            "alpha": 0.5,
+            "angle": 360,
+            "bright": 0.2,
+            "coloration": 1,
+            "dim": 0.4,
+            "attenuation": 0.5,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": "flame",
+              "speed": 5,
+              "intensity": 5,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            },
+            "color": "#f8ff94"
+          },
+          "hidden": false,
+          "flags": {},
+          "_id": "QW41N4Suv0gBLrad"
+        },
+        {
+          "_id": "qj2DttTzWstHGa5Z",
+          "x": 371,
+          "y": 987,
+          "rotation": 0,
+          "walls": true,
+          "vision": false,
+          "config": {
+            "alpha": 0.5,
+            "angle": 360,
+            "bright": 6.71,
+            "coloration": 1,
+            "dim": 13.41,
+            "attenuation": 0.5,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": "dome",
+              "speed": 1,
+              "intensity": 2,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            },
+            "color": "#6c6b5c"
+          },
+          "hidden": false,
+          "flags": {}
+        },
+        {
+          "x": 512,
+          "y": 1317,
+          "rotation": 0,
+          "walls": true,
+          "vision": false,
+          "config": {
+            "alpha": 0.5,
+            "angle": 360,
+            "bright": 6.71,
+            "coloration": 1,
+            "dim": 13.41,
+            "attenuation": 0.5,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": "dome",
+              "speed": 1,
+              "intensity": 2,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            },
+            "color": "#6c6b5c"
+          },
+          "hidden": false,
+          "flags": {},
+          "_id": "UJjml5yFGTAAuJi9"
+        }
+      ],
+      "notes": [],
+      "sounds": [],
+      "templates": [],
+      "tiles": [],
+      "walls": [
+        {
+          "light": 20,
+          "sight": 0,
+          "sound": 0,
+          "move": 0,
+          "c": [
+            300,
+            850,
+            475,
+            850
+          ],
+          "_id": "VRfoT7W9c3lxTOSD",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 0,
+          "sound": 0,
+          "move": 0,
+          "c": [
+            475,
+            850,
+            587,
+            887
+          ],
+          "_id": "sVGRZauoPLvFOU1J",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 0,
+          "sound": 0,
+          "move": 0,
+          "c": [
+            587,
+            887,
+            425,
+            900
+          ],
+          "_id": "ifZH07FbsACKBGZO",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 0,
+          "sound": 0,
+          "move": 0,
+          "c": [
+            425,
+            900,
+            425,
+            937
+          ],
+          "_id": "BNKIHXHuy8nM1XWz",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 0,
+          "sound": 0,
+          "move": 0,
+          "c": [
+            425,
+            937,
+            437,
+            950
+          ],
+          "_id": "79FoeB30JpUF4CPF",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 0,
+          "sound": 0,
+          "move": 0,
+          "c": [
+            437,
+            950,
+            750,
+            937
+          ],
+          "_id": "pd5lxkEWAlZqMX7w",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 0,
+          "sound": 0,
+          "move": 0,
+          "c": [
+            750,
+            937,
+            775,
+            962
+          ],
+          "_id": "q0GJfwDOwgqy398j",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 0,
+          "sound": 0,
+          "move": 0,
+          "c": [
+            775,
+            962,
+            762,
+            1000
+          ],
+          "_id": "f5HZ3iZpRi4WDpEi",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 0,
+          "sound": 0,
+          "move": 0,
+          "c": [
+            762,
+            1000,
+            750,
+            1012
+          ],
+          "_id": "IiG9TuQHf0YLdciM",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 0,
+          "sound": 0,
+          "move": 0,
+          "c": [
+            750,
+            1012,
+            775,
+            1012
+          ],
+          "_id": "3NS3nmefG5ZobOcp",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 0,
+          "sound": 0,
+          "move": 0,
+          "c": [
+            775,
+            1012,
+            775,
+            1025
+          ],
+          "_id": "HF77DDxBM8q12iiO",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 0,
+          "sound": 0,
+          "move": 0,
+          "c": [
+            775,
+            1025,
+            800,
+            1037
+          ],
+          "_id": "rvZpAix1612ZUKKN",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 0,
+          "sound": 0,
+          "move": 0,
+          "c": [
+            800,
+            1037,
+            950,
+            1075
+          ],
+          "_id": "WemgphpqsjgFSnDS",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 0,
+          "sound": 0,
+          "move": 0,
+          "c": [
+            950,
+            1075,
+            950,
+            1087
+          ],
+          "_id": "RQ5V2pWdxKq0tcrK",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 0,
+          "sound": 0,
+          "move": 0,
+          "c": [
+            950,
+            1087,
+            975,
+            1087
+          ],
+          "_id": "sHyAGQCAn2rSIbom",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 0,
+          "sound": 0,
+          "move": 0,
+          "c": [
+            975,
+            1087,
+            1000,
+            1112
+          ],
+          "_id": "zGXdYvx5jjECU0Z0",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 0,
+          "sound": 0,
+          "move": 0,
+          "c": [
+            1000,
+            1112,
+            975,
+            1125
+          ],
+          "_id": "PZRpINGNnuHYOe8T",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 0,
+          "sound": 0,
+          "move": 0,
+          "c": [
+            975,
+            1125,
+            975,
+            1137
+          ],
+          "_id": "be1i9X4GncDSUDHR",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 0,
+          "sound": 0,
+          "move": 0,
+          "c": [
+            975,
+            1137,
+            962,
+            1162
+          ],
+          "_id": "8gY6lRtLMmDzS0hQ",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 0,
+          "sound": 0,
+          "move": 0,
+          "c": [
+            962,
+            1162,
+            787,
+            1137
+          ],
+          "_id": "KD1NiVLidvGRSYDk",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 0,
+          "sound": 0,
+          "move": 0,
+          "c": [
+            787,
+            1137,
+            662,
+            1087
+          ],
+          "_id": "SHdB8oh0XeDLnFiz",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 0,
+          "sound": 0,
+          "move": 0,
+          "c": [
+            662,
+            1087,
+            612,
+            1112
+          ],
+          "_id": "oc85ATSwBhFvyMNd",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 0,
+          "sound": 0,
+          "move": 0,
+          "c": [
+            612,
+            1112,
+            600,
+            1137
+          ],
+          "_id": "96as2HPz7GETjOAE",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 0,
+          "sound": 0,
+          "move": 0,
+          "c": [
+            600,
+            1137,
+            587,
+            1150
+          ],
+          "_id": "H3wzexpXgTN12m5k",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 0,
+          "sound": 0,
+          "move": 0,
+          "c": [
+            587,
+            1150,
+            600,
+            1162
+          ],
+          "_id": "hVymx5o3yOLcejmG",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 0,
+          "sound": 0,
+          "move": 0,
+          "c": [
+            600,
+            1162,
+            362,
+            1200
+          ],
+          "_id": "5oSbN06WiPtENiVl",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 0,
+          "sound": 0,
+          "move": 0,
+          "c": [
+            362,
+            1200,
+            387,
+            1262
+          ],
+          "_id": "CyI8aiezrMDmZ7R7",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 0,
+          "sound": 0,
+          "move": 0,
+          "c": [
+            387,
+            1262,
+            425,
+            1275
+          ],
+          "_id": "F97TeNpx4hibZ6tp",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 0,
+          "sound": 0,
+          "move": 0,
+          "c": [
+            425,
+            1275,
+            587,
+            1262
+          ],
+          "_id": "GBvKVfjGyY7ei4JJ",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 0,
+          "sound": 0,
+          "move": 0,
+          "c": [
+            587,
+            1262,
+            725,
+            1212
+          ],
+          "_id": "6EATTcF6nEdD1owz",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 0,
+          "sound": 0,
+          "move": 0,
+          "c": [
+            725,
+            1212,
+            737,
+            1187
+          ],
+          "_id": "bsBUESk96TfoxBCB",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 0,
+          "sound": 0,
+          "move": 0,
+          "c": [
+            737,
+            1187,
+            912,
+            1200
+          ],
+          "_id": "PCaq6oxFCLj2Emb4",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 0,
+          "sound": 0,
+          "move": 0,
+          "c": [
+            912,
+            1200,
+            887,
+            1225
+          ],
+          "_id": "WuyL0BhdJ7BB9iY9",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 0,
+          "sound": 0,
+          "move": 0,
+          "c": [
+            887,
+            1225,
+            837,
+            1262
+          ],
+          "_id": "dPtHxBAW9FU0h30l",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 0,
+          "sound": 0,
+          "move": 0,
+          "c": [
+            837,
+            1262,
+            700,
+            1325
+          ],
+          "_id": "4K5yzK4V5SBMGYfW",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 0,
+          "sound": 0,
+          "move": 0,
+          "c": [
+            700,
+            1325,
+            300,
+            1325
+          ],
+          "_id": "7mvTc6Wa9tI4FKkq",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 0,
+          "sound": 0,
+          "move": 0,
+          "c": [
+            300,
+            1325,
+            300,
+            850
+          ],
+          "_id": "JozQmbSioAgtBmcY",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 20,
+          "sound": 20,
+          "move": 20,
+          "c": [
+            637,
+            475,
+            650,
+            512
+          ],
+          "_id": "edIvsgVxLuzIpiKh",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 20,
+          "sound": 20,
+          "move": 20,
+          "c": [
+            637,
+            475,
+            687,
+            425
+          ],
+          "_id": "qiQMhF97Q128TcGK",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 20,
+          "sound": 20,
+          "move": 20,
+          "c": [
+            687,
+            425,
+            712,
+            400
+          ],
+          "_id": "fSeC7jhJ0qd28qO7",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 20,
+          "sound": 20,
+          "move": 20,
+          "c": [
+            712,
+            400,
+            712,
+            312
+          ],
+          "_id": "oGnjPkkSJNUKM670",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 20,
+          "sound": 20,
+          "move": 20,
+          "c": [
+            650,
+            512,
+            687,
+            512
+          ],
+          "_id": "D9Ad2aYSjMygWFRZ",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 20,
+          "sound": 20,
+          "move": 20,
+          "c": [
+            687,
+            512,
+            712,
+            487
+          ],
+          "_id": "arVYz6arFijgZrXu",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 20,
+          "sound": 20,
+          "move": 20,
+          "c": [
+            712,
+            487,
+            775,
+            437
+          ],
+          "_id": "YOLHq06irTesn8Iu",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 20,
+          "sound": 20,
+          "move": 20,
+          "c": [
+            775,
+            437,
+            825,
+            400
+          ],
+          "_id": "uYZIgdJe2zpMzYxb",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 20,
+          "sound": 20,
+          "move": 20,
+          "c": [
+            825,
+            400,
+            837,
+            400
+          ],
+          "_id": "kXF2pPeskKKtkepL",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        }
+      ],
+      "playlist": null,
+      "playlistSound": null,
+      "journal": null,
+      "journalEntryPage": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "r9x0pKEz3JGSJSrG": 3
+      },
+      "flags": {
+        "fxmaster": {
+          "effects": {
+            "core_fog": {
+              "type": "fog",
+              "options": {
+                "scale": 0.6,
+                "speed": 1.3,
+                "lifetime": 1,
+                "density": 0.07,
+                "alpha": 1,
+                "tint": {
+                  "apply": true,
+                  "value": "#37483a"
+                }
+              }
+            }
+          },
+          "filters": {},
+          "invert": false
+        }
+      },
+      "_stats": {
+        "systemId": "custom-system-builder",
+        "systemVersion": "3.0.0",
+        "coreVersion": "11.315",
+        "createdTime": 1708382142395,
+        "modifiedTime": 1708530005633,
+        "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+      },
+      "foreground": "modules/csb-scales/scenarios/A1-CLAYMORE/assets/scenes/nairn_dark.jpg",
+      "thumb": "worlds/csb-scales/assets/scenes/EtKoJRfO6Du427qd-thumb.webp",
+      "fogOverlay": null,
+      "fogExploredColor": null,
+      "fogUnexploredColor": null,
+      "weather": ""
+    },
+    {
+      "folder": "gn08cY6n1DNTCfHi",
+      "name": "L'antre",
+      "_id": "bkE69TC74eJDTmea",
+      "active": false,
+      "navigation": true,
+      "navOrder": 0,
+      "navName": "",
+      "background": {
+        "src": "modules/csb-scales/scenarios/A1-CLAYMORE/assets/scenes/falaise-iralandaise.jpg",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0
+      },
+      "foregroundElevation": 8,
+      "width": 1024,
+      "height": 1024,
+      "padding": 0.25,
+      "initial": {
+        "x": 873,
+        "y": 823,
+        "scale": 1.0300953089288383
+      },
+      "backgroundColor": "#000000",
+      "grid": {
+        "type": 0,
+        "size": 100,
+        "color": "#000000",
+        "alpha": 0.2,
+        "distance": 2,
+        "units": "m"
+      },
+      "tokenVision": false,
+      "fogExploration": false,
+      "fogReset": 1708462386075,
+      "globalLight": false,
+      "globalLightThreshold": null,
+      "darkness": 0,
+      "drawings": [],
+      "tokens": [],
+      "lights": [],
+      "notes": [],
+      "sounds": [],
+      "templates": [],
+      "tiles": [],
+      "walls": [],
+      "playlist": null,
+      "playlistSound": null,
+      "journal": null,
+      "journalEntryPage": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "r9x0pKEz3JGSJSrG": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "custom-system-builder",
+        "systemVersion": "3.0.0",
+        "coreVersion": "11.315",
+        "createdTime": 1708462386081,
+        "modifiedTime": 1708462474130,
+        "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+      },
+      "foreground": null,
+      "thumb": "worlds/csb-scales/assets/scenes/bkE69TC74eJDTmea-thumb.webp",
+      "fogOverlay": null,
+      "fogExploredColor": null,
+      "fogUnexploredColor": null,
+      "weather": ""
+    },
+    {
+      "folder": "gn08cY6n1DNTCfHi",
+      "name": "L'usine désaffectée",
+      "_id": "BZSWTi4WtAJeimyZ",
+      "active": true,
+      "navigation": true,
+      "navOrder": 0,
+      "navName": "",
+      "background": {
+        "src": "modules/csb-scales/scenarios/A1-CLAYMORE/assets/scenes/usine.jpg",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0
+      },
+      "foregroundElevation": 8,
+      "width": 1024,
+      "height": 1024,
+      "padding": 0.25,
+      "initial": {
+        "x": 837,
+        "y": 868,
+        "scale": 1.3146916504036184
+      },
+      "backgroundColor": "#000000",
+      "grid": {
+        "type": 0,
+        "size": 100,
+        "color": "#000000",
+        "alpha": 0.2,
+        "distance": 2,
+        "units": "m"
+      },
+      "tokenVision": false,
+      "fogExploration": false,
+      "fogReset": 1708529566047,
+      "globalLight": false,
+      "globalLightThreshold": null,
+      "darkness": 0,
+      "drawings": [],
+      "tokens": [
+        {
+          "name": "Arnold Asburry",
+          "displayName": 40,
+          "actorLink": true,
+          "appendNumber": false,
+          "prependAdjective": false,
+          "texture": {
+            "src": "modules/csb-scales/scenarios/A1-CLAYMORE/assets/tokens/Arnold-Asburry.webp",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": null
+          },
+          "width": 1,
+          "height": 1,
+          "lockRotation": false,
+          "rotation": 0,
+          "alpha": 1,
+          "disposition": -1,
+          "displayBars": 0,
+          "bar1": {
+            "attribute": null
+          },
+          "bar2": {
+            "attribute": null
+          },
+          "light": {
+            "alpha": 0.5,
+            "angle": 360,
+            "bright": 0,
+            "coloration": 1,
+            "dim": 0,
+            "attenuation": 0.5,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": null,
+              "speed": 5,
+              "intensity": 5,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            },
+            "color": null
+          },
+          "sight": {
+            "enabled": true,
+            "range": 0,
+            "angle": 360,
+            "visionMode": "basic",
+            "color": null,
+            "attenuation": 0.1,
+            "brightness": 0,
+            "saturation": 0,
+            "contrast": 0
+          },
+          "detectionModes": [],
+          "flags": {},
+          "actorId": "jrUDD1Nv2neHNN8F",
+          "x": 1200,
+          "y": 500,
+          "hidden": false,
+          "_id": "tZtNQgnT7meLMQVm",
+          "delta": {
+            "_id": "nheMmWExHvYvr7fu",
+            "system": {},
+            "items": [],
+            "effects": [],
+            "flags": {},
+            "name": null,
+            "type": null,
+            "img": null,
+            "ownership": null
+          },
+          "elevation": 0,
+          "effects": []
+        }
+      ],
+      "lights": [
+        {
+          "_id": "DIWfxn26Vk7iWVOG",
+          "x": 465,
+          "y": 859,
+          "rotation": 0,
+          "walls": true,
+          "vision": false,
+          "config": {
+            "alpha": 0.3,
+            "angle": 360,
+            "bright": 16,
+            "coloration": 1,
+            "dim": 8,
+            "attenuation": 0.5,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": "ghost",
+              "speed": 1,
+              "intensity": 6,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            },
+            "color": "#30441d"
+          },
+          "hidden": false,
+          "flags": {}
+        }
+      ],
+      "notes": [],
+      "sounds": [],
+      "templates": [],
+      "tiles": [],
+      "walls": [],
+      "playlist": null,
+      "playlistSound": null,
+      "journal": null,
+      "journalEntryPage": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "r9x0pKEz3JGSJSrG": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Scene.BZSWTi4WtAJeimyZ"
+        }
+      },
+      "_stats": {
+        "systemId": "custom-system-builder",
+        "systemVersion": "3.0.0",
+        "coreVersion": "11.315",
+        "createdTime": 1708529566050,
+        "modifiedTime": 1708530763458,
+        "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+      },
+      "foreground": null,
+      "thumb": "worlds/csb-scales/assets/scenes/BZSWTi4WtAJeimyZ-thumb.webp",
+      "fogOverlay": null,
+      "fogExploredColor": null,
+      "fogUnexploredColor": null,
+      "weather": ""
+    },
+    {
+      "folder": "gn08cY6n1DNTCfHi",
+      "name": "Le château",
+      "_id": "cQbSvWFfLO6kzLmW",
+      "active": false,
+      "navigation": true,
+      "navOrder": 0,
+      "navName": "",
+      "background": {
+        "src": "modules/csb-scales/scenarios/A1-CLAYMORE/assets/scenes/chateau.jpg",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0
+      },
+      "foregroundElevation": 8,
+      "width": 600,
+      "height": 600,
+      "padding": 0.25,
+      "initial": {
+        "x": 507,
+        "y": 504,
+        "scale": 1.9220737369197398
+      },
+      "backgroundColor": "#000000",
+      "grid": {
+        "type": 0,
+        "size": 100,
+        "color": "#000000",
+        "alpha": 0.2,
+        "distance": 2,
+        "units": "m"
+      },
+      "tokenVision": false,
+      "fogExploration": false,
+      "fogReset": 1708470879467,
+      "globalLight": false,
+      "globalLightThreshold": null,
+      "darkness": 0,
+      "drawings": [],
+      "tokens": [],
+      "lights": [
+        {
+          "x": 493,
+          "y": 594,
+          "rotation": 0,
+          "walls": true,
+          "vision": false,
+          "config": {
+            "alpha": 0.5,
+            "angle": 360,
+            "bright": 0.2,
+            "coloration": 1,
+            "dim": 0.4,
+            "attenuation": 0.5,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": "flame",
+              "speed": 4,
+              "intensity": 5,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            },
+            "color": "#ffffff"
+          },
+          "hidden": false,
+          "flags": {},
+          "_id": "GAwyStwquhmGWIz4"
+        },
+        {
+          "x": 593,
+          "y": 435,
+          "rotation": 0,
+          "walls": true,
+          "vision": false,
+          "config": {
+            "alpha": 0.5,
+            "angle": 360,
+            "bright": 0.2,
+            "coloration": 1,
+            "dim": 0.4,
+            "attenuation": 0.5,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": "flame",
+              "speed": 4,
+              "intensity": 5,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            },
+            "color": "#ffffff"
+          },
+          "hidden": false,
+          "flags": {},
+          "_id": "xUpUpmAGSomeET8V"
+        },
+        {
+          "x": 590,
+          "y": 648,
+          "rotation": 0,
+          "walls": true,
+          "vision": false,
+          "config": {
+            "alpha": 0.5,
+            "angle": 360,
+            "bright": 0.2,
+            "coloration": 1,
+            "dim": 0.4,
+            "attenuation": 0.5,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": "flame",
+              "speed": 4,
+              "intensity": 5,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            },
+            "color": "#ffffff"
+          },
+          "hidden": false,
+          "flags": {},
+          "_id": "IEdwSGyWUXG0NDur"
+        },
+        {
+          "x": 346,
+          "y": 683,
+          "rotation": 0,
+          "walls": true,
+          "vision": false,
+          "config": {
+            "alpha": 0.5,
+            "angle": 360,
+            "bright": 0.2,
+            "coloration": 1,
+            "dim": 0.4,
+            "attenuation": 0.5,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": "flame",
+              "speed": 4,
+              "intensity": 5,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            },
+            "color": "#ffffff"
+          },
+          "hidden": false,
+          "flags": {},
+          "_id": "O6KIAZwXM7PLsyrI"
+        }
+      ],
+      "notes": [],
+      "sounds": [],
+      "templates": [],
+      "tiles": [],
+      "walls": [],
+      "playlist": null,
+      "playlistSound": null,
+      "journal": null,
+      "journalEntryPage": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "r9x0pKEz3JGSJSrG": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "custom-system-builder",
+        "systemVersion": "3.0.0",
+        "coreVersion": "11.315",
+        "createdTime": 1708470879469,
+        "modifiedTime": 1708530510067,
+        "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+      },
+      "foreground": null,
+      "thumb": "worlds/csb-scales/assets/scenes/cQbSvWFfLO6kzLmW-thumb.webp",
+      "fogOverlay": null,
+      "fogExploredColor": null,
+      "fogUnexploredColor": null,
+      "weather": ""
+    },
+    {
+      "folder": "gn08cY6n1DNTCfHi",
+      "name": "Les marais",
+      "_id": "Eeri1KPUtglJh0Nh",
+      "active": false,
+      "navigation": true,
+      "navOrder": 0,
+      "navName": "",
+      "background": {
+        "src": "modules/csb-scales/scenarios/A1-CLAYMORE/assets/scenes/marais.jpg",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0
+      },
+      "foregroundElevation": 8,
+      "width": 1024,
+      "height": 1024,
+      "padding": 0.25,
+      "initial": {
+        "x": 812,
+        "y": 812,
+        "scale": 1.0300953089288383
+      },
+      "backgroundColor": "#000000",
+      "grid": {
+        "type": 0,
+        "size": 100,
+        "color": "#000000",
+        "alpha": 0.2,
+        "distance": 2,
+        "units": "m"
+      },
+      "tokenVision": false,
+      "fogExploration": false,
+      "fogReset": 1708469394462,
+      "globalLight": false,
+      "globalLightThreshold": null,
+      "darkness": 0,
+      "drawings": [],
+      "tokens": [],
       "lights": [],
       "notes": [],
       "sounds": [],
@@ -29389,58 +31157,351 @@
       },
       "flags": {
         "fxmaster": {
-          "effects": {
-            "core_fog": {
-              "type": "fog",
-              "options": {
-                "scale": 0.9,
-                "speed": 1,
-                "lifetime": 1,
-                "density": 0.07,
-                "alpha": 1,
-                "tint": {
-                  "apply": true,
-                  "value": "#5d5651"
-                }
-              }
-            },
-            "core_rain": {
-              "type": "rain",
-              "options": {
-                "scale": 0.5,
-                "direction": 75,
-                "speed": 0.6,
-                "lifetime": 1,
-                "density": 0.7,
-                "alpha": 1,
-                "tint": {
-                  "apply": false,
-                  "value": "#ffffff"
-                }
-              }
-            }
-          },
-          "filters": {
-            "core_oldfilm": {
-              "type": "oldfilm",
-              "options": {
-                "sepia": 0.1,
-                "noise": 0.1
-              }
-            }
-          }
+          "effects": {}
         }
       },
       "_stats": {
         "systemId": "custom-system-builder",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
-        "createdTime": 1708382142395,
-        "modifiedTime": 1708383610596,
+        "createdTime": 1708469394465,
+        "modifiedTime": 1708469621406,
         "lastModifiedBy": "r9x0pKEz3JGSJSrG"
       },
       "foreground": null,
-      "thumb": "worlds/csb-scales/assets/scenes/EtKoJRfO6Du427qd-thumb.webp",
+      "thumb": "worlds/csb-scales/assets/scenes/Eeri1KPUtglJh0Nh-thumb.webp",
+      "fogOverlay": null,
+      "fogExploredColor": null,
+      "fogUnexploredColor": null,
+      "weather": ""
+    },
+    {
+      "folder": "gn08cY6n1DNTCfHi",
+      "name": "The Pitt",
+      "_id": "wcqgWIJaIsCGkdTB",
+      "active": false,
+      "navigation": true,
+      "navOrder": 0,
+      "navName": "",
+      "background": {
+        "src": "modules/csb-scales/scenarios/A1-CLAYMORE/assets/scenes/the-pitt.webp",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0
+      },
+      "foregroundElevation": 8,
+      "width": 1024,
+      "height": 1024,
+      "padding": 0.25,
+      "initial": {
+        "x": 821,
+        "y": 888,
+        "scale": 1.2089692831974508
+      },
+      "backgroundColor": "#000000",
+      "grid": {
+        "type": 0,
+        "size": 100,
+        "color": "#000000",
+        "alpha": 0.2,
+        "distance": 2,
+        "units": "m"
+      },
+      "tokenVision": false,
+      "fogExploration": false,
+      "fogReset": 1708514957816,
+      "globalLight": false,
+      "globalLightThreshold": null,
+      "darkness": 0,
+      "drawings": [],
+      "tokens": [],
+      "lights": [
+        {
+          "_id": "NS1PwxTo8b2cjWb8",
+          "x": 875,
+          "y": 771,
+          "rotation": 0,
+          "walls": true,
+          "vision": false,
+          "config": {
+            "alpha": 0.5,
+            "angle": 360,
+            "bright": 0,
+            "coloration": 1,
+            "dim": 2,
+            "attenuation": 0.5,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": "wave",
+              "speed": 6,
+              "intensity": 3,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            },
+            "color": "#707070"
+          },
+          "hidden": false,
+          "flags": {}
+        },
+        {
+          "x": 514,
+          "y": 785,
+          "rotation": 0,
+          "walls": true,
+          "vision": false,
+          "config": {
+            "alpha": 0.5,
+            "angle": 360,
+            "bright": 0,
+            "coloration": 1,
+            "dim": 2,
+            "attenuation": 0.5,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": "wave",
+              "speed": 6,
+              "intensity": 3,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            },
+            "color": "#53525b"
+          },
+          "hidden": false,
+          "flags": {},
+          "_id": "5GPFozipuXe06WSC"
+        },
+        {
+          "x": 1200,
+          "y": 782,
+          "rotation": 0,
+          "walls": true,
+          "vision": false,
+          "config": {
+            "alpha": 0.45,
+            "angle": 360,
+            "bright": 0,
+            "coloration": 1,
+            "dim": 2,
+            "attenuation": 0.5,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": "wave",
+              "speed": 6,
+              "intensity": 3,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            },
+            "color": "#53525b"
+          },
+          "hidden": false,
+          "flags": {},
+          "_id": "ePXyVE3jHdm4aYbS"
+        },
+        {
+          "_id": "hLL3HZmOhuoJBKOy",
+          "x": 850,
+          "y": 981,
+          "rotation": 0,
+          "walls": true,
+          "vision": false,
+          "config": {
+            "alpha": 0.5,
+            "angle": 360,
+            "bright": 2.45,
+            "coloration": 1,
+            "dim": 4.9,
+            "attenuation": 0.5,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": "chroma",
+              "speed": 5,
+              "intensity": 5,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            },
+            "color": "#383838"
+          },
+          "hidden": false,
+          "flags": {}
+        },
+        {
+          "_id": "XMG9fnehNNmu58Ug",
+          "x": 836,
+          "y": 1060,
+          "rotation": 0,
+          "walls": true,
+          "vision": false,
+          "config": {
+            "alpha": 0.5,
+            "angle": 161,
+            "bright": 2,
+            "coloration": 1,
+            "dim": 2,
+            "attenuation": 0.5,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": "flame",
+              "speed": 5,
+              "intensity": 7,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            },
+            "color": "#92c4ce"
+          },
+          "hidden": false,
+          "flags": {}
+        }
+      ],
+      "notes": [],
+      "sounds": [],
+      "templates": [],
+      "tiles": [],
+      "walls": [
+        {
+          "light": 20,
+          "sight": 20,
+          "sound": 20,
+          "move": 20,
+          "c": [
+            650,
+            962,
+            650,
+            1000
+          ],
+          "_id": "MIS8x45ogGw47dgd",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 20,
+          "sound": 20,
+          "move": 20,
+          "c": [
+            650,
+            1000,
+            1100,
+            1000
+          ],
+          "_id": "iTq6QoZfOeLfwUxT",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 20,
+          "sound": 20,
+          "move": 20,
+          "c": [
+            1100,
+            1000,
+            1100,
+            962
+          ],
+          "_id": "XHGSMctBVvrcStje",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 20,
+          "sound": 20,
+          "move": 20,
+          "c": [
+            1100,
+            962,
+            650,
+            962
+          ],
+          "_id": "qZqxSPvdu9B5HuBz",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        }
+      ],
+      "playlist": null,
+      "playlistSound": null,
+      "journal": null,
+      "journalEntryPage": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "r9x0pKEz3JGSJSrG": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "custom-system-builder",
+        "systemVersion": "3.0.0",
+        "coreVersion": "11.315",
+        "createdTime": 1708514957820,
+        "modifiedTime": 1708529649877,
+        "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+      },
+      "foreground": null,
+      "thumb": "worlds/csb-scales/assets/scenes/wcqgWIJaIsCGkdTB-thumb.webp",
       "fogOverlay": null,
       "fogExploredColor": null,
       "fogUnexploredColor": null,
@@ -29482,7 +31543,11 @@
       "_id": "IxX7Ja9bSFbsXPhk",
       "sort": 0,
       "color": null,
-      "flags": {},
+      "flags": {
+        "core": {
+          "sourceId": "Folder.IxX7Ja9bSFbsXPhk"
+        }
+      },
       "_stats": {
         "systemId": "custom-system-builder",
         "systemVersion": "3.0.0",
@@ -29496,29 +31561,15 @@
       "name": "A1 CLAYMORE",
       "sorting": "a",
       "folder": null,
-      "type": "Item",
-      "_id": "qTyFFTCvCtW1Atvu",
-      "sort": 0,
-      "color": null,
-      "flags": {},
-      "_stats": {
-        "systemId": "custom-system-builder",
-        "systemVersion": "3.0.0",
-        "coreVersion": "11.315",
-        "createdTime": 1708268155662,
-        "modifiedTime": 1708268155662,
-        "lastModifiedBy": "r9x0pKEz3JGSJSrG"
-      }
-    },
-    {
-      "name": "A1 CLAYMORE",
-      "sorting": "a",
-      "folder": null,
       "type": "JournalEntry",
       "_id": "xXJWCQ6fHaoD0QJV",
       "sort": 0,
       "color": null,
-      "flags": {},
+      "flags": {
+        "core": {
+          "sourceId": "Folder.xXJWCQ6fHaoD0QJV"
+        }
+      },
       "_stats": {
         "systemId": "custom-system-builder",
         "systemVersion": "3.0.0",
@@ -29555,7 +31606,7 @@
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
     "createdTime": 1708382831564,
-    "modifiedTime": 1708383657947,
+    "modifiedTime": 1708532780115,
     "lastModifiedBy": "r9x0pKEz3JGSJSrG"
   },
   "_key": "!adventures!f6UEvL2wEFFw0A8b"
