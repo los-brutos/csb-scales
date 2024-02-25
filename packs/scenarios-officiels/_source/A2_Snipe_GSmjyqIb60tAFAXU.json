@@ -1,8 +1,8 @@
 {
   "name": "A2 Snipe",
-  "img": null,
+  "img": "modules/csb-scales/scenarios/A2-SNIPE/banner.jpg",
   "caption": "",
-  "sort": 20,
+  "sort": 30,
   "description": "<p>Verbe anglais signifiant tirer sur quelqu’un en restant caché niais également critiquer par en dessous.</p>",
   "actors": [
     {
@@ -29345,7 +29345,7 @@
           "image": {},
           "text": {
             "format": 1,
-            "content": ""
+            "content": "<p style=\"text-align:justify\">Les joueurs doivent normalement avoir récupérer Vernon, à moins qu’ils n’aient échoué dans l’opération de récupération des livres. Ils ont désormais devant eux un Vernon fatigué et affaibli par la captivité. Sa première réaction est de remercier les personnages. Puis il leur demandera d’un air méfiant s’ils sont de la CIA. Une fois que les personnages auront expliqué la raison de leur présence, il sera rassuré et leur déballera toute l’affaire : Sterling, le B.O.L.D, les faux documents, les tueurs à ses trousses, Paul Parker et sa capture au club.</p><p style=\"text-align:justify\">Puis, l’air horrifié, il demandera aux joueurs si le gouverneur Prescott est toujours vivant car il est sûr que le B.O.L.D projette toujours de l’assassiner dans les jours à venir. Il ne sait pas où le joindre pour lui révéler le complot.</p><p style=\"text-align:justify\">Un coup de fil au bureau de Johanna Wallace leur indiquera qu’elle participe à une @UUID[.N4v09oWMQxVBkmPs]{conférence de presse} avec Jason Prescott dans la tour Rockfeller. </p>"
           },
           "video": {
             "controls": true,
@@ -29363,7 +29363,7 @@
             "systemVersion": "3.0.0",
             "coreVersion": "11.315",
             "createdTime": 1708540923600,
-            "modifiedTime": 1708540947733,
+            "modifiedTime": 1708857934501,
             "lastModifiedBy": "r9x0pKEz3JGSJSrG"
           }
         },
@@ -29379,7 +29379,8 @@
           "image": {},
           "text": {
             "format": 1,
-            "content": ""
+            "content": "<p style=\"text-align:justify\">Parvenus à ce stade de l’aventure, les joueurs doivent se douter que l’attentat va avoir lieu pendant cette conférence. Il va maintenant falloir jouer serré.</p><p style=\"text-align:justify\">Lewis et le B.O.L.D ont maintenu leur projet d’assassinat. Leur plan d’action est simple : un sniper est caché sur le toit de l’immeuble en face de la salle de conférence, un membre du B.O.L.D est placé dans la foule de journalistes qui questionnent J.P et Lewis monte la garde, déguisé en flic, dans le couloir donnant sur la salle.</p><p style=\"text-align:justify\">Bubble-Jack, fondu dans la masse, avertira télépathiquement (grâce au pouvoir du gestalt) le sniper, Brain-Chuck, quand J.P montera à son tour à la tribune. Brain-Chuck tirera alors sur la personne présente à la tribune. Pendant l’opération, Lewis a pour rôle d’empêcher des importuns ou des flics de venir troubler l’opération en pénétrant dans la salle. Si le cas se présente, il lancera d’abord un sort de confusion avant de rentrer dans le tas. </p><p style=\"text-align:justify\">Une fois le crime perpétré, profitant de la panique générale, Bubble-Jack ira rejoindre Lewis dans le couloir. Puis, ils s’enfuiront grâce à une voiture qui les attend au parking souterrain de la tour. S’ils rencontrent des représentants de la loi sur leur chemin, ils se feront passer pour des flics. Pendant ce temps, Brain-Chuck descendra du toit de son immeuble et s’enfuira dans une autre voiture stationnée au coin de la rue.</p><p style=\"text-align:justify\">Les joueurs peuvent stopper l’opération en expliquant calmement à Lewis que c’est un complot orchestré par la CIA. Il ne croira évidemment pas les joueurs sur parole ; si, par contre, les joueurs sont accompagnés de Vernon et qu’ils démontrent que les documents sont des faux, Lewis enverra des messages télépathiques à Bubble-Jack et à Brain-Chuck pour annuler l’opération.</p><p style=\"text-align:justify\">Durant toute la conversation, Lewis bloquera le passage qui mène à la salle de conférence. Toute action pour essayer de briser de force son blocus ne ferait que déclencher une réaction violente de sa part. Il essayera alors de tuer les personnages pour qu’ils ne viennent pas gâcher l’opération.</p><p style=\"text-align:justify\">Si les personnages ne se décident pas à intervenir à temps lors de la conférence ou s’ils n’arrivent pas à convaincre Lewis car ils ne sont pas accompagnés de Vernon et n’ont pas la preuve que les documents sont truqués, l’opération suivra son cours jusqu’à son terme. Mais l’assassinat échouera quand même, suite à une erreur de Bubble-Jack qui enverra le message télépathique trop tôt. Dans ce cas, c’est Johanna Wallace qui héritera de la balle mortelle destinée à J.P.</p>",
+            "markdown": ""
           },
           "video": {
             "controls": true,
@@ -29397,7 +29398,7 @@
             "systemVersion": "3.0.0",
             "coreVersion": "11.315",
             "createdTime": 1708540931870,
-            "modifiedTime": 1708540933295,
+            "modifiedTime": 1708870126578,
             "lastModifiedBy": "r9x0pKEz3JGSJSrG"
           }
         },
@@ -29413,7 +29414,8 @@
           "image": {},
           "text": {
             "format": 1,
-            "content": ""
+            "content": "<p style=\"text-align:justify\"><strong>Si les joueurs réussissent à déjouer complètement le complot</strong>, Lewis et Vernon les remercieront de leur avoir évité de commettre une erreur fatale et ils se volatiliseront dans la nature avec les autres membres du B.O.L.D. Johanna Wallace les assurera de la gratitude de son grand-père. La gratitude d’Ancyte est toujours bonne à prendre et pourra peut-être leur servir un jour prochain s’ils croisent sa route. </p><p style=\"text-align:justify\">Quant à Sterling, suite à une enquête de la commission sénatoriale, il prendra la fuite et ira rejoindre une organisation néo-nazie au Paraguay. La justice des Etats-Unis les condamnera par contumace à la prison à perpétuité pour le meurtre de Paul Parker et pour atteinte à la sûreté de l’Etat. Il sera dorénavant recherché par ses anciens amis de la CIA.</p><p style=\"text-align:justify\"><strong>Si les joueurs ont échoué</strong>, la situation ne sera pas brillante. Les membres du B.O.L.D périront un par un, tués par les sbires de Sterling. Vernon sera arrêté par la police pour le meurtre de Paul Parker, puis il sera envoyé dans un asile psychiatrique car personne ne croira à son histoire de complot et le jury le déclarera fou. Si les personnages n’ont pas réussi à délivrer Vernon des mains de Mobondi, ce dernier le passera par les armes.</p><p style=\"text-align:justify\">Les joueurs porteront la responsabilité de la mort de Johanna vis-à-vis de son grand-père. Gageons qu’à leur prochaine rencontre avec Ancyte, il saura s’en souvenir.</p>",
+            "markdown": ""
           },
           "video": {
             "controls": true,
@@ -29431,7 +29433,7 @@
             "systemVersion": "3.0.0",
             "coreVersion": "11.315",
             "createdTime": 1708540941776,
-            "modifiedTime": 1708540945821,
+            "modifiedTime": 1708872177049,
             "lastModifiedBy": "r9x0pKEz3JGSJSrG"
           }
         }
@@ -29447,7 +29449,7 @@
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1708538099936,
-        "modifiedTime": 1708728674208,
+        "modifiedTime": 1708857934501,
         "lastModifiedBy": "r9x0pKEz3JGSJSrG"
       }
     },
@@ -29906,11 +29908,7 @@
         "default": 0,
         "r9x0pKEz3JGSJSrG": 3
       },
-      "flags": {
-        "core": {
-          "sourceId": "JournalEntry.riDd8zOMEuaPBqtN"
-        }
-      },
+      "flags": {},
       "_stats": {
         "systemId": "custom-system-builder",
         "systemVersion": "3.0.0",
@@ -30257,11 +30255,7 @@
         "default": 0,
         "r9x0pKEz3JGSJSrG": 3
       },
-      "flags": {
-        "core": {
-          "sourceId": "Scene.sWmbM3xKgydA4qPN"
-        }
-      },
+      "flags": {},
       "_stats": {
         "systemId": "custom-system-builder",
         "systemVersion": "3.0.0",
@@ -30334,11 +30328,7 @@
         "default": 0,
         "r9x0pKEz3JGSJSrG": 3
       },
-      "flags": {
-        "core": {
-          "sourceId": "Scene.aRKahXzuHSOeMX4i"
-        }
-      },
+      "flags": {},
       "_stats": {
         "systemId": "custom-system-builder",
         "systemVersion": "3.0.0",
@@ -30411,11 +30401,7 @@
         "default": 0,
         "r9x0pKEz3JGSJSrG": 3
       },
-      "flags": {
-        "core": {
-          "sourceId": "Scene.epsNPr821UzkPCbM"
-        }
-      },
+      "flags": {},
       "_stats": {
         "systemId": "custom-system-builder",
         "systemVersion": "3.0.0",
@@ -30488,11 +30474,7 @@
         "default": 0,
         "r9x0pKEz3JGSJSrG": 3
       },
-      "flags": {
-        "core": {
-          "sourceId": "Scene.nTOTxNIBOtYhwVwH"
-        }
-      },
+      "flags": {},
       "_stats": {
         "systemId": "custom-system-builder",
         "systemVersion": "3.0.0",
@@ -30643,7 +30625,7 @@
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
     "createdTime": 1708536812884,
-    "modifiedTime": 1708729788652,
+    "modifiedTime": 1708873251387,
     "lastModifiedBy": "r9x0pKEz3JGSJSrG"
   },
   "_key": "!adventures!GSmjyqIb60tAFAXU"
