@@ -162,7 +162,7 @@
               "role": "0",
               "permission": "0",
               "tooltip": "",
-              "visibilityFormula": "combatType == 3 ? false : true",
+              "visibilityFormula": "",
               "contents": [
                 {
                   "key": "",
@@ -212,7 +212,7 @@
               "role": "0",
               "permission": "0",
               "tooltip": "",
-              "visibilityFormula": "combatType == 3 ? false : true",
+              "visibilityFormula": "",
               "contents": [
                 {
                   "key": "",
@@ -322,7 +322,7 @@
     },
     "modifiers": [],
     "unique": false,
-    "templateSystemUniqueVersion": 776077033
+    "templateSystemUniqueVersion": 3242897805
   },
   "effects": [],
   "folder": null,
@@ -337,7 +337,7 @@
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
     "createdTime": 1704469193630,
-    "modifiedTime": 1706308247069,
+    "modifiedTime": 1708974012905,
     "lastModifiedBy": "r9x0pKEz3JGSJSrG"
   },
   "_id": "xfGgNOq7UnMHTK8q",

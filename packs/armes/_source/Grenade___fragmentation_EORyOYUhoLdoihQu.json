@@ -1,7 +1,8 @@
 {
-  "name": "Coup de poing",
+  "folder": null,
+  "name": "Grenade à fragmentation",
   "type": "equippableItem",
-  "_id": "MaVdzX5QVNcjLW9t",
+  "_id": "EORyOYUhoLdoihQu",
   "img": "icons/svg/combat.svg",
   "system": {
     "hidden": [],
@@ -314,31 +315,29 @@
     },
     "template": "14jgxwvyYKfEIWkZ",
     "props": {
-      "name": "Coup de poing",
-      "combatType": "1",
-      "powerfullMax": "1",
-      "descriptionLabel": "Description",
+      "name": "Grenade à fragmentation",
+      "combatType": "3",
+      "powerfullMax": "3",
       "attackBonus": "0",
-      "damageBonus": "0"
+      "damageBonus": "0",
+      "descriptionLabel": "Description"
     },
     "modifiers": [],
     "unique": false,
     "templateSystemUniqueVersion": 3242897805
   },
   "effects": [],
-  "folder": null,
   "flags": {
     "custom-system-builder": {
       "version": "3.0.0"
-    },
-    "core": {}
+    }
   },
   "_stats": {
     "systemId": "custom-system-builder",
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
-    "createdTime": 1704469193630,
-    "modifiedTime": 1708974012905,
+    "createdTime": 1706347461613,
+    "modifiedTime": 1708974013042,
     "lastModifiedBy": "r9x0pKEz3JGSJSrG"
   },
   "sort": 0,
@@ -346,5 +345,5 @@
     "default": 0,
     "r9x0pKEz3JGSJSrG": 3
   },
-  "_key": "!items!MaVdzX5QVNcjLW9t"
+  "_key": "!items!EORyOYUhoLdoihQu"
 }

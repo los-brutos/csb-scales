@@ -4,6 +4,7 @@
 
 ### v11.1.4
 * ajout de l'aventure A1 CLAYMORE
+* ajout de l'aventure A2 SNIPE
 * suppression de la limitation des caractéristiques à 8 maximum et -8 minimum
 * Camouflage 
   * correction d'une typo dans la description 
@@ -14,6 +15,7 @@
   * correction du lien vers Résistance  
 * Résistance
   * correction du lien vers Immunité  
+* Rafraichissement des Armes avec le nouveau template
 
 ### v11.1.3
 * ajout de l'aventure A0 KEENING

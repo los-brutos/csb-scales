@@ -882,8 +882,8 @@
                               "defaultValue": "0",
                               "size": "small",
                               "allowDecimal": false,
-                              "minVal": "-8",
-                              "maxVal": "+8",
+                              "minVal": "",
+                              "maxVal": "",
                               "allowRelative": false,
                               "showControls": false,
                               "controlsStyle": "hover",
@@ -3191,7 +3191,7 @@
           "stuff": "<ul>\n<li>Walkman</li>\n<li>tenue classe</li>\n<li>somme d&rsquo;argent en liquide</li>\n</ul>",
           "privateBiography": "<p>Apr&egrave;s sa nuit de cauchemard, Arnold est&nbsp;<strong>Immunis&eacute; &agrave; la peur</strong> et est donc capable d'attaquer un dragon avec une arme de contact</p>"
         },
-        "templateSystemUniqueVersion": 1442790790
+        "templateSystemUniqueVersion": 1929778308
       },
       "prototypeToken": {
         "name": "Arnold Asburry",
@@ -3449,7 +3449,7 @@
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1708377354284,
-        "modifiedTime": 1708531163700,
+        "modifiedTime": 1708985188243,
         "lastModifiedBy": "r9x0pKEz3JGSJSrG"
       }
     },
@@ -4330,8 +4330,8 @@
                               "defaultValue": "0",
                               "size": "small",
                               "allowDecimal": false,
-                              "minVal": "-8",
-                              "maxVal": "+8",
+                              "minVal": "",
+                              "maxVal": "",
                               "allowRelative": false,
                               "showControls": false,
                               "controlsStyle": "hover",
@@ -6635,7 +6635,7 @@
             }
           }
         },
-        "templateSystemUniqueVersion": 1442790790
+        "templateSystemUniqueVersion": 1929778308
       },
       "prototypeToken": {
         "name": "Chris Henriks",
@@ -11920,7 +11920,7 @@
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1708378150497,
-        "modifiedTime": 1708379028484,
+        "modifiedTime": 1708985188452,
         "lastModifiedBy": "r9x0pKEz3JGSJSrG"
       }
     },
@@ -18505,7 +18505,7 @@
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1708379093931,
-        "modifiedTime": 1708379703731,
+        "modifiedTime": 1708985188492,
         "lastModifiedBy": "r9x0pKEz3JGSJSrG"
       }
     },
@@ -24455,7 +24455,7 @@
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1708379764066,
-        "modifiedTime": 1708380801673,
+        "modifiedTime": 1708985188517,
         "lastModifiedBy": "r9x0pKEz3JGSJSrG"
       }
     },
@@ -27638,6 +27638,14 @@
               "level": "4",
               "characteristic": "",
               "roll": null
+            },
+            "2": {
+              "deleted": false,
+              "predefinedIdx": null,
+              "name": "Poison",
+              "level": "0",
+              "characteristic": "",
+              "roll": null
             }
           },
           "hobbies": {
@@ -28582,7 +28590,7 @@
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1708380841531,
-        "modifiedTime": 1708381500961,
+        "modifiedTime": 1708985188544,
         "lastModifiedBy": "r9x0pKEz3JGSJSrG"
       }
     }
@@ -29055,7 +29063,7 @@
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1708268369379,
-        "modifiedTime": 1708518649317,
+        "modifiedTime": 1708984776951,
         "lastModifiedBy": "r9x0pKEz3JGSJSrG"
       }
     },
@@ -29111,7 +29119,7 @@
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1708282428834,
-        "modifiedTime": 1708379796646,
+        "modifiedTime": 1708984776951,
         "lastModifiedBy": "r9x0pKEz3JGSJSrG"
       }
     },
@@ -29166,7 +29174,7 @@
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1708282207378,
-        "modifiedTime": 1708378176067,
+        "modifiedTime": 1708984776951,
         "lastModifiedBy": "r9x0pKEz3JGSJSrG"
       }
     },
@@ -29221,7 +29229,7 @@
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1708282377232,
-        "modifiedTime": 1708379127353,
+        "modifiedTime": 1708984776951,
         "lastModifiedBy": "r9x0pKEz3JGSJSrG"
       }
     },
@@ -29277,7 +29285,7 @@
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1708282307719,
-        "modifiedTime": 1708380873145,
+        "modifiedTime": 1708984776951,
         "lastModifiedBy": "r9x0pKEz3JGSJSrG"
       }
     },
@@ -29332,7 +29340,7 @@
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1708282469030,
-        "modifiedTime": 1708377705789,
+        "modifiedTime": 1708984776951,
         "lastModifiedBy": "r9x0pKEz3JGSJSrG"
       }
     }
@@ -30614,7 +30622,7 @@
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1708382142395,
-        "modifiedTime": 1708530005633,
+        "modifiedTime": 1708984777054,
         "lastModifiedBy": "r9x0pKEz3JGSJSrG"
       },
       "foreground": "modules/csb-scales/scenarios/A1-CLAYMORE/assets/scenes/nairn_dark.jpg",
@@ -30687,7 +30695,7 @@
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1708462386081,
-        "modifiedTime": 1708462474130,
+        "modifiedTime": 1708984777054,
         "lastModifiedBy": "r9x0pKEz3JGSJSrG"
       },
       "foreground": null,
@@ -30882,7 +30890,7 @@
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1708529566050,
-        "modifiedTime": 1708530763458,
+        "modifiedTime": 1708984777054,
         "lastModifiedBy": "r9x0pKEz3JGSJSrG"
       },
       "foreground": null,
@@ -31088,7 +31096,7 @@
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1708470879469,
-        "modifiedTime": 1708530510067,
+        "modifiedTime": 1708984777054,
         "lastModifiedBy": "r9x0pKEz3JGSJSrG"
       },
       "foreground": null,
@@ -31165,7 +31173,7 @@
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1708469394465,
-        "modifiedTime": 1708469621406,
+        "modifiedTime": 1708984777054,
         "lastModifiedBy": "r9x0pKEz3JGSJSrG"
       },
       "foreground": null,
@@ -31497,7 +31505,7 @@
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1708514957820,
-        "modifiedTime": 1708529649877,
+        "modifiedTime": 1708984777054,
         "lastModifiedBy": "r9x0pKEz3JGSJSrG"
       },
       "foreground": null,
@@ -31531,7 +31539,7 @@
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1708268145718,
-        "modifiedTime": 1708383652218,
+        "modifiedTime": 1708984777150,
         "lastModifiedBy": "r9x0pKEz3JGSJSrG"
       }
     },
@@ -31541,7 +31549,7 @@
       "folder": null,
       "type": "Actor",
       "_id": "IxX7Ja9bSFbsXPhk",
-      "sort": 0,
+      "sort": 150000,
       "color": null,
       "flags": {
         "core": {
@@ -31553,7 +31561,7 @@
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1708268151060,
-        "modifiedTime": 1708268151060,
+        "modifiedTime": 1708985214522,
         "lastModifiedBy": "r9x0pKEz3JGSJSrG"
       }
     },
@@ -31575,7 +31583,7 @@
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1708268163044,
-        "modifiedTime": 1708268163044,
+        "modifiedTime": 1708984777150,
         "lastModifiedBy": "r9x0pKEz3JGSJSrG"
       }
     },
@@ -31606,7 +31614,7 @@
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
     "createdTime": 1708382831564,
-    "modifiedTime": 1708532780115,
+    "modifiedTime": 1708985226423,
     "lastModifiedBy": "r9x0pKEz3JGSJSrG"
   },
   "_key": "!adventures!f6UEvL2wEFFw0A8b"
