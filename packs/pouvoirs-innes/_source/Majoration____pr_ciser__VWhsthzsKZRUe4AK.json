@@ -135,7 +135,7 @@
     },
     "template": "TOIxmn68EGfcsuRW",
     "props": {
-      "name": "Majoration (à vérifier)",
+      "name": "Majoration (à préciser)",
       "level": "0",
       "description": "<p style=\"text-align: justify;\">Ce pouvoir permet d&rsquo;augmenter une caract&eacute;ristique qui doit &ecirc;tre pr&eacute;cis&eacute;e&nbsp;entre parenth&egrave;ses.</p>\n<p style=\"text-align: justify;\">Cette majoration est &eacute;gale au niveau du pouvoir fois 2. N&rsquo;oubliez pas que, quelle que soit le niveau du pouvoir, une caract&eacute;ristique ne peut jamais d&eacute;passer +8, le grand dragon c&eacute;leste et certains grands-parents &eacute;tant les seuls &agrave; pouvoir d&eacute;passer cette limite.</p>\n<p style=\"text-align: justify;\">Ce pouvoir est permanent.</p>"
     },
@@ -155,7 +155,7 @@
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
     "createdTime": 1704665806350,
-    "modifiedTime": 1706308263896,
+    "modifiedTime": 1708975291142,
     "lastModifiedBy": "r9x0pKEz3JGSJSrG"
   },
   "_id": "VWhsthzsKZRUe4AK",
