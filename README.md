@@ -5,6 +5,7 @@
 ## Ce que vous y trouverez
 
 ### Fiches 
+
 #### Acteur
 * PJ/PNJ avec les éléments qui s'affichent ou non en fonction de la nature du personnage
   * gestion de la nature
@@ -61,11 +62,12 @@ Les items présents dans le livre de base et son scénarion sont présents dans 
 ### Scénarios
 
 #### Ecran
-
 * 7 idées de scénarios
 
 #### Livre de base et autres suppléments
-_à venir_
+* A0 Keening
+* A1 Claymore
+* A2 Snipe
 
 ## Installation & configuration
 
@@ -93,14 +95,15 @@ Merci à l'éditeur [Asmodée](https://asmodee.fr/) et à CROC pour l'aimable au
 * Dessins : Alberto Varanda, Guillaume Sorel et Stéphane Beau
 * Corrections : Sabine Wong et Guillaume Delafosse
 
+## Crédits des images intégrées au jeu
+* Les images ont été générées via IA (Bing images creator)
+
 ## Licence
 L'ensemble du code est sous licence Creative Commons :
 
 CSB Scales © 2024 by Los Brutos is licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/) 
 
 ## A venir
-
   * prise en compte automatique des dommages de la cible (dès que CSB pourra le permettre)
-  * ajout des éléments de jeu des suppléments Politique, Technologie et Magie
-  * ajout du scénario A0 KEENING du livre de base
-  * ajout des scénarios des suppléments
+  * ajout des éléments de jeu des suppléments Politique, Technologie et Magie (en cours)
+  * ajout des scénarios des suppléments (en cours)

@@ -1,10 +1,10 @@
 {
   "id": "csb-scales",
   "title": "CSB Scales",
-  "version": "11.1.3",
+  "version": "11.1.4",
   "url": "https://github.com/los-brutos/csb-scales",
-  "manifest": "https://raw.githubusercontent.com/los-brutos/csb-scales/main/module.json",
-  "download": "https://github.com/los-brutos/csb-scales/releases/download/11.1.3/csb-scales.zip",
+  "manifest": "https://raw.githubusercontent.com/los-brutos/csb-scales/11.1.4/module.json",
+  "download": "https://github.com/los-brutos/csb-scales/releases/download/11.1.4/csb-scales.zip",
   "changelog": "https://github.com/los-brutos/csb-scales/raw/main/changelog.md",
   "compatibility": {
     "minimum": "11",
