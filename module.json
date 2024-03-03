@@ -195,7 +195,7 @@
         "name": "Ressources pour Scales",
         "sorting": "a",
         "color": "#000000",
-        "packs": ["armes", "armures-et-protections", "formules-magiques", "ingredients-alchimiques", "intervenants", "pouvoirs-innes", "sorts-draconiques"]
+        "packs": ["armes", "armures-et-protections", "formules-magiques", "ingredients-alchimiques", "intervenants", "pouvoirs-innes", "sorts-draconiques", "scenes"]
       }
     ],
     "packs": ["scenarios-officiels"]
