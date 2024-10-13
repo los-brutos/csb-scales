@@ -1,0 +1,22 @@
+<!-- healthDown -->
+
+${#health:=(50>=health)? 0 : (health-10)}$
+${#setPropertyInEntity('self', 'health', health)}$
+
+<p style="padding: 2px; text-align: center; color: var(--color-level-info); border: solid 1px var(--color-level-info)">Diminution du niveau de <strong>blessure</strong></p>
+
+<!-- healthUp -->
+
+${#health:=(90<=health)? 90 : (0 == health) ? 50 : (health+10)}$
+${#setPropertyInEntity('self', 'health', health)}$
+
+<p style="padding: 2px; text-align: center; color: var(--color-level-info); border: solid 1px var(--color-level-info)">Augmentation du niveau de <strong>blessure</strong></p>
+
+
+<!-- hidden attribute : healthLabel -->
+${90 == health ? "Mort" : 80 == health ? "Coma" : 70 == health ? "Blessure grave" : 60 == health ? "Blessure légère" : 50 == health ? "Egratignure" : "En bonne santé"}$
+
+
+<!-- hidden attribute : healthDesc -->
+${50 == health ? "L'attaque n'a qu'un effet sanguinolent sans aucune conséquence grave.\nLe sang coule, mais un bon pansement devrait pouvoir l'arrêter et éviter que la cicatrice ne soit trop visible." : 60 == health ? "Le personnage est meurtri dans sa chair mais sans que cela ait des conséquences vraiment fâcheuses.\nLa douleur cause un malus de 1 point à toutes ses chances de réussite tant que la blessure n'est pas soignée (ce qui prend généralement quelques jours). \nUne seconde blessure légère reçue moins d'une heure après la première cause une blessure grave (après une heure, la blessure reste légère)." : 70 == health ? "Le personnage est blessé à un endroit grave. \nLa douleur et la gêne causées par la blessure donnent un malus de 2 points à toutes ses chances de réussite tant que la blessure n'est pas soignée (ce qui prend généralement plusieurs semaines d'hôpital). \nUne seconde blessure grave reçue moins d'une heure après la première cause un coma immédiat (après une heure, la blessure reste grave)." : 80 == health ? "Le personnage est aux portes de la mort. \nIl lutte de toutes ses forces pour rester en vie mais sombre néanmoins dans un profond coma. \nIl ne pourra être réanimé qu'avec des moyens médicaux importants. \nS'il n'est pas secouru avant une heure, il meurt sans jamais reprendre conscience. \nUn second coma moins d'une heure après le premier cause la mort immédiate de la victime (après un heure, la blessure reste un coma)." : 90 == health ? "Le personnage est mortellement touché. \nIl peut à la rigueur s'en sortir avec des séquelles s'il est soigné rapidement (dans les 5 minutes) et s'il est ensuite suivi médicalement avec des appareils médicaux de haute technologie." : "Tout va bien"
+}$

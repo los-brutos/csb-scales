@@ -5,7 +5,7 @@ ${#concat(
 )}$
 
 ${#sante:=healthMalus}$
-${#caracteristique:= first(fetchFromDynamicTable('characteristics', 'value', 'name', unskilledCharacteristic), 0)}$
+${#caracteristique:= first(lookup('characteristics', 'value', 'name', unskilledCharacteristic), 0)}$
 ${#seuil:= 10 - 6 - diff}$        
 ${#bonus:=((seuil + caracteristique + modificateur + sante) > 10 ? seuil + caracteristique + modificateur + sante - 10 : 0)}$
 

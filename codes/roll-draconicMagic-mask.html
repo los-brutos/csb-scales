@@ -6,7 +6,7 @@ ${#concat(
 
 ${#seuil:= 4}$
 
-${#caracteristique:= first(fetchFromDynamicTable('characteristics', 'value', 'name', unskilledMaskCharacteristic), 0)}$
+${#caracteristique:= first(lookup('characteristics', 'value', 'name', unskilledMaskCharacteristic), 0)}$
 
 ${#sante:=healthMalus}$
 

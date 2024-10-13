@@ -8,7 +8,7 @@ ${#concat(
 ${#seuil:= 8}$
 ${#magieAlchimique:= alchemicalMagicLevel}$
 
-${#caracteristique:= first(fetchFromDynamicTable('characteristics', 'value', 'name', dosageCharacteristic), 0)}$
+${#caracteristique:= first(lookup('characteristics', 'value', 'name', dosageCharacteristic), 0)}$
 ${#sante:= healthMalus}$
 
 ${#anciennete:= item.centuryModificator}$

@@ -15,10 +15,10 @@ or(and(1 == type, 0 < emergence), 2 == type) ? true : false
 or(2 == type, and(1 == type, accessDraconicMagic)) ? true : false
 
 <!-- calcul du modificateur du jet d'initiative (hidden attribute) -->
-${fightnessForAttack + first(fetchFromDynamicTable('characteristics', 'value', 'name', characteristicForInitiative), 0)}$
+${fightnessForAttack + first(lookup('characteristics', 'value', 'name', characteristicForInitiative), 0)}$
 
 <!-- calcul de la résistance (via caractéristique) lors d'une attaque contre le personnage -->
-${first(fetchFromDynamicTable('characteristics', 'value', 'name', resistanceCharacteristic), 0)}$
+${first(lookup('characteristics', 'value', 'name', resistanceCharacteristic), 0)}$
 
 <!-- calcul des combativités pour les attaques et les résistances en prenant en compte l'option du pouvoir Combativité -->
 <!-- fightnessForAttack : le plus grand -->
