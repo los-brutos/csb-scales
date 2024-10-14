@@ -57,7 +57,7 @@
 
 ### Compendium
 
-Les items présents dans le livre de base et son scénarion sont présents dans les compendiums
+Les items et les scénarios présents dans le livre de base et les suppléments sont présents dans les compendiums
 
 ### Scénarios
 

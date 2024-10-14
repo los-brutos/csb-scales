@@ -1,3 +1,12 @@
+# v12
+
+# v12.1
+
+# v12.1.0
+
+* passage à la v12
+* automatisation des dommages : ceux-ci sont automatiquement appliqués à la cible
+
 # v11
 
 ## v11.1

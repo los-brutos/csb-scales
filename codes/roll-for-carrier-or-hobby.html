@@ -9,7 +9,7 @@ ${#sante:=healthMalus}$
 
 <!-- caractéristique -->
 ${#caracteristiqueName:= sameRow('characteristic', false)}$
-${#caracteristique:= first(fetchFromDynamicTable('characteristics', 'value', 'name', caracteristiqueName), 0)}$
+${#caracteristique:= first(lookup('characteristics', 'value', 'name', caracteristiqueName), 0)}$
 
 <!-- seuil et bonus si seuil > 10 -->
 ${#seuil:= 10 - sameRow('level') - diff}$        

@@ -1,0 +1,28 @@
+<!-- stunDown -->
+
+${#stun:=(0>=stun)? 0 : (stun-10)}$
+${#setPropertyInEntity('self', 'stun', stun)}$
+
+<p style="padding: 2px; text-align: center; color: var(--color-level-info); border: solid 1px var(--color-level-info)">Diminution du niveau d'<strong>étourdissement</strong></p>
+
+<!-- stunUp -->
+
+${#stun:=(30<=stun)? 30 : (stun+10)}$
+${#setPropertyInEntity('self', 'stun', stun)}$
+
+<p style="padding: 2px; text-align: center; color: var(--color-level-info); border: solid 1px var(--color-level-info)">Augmentation du niveau d'<strong>étourdissement</strong></p>
+
+
+<!-- hidden attribute : stunLabel -->
+${30 == stun ? "Assomé" : 20 == stun ? "Sonné" : 10 == stun ? "Légèrement sonné" : "En bonne santé"}$
+
+
+<!-- hidden attribute : stunDesc -->
+${10 == stun 
+    ? "Le personnage subit un malus de 2 points à toutes ses chances de réussite au cours du tour suivant et uniquement celui-ci." : 
+  20 == stun 
+    ? "Le personnage subit un malus de 2 points à toutes ses chances de réussite jusqu'à ce qu'il puisse récupérer en se reposant environ cinq minutes. \nS'il est sonné une seconde fois avant de s'être reposé, il est considéré comme Assommé." : 
+  30 == stun 
+    ? "Le personnage s'évanouit pour (d10) minutes s’il est convenablement soigné. \nSans aucune aide extérieure l'évanouissement sera cinq fois plus long." : 
+  "Tout va bien"
+}$

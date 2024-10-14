@@ -5,7 +5,7 @@ ${#concat(
 )}$
 
 <!-- vérification qu'une cible a bien été sélectionnée -->
-${#nameTarget:=        fetchFromActor("target", "name", "")}$
+${#nameTarget:= fetchFromActor("target", "name", "")}$
 ${#nameTarget ? "" : notify("error", "Vous devez sélectionner une cible !")}$
 
 <!-- récupération des données -->
@@ -15,13 +15,13 @@ ${#bonusArme:=         item.damageBonus ? item.damageBonus : 0}$
 ${#protectionAdverse:= -1 * (3 == type ? fetchFromActor("target", "distanceArmorEquiped", 0) : fetchFromActor("target", "ccArmorEquiped", 0))}$
 
 <!-- bonus de la caracteristique si combat corps-à-corps ou contact -->
-${#bonusForce:=        3 == type ? 0 : first(fetchFromDynamicTable('characteristics', 'value', 'name', powerfullCharacteristic), 0)}$
+${#bonusForce:=        3 == type ? 0 : first(lookup('characteristics', 'value', 'name', powerfullCharacteristic), 0)}$
 
 <!-- malus de la résistance de la cible -->
 ${#resistanceAdverse:= -1 * fetchFromActor("target", "resistanceModificator", 0)}$
 
 <!-- combativité de la cible -->
-${combativiteAdverse:= fetchFromActor("target", "fightnessForDefense", 0)}$
+${#combativiteAdverse:= fetchFromActor("target", "fightnessForDefense", 0)}$
 
 <h3>Dégats de puissance ${!switchCase(powerfull, "1", "Faible","2", "Moyenne","3", "Importante", "4", "Remarquable", "<i>non définie</i>")}$ sur <strong>@{target|name}</strong> par ${!name}$</h3>
 
@@ -98,26 +98,14 @@ ELSE
 FI
 -->
 
-<!--
-
-${stunTarget:= fetchFromActor('target', 'stun')}$
-<br/>
-${healthTarget:= fetchFromActor('target', 'health')}$
-<br/>
-${#assomme:=30}$
-${#blessureLegere:=60}$
-${setPropertyInEntity('target', 'stun', ref("assomme"))}$
 
 
+${#stunTarget:= fetchFromActor('target', 'stun')}$
+${#healthTarget:= fetchFromActor('target', 'health')}$
+${#assomme:= 30}$
+${#blessureLegere:= 60}$
 
-${$changement:=and(damage >= 50, damage > healthTarget)
-  ? ${setPropertyInEntity('target', 'health', "damage")}$
-  : and(40 == damage, 60 > healthTarget)
-    ? ${concat(
-      string(setPropertyInEntity('target', 'stun', "assomme")), 
-      string(setPropertyInEntity('target', 'health', "blessureLegere")))}$
-    : and(30 >= damage, damage > stunTarget)
-      ? ${setPropertyInEntity('target', 'stun', "damage")}$
-      : "pas de changement"
-)}$
--->
+${#and(damage >= 50, damage > healthTarget) ? setPropertyInEntity('target', 'health', damage) : and(40 == damage, 60 > healthTarget) ? ${blessureGrave:= true}$ : and(30 >= damage, damage > stunTarget) ? setPropertyInEntity('target', 'stun', "damage") : ""}$
+
+${#blessureGrave ? setPropertyInEntity('target', 'stun', assomme) : ''}$
+${#blessureGrave ? setPropertyInEntity('target', 'health', blessureLegere) : ''}$

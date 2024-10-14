@@ -23,12 +23,12 @@ ${#distanceCombatCarrier:= distanceCombatCarrier ? distanceCombatCarrier : ""}$
 ${#distanceCombatHobby:=   distanceCombatHobby   ? distanceCombatHobby   : ""}$
 
 ${#default:= 6}$
-${#ccCombatCarrierLevel:=       first(fetchFromDynamicTable('carriers', 'level', 'name', ccCombatCarrier),       default)}$
-${#ccCombatHobbyLevel:=         first(fetchFromDynamicTable('hobbies',  'level', 'name', ccCombatHobby),         default)}$
-${#contactCombatCarrierLevel:=  first(fetchFromDynamicTable('carriers', 'level', 'name', contactCombatCarrier),  default)}$
-${#contactCombatHobbyLevel:=    first(fetchFromDynamicTable('hobbies',  'level', 'name', contactCombatHobby),    default)}$
-${#distanceCombatCarrierLevel:= first(fetchFromDynamicTable('carriers', 'level', 'name', distanceCombatCarrier), default)}$
-${#distanceCombatHobbyLevel:=   first(fetchFromDynamicTable('hobbies',  'level', 'name', distanceCombatHobby),   default)}$
+${#ccCombatCarrierLevel:=       first(lookup('carriers', 'level', 'name', ccCombatCarrier),       default)}$
+${#ccCombatHobbyLevel:=         first(lookup('hobbies',  'level', 'name', ccCombatHobby),         default)}$
+${#contactCombatCarrierLevel:=  first(lookup('carriers', 'level', 'name', contactCombatCarrier),  default)}$
+${#contactCombatHobbyLevel:=    first(lookup('hobbies',  'level', 'name', contactCombatHobby),    default)}$
+${#distanceCombatCarrierLevel:= first(lookup('carriers', 'level', 'name', distanceCombatCarrier), default)}$
+${#distanceCombatHobbyLevel:=   first(lookup('hobbies',  'level', 'name', distanceCombatHobby),   default)}$
 
 <!-- définition du nom du métier ou du hobby de référence -->
 ${#ccName:=       ccCombatCarrierLevel       >= ccCombatHobbyLevel       ? ccCombatHobby       : ccCombatCarrier}$
@@ -45,7 +45,7 @@ ${#level:=switchCase(type, "1", ccLevel, "2", contactLevel, "3", distanceLevel, 
 
 <!-- définition de la caractéristique de référence -->
 ${#caracteristiqueName:= (1 == type ? ccCombatCharacteristic : 2 == type ? contactCombatCharacteristic : 3 == type ? distanceCombatCharacteristic : "")}$
-${#caracteristique:=     first(fetchFromDynamicTable('characteristics', 'value', 'name', caracteristiqueName), 0)}$
+${#caracteristique:=     first(lookup('characteristics', 'value', 'name', caracteristiqueName), 0)}$
 
 <!-- combativité de la cible -->
 ${#combativiteAdverse:= fetchFromActor('target', 'fightnessForDefense', 0)}$
