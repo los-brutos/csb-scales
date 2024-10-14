@@ -31,10 +31,12 @@
       "_stats": {
         "systemId": "custom-system-builder",
         "systemVersion": "3.0.0",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1704466777594,
         "modifiedTime": 1706564288890,
-        "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+        "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!journal.pages!PnEtLtqXpBzjRiBq.SfXS84f8xU4j6ZkB"
     },
@@ -66,10 +68,12 @@
       "_stats": {
         "systemId": "custom-system-builder",
         "systemVersion": "3.0.0",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1705501634306,
         "modifiedTime": 1706913374342,
-        "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+        "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!journal.pages!PnEtLtqXpBzjRiBq.psOKt1JlHVlhVBcW"
     }
@@ -78,10 +82,12 @@
   "_stats": {
     "systemId": "custom-system-builder",
     "systemVersion": "3.0.0",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1704466680906,
     "modifiedTime": 1706913413331,
-    "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+    "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "sort": 0,
   "ownership": {
