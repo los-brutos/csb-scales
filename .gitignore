@@ -7,3 +7,4 @@ packs/**/LOG
 packs/**/LOCK
 packs/**/MANIFEST-*
 csb-scales.code-workspace
+packs/**/LOCK
