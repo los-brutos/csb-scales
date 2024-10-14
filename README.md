@@ -65,9 +65,11 @@ Les items et les scénarios présents dans le livre de base et les suppléments 
 * 7 idées de scénarios
 
 #### Livre de base et autres suppléments
+
 * A0 Keening
 * A1 Claymore
 * A2 Snipe
+* A3 WAKE UP!
 
 ## Installation & configuration
 

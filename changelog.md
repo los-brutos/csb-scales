@@ -2,6 +2,10 @@
 
 # v12.1
 
+### v12.1.1
+
+* ajout de l'aventure A3 WAKE UP!
+
 # v12.1.0
 
 * passage à la v12
