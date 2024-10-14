@@ -11,7 +11,12 @@
     "scaleY": 1,
     "offsetX": 0,
     "offsetY": 0,
-    "rotation": 0
+    "rotation": 0,
+    "anchorX": 0,
+    "anchorY": 0,
+    "fit": "fill",
+    "tint": "#ffffff",
+    "alphaThreshold": 0
   },
   "foregroundElevation": 8,
   "width": 1024,
@@ -29,14 +34,11 @@
     "color": "#000000",
     "alpha": 0.2,
     "distance": 2,
-    "units": "m"
+    "units": "m",
+    "style": "solidLines",
+    "thickness": 1
   },
   "tokenVision": false,
-  "fogExploration": false,
-  "fogReset": 1707570024841,
-  "globalLight": true,
-  "globalLightThreshold": null,
-  "darkness": 0,
   "drawings": [],
   "tokens": [],
   "lights": [],
@@ -53,22 +55,65 @@
   "_stats": {
     "systemId": "custom-system-builder",
     "systemVersion": "3.0.0",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1707570024844,
     "modifiedTime": 1707603064058,
-    "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+    "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "foreground": null,
   "thumb": "modules/csb-scales/assets/scenes/scenes-1FW2fcLoGLbPeb1x-thumb.webp",
-  "fogOverlay": null,
-  "fogExploredColor": null,
-  "fogUnexploredColor": null,
   "weather": "",
   "active": false,
   "sort": 0,
   "ownership": {
     "default": 0,
     "r9x0pKEz3JGSJSrG": 3
+  },
+  "regions": [],
+  "environment": {
+    "globalLight": {
+      "luminosity": 0,
+      "enabled": true,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "alpha": 0.5,
+      "bright": false,
+      "color": null,
+      "coloration": 1,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0
+    },
+    "darknessLevel": 0,
+    "darknessLock": false,
+    "cycle": true,
+    "base": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "dark": {
+      "hue": 0.7138888888888889,
+      "intensity": 0,
+      "luminosity": -0.25,
+      "saturation": 0,
+      "shadows": 0
+    }
+  },
+  "fog": {
+    "exploration": false,
+    "reset": 1707570024841,
+    "overlay": null,
+    "colors": {
+      "explored": null,
+      "unexplored": null
+    }
   },
   "_key": "!scenes!1FW2fcLoGLbPeb1x"
 }

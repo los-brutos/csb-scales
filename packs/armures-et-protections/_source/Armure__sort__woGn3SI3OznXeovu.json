@@ -248,10 +248,12 @@
   "_stats": {
     "systemId": "custom-system-builder",
     "systemVersion": "3.0.0",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1705405395339,
     "modifiedTime": 1706308253633,
-    "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+    "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "woGn3SI3OznXeovu",
   "sort": 0,
