@@ -31,10 +31,12 @@
       "_stats": {
         "systemId": "custom-system-builder",
         "systemVersion": "3.0.0",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1704466698926,
         "modifiedTime": 1706348232587,
-        "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+        "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!journal.pages!hYvZXUCKmHkcbKqM.o485kVS5EWrtdaYx"
     },
@@ -67,10 +69,12 @@
       "_stats": {
         "systemId": "custom-system-builder",
         "systemVersion": "3.0.0",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1704466710572,
         "modifiedTime": 1705877446723,
-        "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+        "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!journal.pages!hYvZXUCKmHkcbKqM.vzsWeBaNWVcL9KK7"
     },
@@ -102,10 +106,12 @@
       "_stats": {
         "systemId": "custom-system-builder",
         "systemVersion": "3.0.0",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1704466730236,
         "modifiedTime": 1706040547017,
-        "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+        "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!journal.pages!hYvZXUCKmHkcbKqM.6g5jNFq8uFJe6TiE"
     },
@@ -137,10 +143,12 @@
       "_stats": {
         "systemId": "custom-system-builder",
         "systemVersion": "3.0.0",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1704498562672,
         "modifiedTime": 1705877439741,
-        "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+        "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!journal.pages!hYvZXUCKmHkcbKqM.NHgA2N8ogfd1WCKu"
     }
@@ -149,10 +157,12 @@
   "_stats": {
     "systemId": "custom-system-builder",
     "systemVersion": "3.0.0",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1704466691458,
     "modifiedTime": 1706913413331,
-    "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+    "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "sort": 0,
   "ownership": {

@@ -5,7 +5,7 @@
   "description": "",
   "results": [
     {
-      "type": 0,
+      "type": "text",
       "weight": 2,
       "range": [
         1,
@@ -20,7 +20,7 @@
       "_key": "!tables.results!g2NrC4WTu9th8RJe.53MLZyDI3tnMBTgf"
     },
     {
-      "type": 0,
+      "type": "text",
       "weight": 2,
       "range": [
         3,
@@ -35,7 +35,7 @@
       "_key": "!tables.results!g2NrC4WTu9th8RJe.G0NOmonAxy656Gbn"
     },
     {
-      "type": 0,
+      "type": "text",
       "weight": 2,
       "range": [
         5,
@@ -50,7 +50,7 @@
       "_key": "!tables.results!g2NrC4WTu9th8RJe.mY905Ar9SSjcmjSS"
     },
     {
-      "type": 0,
+      "type": "text",
       "weight": 2,
       "range": [
         7,
@@ -65,7 +65,7 @@
       "_key": "!tables.results!g2NrC4WTu9th8RJe.ooo8hV3nVqeTZ0Hu"
     },
     {
-      "type": 0,
+      "type": "text",
       "weight": 2,
       "range": [
         9,
@@ -80,7 +80,7 @@
       "_key": "!tables.results!g2NrC4WTu9th8RJe.mQHDN6n2bFQcCSpK"
     },
     {
-      "type": 1,
+      "type": "document",
       "documentCollection": "RollTable",
       "weight": 2,
       "range": [
@@ -96,7 +96,7 @@
       "_key": "!tables.results!g2NrC4WTu9th8RJe.d6K0q99OuTCVgi82"
     },
     {
-      "type": 1,
+      "type": "document",
       "documentCollection": "RollTable",
       "weight": 2,
       "range": [
@@ -112,7 +112,7 @@
       "_key": "!tables.results!g2NrC4WTu9th8RJe.yMJI5irpTXLcVXv6"
     },
     {
-      "type": 1,
+      "type": "document",
       "documentCollection": "RollTable",
       "weight": 2,
       "range": [
@@ -128,7 +128,7 @@
       "_key": "!tables.results!g2NrC4WTu9th8RJe.6d0QVaoI0LJXq85M"
     },
     {
-      "type": 1,
+      "type": "document",
       "documentCollection": "RollTable",
       "weight": 2,
       "range": [
@@ -144,7 +144,7 @@
       "_key": "!tables.results!g2NrC4WTu9th8RJe.88Io0mu4hzishylm"
     },
     {
-      "type": 1,
+      "type": "document",
       "documentCollection": "RollTable",
       "weight": 2,
       "range": [
@@ -160,7 +160,7 @@
       "_key": "!tables.results!g2NrC4WTu9th8RJe.KlUZS5vdBtAQ7wWW"
     },
     {
-      "type": 1,
+      "type": "document",
       "documentCollection": "RollTable",
       "weight": 2,
       "range": [
@@ -182,10 +182,12 @@
   "_stats": {
     "systemId": "custom-system-builder",
     "systemVersion": "3.0.0",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1705089859310,
     "modifiedTime": 1705770399814,
-    "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+    "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "formula": "1d10",
   "_id": "g2NrC4WTu9th8RJe",

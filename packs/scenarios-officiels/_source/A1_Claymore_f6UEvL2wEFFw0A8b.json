@@ -3206,7 +3206,11 @@
           "offsetX": 0,
           "offsetY": 0,
           "rotation": 0,
-          "tint": null
+          "tint": "#ffffff",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "alphaThreshold": 0.75
         },
         "width": 1,
         "height": 1,
@@ -3242,7 +3246,9 @@
             "min": 0,
             "max": 1
           },
-          "color": null
+          "color": null,
+          "negative": false,
+          "priority": 0
         },
         "sight": {
           "enabled": true,
@@ -3257,7 +3263,23 @@
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "hexagonalShape": 0,
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        }
       },
       "items": [
         {
@@ -3417,10 +3439,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704665806350,
             "modifiedTime": 1708378007674,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.pouvoirs-innes.Item.ABJaoK67JcpG4PBO",
+            "duplicateSource": null
           },
           "_id": "P4q8Nm9ASPvo3yRo",
           "sort": 0,
@@ -3447,10 +3471,12 @@
       "_stats": {
         "systemId": "custom-system-builder",
         "systemVersion": "3.0.0",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1708377354284,
         "modifiedTime": 1708985188243,
-        "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+        "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+        "compendiumSource": "Actor.jrUDD1Nv2neHNN8F",
+        "duplicateSource": null
       }
     },
     {
@@ -6650,7 +6676,11 @@
           "offsetX": 0,
           "offsetY": 0,
           "rotation": 0,
-          "tint": null
+          "tint": "#ffffff",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "alphaThreshold": 0.75
         },
         "width": 1,
         "height": 1,
@@ -6686,7 +6716,9 @@
             "min": 0,
             "max": 1
           },
-          "color": null
+          "color": null,
+          "negative": false,
+          "priority": 0
         },
         "sight": {
           "enabled": true,
@@ -6701,7 +6733,23 @@
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "hexagonalShape": 0,
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        }
       },
       "items": [
         {
@@ -6861,10 +6909,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704665806350,
             "modifiedTime": 1708378491062,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.pouvoirs-innes.Item.3Z3coKOJGAb2EgbL",
+            "duplicateSource": null
           },
           "_id": "JMCevMABuPxn8KQw",
           "sort": 0,
@@ -7030,10 +7080,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704665806350,
             "modifiedTime": 1708378702409,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.pouvoirs-innes.Item.JyU5mSkpf0K2Fm9j",
+            "duplicateSource": null
           },
           "_id": "palhhcaSVzf62vCo",
           "sort": 0,
@@ -7199,10 +7251,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704665806350,
             "modifiedTime": 1708378720208,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.pouvoirs-innes.Item.VWhsthzsKZRUe4AK",
+            "duplicateSource": null
           },
           "_id": "46CBR5a46wLcjMru",
           "sort": 0,
@@ -7368,10 +7422,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704665806350,
             "modifiedTime": 1708378751335,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.pouvoirs-innes.Item.JypX3jbWpwP23Re8",
+            "duplicateSource": null
           },
           "_id": "xWmwW3EfIczFv8ZB",
           "sort": 0,
@@ -7537,10 +7593,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704665806350,
             "modifiedTime": 1708378786474,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.pouvoirs-innes.Item.JypX3jbWpwP23Re8",
+            "duplicateSource": null
           },
           "_id": "hLta8LJZ8QPWajR5",
           "sort": 0,
@@ -7706,10 +7764,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704665806350,
             "modifiedTime": 1708378800738,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.pouvoirs-innes.Item.JypX3jbWpwP23Re8",
+            "duplicateSource": null
           },
           "_id": "Sy4LLntjdsEcRv5d",
           "sort": 0,
@@ -7875,10 +7935,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704665806350,
             "modifiedTime": 1708378806404,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.pouvoirs-innes.Item.UFUjdgxMgL6xHVZT",
+            "duplicateSource": null
           },
           "_id": "ZNiwxhPGfBwwFQCy",
           "sort": 0,
@@ -8044,10 +8106,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704665806350,
             "modifiedTime": 1708378828123,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.pouvoirs-innes.Item.bbPSLakpLqR4YGM6",
+            "duplicateSource": null
           },
           "_id": "tzsbjQ5GDnFBdjWz",
           "sort": 0,
@@ -8213,10 +8277,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704665806350,
             "modifiedTime": 1708378861341,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.pouvoirs-innes.Item.L8DYDg7aJNslF7oU",
+            "duplicateSource": null
           },
           "_id": "s2qjssJPqGyOhu1y",
           "sort": 0,
@@ -8382,10 +8448,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704665806350,
             "modifiedTime": 1708378900825,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.pouvoirs-innes.Item.vxn94vfE0FoOV4gh",
+            "duplicateSource": null
           },
           "_id": "r8RGfL1PeK2CDRL1",
           "sort": 0,
@@ -8551,10 +8619,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704665806350,
             "modifiedTime": 1708378934523,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.pouvoirs-innes.Item.vAe27hb1P8dBcj8D",
+            "duplicateSource": null
           },
           "_id": "rZIOM4s26rPt8bkd",
           "sort": 0,
@@ -8902,10 +8972,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704469193630,
             "modifiedTime": 1708378538283,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.armes.Item.jSWpVfrb86yQCvEg",
+            "duplicateSource": null
           },
           "_id": "uXOAHhZFTor8JY7g",
           "sort": 0,
@@ -9253,10 +9325,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704469193630,
             "modifiedTime": 1708378539918,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.armes.Item.DBm8GsmRXds5wsew",
+            "duplicateSource": null
           },
           "_id": "joUr7kEScUFqrDgU",
           "sort": 0,
@@ -9604,10 +9678,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704469193630,
             "modifiedTime": 1708378546802,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.armes.Item.fcuqNb3Zy12LRENZ",
+            "duplicateSource": null
           },
           "_id": "uykNuQHC9WAa7Tj2",
           "sort": 0,
@@ -9956,10 +10032,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704469193630,
             "modifiedTime": 1708378551048,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.armes.Item.MaVdzX5QVNcjLW9t",
+            "duplicateSource": null
           },
           "sort": 0,
           "ownership": {
@@ -10306,10 +10384,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704469193630,
             "modifiedTime": 1708378554330,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.armes.Item.pIaIKwdA6ICRQfFa",
+            "duplicateSource": null
           },
           "_id": "p0xCIbOyeuvg9Wdf",
           "sort": 0,
@@ -10572,10 +10652,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1706305596800,
             "modifiedTime": 1708378590758,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.armures-et-protections.Item.yI8RqpwABMyA5hnf",
+            "duplicateSource": null
           },
           "sort": 0,
           "ownership": {
@@ -10836,10 +10918,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1705410399199,
             "modifiedTime": 1708378575677,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.armures-et-protections.Item.poogXv3BpzHs7ApI",
+            "duplicateSource": null
           },
           "sort": 0,
           "ownership": {
@@ -11187,10 +11271,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704469193630,
             "modifiedTime": 1708379028484,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.armes.Item.ihkJoOdTKeSbEoaF",
+            "duplicateSource": null
           },
           "_id": "KNbhG1zK2Y4TcYQC",
           "sort": 0,
@@ -11539,10 +11625,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704469193630,
             "modifiedTime": 1708379023375,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.armes.Item.lli2KGg9xN1LSydP",
+            "duplicateSource": null
           },
           "_id": "ZTSXNLjupQnDVPvR",
           "sort": 0,
@@ -11891,10 +11979,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704469193630,
             "modifiedTime": 1708379011188,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.armes.Item.gH6hqEvApMhA39Bf",
+            "duplicateSource": null
           },
           "_id": "YQIRqKjMjGneeEPm",
           "sort": 0,
@@ -11918,10 +12008,12 @@
       "_stats": {
         "systemId": "custom-system-builder",
         "systemVersion": "3.0.0",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1708378150497,
         "modifiedTime": 1708985188452,
-        "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+        "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -15106,7 +15198,11 @@
           "offsetX": 0,
           "offsetY": 0,
           "rotation": 0,
-          "tint": null
+          "tint": "#ffffff",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "alphaThreshold": 0.75
         },
         "width": 1,
         "height": 1,
@@ -15142,7 +15238,9 @@
             "min": 0,
             "max": 1
           },
-          "color": null
+          "color": null,
+          "negative": false,
+          "priority": 0
         },
         "sight": {
           "enabled": true,
@@ -15157,7 +15255,23 @@
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "hexagonalShape": 0,
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        }
       },
       "items": [
         {
@@ -15317,10 +15431,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704665806350,
             "modifiedTime": 1708379539919,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.pouvoirs-innes.Item.3Z3coKOJGAb2EgbL",
+            "duplicateSource": null
           },
           "_id": "bnzQBuaPHraE3Es6",
           "sort": 0,
@@ -15486,10 +15602,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704665806350,
             "modifiedTime": 1708379549927,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.pouvoirs-innes.Item.JypX3jbWpwP23Re8",
+            "duplicateSource": null
           },
           "_id": "etfr5h8oqIFICeda",
           "sort": 0,
@@ -15752,10 +15870,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1706305596800,
             "modifiedTime": 1708379668122,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.armures-et-protections.Item.yI8RqpwABMyA5hnf",
+            "duplicateSource": null
           },
           "sort": 0,
           "ownership": {
@@ -16016,10 +16136,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1705410399199,
             "modifiedTime": 1708379615904,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.armures-et-protections.Item.poogXv3BpzHs7ApI",
+            "duplicateSource": null
           },
           "sort": 0,
           "ownership": {
@@ -16367,10 +16489,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704469193630,
             "modifiedTime": 1708379656042,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.armes.Item.ihkJoOdTKeSbEoaF",
+            "duplicateSource": null
           },
           "_id": "c5Fi9NVwFKfuavIj",
           "sort": 0,
@@ -16719,10 +16843,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704469193630,
             "modifiedTime": 1708379680046,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.armes.Item.3UyvoLDZCkRCQ7OD",
+            "duplicateSource": null
           },
           "_id": "uHKOXEdKNwNSmCIP",
           "sort": 0,
@@ -17071,10 +17197,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704469193630,
             "modifiedTime": 1708379696954,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.armes.Item.lli2KGg9xN1LSydP",
+            "duplicateSource": null
           },
           "_id": "oW82xjRD70SRwtfs",
           "sort": 0,
@@ -17423,10 +17551,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704469193630,
             "modifiedTime": 1708379703731,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.armes.Item.gH6hqEvApMhA39Bf",
+            "duplicateSource": null
           },
           "_id": "nTkwr3Ccl94Sbken",
           "sort": 0,
@@ -17774,10 +17904,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704469193630,
             "modifiedTime": 1708379637884,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.armes.Item.jSWpVfrb86yQCvEg",
+            "duplicateSource": null
           },
           "_id": "IpsBfgBwOTz1lucH",
           "sort": 0,
@@ -18125,10 +18257,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704469193630,
             "modifiedTime": 1708379639284,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.armes.Item.DBm8GsmRXds5wsew",
+            "duplicateSource": null
           },
           "_id": "jVjJZajG2dkjpn7K",
           "sort": 0,
@@ -18477,10 +18611,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704469193630,
             "modifiedTime": 1708379641102,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.armes.Item.MaVdzX5QVNcjLW9t",
+            "duplicateSource": null
           },
           "sort": 0,
           "ownership": {
@@ -18503,10 +18639,12 @@
       "_stats": {
         "systemId": "custom-system-builder",
         "systemVersion": "3.0.0",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1708379093931,
         "modifiedTime": 1708985188492,
-        "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+        "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -21702,7 +21840,11 @@
           "offsetX": 0,
           "offsetY": 0,
           "rotation": 0,
-          "tint": null
+          "tint": "#ffffff",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "alphaThreshold": 0.75
         },
         "width": 1,
         "height": 1,
@@ -21738,7 +21880,9 @@
             "min": 0,
             "max": 1
           },
-          "color": null
+          "color": null,
+          "negative": false,
+          "priority": 0
         },
         "sight": {
           "enabled": true,
@@ -21753,7 +21897,23 @@
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "hexagonalShape": 0,
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        }
       },
       "items": [
         {
@@ -21913,10 +22073,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704665806350,
             "modifiedTime": 1708380104402,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.pouvoirs-innes.Item.jSDecWZ5y5mlfopS",
+            "duplicateSource": null
           },
           "_id": "o3zvZpNa54UvZmyX",
           "sort": 0,
@@ -22082,10 +22244,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704665806350,
             "modifiedTime": 1708380541439,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.pouvoirs-innes.Item.42Q4fMFWDzrzNJ90",
+            "duplicateSource": null
           },
           "_id": "NtLOFX5ks4m6v4Uj",
           "sort": 0,
@@ -22251,10 +22415,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704665806350,
             "modifiedTime": 1708380602120,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.pouvoirs-innes.Item.VWhsthzsKZRUe4AK",
+            "duplicateSource": null
           },
           "_id": "OTLsmslPu5UZ4NGG",
           "sort": 0,
@@ -22420,10 +22586,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704665806350,
             "modifiedTime": 1708380620066,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.pouvoirs-innes.Item.bbPSLakpLqR4YGM6",
+            "duplicateSource": null
           },
           "_id": "NeC3xLGH5PlXuB3s",
           "sort": 0,
@@ -22589,10 +22757,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704665806350,
             "modifiedTime": 1708380627237,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.pouvoirs-innes.Item.HD9ZzKY5QiQ3i8Ju",
+            "duplicateSource": null
           },
           "_id": "FeL7iqwfqTnCxDYo",
           "sort": 0,
@@ -22758,10 +22928,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704665806350,
             "modifiedTime": 1708380670802,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.pouvoirs-innes.Item.vAe27hb1P8dBcj8D",
+            "duplicateSource": null
           },
           "_id": "0zfRo0x2jShnNv1S",
           "sort": 0,
@@ -23109,10 +23281,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704469193630,
             "modifiedTime": 1708380770305,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.armes.Item.jSWpVfrb86yQCvEg",
+            "duplicateSource": null
           },
           "_id": "haRbYqJcDalxYnkL",
           "sort": 0,
@@ -23460,10 +23634,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704469193630,
             "modifiedTime": 1708380772186,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.armes.Item.DBm8GsmRXds5wsew",
+            "duplicateSource": null
           },
           "_id": "Wgu62EWVeZ6G1kZo",
           "sort": 0,
@@ -23812,10 +23988,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704469193630,
             "modifiedTime": 1708380773751,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.armes.Item.MaVdzX5QVNcjLW9t",
+            "duplicateSource": null
           },
           "sort": 0,
           "ownership": {
@@ -24162,10 +24340,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704469193630,
             "modifiedTime": 1708380775280,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.armes.Item.UKISzJWtFpNa93jY",
+            "duplicateSource": null
           },
           "_id": "Gp0UCPzBAHwE3166",
           "sort": 0,
@@ -24427,10 +24607,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1705410399199,
             "modifiedTime": 1708380781482,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.armures-et-protections.Item.poogXv3BpzHs7ApI",
+            "duplicateSource": null
           },
           "sort": 0,
           "ownership": {
@@ -24453,10 +24635,12 @@
       "_stats": {
         "systemId": "custom-system-builder",
         "systemVersion": "3.0.0",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1708379764066,
         "modifiedTime": 1708985188517,
-        "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+        "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -27674,7 +27858,11 @@
           "offsetX": 0,
           "offsetY": 0,
           "rotation": 0,
-          "tint": null
+          "tint": "#ffffff",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "alphaThreshold": 0.75
         },
         "width": 1,
         "height": 1,
@@ -27710,7 +27898,9 @@
             "min": 0,
             "max": 1
           },
-          "color": null
+          "color": null,
+          "negative": false,
+          "priority": 0
         },
         "sight": {
           "enabled": true,
@@ -27725,7 +27915,23 @@
         },
         "detectionModes": [],
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "hexagonalShape": 0,
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        }
       },
       "items": [
         {
@@ -27885,10 +28091,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704665806350,
             "modifiedTime": 1708381423577,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.pouvoirs-innes.Item.ZmINZuz6AmOFN4RA",
+            "duplicateSource": null
           },
           "_id": "hVL6cM4DFAbnIHzv",
           "sort": 0,
@@ -28054,10 +28262,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704665806350,
             "modifiedTime": 1708381232208,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.pouvoirs-innes.Item.ABJaoK67JcpG4PBO",
+            "duplicateSource": null
           },
           "_id": "iqB73FrGjifaABG1",
           "sort": 0,
@@ -28223,10 +28433,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704665806350,
             "modifiedTime": 1708381142035,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.pouvoirs-innes.Item.bbPSLakpLqR4YGM6",
+            "duplicateSource": null
           },
           "_id": "am5frCk2mAQfEmPm",
           "sort": 0,
@@ -28392,10 +28604,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704665806350,
             "modifiedTime": 1708381135352,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.pouvoirs-innes.Item.vxn94vfE0FoOV4gh",
+            "duplicateSource": null
           },
           "_id": "1blAZcV12Cu8ETye",
           "sort": 0,
@@ -28561,10 +28775,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1704665806350,
             "modifiedTime": 1708381119638,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": "Compendium.csb-scales.pouvoirs-innes.Item.vAe27hb1P8dBcj8D",
+            "duplicateSource": null
           },
           "_id": "WR1Uwx6X04Mv77hB",
           "sort": 0,
@@ -28588,10 +28804,12 @@
       "_stats": {
         "systemId": "custom-system-builder",
         "systemVersion": "3.0.0",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1708380841531,
         "modifiedTime": 1708985188544,
-        "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+        "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     }
   ],
@@ -28631,10 +28849,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1708268412868,
             "modifiedTime": 1708462171775,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -28665,10 +28885,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1708269208139,
             "modifiedTime": 1708462184039,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -28699,10 +28921,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1708270028455,
             "modifiedTime": 1708462340242,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -28733,10 +28957,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1708272571465,
             "modifiedTime": 1708272614607,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -28767,10 +28993,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1708272665475,
             "modifiedTime": 1708468588631,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -28802,10 +29030,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1708274145447,
             "modifiedTime": 1708469009430,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -28837,10 +29067,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1708274364889,
             "modifiedTime": 1708469435396,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -28871,10 +29103,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1708274882316,
             "modifiedTime": 1708471016985,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -28905,10 +29139,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1708275288088,
             "modifiedTime": 1708518649317,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -28939,10 +29175,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1708276919650,
             "modifiedTime": 1708530967664,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -28977,10 +29215,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1708277274468,
             "modifiedTime": 1708281182527,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -29011,10 +29251,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1708281337488,
             "modifiedTime": 1708281380513,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         },
         {
@@ -29045,10 +29287,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1708281448411,
             "modifiedTime": 1708281768734,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         }
       ],
@@ -29061,10 +29305,12 @@
       "_stats": {
         "systemId": "custom-system-builder",
         "systemVersion": "3.0.0",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1708268369379,
         "modifiedTime": 1708984776951,
-        "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+        "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -29101,10 +29347,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1708282432420,
             "modifiedTime": 1708379796646,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         }
       ],
@@ -29117,10 +29365,12 @@
       "_stats": {
         "systemId": "custom-system-builder",
         "systemVersion": "3.0.0",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1708282428834,
         "modifiedTime": 1708984776951,
-        "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+        "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -29156,10 +29406,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1708282210974,
             "modifiedTime": 1708378176067,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         }
       ],
@@ -29172,10 +29424,12 @@
       "_stats": {
         "systemId": "custom-system-builder",
         "systemVersion": "3.0.0",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1708282207378,
         "modifiedTime": 1708984776951,
-        "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+        "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -29211,10 +29465,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1708282380880,
             "modifiedTime": 1708379127353,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         }
       ],
@@ -29227,10 +29483,12 @@
       "_stats": {
         "systemId": "custom-system-builder",
         "systemVersion": "3.0.0",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1708282377232,
         "modifiedTime": 1708984776951,
-        "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+        "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -29267,10 +29525,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1708282310582,
             "modifiedTime": 1708380873145,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         }
       ],
@@ -29283,10 +29543,12 @@
       "_stats": {
         "systemId": "custom-system-builder",
         "systemVersion": "3.0.0",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1708282307719,
         "modifiedTime": 1708984776951,
-        "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+        "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
@@ -29322,10 +29584,12 @@
           "_stats": {
             "systemId": "custom-system-builder",
             "systemVersion": "3.0.0",
-            "coreVersion": "11.315",
+            "coreVersion": "12.331",
             "createdTime": 1708282472776,
             "modifiedTime": 1708377705789,
-            "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+            "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+            "compendiumSource": null,
+            "duplicateSource": null
           }
         }
       ],
@@ -29338,10 +29602,12 @@
       "_stats": {
         "systemId": "custom-system-builder",
         "systemVersion": "3.0.0",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1708282469030,
         "modifiedTime": 1708984776951,
-        "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+        "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     }
   ],
@@ -29360,7 +29626,12 @@
         "scaleY": 1,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0
+        "rotation": 0,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "tint": "#ffffff",
+        "alphaThreshold": 0
       },
       "foregroundElevation": 8,
       "width": 1024,
@@ -29378,14 +29649,11 @@
         "color": "#000000",
         "alpha": 0.2,
         "distance": 2,
-        "units": "m"
+        "units": "m",
+        "style": "solidLines",
+        "thickness": 1
       },
       "tokenVision": false,
-      "fogExploration": false,
-      "fogReset": 1708382142395,
-      "globalLight": false,
-      "globalLightThreshold": null,
-      "darkness": 0,
       "drawings": [],
       "tokens": [],
       "lights": [
@@ -29417,10 +29685,13 @@
               "min": 0,
               "max": 1
             },
-            "color": "#ffffff"
+            "color": "#ffffff",
+            "negative": false,
+            "priority": 0
           },
           "hidden": false,
-          "flags": {}
+          "flags": {},
+          "elevation": 0
         },
         {
           "x": 1058,
@@ -29449,11 +29720,14 @@
               "min": 0,
               "max": 1
             },
-            "color": "#f8ff94"
+            "color": "#f8ff94",
+            "negative": false,
+            "priority": 0
           },
           "hidden": false,
           "flags": {},
-          "_id": "QW41N4Suv0gBLrad"
+          "_id": "QW41N4Suv0gBLrad",
+          "elevation": 0
         },
         {
           "_id": "qj2DttTzWstHGa5Z",
@@ -29483,10 +29757,13 @@
               "min": 0,
               "max": 1
             },
-            "color": "#6c6b5c"
+            "color": "#6c6b5c",
+            "negative": false,
+            "priority": 0
           },
           "hidden": false,
-          "flags": {}
+          "flags": {},
+          "elevation": 0
         },
         {
           "x": 512,
@@ -29515,11 +29792,14 @@
               "min": 0,
               "max": 1
             },
-            "color": "#6c6b5c"
+            "color": "#6c6b5c",
+            "negative": false,
+            "priority": 0
           },
           "hidden": false,
           "flags": {},
-          "_id": "UJjml5yFGTAAuJi9"
+          "_id": "UJjml5yFGTAAuJi9",
+          "elevation": 0
         }
       ],
       "notes": [],
@@ -30620,17 +30900,60 @@
       "_stats": {
         "systemId": "custom-system-builder",
         "systemVersion": "3.0.0",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1708382142395,
         "modifiedTime": 1708984777054,
-        "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+        "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "foreground": "modules/csb-scales/scenarios/A1-CLAYMORE/assets/scenes/nairn_dark.jpg",
       "thumb": "worlds/csb-scales/assets/scenes/EtKoJRfO6Du427qd-thumb.webp",
-      "fogOverlay": null,
-      "fogExploredColor": null,
-      "fogUnexploredColor": null,
-      "weather": ""
+      "weather": "",
+      "environment": {
+        "globalLight": {
+          "luminosity": 0,
+          "enabled": false,
+          "darkness": {
+            "max": 1,
+            "min": 0
+          },
+          "alpha": 0.5,
+          "bright": false,
+          "color": null,
+          "coloration": 1,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0
+        },
+        "darknessLevel": 0,
+        "darknessLock": false,
+        "cycle": true,
+        "base": {
+          "hue": 0,
+          "intensity": 0,
+          "luminosity": 0,
+          "saturation": 0,
+          "shadows": 0
+        },
+        "dark": {
+          "hue": 0.7138888888888889,
+          "intensity": 0,
+          "luminosity": -0.25,
+          "saturation": 0,
+          "shadows": 0
+        }
+      },
+      "fog": {
+        "exploration": false,
+        "reset": 1708382142395,
+        "overlay": null,
+        "colors": {
+          "explored": null,
+          "unexplored": null
+        }
+      },
+      "regions": []
     },
     {
       "folder": "gn08cY6n1DNTCfHi",
@@ -30646,7 +30969,12 @@
         "scaleY": 1,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0
+        "rotation": 0,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "tint": "#ffffff",
+        "alphaThreshold": 0
       },
       "foregroundElevation": 8,
       "width": 1024,
@@ -30664,14 +30992,11 @@
         "color": "#000000",
         "alpha": 0.2,
         "distance": 2,
-        "units": "m"
+        "units": "m",
+        "style": "solidLines",
+        "thickness": 1
       },
       "tokenVision": false,
-      "fogExploration": false,
-      "fogReset": 1708462386075,
-      "globalLight": false,
-      "globalLightThreshold": null,
-      "darkness": 0,
       "drawings": [],
       "tokens": [],
       "lights": [],
@@ -30693,17 +31018,60 @@
       "_stats": {
         "systemId": "custom-system-builder",
         "systemVersion": "3.0.0",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1708462386081,
         "modifiedTime": 1708984777054,
-        "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+        "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "foreground": null,
       "thumb": "worlds/csb-scales/assets/scenes/bkE69TC74eJDTmea-thumb.webp",
-      "fogOverlay": null,
-      "fogExploredColor": null,
-      "fogUnexploredColor": null,
-      "weather": ""
+      "weather": "",
+      "environment": {
+        "globalLight": {
+          "luminosity": 0,
+          "enabled": false,
+          "darkness": {
+            "max": 1,
+            "min": 0
+          },
+          "alpha": 0.5,
+          "bright": false,
+          "color": null,
+          "coloration": 1,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0
+        },
+        "darknessLevel": 0,
+        "darknessLock": false,
+        "cycle": true,
+        "base": {
+          "hue": 0,
+          "intensity": 0,
+          "luminosity": 0,
+          "saturation": 0,
+          "shadows": 0
+        },
+        "dark": {
+          "hue": 0.7138888888888889,
+          "intensity": 0,
+          "luminosity": -0.25,
+          "saturation": 0,
+          "shadows": 0
+        }
+      },
+      "fog": {
+        "exploration": false,
+        "reset": 1708462386075,
+        "overlay": null,
+        "colors": {
+          "explored": null,
+          "unexplored": null
+        }
+      },
+      "regions": []
     },
     {
       "folder": "gn08cY6n1DNTCfHi",
@@ -30719,7 +31087,12 @@
         "scaleY": 1,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0
+        "rotation": 0,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "tint": "#ffffff",
+        "alphaThreshold": 0
       },
       "foregroundElevation": 8,
       "width": 1024,
@@ -30737,14 +31110,11 @@
         "color": "#000000",
         "alpha": 0.2,
         "distance": 2,
-        "units": "m"
+        "units": "m",
+        "style": "solidLines",
+        "thickness": 1
       },
       "tokenVision": false,
-      "fogExploration": false,
-      "fogReset": 1708529566047,
-      "globalLight": false,
-      "globalLightThreshold": null,
-      "darkness": 0,
       "drawings": [],
       "tokens": [
         {
@@ -30760,7 +31130,11 @@
             "offsetX": 0,
             "offsetY": 0,
             "rotation": 0,
-            "tint": null
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "alphaThreshold": 0.75
           },
           "width": 1,
           "height": 1,
@@ -30796,7 +31170,9 @@
               "min": 0,
               "max": 1
             },
-            "color": null
+            "color": null,
+            "negative": false,
+            "priority": 0
           },
           "sight": {
             "enabled": true,
@@ -30828,7 +31204,25 @@
             "ownership": null
           },
           "elevation": 0,
-          "effects": []
+          "hexagonalShape": 0,
+          "sort": 0,
+          "locked": false,
+          "occludable": {
+            "radius": 0
+          },
+          "ring": {
+            "enabled": false,
+            "colors": {
+              "ring": null,
+              "background": null
+            },
+            "effects": 1,
+            "subject": {
+              "scale": 1,
+              "texture": null
+            }
+          },
+          "_regions": []
         }
       ],
       "lights": [
@@ -30860,10 +31254,13 @@
               "min": 0,
               "max": 1
             },
-            "color": "#30441d"
+            "color": "#30441d",
+            "negative": false,
+            "priority": 0
           },
           "hidden": false,
-          "flags": {}
+          "flags": {},
+          "elevation": 0
         }
       ],
       "notes": [],
@@ -30888,17 +31285,60 @@
       "_stats": {
         "systemId": "custom-system-builder",
         "systemVersion": "3.0.0",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1708529566050,
         "modifiedTime": 1708984777054,
-        "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+        "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+        "compendiumSource": "Scene.BZSWTi4WtAJeimyZ",
+        "duplicateSource": null
       },
       "foreground": null,
       "thumb": "worlds/csb-scales/assets/scenes/BZSWTi4WtAJeimyZ-thumb.webp",
-      "fogOverlay": null,
-      "fogExploredColor": null,
-      "fogUnexploredColor": null,
-      "weather": ""
+      "weather": "",
+      "environment": {
+        "globalLight": {
+          "luminosity": 0,
+          "enabled": false,
+          "darkness": {
+            "max": 1,
+            "min": 0
+          },
+          "alpha": 0.5,
+          "bright": false,
+          "color": null,
+          "coloration": 1,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0
+        },
+        "darknessLevel": 0,
+        "darknessLock": false,
+        "cycle": true,
+        "base": {
+          "hue": 0,
+          "intensity": 0,
+          "luminosity": 0,
+          "saturation": 0,
+          "shadows": 0
+        },
+        "dark": {
+          "hue": 0.7138888888888889,
+          "intensity": 0,
+          "luminosity": -0.25,
+          "saturation": 0,
+          "shadows": 0
+        }
+      },
+      "fog": {
+        "exploration": false,
+        "reset": 1708529566047,
+        "overlay": null,
+        "colors": {
+          "explored": null,
+          "unexplored": null
+        }
+      },
+      "regions": []
     },
     {
       "folder": "gn08cY6n1DNTCfHi",
@@ -30914,7 +31354,12 @@
         "scaleY": 1,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0
+        "rotation": 0,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "tint": "#ffffff",
+        "alphaThreshold": 0
       },
       "foregroundElevation": 8,
       "width": 600,
@@ -30932,14 +31377,11 @@
         "color": "#000000",
         "alpha": 0.2,
         "distance": 2,
-        "units": "m"
+        "units": "m",
+        "style": "solidLines",
+        "thickness": 1
       },
       "tokenVision": false,
-      "fogExploration": false,
-      "fogReset": 1708470879467,
-      "globalLight": false,
-      "globalLightThreshold": null,
-      "darkness": 0,
       "drawings": [],
       "tokens": [],
       "lights": [
@@ -30970,11 +31412,14 @@
               "min": 0,
               "max": 1
             },
-            "color": "#ffffff"
+            "color": "#ffffff",
+            "negative": false,
+            "priority": 0
           },
           "hidden": false,
           "flags": {},
-          "_id": "GAwyStwquhmGWIz4"
+          "_id": "GAwyStwquhmGWIz4",
+          "elevation": 0
         },
         {
           "x": 593,
@@ -31003,11 +31448,14 @@
               "min": 0,
               "max": 1
             },
-            "color": "#ffffff"
+            "color": "#ffffff",
+            "negative": false,
+            "priority": 0
           },
           "hidden": false,
           "flags": {},
-          "_id": "xUpUpmAGSomeET8V"
+          "_id": "xUpUpmAGSomeET8V",
+          "elevation": 0
         },
         {
           "x": 590,
@@ -31036,11 +31484,14 @@
               "min": 0,
               "max": 1
             },
-            "color": "#ffffff"
+            "color": "#ffffff",
+            "negative": false,
+            "priority": 0
           },
           "hidden": false,
           "flags": {},
-          "_id": "IEdwSGyWUXG0NDur"
+          "_id": "IEdwSGyWUXG0NDur",
+          "elevation": 0
         },
         {
           "x": 346,
@@ -31069,11 +31520,14 @@
               "min": 0,
               "max": 1
             },
-            "color": "#ffffff"
+            "color": "#ffffff",
+            "negative": false,
+            "priority": 0
           },
           "hidden": false,
           "flags": {},
-          "_id": "O6KIAZwXM7PLsyrI"
+          "_id": "O6KIAZwXM7PLsyrI",
+          "elevation": 0
         }
       ],
       "notes": [],
@@ -31094,17 +31548,60 @@
       "_stats": {
         "systemId": "custom-system-builder",
         "systemVersion": "3.0.0",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1708470879469,
         "modifiedTime": 1708984777054,
-        "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+        "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "foreground": null,
       "thumb": "worlds/csb-scales/assets/scenes/cQbSvWFfLO6kzLmW-thumb.webp",
-      "fogOverlay": null,
-      "fogExploredColor": null,
-      "fogUnexploredColor": null,
-      "weather": ""
+      "weather": "",
+      "environment": {
+        "globalLight": {
+          "luminosity": 0,
+          "enabled": false,
+          "darkness": {
+            "max": 1,
+            "min": 0
+          },
+          "alpha": 0.5,
+          "bright": false,
+          "color": null,
+          "coloration": 1,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0
+        },
+        "darknessLevel": 0,
+        "darknessLock": false,
+        "cycle": true,
+        "base": {
+          "hue": 0,
+          "intensity": 0,
+          "luminosity": 0,
+          "saturation": 0,
+          "shadows": 0
+        },
+        "dark": {
+          "hue": 0.7138888888888889,
+          "intensity": 0,
+          "luminosity": -0.25,
+          "saturation": 0,
+          "shadows": 0
+        }
+      },
+      "fog": {
+        "exploration": false,
+        "reset": 1708470879467,
+        "overlay": null,
+        "colors": {
+          "explored": null,
+          "unexplored": null
+        }
+      },
+      "regions": []
     },
     {
       "folder": "gn08cY6n1DNTCfHi",
@@ -31120,7 +31617,12 @@
         "scaleY": 1,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0
+        "rotation": 0,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "tint": "#ffffff",
+        "alphaThreshold": 0
       },
       "foregroundElevation": 8,
       "width": 1024,
@@ -31138,14 +31640,11 @@
         "color": "#000000",
         "alpha": 0.2,
         "distance": 2,
-        "units": "m"
+        "units": "m",
+        "style": "solidLines",
+        "thickness": 1
       },
       "tokenVision": false,
-      "fogExploration": false,
-      "fogReset": 1708469394462,
-      "globalLight": false,
-      "globalLightThreshold": null,
-      "darkness": 0,
       "drawings": [],
       "tokens": [],
       "lights": [],
@@ -31171,17 +31670,60 @@
       "_stats": {
         "systemId": "custom-system-builder",
         "systemVersion": "3.0.0",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1708469394465,
         "modifiedTime": 1708984777054,
-        "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+        "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "foreground": null,
       "thumb": "worlds/csb-scales/assets/scenes/Eeri1KPUtglJh0Nh-thumb.webp",
-      "fogOverlay": null,
-      "fogExploredColor": null,
-      "fogUnexploredColor": null,
-      "weather": ""
+      "weather": "",
+      "environment": {
+        "globalLight": {
+          "luminosity": 0,
+          "enabled": false,
+          "darkness": {
+            "max": 1,
+            "min": 0
+          },
+          "alpha": 0.5,
+          "bright": false,
+          "color": null,
+          "coloration": 1,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0
+        },
+        "darknessLevel": 0,
+        "darknessLock": false,
+        "cycle": true,
+        "base": {
+          "hue": 0,
+          "intensity": 0,
+          "luminosity": 0,
+          "saturation": 0,
+          "shadows": 0
+        },
+        "dark": {
+          "hue": 0.7138888888888889,
+          "intensity": 0,
+          "luminosity": -0.25,
+          "saturation": 0,
+          "shadows": 0
+        }
+      },
+      "fog": {
+        "exploration": false,
+        "reset": 1708469394462,
+        "overlay": null,
+        "colors": {
+          "explored": null,
+          "unexplored": null
+        }
+      },
+      "regions": []
     },
     {
       "folder": "gn08cY6n1DNTCfHi",
@@ -31197,7 +31739,12 @@
         "scaleY": 1,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0
+        "rotation": 0,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "tint": "#ffffff",
+        "alphaThreshold": 0
       },
       "foregroundElevation": 8,
       "width": 1024,
@@ -31215,14 +31762,11 @@
         "color": "#000000",
         "alpha": 0.2,
         "distance": 2,
-        "units": "m"
+        "units": "m",
+        "style": "solidLines",
+        "thickness": 1
       },
       "tokenVision": false,
-      "fogExploration": false,
-      "fogReset": 1708514957816,
-      "globalLight": false,
-      "globalLightThreshold": null,
-      "darkness": 0,
       "drawings": [],
       "tokens": [],
       "lights": [
@@ -31254,10 +31798,13 @@
               "min": 0,
               "max": 1
             },
-            "color": "#707070"
+            "color": "#707070",
+            "negative": false,
+            "priority": 0
           },
           "hidden": false,
-          "flags": {}
+          "flags": {},
+          "elevation": 0
         },
         {
           "x": 514,
@@ -31286,11 +31833,14 @@
               "min": 0,
               "max": 1
             },
-            "color": "#53525b"
+            "color": "#53525b",
+            "negative": false,
+            "priority": 0
           },
           "hidden": false,
           "flags": {},
-          "_id": "5GPFozipuXe06WSC"
+          "_id": "5GPFozipuXe06WSC",
+          "elevation": 0
         },
         {
           "x": 1200,
@@ -31319,11 +31869,14 @@
               "min": 0,
               "max": 1
             },
-            "color": "#53525b"
+            "color": "#53525b",
+            "negative": false,
+            "priority": 0
           },
           "hidden": false,
           "flags": {},
-          "_id": "ePXyVE3jHdm4aYbS"
+          "_id": "ePXyVE3jHdm4aYbS",
+          "elevation": 0
         },
         {
           "_id": "hLL3HZmOhuoJBKOy",
@@ -31353,10 +31906,13 @@
               "min": 0,
               "max": 1
             },
-            "color": "#383838"
+            "color": "#383838",
+            "negative": false,
+            "priority": 0
           },
           "hidden": false,
-          "flags": {}
+          "flags": {},
+          "elevation": 0
         },
         {
           "_id": "XMG9fnehNNmu58Ug",
@@ -31386,10 +31942,13 @@
               "min": 0,
               "max": 1
             },
-            "color": "#92c4ce"
+            "color": "#92c4ce",
+            "negative": false,
+            "priority": 0
           },
           "hidden": false,
-          "flags": {}
+          "flags": {},
+          "elevation": 0
         }
       ],
       "notes": [],
@@ -31503,17 +32062,60 @@
       "_stats": {
         "systemId": "custom-system-builder",
         "systemVersion": "3.0.0",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1708514957820,
         "modifiedTime": 1708984777054,
-        "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+        "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "foreground": null,
       "thumb": "worlds/csb-scales/assets/scenes/wcqgWIJaIsCGkdTB-thumb.webp",
-      "fogOverlay": null,
-      "fogExploredColor": null,
-      "fogUnexploredColor": null,
-      "weather": ""
+      "weather": "",
+      "environment": {
+        "globalLight": {
+          "luminosity": 0,
+          "enabled": false,
+          "darkness": {
+            "max": 1,
+            "min": 0
+          },
+          "alpha": 0.5,
+          "bright": false,
+          "color": null,
+          "coloration": 1,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0
+        },
+        "darknessLevel": 0,
+        "darknessLock": false,
+        "cycle": true,
+        "base": {
+          "hue": 0,
+          "intensity": 0,
+          "luminosity": 0,
+          "saturation": 0,
+          "shadows": 0
+        },
+        "dark": {
+          "hue": 0.7138888888888889,
+          "intensity": 0,
+          "luminosity": -0.25,
+          "saturation": 0,
+          "shadows": 0
+        }
+      },
+      "fog": {
+        "exploration": false,
+        "reset": 1708514957816,
+        "overlay": null,
+        "colors": {
+          "explored": null,
+          "unexplored": null
+        }
+      },
+      "regions": []
     }
   ],
   "tables": [],
@@ -31537,11 +32139,14 @@
       "_stats": {
         "systemId": "custom-system-builder",
         "systemVersion": "3.0.0",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1708268145718,
         "modifiedTime": 1708984777150,
-        "lastModifiedBy": "r9x0pKEz3JGSJSrG"
-      }
+        "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "description": ""
     },
     {
       "name": "A1 CLAYMORE",
@@ -31559,11 +32164,14 @@
       "_stats": {
         "systemId": "custom-system-builder",
         "systemVersion": "3.0.0",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1708268151060,
         "modifiedTime": 1708985214522,
-        "lastModifiedBy": "r9x0pKEz3JGSJSrG"
-      }
+        "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "description": ""
     },
     {
       "name": "A1 CLAYMORE",
@@ -31581,11 +32189,14 @@
       "_stats": {
         "systemId": "custom-system-builder",
         "systemVersion": "3.0.0",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1708268163044,
         "modifiedTime": 1708984777150,
-        "lastModifiedBy": "r9x0pKEz3JGSJSrG"
-      }
+        "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "description": ""
     },
     {
       "name": "Les personnages",
@@ -31599,11 +32210,14 @@
       "_stats": {
         "systemId": "custom-system-builder",
         "systemVersion": "3.0.0",
-        "coreVersion": "11.315",
+        "coreVersion": "12.331",
         "createdTime": 1708282192627,
         "modifiedTime": 1708282192627,
-        "lastModifiedBy": "r9x0pKEz3JGSJSrG"
-      }
+        "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "description": ""
     }
   ],
   "_id": "f6UEvL2wEFFw0A8b",
@@ -31612,10 +32226,12 @@
   "_stats": {
     "systemId": "custom-system-builder",
     "systemVersion": "3.0.0",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1708382831564,
     "modifiedTime": 1708985226423,
-    "lastModifiedBy": "r9x0pKEz3JGSJSrG"
+    "lastModifiedBy": "r9x0pKEz3JGSJSrG",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!adventures!f6UEvL2wEFFw0A8b"
 }
