@@ -2,6 +2,13 @@
 
 # v12.1
 
+### v12.1.2
+
+* certaines aventures avaient perdu du contenu. Celui-ci est rétabli
+* il y avait une erreur en console sur les fiches des persos qui n'empêchait pas de jouer mais cela est plus propre
+* une incompatibilité avec la v4 (de CSB) a été détectée sur la fiche Template d'un item (sort draconique), c'est rétabli
+* les fiches Acteurs et Items présents dans les scénarios ont été régénérées avec les derniers modèles
+
 ### v12.1.1
 
 * ajout de l'aventure A3 WAKE UP!
