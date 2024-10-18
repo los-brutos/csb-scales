@@ -8347,7 +8347,7 @@
                   "defaultValue": null,
                   "size": "full-size",
                   "icon": "",
-                  "value": "${fetchFromDynamicTable('arts', 'description', 'name', art)}$",
+                  "value": "${lookup('arts', 'description', 'name', art)}$",
                   "prefix": "<div style=\"text-align: justify;\">",
                   "suffix": "</div>",
                   "rollMessage": "",
@@ -8964,7 +8964,7 @@
                   "defaultValue": null,
                   "size": "full-size",
                   "icon": "",
-                  "value": "${fetchFromDynamicTable('arts', 'description', 'name', art)}$",
+                  "value": "${lookup('arts', 'description', 'name', art)}$",
                   "prefix": "<div style=\"text-align: justify;\">",
                   "suffix": "</div>",
                   "rollMessage": "",
@@ -9581,7 +9581,7 @@
                   "defaultValue": null,
                   "size": "full-size",
                   "icon": "",
-                  "value": "${fetchFromDynamicTable('arts', 'description', 'name', art)}$",
+                  "value": "${lookup('arts', 'description', 'name', art)}$",
                   "prefix": "<div style=\"text-align: justify;\">",
                   "suffix": "</div>",
                   "rollMessage": "",
@@ -10198,7 +10198,7 @@
                   "defaultValue": null,
                   "size": "full-size",
                   "icon": "",
-                  "value": "${fetchFromDynamicTable('arts', 'description', 'name', art)}$",
+                  "value": "${lookup('arts', 'description', 'name', art)}$",
                   "prefix": "<div style=\"text-align: justify;\">",
                   "suffix": "</div>",
                   "rollMessage": "",
@@ -23949,7 +23949,7 @@
                   "defaultValue": null,
                   "size": "full-size",
                   "icon": "",
-                  "value": "${fetchFromDynamicTable('arts', 'description', 'name', art)}$",
+                  "value": "${lookup('arts', 'description', 'name', art)}$",
                   "prefix": "<div style=\"text-align: justify;\">",
                   "suffix": "</div>",
                   "rollMessage": "",
@@ -24566,7 +24566,7 @@
                   "defaultValue": null,
                   "size": "full-size",
                   "icon": "",
-                  "value": "${fetchFromDynamicTable('arts', 'description', 'name', art)}$",
+                  "value": "${lookup('arts', 'description', 'name', art)}$",
                   "prefix": "<div style=\"text-align: justify;\">",
                   "suffix": "</div>",
                   "rollMessage": "",
@@ -25183,7 +25183,7 @@
                   "defaultValue": null,
                   "size": "full-size",
                   "icon": "",
-                  "value": "${fetchFromDynamicTable('arts', 'description', 'name', art)}$",
+                  "value": "${lookup('arts', 'description', 'name', art)}$",
                   "prefix": "<div style=\"text-align: justify;\">",
                   "suffix": "</div>",
                   "rollMessage": "",
@@ -25800,7 +25800,7 @@
                   "defaultValue": null,
                   "size": "full-size",
                   "icon": "",
-                  "value": "${fetchFromDynamicTable('arts', 'description', 'name', art)}$",
+                  "value": "${lookup('arts', 'description', 'name', art)}$",
                   "prefix": "<div style=\"text-align: justify;\">",
                   "suffix": "</div>",
                   "rollMessage": "",
@@ -36879,7 +36879,7 @@
         "duplicateSource": null
       },
       "foreground": null,
-      "thumb": "worlds/csb-scales/assets/scenes/C6xZZOB3N90MpkTs-thumb.webp",
+      "thumb": "modules/csb-scales/assets/scenes/C6xZZOB3N90MpkTs-thumb.webp",
       "weather": "",
       "regions": [],
       "environment": {
@@ -36997,7 +36997,7 @@
         "duplicateSource": null
       },
       "foreground": null,
-      "thumb": "worlds/csb-scales/assets/scenes/xhWkGruo3ghv1ED2-thumb.webp",
+      "thumb": "modules/csb-scales/assets/scenes/xhWkGruo3ghv1ED2-thumb.webp",
       "weather": "",
       "regions": [],
       "environment": {
@@ -37115,7 +37115,7 @@
         "duplicateSource": null
       },
       "foreground": null,
-      "thumb": "worlds/csb-scales/assets/scenes/VWtJxJlV8O7ZfvGX-thumb.webp",
+      "thumb": "modules/csb-scales/assets/scenes/VWtJxJlV8O7ZfvGX-thumb.webp",
       "weather": "",
       "regions": [],
       "environment": {
@@ -37233,7 +37233,7 @@
         "duplicateSource": null
       },
       "foreground": null,
-      "thumb": "worlds/csb-scales/assets/scenes/oXfjr7hZiB0pjp8m-thumb.webp",
+      "thumb": "modules/csb-scales/assets/scenes/oXfjr7hZiB0pjp8m-thumb.webp",
       "weather": "",
       "regions": [],
       "environment": {
@@ -37351,7 +37351,7 @@
         "duplicateSource": null
       },
       "foreground": null,
-      "thumb": "worlds/csb-scales/assets/scenes/H3cdRMDuyPfvIV98-thumb.webp",
+      "thumb": "modules/csb-scales/assets/scenes/H3cdRMDuyPfvIV98-thumb.webp",
       "weather": "",
       "regions": [],
       "environment": {
@@ -37469,7 +37469,7 @@
         "duplicateSource": null
       },
       "foreground": null,
-      "thumb": "worlds/csb-scales/assets/scenes/hFEBdkTzBStTx702-thumb.webp",
+      "thumb": "modules/csb-scales/assets/scenes/hFEBdkTzBStTx702-thumb.webp",
       "weather": "",
       "regions": [],
       "environment": {
@@ -37539,7 +37539,7 @@
       },
       "foreground": null,
       "foregroundElevation": 8,
-      "thumb": "worlds/csb-scales/assets/scenes/uQXrDDFJpteWKehG-thumb.webp",
+      "thumb": "modules/csb-scales/assets/scenes/uQXrDDFJpteWKehG-thumb.webp",
       "width": 1024,
       "height": 1024,
       "padding": 0.25,

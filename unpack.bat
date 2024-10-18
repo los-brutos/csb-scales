@@ -55,5 +55,4 @@ echo * ********************************** *
 echo * all compendiums have been unpacked *
 echo * ********************************** *
 echo.
-pause
 @echo on

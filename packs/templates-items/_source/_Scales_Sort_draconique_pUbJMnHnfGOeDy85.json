@@ -148,7 +148,7 @@
           "defaultValue": null,
           "size": "full-size",
           "icon": "",
-          "value": "${fetchFromDynamicTable('arts', 'description', 'name', art)}$",
+          "value": "${lookup('arts', 'description', 'name', art)}$",
           "prefix": "<div style=\"text-align: justify;\">",
           "suffix": "</div>",
           "rollMessage": "",
