@@ -1,6 +1,12 @@
 # v12
 
-# v12.1
+## v12.1
+
+### v12.1.3
+
+* suppression d'un token de trop dans une scène du scénario A1 Claymore
+* suppression de la "pause" à la fin du script pack.bat
+*Certains acteurs n'avaient plus leurs sorts et tous les sorts devaient être rechargés
 
 ### v12.1.2
 
